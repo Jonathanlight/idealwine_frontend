@@ -1,0 +1,147 @@
+{
+  "id": "offer",
+  "type": "SharedSlice",
+  "name": "CardDuo",
+  "description": "Offer",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Offer",
+      "primary": {
+        "link1": {
+          "type": "Link",
+          "config": {
+            "label": "Link1",
+            "placeholder": "Découvrir la vente",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        },
+        "link2": {
+          "type": "Link",
+          "config": {
+            "label": "Link2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "image1": {
+          "type": "Image",
+          "config": {
+            "label": "Image1",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "image2": {
+          "type": "Image",
+          "config": {
+            "label": "Image2",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title1": {
+          "type": "Text",
+          "config": {
+            "label": "Title1",
+            "placeholder": "Splendeurs bourguignonnes"
+          }
+        },
+        "title2": {
+          "type": "Text",
+          "config": {
+            "label": "Title2",
+            "placeholder": ""
+          }
+        },
+        "date1": {
+          "type": "Text",
+          "config": {
+            "label": "Date1",
+            "placeholder": "Jusqu'au 22-23 mars"
+          }
+        },
+        "imageLabel1": {
+          "type": "Text",
+          "config": {
+            "label": "ImageLabel1",
+            "placeholder": ""
+          }
+        },
+        "imageLabel2": {
+          "type": "Text",
+          "config": {
+            "label": "ImageLabel2",
+            "placeholder": ""
+          }
+        },
+        "linkLabel1": {
+          "type": "Text",
+          "config": {
+            "label": "LinkLabel1",
+            "placeholder": ""
+          }
+        },
+        "linkLabel2": {
+          "type": "Text",
+          "config": {
+            "label": "LinkLabel2",
+            "placeholder": ""
+          }
+        },
+        "description1": {
+          "type": "Text",
+          "config": {
+            "label": "Description1",
+            "placeholder": ""
+          }
+        },
+        "description2": {
+          "type": "Text",
+          "config": {
+            "label": "Description2",
+            "placeholder": ""
+          }
+        },
+        "secondLink1": {
+          "type": "Link",
+          "config": {
+            "label": "secondLink1",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        },
+        "secondLink2": {
+          "type": "Link",
+          "config": {
+            "label": "secondLink2",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        },
+        "secondLinkLabel1": {
+          "type": "Text",
+          "config": {
+            "label": "secondLinkLabel1",
+            "placeholder": ""
+          }
+        },
+        "secondLinkLabel2": {
+          "type": "Text",
+          "config": {
+            "label": "secondLinkLabel2",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

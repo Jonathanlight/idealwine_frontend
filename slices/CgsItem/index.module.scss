@@ -1,0 +1,58 @@
+@import "@/styles/stylesheet";
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin: getSpacing(4) 0;
+}
+
+.titleBox {
+  border: 1px solid $greyLighter;
+  width: 100%;
+  padding: getSpacing(3);
+  font-family: $fontFamily;
+  font-weight: bold;
+  font-size: $fontSizeBase;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+
+  .chevron {
+    rotate: -90deg;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    .chevron {
+      opacity: 1;
+    }
+  }
+
+  @include isTabletOrDesktop {
+    font-size: $fontSizeMediumSmall;
+  }
+}
+
+.opened {
+  background-color: $black;
+  color: $white;
+}
+
+.displayNone {
+  display: none;
+}
+
+.description {
+  margin-top: getSpacing(5);
+  line-height: 1.4;
+}
+
+.paragraph {
+  margin-bottom: getSpacing(2);
+}

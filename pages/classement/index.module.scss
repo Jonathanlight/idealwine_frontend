@@ -1,0 +1,45 @@
+@import "@/styles/stylesheet";
+
+.rankingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+  margin-bottom: getSpacing(4);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 75%;
+  gap: getSpacing(4);
+  padding: getSpacing(4);
+  flex-direction: column;
+  @include isMobileOrTablet {
+    gap: getSpacing(2);
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.content {
+  padding: getSpacing(2) 0;
+
+  @include isTabletOrDesktop {
+    padding-top: getSpacing(0);
+  }
+}
+
+.page {
+  max-width: 1600px;
+  margin: 0 auto;
+  @include isTabletOrDesktop {
+    gap: getSpacing(2);
+  }
+}
+
+.breadcrumb {
+  margin-left: getSpacing(0);
+}
+
+.legend {
+  font-size: $fontSizeTiny;
+}

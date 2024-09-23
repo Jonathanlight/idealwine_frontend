@@ -1,0 +1,26 @@
+{
+  "title": "Rapports sur les ventes aux enchères de vin",
+  "text": "Rapports, bilans, enchères, vin, analyses, investir, investissement vin, placement vin, tendances, marchée;",
+  "seo": {
+    "title": "Rapports sur les ventes aux enchères de vin - iDealwine",
+    "description": "Tous les rapports et bilans d'analyse des ventes aux enchères de vin d'iDealwine pour bien investir dans le vin"
+  },
+  "h1": "Rapports sur les ventes aux enchères de vin",
+  "h2": "Pour vous aider dans vos décisions d'investissement vin, iDealwine vous propose une analyse mensuelle des tendances du marché des enchères de vin ainsi que les faits marquants enregistrés dans les ventes on-line.",
+  "yearTitle": "Les derniers rapports d'analyse d'iDealwine {{year}}",
+  "auctionReport": "Rapport de vente",
+  "auctionReportLink": {
+    "01": "Enchères on-line\ndu mois\nde janvier {{year}}",
+    "02": "Enchères on-line\ndu mois\nde février {{year}}",
+    "03": "Enchères on-line\ndu mois\nde mars {{year}}",
+    "04": "Enchères on-line\ndu mois\nd'avril {{year}}",
+    "05": "Enchères on-line\ndu mois\nde mai {{year}}",
+    "06": "Enchères on-line\ndu mois\nde juin {{year}}",
+    "07": "Enchères on-line\ndu mois\nde juillet {{year}}",
+    "08": "Enchères on-line\ndu mois\nd'aout {{year}}",
+    "09": "Enchères on-line\ndu mois\nde septembre {{year}}",
+    "10": "Enchères on-line\ndu mois\nd'octobre {{year}}",
+    "11": "Enchères on-line\ndu mois\nde novembre {{year}}",
+    "12": "Enchères on-line\ndu mois\nde décembre {{year}}"
+  }
+}

@@ -1,0 +1,107 @@
+@import "@/styles/stylesheet";
+
+.content {
+  margin-top: getSpacing(7);
+  padding: 0 getSpacing(4);
+  @include isTabletOrDesktop {
+    padding: getSpacing(10);
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: getSpacing(5);
+}
+
+.mapAndTextContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: getSpacing(5);
+  gap: getSpacing(5);
+
+  @include isDesktop {
+    flex-direction: row;
+  }
+}
+
+.dropdowns {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: getSpacing(5);
+  justify-content: space-around;
+}
+
+.wineMaps {
+  width: 100%;
+  @include isDesktop {
+    width: 70%;
+  }
+}
+
+.arrow {
+  transform: rotate(180deg);
+}
+
+.leftDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: getSpacing(15);
+  width: 100%;
+  @include isDesktop {
+    width: 30%;
+  }
+}
+
+.description {
+  line-height: 1.5;
+  letter-spacing: $letterSpacingSmall;
+  color: $greyDark;
+}
+
+.standardMargin {
+  margin-bottom: getSpacing(5);
+}
+
+.miniMaps {
+  display: flex;
+  justify-content: space-around;
+  margin-top: getSpacing(5);
+  flex-wrap: wrap;
+}
+
+.dropdownItem {
+  width: 100%;
+  text-transform: uppercase;
+  transition: all 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    color: $golden;
+  }
+}
+
+.dropdownItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.link {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.button {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonText {
+  text-wrap: nowrap;
+}

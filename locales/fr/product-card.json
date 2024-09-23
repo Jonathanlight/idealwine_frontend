@@ -1,0 +1,21 @@
+{
+  "bio": "Bio",
+  "natural": "Natural",
+  "tripleA": "Triple A",
+  "incomingSale": "vente à venir",
+  "saleOver": "vente terminée",
+  "directPurchase": "e-caviste",
+  "auction": "enchère",
+  "lot": "Lot de",
+  "totalBids": {
+    "0": "{{count}} enchère",
+    "1": "{{count}} enchère",
+    "other": "{{count}} enchères"
+  },
+  "limitedQuantity": "Quantité limitée",
+  "actualPrice": "prix actuel",
+  "startPrice": "mise à prix",
+  "soonAvailable": "Bientôt disponible",
+  "currentStock": "{{availableQuantity}} en stock",
+  "discountResume": "par {{unitsPerLotOfDiscount}} | -{{lotDiscountPercentage}}%"
+}

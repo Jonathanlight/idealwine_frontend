@@ -1,0 +1,30 @@
+{
+  "unknownPaymentMethod": "Unrecognised payment method",
+  "edit": "Modify",
+  "validatedCommand": "Order confirmed",
+  "paymentTaken": "Your order been noted and we are awaiting payment.",
+  "validatedFreeOrder": "Your order been noted.",
+  "validatedMessage": "You will receive a confirmation email shortly. Thank you for choosing iDealwine, we hope you enjoy your wine.",
+  "validatedTeam": "The iDealwine Team",
+  "validatedBack": "Back to the website",
+  "billingAddress": "Invoicing address",
+  "validate": "Validate",
+  "paymentFailure": "Your payment failed and your order can't be processed",
+  "payBankTransfer": "Pay via bank transfer",
+  "bankTransferInstructions": "<strong>When paying via bank transfer, please specify the order number in the reason for the transfer.</strong><br/><strong>Bank account in France (all foreign currencies accepted):</strong><br/>BRED<br />IBAN: FR76 1010 7001 7500 1140 7454 286<br />Code BIC (SWIFT) : BREDFRPPXXX<br/>Please specify the order number in the reason for the transfer.<br/><strong>For other currencies (USD, HKD, GDP, SGD, etc.), please use our Hong Kong bank account:</strong><br/>Account number: 848 540407 838<br/>Name: Ideal Wine Com<br/>Swift: HSBCHKHHHKH<br/>Bank: HSBC Hong Kong<br/>Bank address: 1 Queen's Road Central, Hong Kong",
+  "nothingToPay": "No payment is necessary for this order. ",
+  "orderTotal": "Montant à régler: <0></0> ",
+  "orderNumber": "Order number: {{orderNumber}}",
+  "unsupportedCurrencyModal": {
+    "title": "Currency not accepted",
+    "content": "The currency you selected in your profile ({{currency}}) is not supported by the card payment page. It will automatically change the total to Euros. If you would prefer to pay your order in USD or GPB, please change the currency by going to the top right-hand side of the page or through your My iDealwine profile. Having said that, you can pay in your your selected currency via bank transfer. To choose this method, please select it when choosing your payment method.",
+    "amountInEur": "Total of your order in Euros: <0></0>",
+    "cancel": "Cancel",
+    "continue": "Continue"
+  },
+  "applePay": {
+    "notAvailable": "Apple Pay is not available on your device. To use Apple Pay, use a different browser or update the one you're currently using.",
+    "errorMerchantValidation": "Impossible to connect to the Apple Pay server. Please try again later.",
+    "errorPaymentProcess": "An error occurred during the payment process. Please contact our Customer Service team if your account has been debited. If this is not the case, please try again."
+  }
+}

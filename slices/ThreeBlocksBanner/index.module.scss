@@ -1,0 +1,54 @@
+@import "@/styles/stylesheet";
+
+.content {
+  font-size: $fontSizeMedium;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: getSpacing(10) 0;
+}
+
+.title {
+  text-align: center;
+  font-family: $fontFamily;
+  font-size: $fontSizeBase;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: $letterSpacingMedium;
+  width: 100%;
+
+  @include isDesktop {
+    text-align: left;
+  }
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  gap: getSpacing(5);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include isDesktop {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.imageDiv {
+  height: 170px;
+  width: 100%;
+  min-width: 300px;
+  object-fit: cover;
+  position: relative;
+  margin-bottom: getSpacing(3);
+
+  @include isTabletOrDesktop {
+    height: 250px;
+  }
+}
+
+.image {
+  object-fit: cover;
+}

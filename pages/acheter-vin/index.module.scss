@@ -1,0 +1,121 @@
+@import "@/styles/stylesheet";
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+
+  @include isLargeOrExtraLargeDesktop {
+    flex-direction: row;
+  }
+}
+
+.content {
+  padding: 0 getSpacing(4);
+  background-color: $white;
+  flex-grow: 1;
+}
+
+.descriptionContainer {
+  flex-basis: 0;
+  flex-grow: 1;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstBlock {
+  @include mainContainerPadding;
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+
+  @include isTabletOrDesktop {
+    align-items: center;
+  }
+
+  @include isMobileOrTablet {
+    padding: getSpacing(4) 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.carousel {
+  width: $mobilePDPCarouselWidth;
+  margin: 0 auto;
+}
+
+.carouselGridPosition {
+  grid-column: 1 / 1;
+  grid-row: 2 / 2;
+}
+
+.titleGridPosition {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+
+.tabsGridPosition {
+  grid-column: 1 / 1;
+  grid-row: 3 / 3;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+// A custom breakpoint is necessary because using the standard breakpoints either cuts off part of the vintage notes, or pushes them below the first block and creates too much empty space
+@media (min-width: 815px) {
+  .descriptionContainer {
+    max-width: none;
+    padding-top: getSpacing(1);
+    padding-left: getSpacing(1);
+    align-items: flex-start;
+  }
+
+  .firstBlock {
+    grid-template-columns: $desktopPDPCarouselWidth 1fr;
+    grid-template-rows: auto 1fr;
+    padding: getSpacing(8) 0;
+  }
+
+  .titleGridPosition {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+  }
+
+  .carouselGridPosition {
+    grid-column: 1 / 1;
+    grid-row: 1 / 3;
+    @include isMobileOrTablet {
+      order: 2;
+    }
+  }
+
+  .tabsGridPosition {
+    grid-column: 2 / 2;
+    grid-row: 2 / 3;
+    @include isMobileOrTablet {
+      order: 3;
+    }
+  }
+}
+
+.order1 {
+  @include isMobileOrTablet {
+    order: 1;
+  }
+}
+
+.order2 {
+  @include isMobileOrTablet {
+    order: 2;
+  }
+}
+
+.order3 {
+  @include isMobileOrTablet {
+    order: 3;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "basket": {
+    "nextPageButtonText": "Confirm basket"
+  },
+  "shipping": {
+    "nextPageButtonText": "Confirm delivery"
+  },
+  "payment": {
+    "nextPageButtonText": "Pay for my order"
+  },
+  "basketName": "Basket",
+  "shippingName": "Deliver grouped orders",
+  "shippingNameDelivery": "Delivery",
+  "paymentName": "Payment",
+  "basketItems": {
+    "0": "No items",
+    "1": "{{count}} item",
+    "other": "{{count}} items"
+  },
+  "complete_personal_info_dialog": {
+    "title": "Complete personal information",
+    "content": "To confirm your basket you have to fill out your personal information",
+    "button": "Fill out"
+  },
+  "total": "Total",
+  "amountTotal": "Total amount",
+  "includingVAT": "including VAT",
+  "customsFee": "Customs fees",
+  "errorOccurred": "An error occurred",
+  "auctionAt": "bids from {{date}}",
+  "auctionAtWithCountry": "Bids from {{date}} - {{country}}",
+  "directPurchaseAt": "Fixed-price purchase on {{date}}",
+  "directPurchaseAtWithCountry": "Fixed-price purchases from {{date}} - {{country}}",
+  "deliveryRequestAt": "delivery request made on {{date}}",
+  "storage": "Storage costs",
+  "promotionsAndReductions": "promotions and discounts:",
+  "reductions": "Discounts",
+  "countdown": "Lots added to your basket are reserved for {{minutesDisplayed}}:{{secondsDisplayed}}",
+  "disclaimer": "After this, these items will be put back on sale.",
+  "tooLate": "Your basket will expire soon.",
+  "recap": "Summary",
+  "myUnpaidOrders": "My non-paid orders",
+  "myPaidOrders": "My orders awaiting delivery",
+  "myBasket": "My Basket",
+  "securePayment": "Secure Payment"
+}

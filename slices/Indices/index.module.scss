@@ -1,0 +1,44 @@
+@import "@/styles/stylesheet";
+@import "../titleStyle.module";
+
+.indice {
+  position: relative;
+}
+
+.indice::after {
+  content: "";
+  position: absolute;
+  left: 70%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-image: linear-gradient($goldenDarker 50%, transparent 50%);
+  background-size: 1px 10px;
+}
+
+.indiceContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.indiceText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: getSpacing(8);
+  justify-content: space-between;
+  margin: getSpacing(2);
+}
+
+.percentage {
+  font-size: $fontSizeMedium;
+}
+
+.gradientStyle {
+  position: absolute;
+  width: 80%;
+  background: linear-gradient(to right, $goldenDarkest, $goldenLightest);
+  z-index: -2;
+  height: 100%;
+}

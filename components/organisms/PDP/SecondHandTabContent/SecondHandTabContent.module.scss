@@ -1,0 +1,38 @@
+@import "@/styles/stylesheet";
+
+.container {
+  /* stylelint-disable-next-line value-no-vendor-prefix */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.separator {
+  width: 1px;
+  height: 1rem;
+  margin: 0 getSpacing(1);
+  background-color: $grey;
+  display: inline-block;
+}
+
+.secondHandTabItem {
+  border: none;
+}
+
+.secondHandTabCharacteristic {
+  font-weight: normal;
+  width: fit-content;
+}
+
+.link {
+  text-decoration: underline;
+  color: $greyDark;
+  font-size: $fontSizeSmall;
+}

@@ -1,0 +1,17 @@
+@import "@/styles/stylesheet";
+
+.historicPageBlock {
+  margin-top: getSpacing(5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.historicSort {
+  width: 96%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: getSpacing(5);
+}

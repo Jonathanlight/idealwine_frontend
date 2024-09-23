@@ -1,0 +1,156 @@
+{
+  "index": {
+    "title": "Die Wein-Notierung von",
+    "subtitle": "Suchen Sie einen Weinpreis über den Produzenten",
+    "idealwine": "iDealwine",
+    "searchPlaceholder": "Einen Wein, Produzenten … hinzufügen",
+    "unfindableVintageRating": {
+      "cantFindARating": "Sie finden die Notierung oder den Preis eines Weins nicht? ",
+      "mail": {
+        "subject": "Schätzung Ihrer Weine",
+        "linkText": "Kontaktieren Sie uns"
+      }
+    },
+    "whyIsIdwsRatingGood": {
+      "title": "Warum bildet die Notierung von iDealwine® den authentischen Preis eines Weines ab?",
+      "text1": "<strong>Die Cote des vins iDealwine® (Wein-Notierung)</strong>, die wir seit der Gründung von iDealwine im Jahr 2000 herausgeben, ist heute DIE Referenz, um den  <strong>authentischen Wert einer Flasche</strong> zu ermitteln.",
+      "text2": "Diese Liste aktueller Weinpreise beruht auf einer einzigartigen Datenbank von mehr als <strong>drei Millionen Auktionsergebnissen seit 1992</strong>.",
+      "text3": "Sie wird jede Woche auf Basis der Auktionsergebnisse aktualisiert. Die Cote des vins iDealwine® beinhaltet das Aufgeld, das bei einer Auktion erhoben wird.  So kann der Käufer den Preis, den er für diesen Wein zahlen muss, realistisch einschätzen.\nDer Verkäufer kann wiederum einschätzen, wie viel er für seinen Wein bekommt.",
+      "text4": "Die Notierung wird auf Basis eines von iDealwine im Jahr 2000 erstellten Algorithmus errechnet. Im Unterschied zu den Preisen, die von Preisvergleichsmaschinen ermittelt werden und lediglich den Durchschnitt der „Katalogpreise“ handelsüblicher Weine angeben, bildet die <strong>Cote des Vins iDealwine®</strong> Preise aufgrund tatsächlich erfolgter Transaktionen im Rahmen von Auktionen ab.",
+      "text5": "Diese <strong>authentische Liste aktueller Weinpreise</strong>, welche von mehr als 650 000 Weinliebhabern genutzt wird, findet auch regelmäßig Erwähnung in zalreichen Medien wie La Revue du vin de France, dem Weinführer von Bettane et Desseauve, der Zeitschrift Drinks Business, der Sendung Intégrale Placement auf BFM, der Webseite Boursorama, ..."
+    }
+  },
+  "searchPlaceholder": "Eine andere Notierung suchen",
+  "top50mostExpensiveWines": {
+    "title": "Die 50 teuersten Weine der Welt",
+    "subtitle1": "Verkauft von i",
+    "subtitle2": "Deal",
+    "subtitle3": "wine im Jahr",
+    "underTitle": "Ranking der 50 teuersten Weinflaschen der Welt, die von iDealwine im Laufe des Jahres versteigert wurden"
+  },
+  "searchRating": "Eine Notierung suchen",
+  "rankingYear": "Ranking {{year}}",
+  "mostExpensiveWinesIn": "Die teuersten Weine des Jahres {{year}}",
+  "mainTitle": "<strong>{{productName}} {{vintageYear}}</strong>",
+  "colorTitle": "({{color}})",
+  "winesRankedBy": "Ranking nach Notierung {{region}} {{year}}",
+  "subtitle": "Durchschnittlicher Angebotspreis für private Käufer + MwSt., Preisangabe für eine Standard-Flasche\nEntwicklung der Notierung (Format: Flasche) © iDealwine.com S.A. - (Notierung / Jahr)",
+  "currentRatingTitle": "Aktuelle Notierung",
+  "currentRatingSubtitle": "(Größe 0,75 Liter)",
+  "sameEstateRatingVintageTitle1": "Preisnotierung Weine aus demselben",
+  "sameEstateRatingVintageTitle2": "Weingut",
+  "buyThisWine": "Diesen Wein<strong>kaufen</strong>",
+  "winesOfTheEstate": "<strong>Weine</strong> des Weinguts",
+  "buy": "<strong>Kaufen</strong>",
+  "sellThisWine": "Diesen Wein<strong>verkaufen</strong> ",
+  "currentYearRating": "Aktuelle Notierung des Jahrgangs {{year}}",
+  "minAdjudication": "Niedrigster Zuschlagspreis (letzte 12 Monate)",
+  "maxAdjudication": "Höchster Zuschlagspreis (letzte 12 Monate)",
+  "lastAdjudications": "Letzte Zuschlagspreise für diesen Jahrgang {{year}} ({{currencyLogo}})",
+  "auctionHistory": "Historie der Zuschlagspreise  {{productName}} {{year}}",
+  "doYouHaveOneToSell": "Sie besitzen diesen Wein?",
+  "sellIt": "Jetzt verkaufen!",
+  "noVintageYear": "----",
+  "bottleImage": "Etikette des Weins",
+  "backgroundBottleImage": "Hintergrundbild des Weinetiketts",
+  "seo": {
+    "title": "Preisnotierung {{name}} {{year}} {{region}} {{color}}",
+    "description": "Wein-Notierung {{name}} {{color}} {{vintage}} {{appellation}} {{regionInDescription}}. Preise, Informationen und Verkostungsnotizen",
+    "vintage": ", Jahrgang {{year}}",
+    "appellation": ", der Appellation {{appellation}}",
+    "regionInDescription": ", und der Region {{region}}"
+  },
+  "indexSeo": {
+    "title": "Cote des vins iDealwine® | Die Referenz seit 20 Jahren",
+    "description": "Finden Sie ganz einfach den Preis für einen Wein mit unserer kostenlosen Listung - Präzise Schätzungen dank der Notierung von iDealwine - Historie, Statistiken, Analysen und Performance der Wertentwicklung für jeden Jahrgang. "
+  },
+  "ratingsVariation": "Veränderung der Notierung {{year}}",
+  "years": {
+    "1": "{{count}} Jahre alt",
+    "other": "{{count}} Jahre alt"
+  },
+  "winePerformanceAndAnalysis": "Analyse & Performance des Weins",
+  "price": "Preis",
+  "percentage": "Prozente",
+  "alertsCounter": {
+    "0": "Kein Weinliebhaber",
+    "1": "{{count}} Weinliebhaber",
+    "other": "{{count}} Weinliebhaber"
+  },
+  "alertImage": "Logo: Alarm auf einem Wein",
+  "alertsCounterSubtitle": "haben eine Benachrichtigung eingerichtet, um über die Verfügbarkeit des Weins informiert zu werden",
+  "createNewAlert": "Erstellen Sie einen Alarm",
+  "addToMyCellar": "zu meinem Keller hinzufügen",
+  "createAnAlert": "Eine Benachrichtigung einrichten",
+  "theDetailedCharacteristics": "Detaillierte Eigenschaften",
+  "theRatingInDetails": "Die Notierung im Detail",
+  "theRatingInDetailsOfTheWine": "Die Wein-Notierung im Detail",
+  "theVintageNotes": "Jahrgangsnotierungen",
+  "analysisAndPerformance": "Analyse & Entwicklungen",
+  "currentTrendTitle": "Abweichung dieser Notierung im Vergleich zum Primeur-Preis",
+  "primeurPrice": "Primeur-Preis {{year}}",
+  "variationCurrentRatingPrimeurPrice": "Abweichung der Notierung aktuell/Primeur-Preis",
+  "variationPrimeurPriceNPrimeurPriceNMinus1": "Abweichung Primeur-Preis nach Jahrgang  {{year}} / {{pastYear}}",
+  "historicPrimeurPrice": "Entwicklung der Preisnotierungen im Verleich zum Primeur-Preis ({{currencyLogo}})",
+  "primeurPriceTrend": "Aktuelle Entwicklung der Preisnotierung",
+  "primeurPriceTrendUp": "Preisanstiegs des Jahrgangs {{vintageYear}} im Jahr {{thisYear}} im Vergleich zum Jahr {{lastYear}}",
+  "primeurPriceTrendDown": "Preisabfall des Jahrgangs {{vintageYear}} im Jahr {{thisYear}} im Vergleich zum Jahr {{lastYear}}",
+  "productInformation": "<strong>{{productName}}</strong><br />Informationen",
+  "youHaveASimilarWine": "Sie verfügen über einen identischen Wein?",
+  "estateAndVintageCharacteristics": "<strong>Besonderheiten</strong> des Weinguts und des Weins",
+  "disclaimer": "Die untenstehenden öffentlichen Informationen betreffen aktuelle Merkmale des erwähnten Weins.\nSie beziehen sich nicht auf einen spezifischen Jahrgang.\nAchtung, dieser Text wird durch das Urheberrecht geschützt. Ohne Einwilligung des Autors darf er nicht kopiert werden.",
+  "aboutEstate": "Über das Weingut",
+  "aboutProduct": "Über den Wein",
+  "onSale": "<strong>{{productName}} jetzt erhältlich</strong>",
+  "furtherInformation": "Zusätzliche Informationen zu <strong>{{productName}}</strong>",
+  "tastingNotesAndComments": "Notierunen & Verkostungsnotizen",
+  "vintageQuality": "Qualität des Jahrgans {{vintageYear}}",
+  "expertAssessment": "Verkostungskommentar",
+  "sagaRating": "{{sagaRating}}/20",
+  "selectSomething": "Suchen Sie ein Kriterium aus",
+  "loginPanel": {
+    "title": "Kostenloser und unlimitierter Zugang <br />zu Statistiken von mehr als 126.000 Notierungen",
+    "button": "Preisnotierung dieses Weins konsultieren"
+  },
+  "consultEstateRatings": "Preisnotierungen des Weinguts {{estateName}}",
+  "estateRatings": "<strong>Preisnotierung</strong> des Weinguts {{estateName}}",
+  "ofRegion": " aus {{region}}",
+  "ofVintage": " Jahrgang {{vintageYear}}",
+  "yearSelect": {
+    "noYear": "Alle Jahrgänge",
+    "adjudicatedAllYears": "Jahr"
+  },
+  "vintageYear": "Jahrgang",
+  "ratingRanking": {
+    "title": "Cote iDealwine",
+    "subtitle": "Top 50 der höchsten Notierungen"
+  },
+  "adjudicated": {
+    "title": "Auf iDealwine versteigert!",
+    "subtitle": "Top 50 der teuersten Weine"
+  },
+  "wineRanking": "Wein-Ranking",
+  "byIdealWineRating1": "nach der Cote i",
+  "byIdealWineRating2": "Deal",
+  "byIdealWineRating3": "wine®",
+  "goToRatingPage": "Zur Seite der Preisnotierung des Weins {{productName}} {{vintageYear}}",
+  "topIDWbyRating": "Top iDealwine nach Preisnotierung der besten 50 Flaschen des Weins",
+  "region": "Region",
+  "vintage": "Jahrgang",
+  "by": "aus",
+  "mostExpensiveWine": {
+    "title": "ACHTUNG - Der angegebene Betrag kann von der Höhe der Mehrwertsteuer beeinflusst werden, die im Land des Wohnsitzes des Käufers auf die Käuferprovision erhoben wird.",
+    "underTitle": "Name des Weins | Jahrgang (Verkaufsdatum) | Preis inkl. MwSt."
+  },
+  "topIdealwineByRating": "Top iDealwine nach Preisnotierung der besten 50 Weinflaschen",
+  "regionSelect": {
+    "ALSACE": "Elsass",
+    "BEAUJOLAIS": "Beaujolais",
+    "BORDEAUX": "Bordeaux",
+    "BOURGOGNE": "Burgund",
+    "CHAMPAGNE": "Champagne",
+    "VALLEE_DE_LA_LOIRE": "Loire-Tal",
+    "VALLEE_DU_RHONE": "Rhonetal",
+    "noRegion": "Alle Regionen"
+  }
+}

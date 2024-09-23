@@ -1,0 +1,47 @@
+@import "@/styles/stylesheet";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: getSpacing(5);
+  gap: getSpacing(4);
+  background: #f6f4f2;
+
+  @include isTabletOrDesktop {
+    flex-direction: column;
+    padding: getSpacing(10);
+  }
+}
+
+.title {
+  text-align: left;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: getSpacing(-3);
+  font-size: $fontSizeMediumLarge;
+}
+
+.underTitleBox {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: $fontSizeMedium;
+  text-transform: uppercase;
+}
+
+.deal {
+  color: $goldenLighter;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: getSpacing(2);
+}
+
+.button {
+  border-radius: 4px;
+}

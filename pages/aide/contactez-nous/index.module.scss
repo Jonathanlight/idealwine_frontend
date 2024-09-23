@@ -1,0 +1,61 @@
+@import "@/styles/stylesheet";
+
+.board {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/bg-contact.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.iframeBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.iframe {
+  background-color: transparent;
+}
+
+.image {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  height: 100%;
+  top: 0;
+}
+
+.container {
+  width: 60%;
+  overflow: hidden;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: getSpacing(20);
+  padding-top: getSpacing(5);
+  padding-bottom: getSpacing(5);
+
+  @include isMobileOrTabletOrSmallDesktop {
+    width: 100%;
+  }
+
+  @include isTabletOrSmallDesktop {
+    margin: getSpacing(10);
+  }
+
+  @include isMobile {
+    margin: 0;
+  }
+}

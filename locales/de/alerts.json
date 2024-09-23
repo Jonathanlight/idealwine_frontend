@@ -1,0 +1,80 @@
+{
+  "tabs": {
+    "watch": "Merkliste",
+    "add-alert": "Alarm hinzufügen",
+    "my-alerts": "Alarm ansehen oder löschen."
+  },
+  "sort": {
+    "by": "Sortieren nach ...",
+    "vintage": "Jahrgang absteigend",
+    "vintage-asc": "Jahrgang aufsteigend",
+    "estimation": "Abnehmende Schätzung",
+    "estimation-asc": "Aufsteigende Schätzung",
+    "endDate": "Enddatum der Auktion absteigend",
+    "endDate-asc": "Enddatum der Auktion aufsteigend",
+    "product-name": "Name des Weins",
+    "region": "Land/Regionen"
+  },
+  "deleted": "Alarm gelöscht",
+  "updated": "Alarm bearbeitet",
+  "putAnAlert": "Einen Alarm stellen",
+  "minutesAbbrev": "Min.",
+  "hoursAbbrev": "Std.",
+  "beforeAuctionEnd": "vor Ende der Auktion",
+  "currentOrder": "Aktuelle Reihenfolge",
+  "endOfAuction": "Auktionsschluss",
+  "estimation": "Schätzung",
+  "vintage": "Jahrgang",
+  "alertMustBeAfterAuctionEndDate": "Datum des Alarms muss zeitlich nach Auktionsende festgelegt werden",
+  "my-alerts": {
+    "noAlerts": "Sie haben noch keinen Alarm erstellt."
+  },
+  "add-alert": {
+    "search": "Einen Wein, Produzenten … hinzufügen",
+    "select-color": "Farbe",
+    "error": "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+    "success": "Alarme erfolgreich erstellt.",
+    "success-link": "Meine Alarme anzeigen",
+    "loading": "Lädt...",
+    "initialEmpty": "Bitte nützen Sie die Suchleiste",
+    "title": "Eine Benachrichtigung einrichten",
+    "vintage-from": "Jahrgänge von",
+    "vintage-to": "bis",
+    "vintage-from-must-be-lower": "Der Anfangsjahrgang muss vor dem Endjahrgang sein",
+    "create-button": "Einen Alarm erstellen",
+    "no-results": "Keine Referenznotierung für '{{search}}'",
+    "too-many-results": "Nur die ersten 20 Ergebnisse werden angezeigt, bitte verfeinern Sie Ihre Suche, wenn Sie einen Wein nicht finden.",
+    "search-word": "Einen Wein suchen"
+  },
+  "color": {
+    "SPARKLING_WHITE": "Schaumwein weiß",
+    "AMBER": "Bernstein",
+    "SPARKLING_ROSE": "Schaumwein Rosé",
+    "VARIOUS": "Divers",
+    "ORANGE": "Orange",
+    "GREEN": "Grün",
+    "SPARKLING_RED": "Schaumwein rot",
+    "RED": "Rot",
+    "WHITE": "Weiß",
+    "DEMI_DRY_WHITE": "Weiß halbtrocken",
+    "DRY_WHITE": "Dry white",
+    "LIQUOROUS_WHITE": "Likörwein weiß",
+    "ROSE": "Rosé",
+    "YELLOW": "Gelb",
+    "INDIFFERENT": "Indifferent"
+  },
+  "seo": {
+    "add": {
+      "title": "Neuen Alarm erstellen",
+      "description": "Meine Alarme"
+    },
+    "consult": {
+      "title": "Meine Alarme ändern",
+      "description": ""
+    },
+    "watch": {
+      "title": "Merkliste",
+      "description": ""
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Dolore dolor ipsum eiusmod consequat sunt deserunt sit. Ea minim ex eiusmod id do elit voluptate tempor consequat labore."
+            }
+          }
+        ]
+      },
+      "descriptiontext": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Cillum dolore reprehenderit nisi ullamco nulla culpa consectetur ipsum ad laboris ullamco ut ea eu. Nulla anim minim aute eu consectetur incididunt consequat eiusmod nostrud tempor aliquip dolor ad."
+            }
+          }
+        ]
+      },
+      "lastreport": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Excepteur deserunt sint et proident nisi. Occaecat ullamco sit nulla amet tempor aliquip. Pariatur adipisicing voluptate elit nisi."
+            }
+          }
+        ]
+      },
+      "morereports": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Excepteur ullamco officia excepteur incididunt in enim enim. Eiusmod eiusmod aliqua do aliqua tempor aute eiusmod aliqua et dolor qui. Consequat irure quis ad exercitation deserunt duis."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

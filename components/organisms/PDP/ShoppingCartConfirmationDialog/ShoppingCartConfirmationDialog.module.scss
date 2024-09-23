@@ -1,0 +1,54 @@
+@import "@/styles/stylesheet";
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: justify;
+  gap: getSpacing(2);
+  padding: getSpacing(6);
+  max-width: 450px;
+}
+
+.limitedQuantityWarning {
+  background-color: $warningYellow;
+  color: $black;
+  font-size: $fontSizeSmall;
+  padding: getSpacing(1) getSpacing(1);
+  text-align: center;
+}
+
+.warningIcon {
+  margin-right: getSpacing(2);
+}
+
+.linkAccount {
+  text-decoration: underline;
+}
+
+.note {
+  font-size: $fontSizeSmall;
+  color: $greyDark;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: getSpacing(6);
+  gap: getSpacing(2);
+  justify-content: center;
+}
+
+.linkButton:hover {
+  text-decoration: none;
+}
+
+.button {
+  text-transform: uppercase;
+  width: 100%;
+}

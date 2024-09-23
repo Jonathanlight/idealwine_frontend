@@ -1,0 +1,27 @@
+@import "@/styles/stylesheet";
+
+%commonText {
+  font-weight: 300;
+  line-height: 0.9;
+  letter-spacing: 3px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(3);
+  padding: getSpacing(6);
+}
+
+.mainTitle {
+  @extend %commonText;
+
+  text-transform: uppercase;
+  font-size: $fontSizeMediumLarge;
+}
+
+.subtitle {
+  @extend %commonText;
+
+  font-size: $fontSizeBase;
+}

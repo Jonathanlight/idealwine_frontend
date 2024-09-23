@@ -1,0 +1,15 @@
+@import "@/styles/stylesheet";
+
+.selectBox {
+  margin: getSpacing(4) 0;
+}
+
+.bigCard {
+  margin-top: getSpacing(4);
+  padding: getSpacing(4);
+  background-color: $white;
+}
+
+.icon {
+  margin: 0 getSpacing(1);
+}

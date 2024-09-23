@@ -1,0 +1,192 @@
+/* stylelint-disable scale-unlimited/declaration-strict-value */
+@import "@/styles/stylesheet";
+
+.map {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: $greyLight;
+  box-shadow: 0 8px 6px -6px $grey;
+}
+
+.st0 {
+  clip-path: url("#SVGID_2_");
+  opacity: 0.1;
+  fill: #cbb06e;
+}
+
+.st1 {
+  clip-path: url("#SVGID_2_");
+  opacity: 0.1;
+}
+
+.st2 {
+  fill: #cbb06e;
+}
+
+.st3 {
+  opacity: 0.2;
+}
+
+.st4 {
+  clip-path: url("#SVGID_4_");
+}
+
+.st5 {
+  clip-path: url("#SVGID_4_");
+  fill: #cbb06e;
+}
+
+.st6 {
+  clip-path: url("#SVGID_4_");
+  opacity: 0.15;
+}
+
+.st7 {
+  clip-path: url("#SVGID_4_");
+  opacity: 0.1;
+  fill: #cbb06e;
+}
+
+.st8 {
+  clip-path: url("#SVGID_4_");
+  opacity: 0.1;
+}
+
+.st9 {
+  opacity: 0.3;
+  fill: #ffffff;
+}
+
+.st10 {
+  opacity: 0.3;
+}
+
+.st11 {
+  clip-path: url("#SVGID_6_");
+  opacity: 0.1;
+  fill: #cbb06e;
+}
+
+.st12 {
+  clip-path: url("#SVGID_6_");
+  opacity: 0.1;
+}
+
+.st13 {
+  clip-path: url("#SVGID_6_");
+  fill: #cbb06e;
+}
+
+.st14 {
+  fill: #885177;
+}
+
+.st14bis {
+  fill: #885177;
+}
+
+.st15 {
+  fill: #d40059;
+}
+
+.st16 {
+  fill: #a8825a;
+}
+
+.st16v2 {
+  fill: #336e7b;
+}
+
+.st17 {
+  fill: #e95d0f;
+}
+
+.st17v2 {
+  fill: #736598;
+}
+
+.st18 {
+  fill: #ffcc00;
+}
+
+.st19 {
+  fill: #93816b;
+}
+
+.st20 {
+  fill: #b64e2a;
+}
+
+.st21 {
+  fill: #bbcd19;
+}
+
+.st22 {
+  opacity: 0.75;
+  fill: #e95d0f;
+}
+
+.st23 {
+  fill: none;
+  stroke: #848484;
+  stroke-miterlimit: 10;
+}
+
+.st24 {
+  fill: none;
+  stroke: url("#SVGID_7_");
+  stroke-miterlimit: 10;
+}
+
+.st25 {
+  fill: #83cfef;
+}
+
+.st26 {
+  font-weight: bold;
+}
+
+.st27 {
+  font-size: 14px;
+}
+
+.st28 {
+  font-size: 17.7185px;
+}
+
+.st29 {
+  font-size: 18px;
+}
+
+.st30 {
+  font-size: 14.0723px;
+}
+
+.st31 {
+  fill: none;
+  stroke: #828282;
+  stroke-miterlimit: 10;
+}
+
+.st32 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 0.761;
+}
+
+.map .link {
+  transform-origin: 60% 60%;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.01);
+    opacity: 0.5;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.text {
+  font-family: $fontFamily;
+  text-transform: uppercase;
+}

@@ -1,0 +1,37 @@
+@import "@/styles/stylesheet";
+
+.content {
+  display: flex;
+  align-items: center;
+  margin-bottom: getSpacing(5);
+
+  @include isMobile {
+    background-color: $golden;
+    padding: getSpacing(1);
+    border-radius: 4px;
+  }
+}
+
+.text {
+  font-size: $fontSizeBase;
+  color: $golden;
+  font-family: $fontFamily;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+  @include isMobile {
+    text-transform: inherit;
+    font-size: $fontSizeSmall;
+    color: $white;
+  }
+}
+
+/* stylelint-disable-next-line selector-max-type */
+.text a {
+  text-decoration: underline;
+}
+
+.grapes {
+  display: inline-block;
+  margin: 0 getSpacing(2);
+}

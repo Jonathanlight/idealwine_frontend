@@ -1,0 +1,31 @@
+{
+  "id": "dropdownMenuTags",
+  "label": "dropdownMenuTags",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "mondayWeeklySale": {
+        "type": "Text",
+        "config": {
+          "label": "mondayWeeklySale",
+          "placeholder": ""
+        }
+      },
+      "wednesdayWeeklySale": {
+        "type": "Text",
+        "config": {
+          "label": "wednesdayWeeklySale",
+          "placeholder": ""
+        }
+      },
+      "fridayWeeklySale": {
+        "type": "Text",
+        "config": {
+          "label": "fridayWeeklySale",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

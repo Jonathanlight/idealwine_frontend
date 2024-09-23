@@ -1,0 +1,76 @@
+@import "@/styles/stylesheet";
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: getSpacing(5);
+}
+
+.dialogContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: justify;
+  gap: getSpacing(2);
+  padding: getSpacing(4);
+  max-width: 600px;
+}
+
+.confirmation {
+  text-align: left;
+}
+
+.description {
+  text-align: justify;
+}
+
+.learnMoreLink {
+  font-size: $fontSizeSmall;
+  color: $black;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+.button {
+  text-transform: uppercase;
+  flex: 1;
+}
+
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  text-align: left;
+
+  thead th {
+    position: sticky;
+    top: 0;
+    background-color: $black;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid $greyDark;
+    font-weight: 600;
+    font-size: $fontSizeSmaller;
+    height: 35px;
+  }
+
+  td {
+    padding: 8px 16px;
+    border: 1px solid $grey;
+  }
+
+  tr:last-child {
+    td {
+      font-weight: bold;
+    }
+  }
+}
+
+.ttcPrice {
+  color: $redDark;
+}

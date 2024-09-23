@@ -1,0 +1,16 @@
+{
+  "shippingOptimized": "La quantità di bottiglie selezionate ti permette di ottimizzare le spese di spedizione.",
+  "shippingOptimizedHelper": {
+    "1": "Nel caso volessi aggiungere {{count}} bottiglia, i costi di spedizione ammontano a soli <0></0> in più.",
+    "other": "Nel caso volessi aggiungere {{count}} bottiglie, i costi di spedizione ammontano a soli <0></0> in più."
+  },
+  "shippingUnoptimized": "Puoi ottimizzare le spese di spedizione!",
+  "shippingUnoptimizedHelperBottles": {
+    "1": "Per esempio: ordinando {{count}} bottiglia in più, la tariffa per la consegna rimane la stessa.",
+    "other": "Per esempio: ordinando {{count}} bottiglie in più, la tariffa per la consegna rimane la stessa."
+  },
+  "shippingUnoptimizedHelperMagnums": {
+    "1": "Per esempio: ordinando {{count}} bottiglia o {{count}} magnum in più, la tariffa per la consegna rimane la stessa.",
+    "other": "Per esempio: ordinando {{count}} bottiglie o {{count}} magnum in più, la tariffa per la consegna rimane la stessa."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "tabs": {
+    "watch": "Watch List",
+    "add-alert": "Add an alert",
+    "my-alerts": "View or delete an alert"
+  },
+  "sort": {
+    "by": "Sort by",
+    "vintage": "Vintage: descending order",
+    "vintage-asc": "Vintage: ascending order",
+    "estimation": "Estimate: descending order",
+    "estimation-asc": "Estimate: ascending order",
+    "endDate": "Closing date: descending order",
+    "endDate-asc": "Closing date: ascending order",
+    "product-name": "Name",
+    "region": "Country/Region"
+  },
+  "deleted": "Alert deleted",
+  "updated": "Alert modified",
+  "putAnAlert": "Add an alert",
+  "minutesAbbrev": "min",
+  "hoursAbbrev": "hour",
+  "beforeAuctionEnd": "before the end of sale",
+  "currentOrder": "Current bid (lot)",
+  "endOfAuction": "Closing Date",
+  "estimation": "Estimation",
+  "vintage": "Vintage",
+  "alertMustBeAfterAuctionEndDate": "The alert must be for a date after the auction ends",
+  "my-alerts": {
+    "noAlerts": "You have not yet created an alert"
+  },
+  "add-alert": {
+    "search": "Search a wine, a producer...",
+    "select-color": "Colour",
+    "error": "An error occurred, please try again later",
+    "success": "Alerts successfully created.",
+    "success-link": "See my alerts",
+    "loading": "Loading...",
+    "initialEmpty": "Please use the search bar",
+    "title": "Create an alert",
+    "vintage-from": "Vintages from",
+    "vintage-to": "to",
+    "vintage-from-must-be-lower": "The first vintage should be before the second vintage you entered",
+    "create-button": "Create",
+    "no-results": "No appraisal for '{{search}}'",
+    "too-many-results": "Only the first 20 results are shown. Please refine your search if you cannot find the wine you're looking for.",
+    "search-word": "Look up a wine"
+  },
+  "color": {
+    "SPARKLING_WHITE": "Sparking white",
+    "AMBER": "Brown",
+    "SPARKLING_ROSE": "Sparkling rosé",
+    "VARIOUS": "Other",
+    "ORANGE": "Orange",
+    "GREEN": "Green",
+    "SPARKLING_RED": "Sparkling red",
+    "RED": "Red",
+    "WHITE": "White",
+    "DEMI_DRY_WHITE": "Medium-sweet white (demi-sec)",
+    "DRY_WHITE": "Dry white",
+    "LIQUOROUS_WHITE": "Sweet white",
+    "ROSE": "Rosé",
+    "YELLOW": "Yellow",
+    "INDIFFERENT": "Indifferent"
+  },
+  "seo": {
+    "add": {
+      "title": "Set a new alert",
+      "description": "My Alerts"
+    },
+    "consult": {
+      "title": "Modify my alerts",
+      "description": ""
+    },
+    "watch": {
+      "title": "Watch List",
+      "description": ""
+    }
+  }
+}

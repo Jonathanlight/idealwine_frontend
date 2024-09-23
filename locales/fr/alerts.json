@@ -1,0 +1,71 @@
+{
+  "tabs": {
+    "watch": "Lots à surveiller",
+    "add-alert": "Ajouter une alerte",
+    "my-alerts": "Consulter ou supprimer une alerte"
+  },
+  "sort": {
+    "by": "Trier par",
+    "vintage": "Millésime décroissant",
+    "vintage-asc": "Millésime croissant",
+    "estimation": "Estimation décroissante",
+    "estimation-asc": "Estimation croissante",
+    "endDate": "Date de clôture décroissante",
+    "endDate-asc": "Date de clôture croissante",
+    "product-name": "Nom du vin",
+    "region": "Pays/Régions"
+  },
+  "deleted": "Alerte supprimée",
+  "updated": "Alerte modifiée",
+  "putAnAlert": "Mettre une alerte",
+  "minutesAbbrev": "min",
+  "hoursAbbrev": "h",
+  "beforeAuctionEnd": "avant la fin de l'enchère",
+  "currentOrder": "Ordre actuel",
+  "endOfAuction": "Fin de vente",
+  "estimation": "Estimation",
+  "vintage": "Millésime",
+  "alertMustBeAfterAuctionEndDate": "La date de l'alerte doit être après la date de fin de l'enchère",
+  "my-alerts": {
+    "noAlerts": "Vous n'avez pas encore créé d'alerte"
+  },
+  "add-alert": {
+    "search": "Recherchez un vin, un producteur...",
+    "select-color": "Couleur",
+    "error": "Une erreur est survenue, veuillez réessayer plus tard",
+    "success": "Alertes créées avec succès.",
+    "success-link": "Voir mes alertes",
+    "loading": "Chargement...",
+    "initialEmpty": "Veuillez utiliser la barre de recherche",
+    "title": "Créer une alerte",
+    "vintage-from": "Millésimes de",
+    "vintage-to": "à",
+    "vintage-from-must-be-lower": "Le millésime de début doit être avant le millésime de fin",
+    "create-button": "Créer l'alerte",
+    "no-results": "Aucune cote référencée pour '{{search}}'",
+    "too-many-results": "Seuls les 20 premiers resultats sont affichés, veillez affiner votre recherche si vous ne trouvez pas le vin que vous cherchez",
+    "search-word": "Rechercher un vin"
+  },
+  "color": {
+    "SPARKLING_WHITE": "Blanc effervescent",
+    "AMBER": "Ambré",
+    "SPARKLING_ROSE": "Rosé effervescent",
+    "VARIOUS": "Divers",
+    "ORANGE": "Orange",
+    "GREEN": "Vert",
+    "SPARKLING_RED": "Rouge effervescent",
+    "RED": "Rouge",
+    "WHITE": "Blanc",
+    "DEMI_DRY_WHITE": "Blanc demi-sec",
+    "DRY_WHITE": "Blanc sec",
+    "LIQUOROUS_WHITE": "Blanc liquoreux",
+    "ROSE": "Rosé",
+    "YELLOW": "Jaune",
+    "INDIFFERENT": "Indifférent"
+  },
+  "seo": {
+    "add": { "title": "Créér une nouvelle alerte", "description": "Mes alertes" },
+    "consult": { "title": "Modifier mes alertes", "description": "" },
+    "watch": { "title": "Lots à surveiller", "description": "" }
+  }
+}

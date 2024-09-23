@@ -1,0 +1,26 @@
+{
+  "title": "Pay by bank transfer",
+  "callout": "Please <0>{{link}}</0> and send it back to iDealwine.com S.A.S. signed and accompanied by an IBAN and a photocopy of your ID.  The address is Customer Service, 190 rue d'Estienne d'Orves, 92700 Colombes, France",
+  "calloutPrint": "print out this page",
+  "fields": {
+    "name": "Last Name",
+    "firstName": "First Name",
+    "address": "Address",
+    "zipCode": "Post Code",
+    "city": "Town/City",
+    "country": "Country",
+    "username": "Username:",
+    "email": "EMAIL ADDRESS",
+    "phone": "Phone",
+    "place": "to",
+    "date": "Signed in"
+  },
+  "signature": "Signature",
+  "legalNotice": "I confirm that I read and accepted the terms and conditions of the sales and services offered by the website www.idealwine.com when signing up as a member. I specifically acknowledge article VI - Modifying or cancelling an order/a bid - the right to withdraw - price and payment. Just a reminder that the option \"Other payment method\" allows you to pay for auction lots you won by bank transfer. Where a client has won bids and made fixed price purchases, the various bottles will be combined into a single order.  You will be alerted by email to indicate this. Orders must be confirmed on the website, then iDealwine must be notified of your intention to pay by bank transfer, the amount that is outstanding according to invoices readily available online. Delivery can only be made once full payment has been receive. In order for bank transfer to be approved as a payment method, clients must complete the relevant forms including a bank account details form (RIB and photo of ID) . For outstanding balances above a certain ceiling at auction,  iDealwine may ask for supplementary guarantees or a deposit. In which case, clients’ orders will not processed unless additional information is provided before the hammer falls. Payment methods or profiles can be modified, deleted, or otherwise by contacting our customer service team at Customer service, 190 rue d'Estienne d'Orves, 92700 Colombes, France. In such case, iDealwine will return the form and the requested ID within 7 working days following the reception of such a request.",
+  "instructions": "Please sign this page and send it back to iDealwine.com S.A.S. signed and accompanied by RIB/RIP (bank information) and a photocopy of your ID. Or contact Customer Service at 190 rue d'Estienne d'Orves, 92700 Colombes, France. You are entitled to access your data, request changes, rectify it and request for it to be erased (article 34 - on the IT and “reedom Law”.). You can exercise this right by directly accessing your personal account online with your user ID and password.",
+  "credits": "You can equally write to iDealwine.com SAS at 190, rue d'Estienne d'Orves, 92700 Colombes, France.",
+  "seo": {
+    "title": "Print iDealwine Form",
+    "description": ""
+  }
+}

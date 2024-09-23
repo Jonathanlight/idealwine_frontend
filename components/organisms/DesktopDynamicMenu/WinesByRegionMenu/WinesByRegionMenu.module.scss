@@ -1,0 +1,19 @@
+@import "@/styles/stylesheet";
+
+.root {
+  display: flex;
+  justify-content: space-between;
+  padding: getSpacing(5) getSpacing(10) 0 getSpacing(10);
+  gap: getSpacing(10);
+}
+
+.title {
+  letter-spacing: 0.5px;
+  font-size: $fontSizeMediumLarge;
+  color: $blueishGrey;
+}
+
+.appellationPanel {
+  flex-grow: 1;
+  background-color: $amberBottleContent;
+}

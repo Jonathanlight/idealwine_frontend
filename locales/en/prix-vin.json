@@ -1,0 +1,156 @@
+{
+  "index": {
+    "title": "Price estimate",
+    "subtitle": "Search the price estimate of a wine by producer",
+    "idealwine": "iDealwine",
+    "searchPlaceholder": "A wine, a producer...",
+    "unfindableVintageRating": {
+      "cantFindARating": "Can’t find the estimate or a wine’s price? ",
+      "mail": {
+        "subject": "Request an estimate",
+        "linkText": "Contact Us"
+      }
+    },
+    "whyIsIdwsRatingGood": {
+      "title": "Why is the iDealwine Price Estimate the right price of a wine?",
+      "text1": "<strong>The iDealwine Auction Price Estimate®</strong> is, today, the ultimate reference in the wine auction market to find the current price of a bottle.",
+      "text2": "The iDealwine Auction Price Estimate</strong> is based on a unique database of more than 3 million prices registered in French auctions since 1992.",
+      "text3": "All price estimates are updated weekly according to the latest results, and the iDealwine Price Estimate includes the buyer's fees deducted at auction. The buyer can therefore obtain a realistic estimation of the price they will have to pay in order to buy the wine.\nThe seller can obtain an estimation of the price they will gain from the sale (in order to do so, it's necessary to deduct the fees from iDealwine Price Estimate).",
+      "text4": "This estimate is calculated using an algorithm created by iDealwine in 2000. Unlike most comparison websites, which calculate the price of a wine based on just its current market price (not necessarily the price it is sold at), <strong>the iDealwine Price Estimate®</strong> calculates an average from recent transactions at auction.",
+      "text5": "<strong>The iDealwine Price Estimate</strong> is used by almost 500,000 wine enthusiasts worldwide and is often mentioned in the media, including in La Revue du Vin de France, Bettane+Desseauve, The Drinks Business, the TV programme Intégrale Placement on the French news channel BFMTV and the Boursorama website."
+    }
+  },
+  "searchPlaceholder": "Find another price estimate",
+  "top50mostExpensiveWines": {
+    "title": "The 50 highest-priced wines in the world",
+    "subtitle1": "Sold byi",
+    "subtitle2": "Deal",
+    "subtitle3": "wine in",
+    "underTitle": "Rankings of the 50 highest-priced bottles of wine in the world sold by iDealwine during the year"
+  },
+  "searchRating": "Search a price estimate",
+  "rankingYear": "rankings {{year}}",
+  "mostExpensiveWinesIn": "The highest-priced wines in {{year}}",
+  "mainTitle": "<strong>{{productName}} {{vintageYear}}</strong>",
+  "colorTitle": "({{color}})",
+  "winesRankedBy": "Rankings by estimate {{region}} {{year}}",
+  "subtitle": "Average price reserved for private individuals +VAT, price stated per bottle size\nPrice estimate evolution (formate: standard bottle) © iDealwine.com S.A. - (price estimate / year)",
+  "currentRatingTitle": "Current price estimate",
+  "currentRatingSubtitle": " (75cl format)",
+  "sameEstateRatingVintageTitle1": "Price estimate for wine from the same",
+  "sameEstateRatingVintageTitle2": "producer",
+  "buyThisWine": "<strong>Buy</strong> this wine",
+  "winesOfTheEstate": "<strong>Wines</strong> from this producer",
+  "buy": "<strong>Buy</strong>",
+  "sellThisWine": "<strong>Sell</strong> this wine",
+  "currentYearRating": "Current price estimate of {{year}} vintage",
+  "minAdjudication": "Lowest auction price \n(past 12 months)",
+  "maxAdjudication": "Highest auction price \n(past 12 months)",
+  "lastAdjudications": "Latest auction prices for the {{year}} vintage ({{currencyLogo}})",
+  "auctionHistory": "Auction history {{productName}} {{year}}",
+  "doYouHaveOneToSell": "Do you have this wine in your cellar?",
+  "sellIt": "Sell it here",
+  "noVintageYear": "----",
+  "bottleImage": "Wine label",
+  "backgroundBottleImage": "Image on bottom of wine label",
+  "seo": {
+    "title": "Price estimate {{name}} {{year}} {{region}} {{color}}",
+    "description": "Price estimate {{name}} {{color}} {{vintage}} {{appellation}} {{regionInDescription}}. Price, information and tasting notes",
+    "vintage": ", {{year}} vintage",
+    "appellation": ", from the {{appellation}} appellation ",
+    "regionInDescription": ", and from the {{region}} region"
+  },
+  "indexSeo": {
+    "title": "Search on iDealwine's Price Estimate Database",
+    "description": "Find the price of any wine quickly and easily with a iDealwine's free price estimate database. Check the history, statistics, analysis and performance of any bottle in any vintage."
+  },
+  "ratingsVariation": "Price estimate variation {{year}}",
+  "years": {
+    "1": "{{count}} year",
+    "other": "{{count}} years"
+  },
+  "winePerformanceAndAnalysis": "Analysis & performance of wine",
+  "price": "Price",
+  "percentage": "Percentage",
+  "alertsCounter": {
+    "0": "No wine enthusiasts",
+    "1": "{{count}} wine enthusiast",
+    "other": "{{count}} wine enthusiasts"
+  },
+  "alertImage": "Logo: alert on one vin",
+  "alertsCounterSubtitle": "have created an alert for this wine",
+  "createNewAlert": "Set a new alert",
+  "addToMyCellar": "Add to cellar",
+  "createAnAlert": "Create an alert",
+  "theDetailedCharacteristics": "Detailed characteristics",
+  "theRatingInDetails": "Price estimate break down",
+  "theRatingInDetailsOfTheWine": "Price estimate break down for wine",
+  "theVintageNotes": "Vintage ratings",
+  "analysisAndPerformance": "Analysis & Performance",
+  "currentTrendTitle": "Variation in price estimate since it was released En Primeur",
+  "primeurPrice": "En Primeur price",
+  "variationCurrentRatingPrimeurPrice": "Difference in current price estimate  / en primeur price",
+  "variationPrimeurPriceNPrimeurPriceNMinus1": "Difference in en primeur price from the {{year}} vintage / {{pastYear}}",
+  "historicPrimeurPrice": "History in difference in price estimate in relation to en primeur price ({{currencyLogo}})",
+  "primeurPriceTrend": "Current trend of price estimate",
+  "primeurPriceTrendUp": "Highest trend for the {{vintageYear}} vintage from {{thisYear}} in relation to {{lastYear}}",
+  "primeurPriceTrendDown": "Lowest trend for the {{vintageYear}} vintage from {{thisYear}} in relation to {{lastYear}}",
+  "productInformation": "<strong>{{productName}}</strong><br />Information",
+  "youHaveASimilarWine": "Do you own this wine?",
+  "estateAndVintageCharacteristics": "<strong>Characteristics</strong> of the producer and cuvée",
+  "disclaimer": "The information published above presents the current characteristics of the wine.\nThey are not vintage specific.\nThis text is corrected by copyright. It is forbidden to copy without prior written consent from the author.",
+  "aboutEstate": "About the producer",
+  "aboutProduct": "About the wine",
+  "onSale": "<strong>{{productName}} on sale</strong>",
+  "furtherInformation": "Additional information about <strong>{{productName}}</strong>",
+  "tastingNotesAndComments": "Tasting notes",
+  "vintageQuality": "Quality of {{vintageYear}} vintage",
+  "expertAssessment": "Tasting note",
+  "sagaRating": "{{sagaRating}}/20",
+  "selectSomething": "Choose a criterion",
+  "loginPanel": {
+    "title": "Free and unlimited access <br /> to statistics for over \n126,000 price estimates",
+    "button": "See price estimate of this wine"
+  },
+  "consultEstateRatings": "Consult price estimate for {{estateName}}",
+  "estateRatings": "<strong>Price estimate</strong> for {{estateName}}",
+  "ofRegion": " from {{region}}",
+  "ofVintage": " from the {{vintageYear}} vintage",
+  "yearSelect": {
+    "noYear": "All years",
+    "adjudicatedAllYears": "Year"
+  },
+  "vintageYear": "Vintage",
+  "ratingRanking": {
+    "title": "iDealwine Price Estimate",
+    "subtitle": "The 50 highest price estimates"
+  },
+  "adjudicated": {
+    "title": "Auctioned on iDealwine!",
+    "subtitle": "The 50 highest-priced wines"
+  },
+  "wineRanking": "Wine classifications",
+  "byIdealWineRating1": "by price estimate from i",
+  "byIdealWineRating2": "Deal",
+  "byIdealWineRating3": "wine®",
+  "goToRatingPage": "See the page for the price estimate of {{productName}} {{vintageYear}}",
+  "topIDWbyRating": "Top 50 iDealwine price estimates",
+  "region": "Region",
+  "vintage": "vintage",
+  "by": "from",
+  "mostExpensiveWine": {
+    "title": "NB - the amount indicated can be effected by the level of VAT applied on the buyer’s commission due to their country of residence.",
+    "underTitle": "Name of wine | Vintage (date of sale) | Price incl. VAT"
+  },
+  "topIdealwineByRating": "Top 50 iDealwine price estimates",
+  "regionSelect": {
+    "ALSACE": "Alsace",
+    "BEAUJOLAIS": "Beaujolais",
+    "BORDEAUX": "Bordeaux",
+    "BOURGOGNE": "Burgundy",
+    "CHAMPAGNE": "Champagne",
+    "VALLEE_DE_LA_LOIRE": "Loire Valley",
+    "VALLEE_DU_RHONE": "Rhone Valley",
+    "noRegion": "All regions"
+  }
+}

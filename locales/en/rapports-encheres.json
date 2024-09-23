@@ -1,0 +1,26 @@
+{
+  "title": "Auction reports",
+  "text": "Reports, summaries, auctions, wine, analysis, invest, wine investment, trends, market;",
+  "seo": {
+    "title": "Auction reports - iDealwine",
+    "description": "All reports and analysis summaries of iDealwine's wine auctions to help where to invest in wine"
+  },
+  "h1": "Auction reports",
+  "h2": "To help you with your wine investment decisions, iDealwine provides you with a monthly market analysis of wine auctions focusing on key highlights and trends.",
+  "yearTitle": "iDealwine's latest analysis from {{year}}",
+  "auctionReport": "Auction Report",
+  "auctionReportLink": {
+    "01": "For\nJanuary {{year}}",
+    "02": "For\nFebruary {{year}}",
+    "03": "For\nMarch {{year}}",
+    "04": "For\nApril {{year}}",
+    "05": "For\nMay {{year}}",
+    "06": "For\nJune {{year}}",
+    "07": "For\nJuly {{year}}",
+    "08": "For\nAugust {{year}}",
+    "09": "For\nSeptember {{year}}",
+    "10": "For\nOctober {{year}}",
+    "11": "For\nNovember {{year}}",
+    "12": "For\nDecember {{year}}"
+  }
+}

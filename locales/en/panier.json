@@ -1,0 +1,42 @@
+{
+  "myBasketTooltip": "The prizes in your basket are reserved for you for a period of {{timer}} minutes",
+  "alreadyPaid": "Paid",
+  "awaitingForPayment": "Awaiting payment validation",
+  "unpaid": "To be paid",
+  "myPaidOrdersTooltip": "Tick past orders that you wish to have delivered.",
+  "myUnpaidOrdersTooltipXtraOrder": "Tick orders that you wish to pay.",
+  "myUnpaidOrdersTooltipNormal": "I have to pay the auction bids I won",
+  "myAwaitingPaymentOrders": "My orders awaiting payment validation",
+  "myAwaitingPaymentOrdersTooltip": "After payment, you can set your order as “waiting” so that you can group it with future purchases in order to optimise your delivery costs or receive all your bottles in one go. You have one month free storage from the date of your order. After this time, storage fees will be charged.",
+  "directSale": "Fixed price",
+  "shippingCountry": "Delivery to:",
+  "forbidden": "Forbidden",
+  "errorOccurred": "An error occurred",
+  "noItemsInBasket": "You have no lot in your basket",
+  "seeAllWines": "View all wine",
+  "storageFee": "Storage costs (j+{{numberOfDays}})",
+  "xtraOrderAutomaticCheckoutButton": "Confirm and pay later",
+  "basketGroupingInfoMessage": "At the next step, you can organise delivery or place your order as \"waiting\" so you can group it together with other orders to optimise delivery costs.",
+  "learnMore": "More information",
+  "basketGroupingInfoModalMessage": "At the next step, you can organise delivery or place your order as \"waiting\" so you can group it together with future purchases and receive all your bottles in one go. The latter will allow you to get the most out of delivery cost. To group together orders, you need to have already paid for all bottle. You have one month of free storage. Once this timeframe has been surpassed, storage fees will be applied.",
+  "incompatibleOrderCountriesModal": {
+    "title": "Incompatible delivery country",
+    "content": "You can’t group this order with others because this order does not have the same delivery country as the others. Please confirm your basket before grouping this order."
+  },
+  "limitedQuantityWarning": "You have surpassed the purchase limit set for this product. The quantity of this product in your basket has been adjusted.",
+  "quantityOf": {
+    "1": "{{count}} lot of ",
+    "other": "{{count}} lots of"
+  },
+  "orderNumber": "Order no. {{orderNumber}}",
+  "bottleNumber": {
+    "1": "1 bottle",
+    "other": "{{count}} bottles"
+  },
+  "seo": {
+    "title": "My basket - iDealwine",
+    "description": "Buy and sell your wines at auctions, on fixed-price sales with iDealwine"
+  },
+  "emptyBasket": "Your basket is empty",
+  "emptyBasketCallToAction": "Just in! See what's new on iDealwine"
+}

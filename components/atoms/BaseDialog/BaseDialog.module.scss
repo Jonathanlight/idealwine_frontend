@@ -1,0 +1,139 @@
+@import "@/styles/stylesheet";
+
+.dialogOverlay {
+  position: fixed;
+  inset: 0;
+  height: calc(100% - env(keyboard-inset-height));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $blackLighter;
+  animation-duration: 300ms;
+
+  // take line breaks into account (useful for translations)
+  white-space: pre-line;
+
+  &[data-state="open"] {
+    animation-name: overlayShow;
+  }
+
+  &[data-state="closed"] {
+    animation-name: overlayHide;
+  }
+}
+
+.drawerOverlay {
+  justify-content: right;
+}
+
+.dialogContent {
+  max-width: 95%;
+  max-height: 95%;
+  position: relative;
+  background-color: $white;
+  overflow-y: auto;
+  overflow-x: hidden;
+  animation-duration: 300ms;
+  padding: getSpacing(6) getSpacing(2) getSpacing(4);
+
+  @include isTabletOrDesktop {
+    padding: getSpacing(6);
+  }
+
+  &[data-state="open"] {
+    animation-name: contentShow;
+  }
+
+  &[data-state="closed"] {
+    animation-name: contentHide;
+  }
+}
+
+.contentDrawer {
+  max-width: unset;
+  max-height: unset;
+  height: 100%;
+
+  &[data-state="open"] {
+    animation-name: drawerContentShow;
+  }
+
+  &[data-state="closed"] {
+    animation-name: drawerContentHide;
+  }
+}
+
+.closeButton {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: getSpacing(2);
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+}
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes overlayHide {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes drawerContentShow {
+  from {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentHide {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+}
+
+@keyframes drawerContentHide {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+}

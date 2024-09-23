@@ -1,0 +1,181 @@
+@import "@/styles/stylesheet";
+
+.favpart1 {
+  text-align: justify;
+  max-width: 1350px;
+  margin: getSpacing(10) auto;
+  @include isMobileOrTablet {
+    margin: auto;
+  }
+}
+
+.favpart1 .flex2 {
+  display: grid;
+  gap: getSpacing(5);
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: getSpacing(2) auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.blocimg {
+  background-color: $amberBottleContent;
+  text-transform: uppercase;
+  color: $antiqueWhite;
+  display: flex;
+  height: 33%;
+  justify-content: center;
+  align-items: center;
+  font-size: $fontSizeExtraExtraExtraLarge;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: getSpacing(5);
+  @include isMobileOrTablet {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0;
+  }
+}
+
+.div1 {
+  grid-area: 1 / 1 / 3 / 3;
+  font-size: $fontSizeExtraLarge;
+  text-transform: uppercase;
+  color: $antiqueWhite;
+  line-height: 0.9;
+  background: url("/1.jpg") no-repeat center;
+  background-size: cover;
+
+  @include isMobileOrTablet {
+    grid-area: auto;
+  }
+}
+
+.div2 {
+  grid-area: 1 / 3 / 2 / 4;
+  display: flex;
+  background: url("/2.jpg") no-repeat center;
+  background-size: cover;
+  @include isMobileOrTablet {
+    display: none;
+  }
+}
+
+.div3 {
+  grid-area: 2 / 3 / 3 / 4;
+  background: url("/3.jpg") no-repeat center;
+  background-size: cover;
+  @include isMobileOrTablet {
+    display: none;
+  }
+}
+
+.div4 {
+  grid-area: 1 / 4 / 3 / 5;
+  background: url("/4.jpg") no-repeat center;
+  background-size: cover;
+  @include isMobileOrTablet {
+    display: none;
+  }
+}
+
+.div5 {
+  grid-area: 1 / 5 / 3 / 6;
+  background: url("/5.jpg") no-repeat center;
+  background-size: cover;
+  @include isMobileOrTablet {
+    display: none;
+  }
+}
+
+.custom {
+  padding: getSpacing(15);
+  @include isMobileOrTablet {
+    padding: getSpacing(5);
+  }
+}
+
+.div1 .small1,
+.div1 .small2 {
+  font-size: $fontSizeMedium;
+}
+
+.href1 {
+  font-size: $fontSizeMediumSmall;
+  display: flex;
+  justify-content: center;
+  color: $amberBottleContent;
+  background-color: $antiqueWhite;
+  padding: getSpacing(2) 0;
+  max-width: 70%;
+  margin: auto;
+  width: 250px;
+}
+
+.href1:hover {
+  opacity: 0.8;
+}
+
+.bottlesImage {
+  max-width: inherit;
+}
+
+.paragraphe {
+  padding: getSpacing(10) getSpacing(20);
+  margin: getSpacing(10) getSpacing(30);
+  border: 1px solid rgb(0 0 0 / 10%);
+  @include isMobileOrTablet {
+    padding: getSpacing(2);
+    border: none;
+    margin: getSpacing(5);
+  }
+}
+
+.divcustom {
+  display: grid;
+  grid-template-columns: 1fr 75%;
+  gap: getSpacing(10);
+  align-items: center;
+  @include isMobileOrTablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.icons {
+  font-size: $fontSizeLarge;
+  color: $goldenLighter;
+}
+
+.h2 {
+  text-align: right;
+  color: $goldenLighter;
+  font-weight: normal;
+  font-size: $fontSizeMedium;
+  @include isMobileOrTablet {
+    text-align: center;
+  }
+}
+
+.flex4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: getSpacing(2);
+  @include isMobileOrTablet {
+    align-items: center;
+  }
+}
+
+.paragraphe2 {
+  padding-left: getSpacing(10);
+  border-left: 1px solid $goldenLighter;
+}

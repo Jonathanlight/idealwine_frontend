@@ -1,0 +1,78 @@
+@import "@/styles/stylesheet";
+
+.backgroundVideo {
+  position: fixed;
+  left: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.contentViewport {
+  display: flex;
+  justify-content: center;
+  padding: getSpacing(5) getSpacing(2);
+
+  @include isTabletOrDesktop {
+    padding: getSpacing(10) getSpacing(5);
+  }
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $white;
+  backdrop-filter: blur(20px);
+  box-shadow: 4px 4px 30px #26201f;
+  padding: getSpacing(4);
+  max-width: 900px;
+  text-align: center;
+  gap: getSpacing(6);
+
+  @include isTabletOrDesktop {
+    padding: getSpacing(6);
+  }
+}
+
+.errorCode {
+  font-size: $fontSizeExtraExtraLarge;
+  font-weight: 300;
+}
+
+.errorTitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: $letterSpacingMedium;
+  font-size: $fontSizeLarge;
+}
+
+.errorText {
+  font-size: $fontSizeBase;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+.buttonsContainer {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  padding: getSpacing(4) 0;
+  flex-direction: column;
+  gap: getSpacing(4);
+  align-items: center;
+
+  @include isTabletOrDesktop {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+.button {
+  min-width: 150px;
+
+  @include isTabletOrDesktop {
+    max-width: 25%;
+  }
+}

@@ -1,0 +1,187 @@
+@import "@/styles/stylesheet";
+
+$fontSizeOldPriceEuro: 17px;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $greyLighter;
+  box-shadow: 0 0 20px rgb(0 0 0 / 4%);
+}
+
+.cardContainer {
+  padding: getSpacing(2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: getSpacing(2);
+  flex-grow: 1;
+}
+
+.soldoutBackground {
+  background-image: linear-gradient(
+    45deg,
+    #ffffff 25%,
+    #f5f4eb 25%,
+    #f5f4eb 50%,
+    #ffffff 50%,
+    #ffffff 75%,
+    #f5f4eb 75%,
+    #f5f4eb 100%
+  );
+  background-size: 28.28px 28.28px;
+}
+
+.soldoutElement {
+  opacity: 0.3;
+}
+
+.productCardHeader {
+  background-color: $antiqueWhite;
+  padding: 0 getSpacing(1);
+  text-align: center;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.overTimeBidding {
+    background-color: $redDark;
+    color: $white;
+  }
+
+  &.soonExpired {
+    color: $redDark;
+  }
+
+  &.emptyCardHeader {
+    background-color: $white;
+  }
+
+  &.lotDiscountCardHeader {
+    background-color: $golden;
+    color: $white;
+  }
+}
+
+.discountCents {
+  font-size: $fontSizeSmall;
+  vertical-align: top;
+}
+
+.cardTopPart {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(1);
+  flex-grow: 1;
+}
+
+.sellingTitle {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+
+.specialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: getSpacing(2);
+  margin-top: getSpacing(2);
+  height: 20px;
+}
+
+.bioIcon {
+  color: $greenBio;
+}
+
+.bioIcon,
+.naturalIcon,
+.tripleAIcon {
+  // to be ISO with fontawesome icons
+  cursor: default;
+  width: 20px;
+  height: 20px;
+}
+
+.headerSellingIcon {
+  color: $redDark;
+}
+
+.bottleImage {
+  align-self: center;
+  object-fit: contain;
+}
+
+html .linkToProduct {
+  text-decoration: none;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(1);
+}
+
+.bottleDescription {
+  display: flex;
+  flex-direction: column;
+  font-size: $fontSizeMediumSmall;
+  font-weight: normal;
+}
+
+.cardBottomPart {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottleRelevantFeatures {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: getSpacing(1);
+  margin-bottom: getSpacing(1);
+}
+
+.productCardMetadata {
+  font-size: $fontSizeSmaller;
+  letter-spacing: 1px;
+  color: $greyDark;
+}
+
+.price {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  column-gap: getSpacing(2);
+}
+
+.discountPrice {
+  color: $redDiscount;
+}
+
+.oldPrice {
+  text-decoration: line-through $black 2px;
+  font-size: $fontSizeMedium;
+  padding-left: getSpacing(2);
+}
+
+.oldPriceEuro {
+  vertical-align: text-top;
+  font-size: $fontSizeOldPriceEuro;
+}
+
+.currency {
+  font-size: $fontSizeMedium;
+  align-self: flex-start;
+}
+
+.priceDescription {
+  font-size: $fontSizeSmall;
+}
+
+.vintageContainer {
+  border: 1px solid $black;
+  font-size: $fontSizeSmall;
+  border-radius: 20px;
+  padding: 0 getSpacing(1);
+}

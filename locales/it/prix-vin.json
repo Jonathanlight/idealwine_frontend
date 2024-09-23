@@ -1,0 +1,156 @@
+{
+  "index": {
+    "title": "L’indice\t",
+    "subtitle": "Cerca la quotazione di un vino inserendo il nome del produttore o di una cuvée",
+    "idealwine": "iDealwine",
+    "searchPlaceholder": "Inserisci il nome di un vino, di un produttore…",
+    "unfindableVintageRating": {
+      "cantFindARating": "Non trovi l'indice di un vino? ",
+      "mail": {
+        "subject": "Richiesta di stima",
+        "linkText": "Contattaci"
+      }
+    },
+    "whyIsIdwsRatingGood": {
+      "title": "Perché l'Indice iDealwine® riflette il vero valore di un vino?",
+      "text1": "<strong>L'Indice iDealwine®</strong>, creato a partire dalla nascita di iDealwine nel 2000, è uno strumento essenziale per poter scoprire e monitorare <strong>il valore reale di un vino nel corso del tempo</strong>.",
+      "text2": "Questo indice si basa su un eccezionale archivio di oltre  <strong>3 milioni di risultati di vendite all'asta, registrati a partire dal 1992</strong>.",
+      "text3": "Aggiornato ogni settimana in funzione dei risultati delle aste, l'Indice iDealwine® include l'importo delle commissioni di acquisto applicate in occasione di una vendita all'asta. L'acquirente è così in grado di calcolare in modo realistico il prezzo che dovrà pagare per procurarsi un determinato vino.\nDal canto suo, il venditore potrà invece ottenere una stima sul valore del suo vino.",
+      "text4": "Questo indice è calcolato in funzione di un algoritmo sviluppato da iDealwine nel 2000. A differenza delle medie di prezzo diffuse dagli strumenti di comparazione, che aggregano i prezzi “da catalogo\" dei vini proposti in commercio, l'<strong>Indice iDealwine®</strong> calcola un determinato prezzo sulla base delle transazioni effettivamente avvenute nelle vendite di vini all'asta.",
+      "text5": "Questo <strong>affidabile strumento di calcolo</strong>, a cui ricorrono quasi 500.000 appassionati di vino, è utilizzato anche da numerose riviste (e non solo!), come La Revue du vin de France, la guida Bettane+Desseauve, la rivista Drinks Business, il podcast Intégrale Placement trasmesso sul sito di attualità BFM, il sito Boursorama…"
+    }
+  },
+  "searchPlaceholder": "Cerca un'altra quotazione",
+  "top50mostExpensiveWines": {
+    "title": "Top 50 dei vini più costosi",
+    "subtitle1": "Aggiudicati su i",
+    "subtitle2": "Deal",
+    "subtitle3": "wine nel",
+    "underTitle": "Top 50 bottiglie più costose aggiudicate su iDealwine nel"
+  },
+  "searchRating": "Ricerca indice",
+  "rankingYear": "classifica per il {{year}}",
+  "mostExpensiveWinesIn": "I vini più costosi aggiudicati nel {{year}}",
+  "mainTitle": "<strong>{{productName}} {{vintageYear}}</strong>",
+  "colorTitle": "({{color}})",
+  "winesRankedBy": "Classifica per indice - {{region}} {{year}}",
+  "subtitle": "Prezzo medio proposto ai privati + IVA, tariffa corrispondente al formato bottiglia. Evoluzione dell'indice (formato: bottiglia) © iDealwine.com S.A. - (quotazione/annata)",
+  "currentRatingTitle": "Quotazione attuale",
+  "currentRatingSubtitle": "(formato 75cl)",
+  "sameEstateRatingVintageTitle1": "Altri indici per i vini della",
+  "sameEstateRatingVintageTitle2": "tenuta",
+  "buyThisWine": "<strong>Acquista</strong> questo vino",
+  "winesOfTheEstate": "<strong>Vini</strong> della tenuta",
+  "buy": "<strong>Acquista</strong>",
+  "sellThisWine": "<strong>Vendi</strong> questo vino",
+  "currentYearRating": "Quotazione attuale dell’annata {{year}}",
+  "minAdjudication": "Aggiudicazione più bassa \n(ultimi 12 mesi)",
+  "maxAdjudication": "Aggiudicazione più alta \n(ultimi 12 mesi)",
+  "lastAdjudications": "Ultime aggiudicazioni dell’annata {{year}} ({{currencyLogo}})",
+  "auctionHistory": "Storico delle aggiudicazioni: {{productName}} {{year}}",
+  "doYouHaveOneToSell": "Possiedi un vino identico? ",
+  "sellIt": "Mettilo all’asta!",
+  "noVintageYear": "----",
+  "bottleImage": "Etichetta",
+  "backgroundBottleImage": "Immagine dell’etichetta",
+  "seo": {
+    "title": "Indice {{name}} {{year}} {{region}} {{color}}",
+    "description": "Indice {{name}} {{color}} {{vintage}} {{appellation}} {{regionInDescription}}. Indice, informazioni e note di degustazione",
+    "vintage": ", annata {{year}}",
+    "appellation": ", {{appellation}}",
+    "regionInDescription": ", {{region}}"
+  },
+  "indexSeo": {
+    "title": "L'Indice iDealwine® | Punto di riferimento per la valutazione dei Grand Cru e vini pregiati",
+    "description": "iDealwine è il sito di riferimento per l'acquisto, la vendita e la valutazione di Grand Cru e vini pregiati - Trova facilmente la quotazione di un vino con il nostro database gratuito - Storico, statistiche, analisi e performance dei fine wines per ogni annata."
+  },
+  "ratingsVariation": "Variazione dell'indice per l’annata {{year}}",
+  "years": {
+    "1": "{{count}} anno",
+    "other": "{{count}} anni"
+  },
+  "winePerformanceAndAnalysis": "Analisi e performance -",
+  "price": "Prezzo",
+  "percentage": "Percentuale",
+  "alertsCounter": {
+    "0": "Non ci sono ancora notifiche attive per questo vino",
+    "1": "{{count}} appassionato",
+    "other": "{{count}} appassionati"
+  },
+  "alertImage": "I vini più monitorati",
+  "alertsCounterSubtitle": "ha/hanno creato una notifica per essere informato/i sulla disponibilità di questo vino",
+  "createNewAlert": "Crea una notifica",
+  "addToMyCellar": "Aggiungi alla tua cantina",
+  "createAnAlert": "Crea una notifica",
+  "theDetailedCharacteristics": "Caratteristiche specifiche",
+  "theRatingInDetails": "L'indice in dettaglio",
+  "theRatingInDetailsOfTheWine": "La quotazione del vino in dettaglio:",
+  "theVintageNotes": "Le valutazioni dell'annata",
+  "analysisAndPerformance": "Analisi e performance",
+  "currentTrendTitle": "Variazione dell'indice rispetto al prezzo En Primeur",
+  "primeurPrice": "Prezzo En Primeur {{year}}",
+  "variationCurrentRatingPrimeurPrice": "Variazione indice attuale/prezzo En Primeur",
+  "variationPrimeurPriceNPrimeurPriceNMinus1": "Variazione prezzo En Primeur annata {{year}}/{{pastYear}}",
+  "historicPrimeurPrice": "Storico delle variazioni dell'indice rispetto al prezzo En Primeur ({{currencyLogo}})",
+  "primeurPriceTrend": "Andamento della quotazione in tempo reale",
+  "primeurPriceTrendUp": "Valore in aumento per l'annata {{vintageYear}} nel {{thisYear}} rispetto al {{lastYear}}",
+  "primeurPriceTrendDown": "Tendenza al ribasso per il valore dell'annata {{vintageYear}} nel {{thisYear}} rispetto al {{lastYear}}",
+  "productInformation": "<strong>{{productName}}</strong><br /> Informazioni sulla tenuta e sulla cuvée",
+  "youHaveASimilarWine": "Possiedi lo stesso vino?",
+  "estateAndVintageCharacteristics": "<strong>Informazioni</strong> aggiuntive",
+  "disclaimer": "Le informazioni pubblicate qui sopra si riferiscono alle caratteristiche attuali del vino in questione.\nNon sono specifiche dell'annata.\nAttenzione, questo testo è tutelato dai diritti d'autore. È vietato copiarlo senza previo consenso da parte dell'autore.",
+  "aboutEstate": "Informazioni sulla tenuta",
+  "aboutProduct": "Informazioni sulla cuvée",
+  "onSale": "<strong>{{productName}} in vendita</strong>",
+  "furtherInformation": "Informazioni supplementari per <strong>{{productName}}</strong>",
+  "tastingNotesAndComments": "Premi, punteggi della critica e commenti di degustazione",
+  "vintageQuality": "Valutazione dell’annata {{vintageYear}}",
+  "expertAssessment": "Commento degustazione",
+  "sagaRating": "{{sagaRating}}/20",
+  "selectSomething": "Scegli un'opzione",
+  "loginPanel": {
+    "title": "Accesso gratuito e illimitato alle statistiche e indici di oltre 126.000 vini",
+    "button": "Consulta l'indice di questo vino"
+  },
+  "consultEstateRatings": "Consulta tutti gli indici per questa tenuta",
+  "estateRatings": "<strong>Tutti gli indici per:</strong> {{estateName}}",
+  "ofRegion": " per la regione {{region}}",
+  "ofVintage": " nell’annata {{vintageYear}}",
+  "yearSelect": {
+    "noYear": "Tutte le annate",
+    "adjudicatedAllYears": "Anno"
+  },
+  "vintageYear": "Annata",
+  "ratingRanking": {
+    "title": "Indice iDealwine",
+    "subtitle": "Top 50 dei vini più ricercati per regione"
+  },
+  "adjudicated": {
+    "title": "Aggiudicati su iDealwine!",
+    "subtitle": "Top 50 dei vini più costosi"
+  },
+  "wineRanking": "Classifica dei vini",
+  "byIdealWineRating1": "in base all'indice i",
+  "byIdealWineRating2": "Deal",
+  "byIdealWineRating3": "wine®",
+  "goToRatingPage": "Visualizza l'indice di questo vino nel dettaglio: {{productName}} {{vintageYear}}",
+  "topIDWbyRating": "Top 50 dei vini più ricercati per regione",
+  "region": "Regione",
+  "vintage": "annata",
+  "by": "di",
+  "mostExpensiveWine": {
+    "title": "NB: Il prezzo indicato è comprensivo dell'aliquota IVA in vigore nel Paese dell'acquirente finale.",
+    "underTitle": "Nome del vino | Annata (data della vendita) | Prezzo IVA incl."
+  },
+  "topIdealwineByRating": "Top 50 dei vini più ricercati per regione",
+  "regionSelect": {
+    "ALSACE": "Alsazia",
+    "BEAUJOLAIS": "Beaujolais",
+    "BORDEAUX": "Bordeaux",
+    "BOURGOGNE": "Borgogna",
+    "CHAMPAGNE": "Champagne",
+    "VALLEE_DE_LA_LOIRE": "Valle della Loira",
+    "VALLEE_DU_RHONE": "Valle del Rodano",
+    "noRegion": "Tutte le regioni"
+  }
+}

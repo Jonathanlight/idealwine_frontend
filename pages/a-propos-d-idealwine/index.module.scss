@@ -1,0 +1,286 @@
+/* stylelint-disable scale-unlimited/declaration-strict-value */
+@import "@/styles/stylesheet";
+
+.pageContainer {
+  padding: 0 getSpacing(10);
+  @include isMobileOrTablet {
+    padding: 0 getSpacing(5);
+  }
+}
+
+.videoBg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  @include isMobileOrTablet {
+    display: none;
+  }
+}
+
+.wrapper {
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(20);
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  @include isMobileOrTablet {
+    gap: getSpacing(5);
+    padding-bottom: getSpacing(2);
+    margin-bottom: getSpacing(2);
+  }
+}
+
+.flex {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: getSpacing(10);
+  @include isMobileOrTablet {
+    flex-direction: column;
+  }
+}
+
+.bw {
+  filter: grayscale(100%);
+}
+
+.sepia {
+  filter: sepia(1);
+}
+
+.team {
+  display: grid;
+  grid-template-columns: 1fr 75%;
+  text-align: justify;
+  gap: getSpacing(8);
+  @include isMobileOrTablet {
+    flex-direction: row;
+    grid-template-columns: 1fr;
+  }
+}
+
+.imgteam {
+  position: relative;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+  list-style-type: decimal;
+  color: $golden;
+  padding: getSpacing(4);
+  @include isMobileOrTablet {
+    display: block;
+  }
+}
+
+.h1 {
+  font-weight: 500;
+  font-size: $fontSizeExtraExtraLarge;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 1;
+  @include isMobileOrTablet {
+    font-size: $fontSizeLarge;
+    text-align: center;
+    padding: getSpacing(5);
+    padding-bottom: 0;
+  }
+}
+
+.h2 {
+  font-size: $fontSizeMedium;
+  font-weight: normal;
+  @include isMobileOrTablet {
+    text-align: center;
+    padding: getSpacing(5);
+  }
+}
+
+.goldspace {
+  background-color: #36302b;
+  padding: getSpacing(10);
+  color: $goldenLightest;
+  font-weight: normal;
+}
+
+.banner {
+  padding: getSpacing(10);
+  border: 1px solid #cccccc;
+  display: flex;
+  gap: getSpacing(5);
+  align-items: center;
+  text-align: justify;
+  @include isMobileOrTablet {
+    flex-direction: column;
+  }
+}
+
+.banner2 {
+  padding: getSpacing(10);
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.video {
+  max-width: 70%;
+  margin: auto;
+  background: $white;
+
+  @include isMobileOrTablet {
+    max-width: inherit;
+  }
+}
+
+.title {
+  text-align: left;
+}
+
+.gridx3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: getSpacing(10);
+  @include isMobileOrTablet {
+    grid-template-columns: 1fr;
+    gap: getSpacing(2);
+  }
+}
+
+.cite {
+  font-size: $fontSizeMedium;
+  color: $goldenDarker;
+  font-weight: 300;
+  padding: getSpacing(5);
+  text-align: center;
+}
+
+.strong {
+  font-size: $fontSizeLarge;
+  font-weight: normal;
+  margin-bottom: getSpacing(2);
+  display: block;
+}
+
+.grid {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: getSpacing(10);
+  @include isMobileOrTablet {
+    grid-template-columns: 1fr;
+    gap: getSpacing(2);
+  }
+}
+
+.absolute {
+  width: 100%;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.banner2 .sepia {
+  border: 1px solid $golden;
+}
+
+.h3 {
+  text-align: center;
+}
+
+.gold {
+  color: $golden;
+  font-weight: 300;
+  font-size: $fontSizeLarge;
+  padding-bottom: getSpacing(4);
+}
+
+.bglarge {
+  background: url("/team.jpg");
+  background-size: cover;
+  padding: getSpacing(20) getSpacing(10);
+  @include isMobileOrTablet {
+    background-position: center center;
+    background-size: auto;
+    padding: getSpacing(5);
+  }
+}
+
+.imgBlock {
+  position: relative;
+  border-radius: getSpacing(1);
+  cursor: pointer;
+  min-height: 230px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include isMobile {
+    min-height: 190px;
+  }
+}
+
+.imgTeam {
+  max-width: inherit;
+}
+
+.teamgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: getSpacing(4);
+  background-color: $greyDropdown;
+  padding: getSpacing(5);
+  @include isMobile {
+    background-color: $white;
+    grid-gap: getSpacing(2);
+    grid-template-columns: auto;
+    padding: 0;
+  }
+  @include isTablet {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.item {
+  border-radius: getSpacing(1);
+  padding: getSpacing(1) getSpacing(3);
+  background-color: $goldenLighter;
+  color: $white;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: $fontSizeSmall;
+  bottom: getSpacing(1);
+  left: getSpacing(1);
+}
+
+.position {
+  position: absolute;
+  z-index: 1;
+  max-width: inherit;
+  @include isMobile {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+}
+
+.full {
+  color: transparent;
+  display: block;
+  max-width: 90%;
+  height: auto;
+}

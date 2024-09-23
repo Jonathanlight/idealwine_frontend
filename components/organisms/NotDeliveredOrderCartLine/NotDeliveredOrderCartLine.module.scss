@@ -1,0 +1,78 @@
+@import "@/styles/stylesheet";
+
+.selectBoxContainer {
+  display: flex;
+  flex-direction: column;
+  padding: getSpacing(2);
+  gap: getSpacing(2);
+  width: 100%;
+  background-color: rgb(217 217 217 / 25%);
+  border: 1px $greyDropdown solid;
+  border-radius: 2px;
+  @include isMobile {
+    padding: getSpacing(2);
+  }
+}
+
+.selectBoxHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerPart {
+  display: flex;
+  flex-direction: row;
+  gap: getSpacing(2);
+  align-items: center;
+  font-weight: 300;
+}
+
+.headerPartTitle {
+  font-size: $fontSizeBase;
+  font-weight: 500;
+}
+
+.clockIcon {
+  align-self: center;
+  margin-right: getSpacing(5);
+}
+
+.selectBoxContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+  flex-grow: 1;
+  padding: getSpacing(1) 0;
+  justify-content: space-evenly;
+}
+
+.selectBoxText {
+  color: $greyDarker;
+}
+
+.variantInfoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.priceDisplay {
+  align-self: center;
+}
+
+.paidStatus {
+  color: $green;
+  text-transform: uppercase;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.storageFeeDisplay {
+  color: $red;
+  font-size: $fontSizeSmall;
+  align-self: center;
+}

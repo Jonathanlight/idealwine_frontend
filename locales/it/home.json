@@ -1,0 +1,23 @@
+{
+  "initialDescription": "Il sito di riferimento per l’acquisto e la vendita di vini pregiati. Larga selezione di Grand Cru e vecchie annate disponibili all'asta o a prezzo fisso. Indici sui vini e valutazioni gratuite.",
+  "lastOrdersTitle": "Le aste e gli acquisti più recenti",
+  "auction": "asta",
+  "directPurchase": "Prezzo fisso",
+  "sliderAuctionTitle": "Aste in corso",
+  "sliderDirectPurchaseTitle": "Prezzo fisso",
+  "seeMore": "Scopri di più ",
+  "newReleasesTitle": "Tutte le new entry della settimana",
+  "seeMoreNewReleases": "new entry",
+  "ratingsSearchTitle": "L'indice iDealwine\nTrova rapidamente il valore di un vino...",
+  "ratingsSearchPlaceholder": "Inserisci il nome di un vino, di un produttore…",
+  "regionEnum": {
+    "bordeaux": "Bordeaux",
+    "bourgogne": "Borgogna",
+    "rhone": "Rodano",
+    "autre": "Altre regioni"
+  },
+  "seo": {
+    "title": "iDealwine - Il sito dove acquistare, vendere e far valutare i tuoi vini",
+    "description": "Il sito di riferimento per l’acquisto e la vendita di vini pregiati. Larga selezione di Grand Cru e vecchie annate disponibili all'asta o a prezzo fisso. Indici sui vini e valutazioni gratuite."
+  }
+}

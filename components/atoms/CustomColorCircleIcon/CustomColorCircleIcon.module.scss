@@ -1,0 +1,101 @@
+@import "@/styles/stylesheet";
+
+@mixin circleIcon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: $white;
+
+  &.small {
+    height: 12px;
+    width: 12px;
+    min-width: 12px;
+    font-size: $fontSizeSmaller;
+  }
+
+  &.medium {
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    font-size: $fontSizeMedium;
+  }
+}
+
+.redVariant {
+  @include circleIcon;
+
+  background-color: $wineColorRed;
+}
+
+.whiteVariant {
+  @include circleIcon;
+
+  background-color: $wineColorWhite;
+}
+
+.pinkVariant {
+  @include circleIcon;
+
+  background-color: $wineColorRose;
+}
+
+.orangeVariant {
+  @include circleIcon;
+
+  background-color: $wineColorOrange;
+}
+
+.greenVariant {
+  @include circleIcon;
+
+  background-color: $wineColorGreen;
+}
+
+.amberVariant {
+  @include circleIcon;
+
+  background-color: $wineColorAmber;
+}
+
+.yellowVariant {
+  @include circleIcon;
+
+  background-color: $wineColorYellow;
+}
+
+.liquorousWhiteVariant {
+  @include circleIcon;
+
+  background-color: $wineColorLiquorousWhite;
+}
+
+.unknownVariant {
+  @include circleIcon;
+
+  background-color: $wineColorUnknown;
+}
+
+.redWhiteVariant {
+  @include circleIcon;
+
+  background: linear-gradient(
+    to right,
+    $wineColorRed 0%,
+    $wineColorRed 50%,
+    $wineColorWhite 50%,
+    $wineColorWhite 100%
+  );
+}
+
+.amberWhiteVariant {
+  @include circleIcon;
+
+  background: linear-gradient(
+    to right,
+    $wineColorAmber 0%,
+    $wineColorAmber 50%,
+    $wineColorWhite 50%,
+    $wineColorWhite 100%
+  );
+}

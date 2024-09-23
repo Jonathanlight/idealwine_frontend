@@ -1,0 +1,63 @@
+@import "@/styles/stylesheet";
+
+.bigCard {
+  padding: getSpacing(4);
+  background-color: $white;
+  width: 100%;
+}
+
+.twoInputs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: getSpacing(2);
+  margin-top: getSpacing(2);
+}
+
+.input {
+  margin-top: getSpacing(2);
+}
+
+.singleSelect {
+  margin-top: getSpacing(2);
+}
+
+.billingAddressFormTitle {
+  display: flex;
+  align-items: center;
+  font-size: $fontSizeSmall;
+  font-weight: bold;
+  padding-top: getSpacing(2);
+  gap: getSpacing(5);
+}
+
+.professionalBoxTitle {
+  display: flex;
+  align-items: baseline;
+  gap: getSpacing(5);
+  margin-top: getSpacing(2);
+  margin-bottom: getSpacing(2);
+}
+
+.professionalBox {
+  margin-bottom: getSpacing(18);
+}
+
+.errorMessage {
+  color: $red;
+  margin-top: getSpacing(2);
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.validVatNumber {
+  color: $green;
+  font-size: $fontSizeSmall;
+}
+
+.invalidVatNumber {
+  color: $orange;
+  font-size: $fontSizeSmall;
+}

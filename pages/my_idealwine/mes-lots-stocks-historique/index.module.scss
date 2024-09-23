@@ -1,0 +1,39 @@
+@import "@/styles/stylesheet";
+
+.page {
+  @include mainContainerPadding;
+}
+
+.pageBlock {
+  margin-top: getSpacing(5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search {
+  width: 20%;
+  @include isMobile {
+    width: 80%;
+  }
+  @include isTablet {
+    width: 50%;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-style: arial;
+  background-color: $white;
+  gap: getSpacing(5);
+  height: 250px;
+}
+
+.board {
+  width: 100%;
+}

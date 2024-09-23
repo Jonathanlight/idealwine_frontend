@@ -1,0 +1,69 @@
+@import "@/styles/stylesheet";
+
+%displayFlexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+%letterSpacing {
+  letter-spacing: 0.5px;
+}
+
+.mainContainer {
+  @extend %displayFlexColumn;
+
+  min-width: 185px;
+}
+
+.title {
+  @extend %letterSpacing;
+
+  font-size: $fontSizeBase;
+  color: $blueishGrey;
+}
+
+.listContainer {
+  @extend %displayFlexColumn;
+
+  gap: getSpacing(3);
+  padding-bottom: getSpacing(6);
+}
+
+.list {
+  @extend %displayFlexColumn;
+
+  gap: getSpacing(1);
+}
+
+.auctionOfTheMomentPanel {
+  flex-grow: 1;
+}
+
+.link {
+  @extend %letterSpacing;
+
+  text-decoration: none;
+}
+
+.link:visited,
+.link:active,
+.link:focus {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: $amberBottleContent;
+}
+
+.boldLink {
+  font-weight: bold;
+}
+
+.bioLink {
+  color: $greenBio;
+}
+
+.bioIcon {
+  display: inline;
+}

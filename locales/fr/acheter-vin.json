@@ -1,0 +1,441 @@
+{
+  "bio": "Bio",
+  "natural": "Natural",
+  "tripleA": "Triple A",
+  "soonAvailable": "Bientôt disponible",
+  "customsFeeIncluded": "droits et taxes appliqués inclus",
+  "insteadOf": "au lieu de",
+  "similarVariants": "Lots similaires",
+  "timeZoneName": "Paris",
+  "inYourTimeZone": "Dans votre fuseau horaire",
+  "availabilityAlert": {
+    "title": "Alerte disponibilité",
+    "added": "Alerte enregistrée",
+    "removed": "Alerte supprimée"
+  },
+  "remainingStocks": {
+    "singular": "Plus que {{remainingStocks}} lot disponible",
+    "plural": "Plus que {{remainingStocks}} lots disponibles"
+  },
+  "lotDiscount": "par {{bottleNumber}} | - {{discountPercentage}} %",
+  "loyaltyProgram": {
+    "NONE": "Les vendanges iDealwine",
+    "PRIVILEGE": "privilège",
+    "IDEAL": "club ideal",
+    "QUINTESSENCE": "quintessence",
+    "offer": "offert",
+    "cumulativeDiscount": "Avec cet achat cumulez {{discount}}% sur votre compte fidélité",
+    "onlyLoyaltyProgramUsersTitle": "offre fidélité",
+    "onlyLoyaltyProgramUsersDescription": "Obtenez des bons de réduction avec vos achats !"
+  },
+  "condition": {
+    "quantity": {
+      "1": "Quantité : {{count}} bouteille",
+      "other": "Quantité : {{count}} bouteilles"
+    },
+    "level": {
+      "1": "Niveau :",
+      "other": "Niveaux :"
+    },
+    "observation": {
+      "1": "Observation :",
+      "other": "Observations :"
+    }
+  },
+  "region": "Région :",
+  "appellation": "Appellation / Vin :",
+  "intensity": "intensité",
+  "directPurchaseName": "e-caviste",
+  "quintessence": "Quintessence",
+  "auctionName": "enchère",
+  "bottleQuantity": {
+    "0": "Lot vide",
+    "1": "Lot de {{count}} bouteille",
+    "other": "Lot de {{count}} bouteilles"
+  },
+  "shortDescriptionLink": "Plus d'infos",
+  "tabsLabel": "Informations sur la bouteille",
+  "tabs": {
+    "vintage": {
+      "title": {
+        "new": "La cuvée",
+        "secondHand": "Description du lot"
+      }
+    },
+    "advice": {
+      "title": "Dégustation et garde",
+      "temperature": "se sert à une temperature de {{temperature}}°C.",
+      "dishes": {
+        "1": "Ce vin s'accordera parfaitement avec le plat suivant :",
+        "other": "Ce vin s'accordera parfaitement avec les plats suivants :"
+      },
+      "sagaRating": "Note du millésime :"
+    }
+  },
+  "lotDiscountFirstLine": "-{{percentage}}% à partir de {{quantity}} bouteilles",
+  "lotDiscountSecondLinePartOne": "soit",
+  "lotDiscountSecondLinePartTwo": "l'unité",
+  "assessment": {
+    "expert": "Ce qu'en disent les experts...",
+    "idealWine": "L'avis d'IdealWine..."
+  },
+  "assurance": {
+    "new": "Une gamme de vins sélectionnée avec passion par nos experts",
+    "secondHand": {
+      "withoutExpert": "Contrôlé, expertisé & certifié par IdealWine",
+      "withExpert": "Contrôlé, expertisé & certifié par {{name}}, expert IdealWine"
+    }
+  },
+  "detailedInformation": {
+    "title": "Présentation du lot",
+    "variantSectionTitle": "La cuvée",
+    "estateSectionTitle": "Le domaine",
+    "estateExternalLink": "Pour en savoir plus, consulter <0>le site du domaine</0>.",
+    "characteristicsSectionTitle": "Caracteristiques détaillées",
+    "characteristics": {
+      "estate": "Domaine :",
+      "quantity": "Quantité :",
+      "origin": "Provenance :",
+      "storageType": "Type de cave :",
+      "VATRecoverable": "TVA récupérable :",
+      "hasOriginalWoodenCrate": "Caisse bois / Coffret d'origine :",
+      "CRD": "Capsule Représentative de Droit (CRD) :",
+      "alcoolProportion": "Pourcentage d'alcool :",
+      "region": "Région :",
+      "appellation": "Appellation :",
+      "classification": "Classement :",
+      "owner": "Propriétaire :",
+      "vintage": "Millésime :",
+      "color": "Couleur :",
+      "peak": "Apogée :",
+      "temperature": "Température de service :",
+      "biologicProfile": "Viticulture :",
+      "surface": "Superficie :",
+      "yield": "Production :",
+      "intensity": "Intensité du vin :",
+      "dominantAroma": "Arôme dominant du vin :",
+      "tastingOccasion": "Occasion de dégustation :",
+      "remark": "Remarque :",
+      "wineVarieties": "Encépagement :",
+      "wineDishPairings": "Accords mets-vins :",
+      "disgorgementYear": "Année de dégorgement",
+      "values": {
+        "surface": {
+          "1": "{{count}} hectare",
+          "other": "{{count}} hectares"
+        },
+        "yield": {
+          "1": "{{count}} bouteille",
+          "other": "{{count}} bouteilles"
+        },
+        "peak": {
+          "collection": "bouteille de collection",
+          "drinkNow": "à boire cette année",
+          "drinkIn": "à boire à en {{yearStart}}",
+          "drinkFromTo": "à boire à partir de {{yearStart}} et jusqu'en {{yearEnd}}",
+          "drinkFromNow": "à boire dès maintenant",
+          "drinkFromStart": "à boire dès {{yearStart}}",
+          "drinkUntil": "à boire jusqu'en {{yearEnd}}"
+        }
+      }
+    }
+  },
+  "direct-purchase": "E-caviste",
+  "signalVariantMailTo": {
+    "signalVariant": "Vous constatez une erreur sur ce lot ? ",
+    "signalVariantLink": "Signaler",
+    "mail": {
+      "subject": "Erreur lot : {{productVariantCode}} - {{productVariantName}}",
+      "body": "Bonjour, \n\n Je tenais à vous signaler une erreur sur ce lot : {{ productVariantURL }} \n\n [merci de préciser la nature du problème que vous avez repéré] \n\n Merci, bonne journée."
+    }
+  },
+  "enum": {
+    "classification": {
+      "AOP": "AOP",
+      "BORDEAUX": "Bordeaux",
+      "BRUT": "Brut",
+      "CINQUIEME_GRAND_CRU_CLASSE": "5ème grand cru classé",
+      "CINQUIEME_GRAND_CRU": "5ème grand cru",
+      "CRU_BOURGEOIS_EXCEPTIONNEL": "Cru bourgeois exceptionnel",
+      "CRU_BOURGEOIS": "Cru bourgeois",
+      "CRU_CLASSE_DE_GRAVES": "Cru classé de graves",
+      "CRU_CLASSE": "Cru classé",
+      "CRU_D_ALSACE": "Cru d'Alsace",
+      "CUVEE_DES_DAMES": "Cuvée des dames",
+      "DEUXIEME_GRAND_CRU_CLASSE": "2ème grand cru classé",
+      "DO": "DO",
+      "DOC": "DOC",
+      "DOCA": "DOCA",
+      "DOCG": "DOCG",
+      "DSC": "DSC",
+      "EXTRA_BRUT_BLANC_DE_BLANCS": "Extra brut blanc de blancs",
+      "GG": "GG",
+      "GRAND_CRU_CLASSE": "Grand cru classé",
+      "GRAND_CRU": "Grand cru",
+      "IGP": "IGP",
+      "IGT": "IGT",
+      "PREMIER_CRU_CLASSE_SUPERIEUR": "1er cru classé supérieur",
+      "PREMIER_CRU": "1er cru",
+      "PREMIER_GRAND_CRU_CLASSE_A": "1er grand cru classé A",
+      "PREMIER_GRAND_CRU_CLASSE_B_DEPUIS_2012": "1er grand cru classé B depuis 2012",
+      "PREMIER_GRAND_CRU_CLASSE_B": "1er grand cru classé B",
+      "PREMIER_GRAND_CRU_CLASSE": "1er grand cru classé",
+      "QUATRIEME_GRAND_CRU_CLASSE": "4ème grand cru classé",
+      "SECOND_VIN": "Second vin",
+      "TROISIEME_GRAND_CRU_CLASSE": "3ème grand cru classé",
+      "TROISIEME_VIN": "Troisième vin",
+      "VIN_DE_PAYS": "Vin de pays",
+      "VIN_DE_TABLE": "Vin de table",
+      "WO": "WO"
+    },
+    "origin": {
+      "ESTATE": "Domaine",
+      "INDIVIDUAL": "Particulier",
+      "PROFESSIONAL": "Professionel",
+      "OTHER": "Autre",
+      "FAMILY_CELLAR": "Cave familiale",
+      "WINE_MERCHANT": "Caviste",
+      "IDEALWINE_LOT": "Lot appartenant à iDealwine",
+      "STARRED_PROFESSIONAL": "Professionnel étoilé",
+      "AUCTIONS": "Vente aux enchères"
+    },
+    "storageType": {
+      "WINE_CABINET": "Armoire climatisée",
+      "OTHER": "Autre",
+      "AIR_CONDITIONED_UNDERGROUND_CELLAR": "Cave climatisée",
+      "IDEALWINE_STORAGE_CELLAR": "Cave de stockage iDealWine",
+      "CLASSIC_UNDERGROUND_CELLAR": "Cave naturelle enterrée",
+      "DEDICATED_RENTAL_STORAGE": "Location d'un emplacement de stockage dédié au vin",
+      "SPECIALIZED_STORAGE": "Stockage spécialisé"
+    },
+    "priceType": {
+      "PRIX_SPECIAL": "prix spécial",
+      "PRIX_PROPRIETE": "prix propriété"
+    },
+    "productionUnit": {
+      "BOUTEILLE": {
+        "1": "{{count}} bouteille",
+        "other": "{{count}} bouteilles"
+      },
+      "BOUTEILLES_CUVEE": {
+        "1": "{{count}} bouteille (cuvée)",
+        "other": "{{count}} bouteilles (cuvée)"
+      },
+      "DOMAINE": {
+        "1": "{{count}} domaine",
+        "other": "{{count}} domaines"
+      },
+      "HECTARE": {
+        "1": "{{count}} hectare",
+        "other": "{{count}} hectares"
+      },
+      "HECTOLITRE": {
+        "1": "{{count}} hectolitre",
+        "other": "{{count}} hectolitres"
+      },
+      "MAGNUM": {
+        "1": "{{count}} magnum",
+        "other": "{{count}} magnums"
+      },
+      "UNKNOWN": "{{count}}"
+    }
+  },
+  "addToBasket": "Ajouter au panier",
+  "allStockAddedToBasket": "Vous avez atteint la limite pour ce lot",
+  "identicalWinesOnSale": "Vins identiques en vente",
+  "unitPrice": "prix à l'unité",
+  "estimatedDelivery": "En stock, livraison estimée entre le {{dateMin}} et le {{dateMax}}",
+  "additionalDeliveryFees": "L'expédition de ce format peut faire l'objet de frais supplémentaires.",
+  "deliveryDelayDialog": {
+    "title": "délai de livraison",
+    "content": "Livraison standard estimée entre le {{dateMin}} et le {{dateMax}}. Livraison express estimée entre le {{dateExpressMin}} et le {{dateExpressMax}}. Les dates de livraison estimées sont calculées pour une livraison par Colissimo pour une livraison standard et par Chronopost pour une livraison express, en France métropolitaine. Elles dépendent de la date de l’enregistrement du paiement de la commande. Elles peuvent être modifiées si la commande est mise en attente en vue d’un regroupement. Ces délais peuvent également varier durant les périodes de pointe, ou en fonction des contraintes de livraison par le transporteur sur le lieu où habite le client."
+  },
+  "alert": {
+    "title": "Lot placé sous surveillance",
+    "content": "Vous recevrez une alerte email 45 minutes avant la fin de vente. Pour gérer vos lots surveillés et programmer les horaires de vos alertes, cliquez <0>ici</0>"
+  },
+  "sold": "Vendu",
+  "lot": "Lot de",
+  "auction": {
+    "bid": "Enchérir",
+    "userSellerInformation": "Vous ne pouvez pas enchérir car vous êtes le vendeur de ce lot.",
+    "userWinningInformation": "Votre enchère est actuellement gagnante",
+    "userWinningDesktopInformation": ", utilisez l’enchère automatique si vous souhaitez augmenter le montant de votre enchère maximum",
+    "userWinningThreshold": "Vous avez placé une enchère automatique à",
+    "thresholdBid": "enchère automatique",
+    "numberOfBids": {
+      "0": "{{count}} enchère",
+      "1": "{{count}} enchère",
+      "other": "{{count}} enchères"
+    },
+    "showHistory": "voir l'historique",
+    "withCommission": "commission incluse",
+    "live": "live",
+    "reserveBid": "Mise à prix: ",
+    "averageEstimate": "Estimation: "
+  },
+  "oneLot": "1 lot",
+  "lots": "Lots",
+
+  "lotsDropbox": {
+    "lots": {
+      "1": "1 lot",
+      "other": "{{count}} lots"
+    }
+  },
+  "authenticateWithNFC": "Authenticate with NFC",
+  "winedexUrl": "www.wineDex.io",
+  "stockWarning": "c'est le dernier !",
+  "confirmation_cart_dialog": {
+    "title": "confirmation panier",
+    "description": {
+      "0": "Nous n'avons pas pu rajouter ce vin à votre panier.",
+      "1": "Vous avez ajouté {{count}} lot de <0>{{wineName}}</0>",
+      "other": "Vous avez ajouté {{count}} lots de <0>{{wineName}}</0>"
+    },
+    "limitedQuantityWarning": "Vous avez dépassé la quantité maximale d'achat pour ce lot !",
+    "seeBasket": "Vous pouvez consulter votre panier dans",
+    "yourAccount": "votre compte",
+    "note": "NB: les lots ajoutés à votre panier vous sont réservés pour une durée de 1 heure. Au-delà, ils seront à nouveau proposés aux autres clients.",
+    "button1": "continuer mes achats",
+    "button2": "voir mon panier"
+  },
+  "auction_countdown": {
+    "remainingDays": "Il reste {{remainingDays}}",
+    "remainingDaysAndHours": "Il reste {{remainingDays}} {{remainingHours}}",
+    "remainingHoursAndMinutes": "Il reste {{remainingHours}} {{remainingMinutes}}",
+    "remainingMinutesAndSeconds": "Il reste {{remainingMinutes}} {{remainingSeconds}}",
+    "remainingSeconds": "Il reste {{remainingSeconds}}",
+    "days": {
+      "0": "{{count}} jour",
+      "1": "{{count}} jour",
+      "other": "{{count}} jours"
+    },
+    "hours": {
+      "0": "{{count}} heure",
+      "1": "{{count}} heure",
+      "other": "{{count}} heures"
+    },
+    "minutes": {
+      "0": "{{count}} minute",
+      "1": "{{count}} minute",
+      "other": "{{count}} minutes"
+    },
+    "seconds": {
+      "0": "{{count}} seconde",
+      "1": "{{count}} seconde",
+      "other": "{{count}} secondes"
+    },
+    "endDate": "{{endDate}}",
+    "timeZone": "{{timeZone}}",
+    "auctionOver": "Vente terminée"
+  },
+  "finalizeInscription": "Finaliser mon inscription",
+  "returnToAuctions": "continuer mes enchères",
+  "auction_confirmation_dialog": {
+    "bid": {
+      "title": "ordre enregistré",
+      "confirmation": "Votre ordre a bien été enregistré.",
+      "description": "Vous recevrez dans quelques instants un e-mail de confirmation. Vous pouvez consulter vos ordres en cours dans votre compte."
+    },
+    "threshold": {
+      "title": "Enchère automatique enregistrée",
+      "confirmation": "Votre enchère automatique a bien été enregistrée.",
+      "description": "Ce prix maximum (non visible des autres enchérisseurs) ne sera atteint que si d'autres clients tentent d'enchérir au-delà de votre enchère. L'enchère augmentera automatiquement jusqu'au montant maximum que vous aurez défini, sans qu'il vous soit nécessaire de suivre vos enchères. Votre enchère automatique ne sera atteinte que si vous avez un concurrent sérieux qui est prêt à mettre au-delà."
+    }
+  },
+  "invalid_payment_method_dialog": {
+    "r6p7b6jb2": {
+      "title": "Votre ordre n’a pas pu être enregistré",
+      "description": "La carte bancaire que vous avez renseignée n'est pas valide et vous n'avez donc pas accès aux services d'enchères."
+    },
+    "xhjDlAo4D": {
+      "title": "Votre ordre n’a pas pu être enregistré",
+      "description": "Vous aviez choisi \"Virement bancaire\" lors de votre inscription mais n'avez pas envoyé les documents nécessaire à l'activation de votre compte et vous n'avez donc pas accès aux services d'enchères."
+    },
+    "eUnrn3LSx": {
+      "title": "Votre ordre n’a pas pu être enregistré",
+      "description": "Vous n'avez pas encore renseigné de moyen de paiement dans My iDealwine et n'avez donc pas accès aux services d'enchères."
+    }
+  },
+  "missing_default_address_dialog": {
+    "title": "Votre ordre n’a pas pu être enregistré",
+    "description": "Vous avez terminé votre inscription sans communiquer votre adresse de livraison et n'avez donc pas encore accès aux services d'enchères."
+  },
+  "auction_bid_surpassed_by_threshold_dialog": {
+    "title": "Votre ordre n'a pas pu être enregistré",
+    "description": "Votre enchère est insuffisante, un autre internaute a déjà placé une enchère maximum supérieure ou égale au montant de votre enchère. Si vous le souhaitez, vous pouvez surenchérir."
+  },
+  "auction_bid_history_dialog": {
+    "title": "historique des enchères",
+    "description": "L'affichage successif du même pseudo signifie qu'une tentative de surenchère de la part d'un autre enchérisseur s'est révélée infructueuse face au montant de l'enchère maximum fixé par l'enchérisseur initial.",
+    "learnMoreOnAuctions": "En savoir plus sur les enchères",
+    "bidder": "enchérisseurs",
+    "bidAmount": "montant de l'enchère",
+    "bidDate": "heure de l'enchère"
+  },
+  "total_amount_information_dialog": {
+    "title": "Estimation du coût de votre enchère",
+    "table": {
+      "nextBid": "Prochaine enchère",
+      "buyerFee": "Commission acheteur HT (21%)",
+      "VATOnBuyerFee": "TVA sur la commission (20%)",
+      "customDutiesFee": "Droits et taxes appliqués",
+      "allIncludedAmount": "Montant TTC"
+    },
+    "description": "I/ Je suis un professionnel européen (hors France et avec un numéro de TVA intracommunautaire valide): si TVA=oui => 20% de TVA sera déduit lors du paiement.\nII/ Je suis un client hors UE :\n• Si TVA=oui => 20% de TVA seront déduits du montant total lors du paiement\n• Si TVA=non => la TVA sur la commission sera supprimée lors du paiement\nIII/ Autres cas : pas de changement.",
+    "isVATrecoverable": "TVA récupérable: {{isVATrecoverable}}"
+  },
+  "auction_bid_threshold_dialog": {
+    "title": "ajustez\nvotre enchère maximum",
+    "confirmButton": "valider"
+  },
+  "outdated_bid_exception_dialog": {
+    "title": "Votre ordre n'a pas pu être enregistré ",
+    "description": "L'horaire de l'enchère est dépassée, vous n'avez plus la possibilité d'enchérir."
+  },
+  "sum_unpaid_orders_exception_dialog": {
+    "title": "Votre ordre n'a pas pu être enregistré ",
+    "description": "La somme totale de vos commandes non réglées est supérieure à la limite fixée par iDealwine."
+  },
+  "sum_ongoing_bids_exception_dialog": {
+    "title": "Votre ordre n'a pas pu être enregistré ",
+    "description": "Le montant cumulé de vos ordres encours gagnants est supérieur à la limite fixée par iDealwine.",
+    "contentLink": "Pour toute précision, vous pouvez contacter notre service client"
+  },
+  "overdue_unpaid_orders_exception_dialog": {
+    "title": "Votre ordre n'a pas pu être enregistré ",
+    "description": "Vous avez au moins une commande non réglée depuis plus de 7 jours ou un impayé. Pour en savoir plus sur les conditions de blocage de votre compte consultez les conditions générales ou",
+    "click_here": "cliquez ici."
+  },
+  "limitedQuantity": {
+    "1": "Quantité limitée à {{formatWithQuantity}}",
+    "other": "Quantité limitée à {{formatWithQuantity}}"
+  },
+  "seo": {
+    "nextseo": {
+      "title": "Acheter {{name}} (lot: {{code}})",
+      "description": "{{titleAndQuantity}}{{region}}. Lot {{code}}{{availableInSale}}, actuellement sur iDealwine.com.",
+      "availableInSale": ", disponible dans la vente {{auctionCatalogId}}",
+      "type": "Page produit"
+    },
+    "jsonld": {
+      "model": "bouteilles"
+    }
+  },
+  "ProductVintageRatingBlock": {
+    "title": "La cote iDealwine",
+    "chart": {
+      "subtitle": "La cote iDealwine<sup>(1)</sup> est issue des résultats de ventes aux enchères. Elle correspond au prix d’adjudication « au marteau », augmenté des frais acheteurs prélevés lors de la vente.",
+      "format": "(1)Format bouteille"
+    },
+    "text": {
+      "title": "Cote actuelle aux enchères<sup>(1)</sup>",
+      "latestAdjudications": "Les dernières adjudications",
+      "sameWine": "Vous possédez un vin identique",
+      "sellButtonLabel": "Vendez-le",
+      "annualHighest": "(plus haut annuel)",
+      "annualLowest": "(plus bas annuel)"
+    }
+  }
+}

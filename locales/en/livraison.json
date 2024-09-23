@@ -1,0 +1,44 @@
+{
+  "chooseShipping": "Choose your shipping method",
+  "disclaimer": "Be careful, this action is irreversible! If you want to delay your shipment, please select \"Put on hold”. To ensure quality, no orders will be shipped on Fridays.",
+  "ON_SITE": {
+    "title": "Click & Collect (France)"
+  },
+  "GROUPING": {
+    "title": "Postpone shipment / combine",
+    "explicativeText": "Once payment is complete, you can put your shipment on hold in order to combine it with other orders and ship at your convenience with optimised delivery fees. The first month of storage is complimentary, beginning on the date your order is made. Beyond this, storage fees will apply."
+  },
+  "STORAGE": {
+    "title": "Storage",
+    "notAllowed": "This option does not apply because you have not signed up to our long-term storage service.",
+    "learnMore": "For more information about iDealwine’s storage facilities,",
+    "clickHere": "click here.",
+    "allowed": "After payment, your order will be prepared and transferred to your iDeal storage facility."
+  },
+  "HOME_DELIVERY": {
+    "title": "Ship to your home or office"
+  },
+  "RELAY_POINT": {
+    "title": "Pick-up point",
+    "yourAddress": "Your address",
+    "validate": "Confirm",
+    "choseRelayPoint": "Select a pick-up point",
+    "distance": "Distance: {{distance}} m",
+    "jourSemaine1": "Monday",
+    "jourSemaine2": "Tuesday",
+    "jourSemaine3": "Wednesday",
+    "jourSemaine4": "Thursday",
+    "jourSemaine5": "Friday",
+    "jourSemaine6": "Saturday",
+    "jourSemaine7": "Sunday",
+    "noRelayPoint": "There is no pick-up point near your address Double-check the address and try again."
+  },
+  "giftMessageCheckboxLabel": "Personalise your order with a special message, we will print it and put it in your parcel.",
+  "giftMessageTextareaLabel": "Your Message:",
+  "giftMessageTextareaPlaceholder": "Type your message here",
+  "maxCharacters": "300 characters maximum",
+  "nonMatchingAdressesModal": {
+    "title": "Change delivery country",
+    "content": "Your delivery country has automatically been updated to correspond with the delivery address indicated in orders you wish to combine. Insure that your shipping country is correct before proceding."
+  }
+}

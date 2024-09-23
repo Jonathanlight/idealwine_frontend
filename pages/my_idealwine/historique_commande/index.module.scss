@@ -1,0 +1,14 @@
+@import "../index.module";
+
+.mainContainer {
+  padding: getSpacing(6) getSpacing(6) 0 getSpacing(6);
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: $fontSizeMediumLarge;
+  margin-bottom: getSpacing(4);
+}

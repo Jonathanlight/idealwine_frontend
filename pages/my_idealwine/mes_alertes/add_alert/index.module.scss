@@ -1,0 +1,43 @@
+@import "@/styles/stylesheet";
+
+.page {
+  padding: getSpacing(2);
+
+  @include isDesktop {
+    padding: getSpacing(10);
+  }
+
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(10);
+}
+
+.pageBlock {
+  background: $white url("/login-banner.png") 50% 50% repeat-x;
+  margin: getSpacing(5) 0 getSpacing(5);
+  padding: getSpacing(8) getSpacing(2);
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+  align-items: center;
+}
+
+.searchBlock {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  gap: 1rem;
+}
+
+.searchResultsList {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,47 @@
+@import "@/styles/stylesheet";
+
+%importantTextPlaceholder {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: getSpacing(1) 0;
+  padding-top: getSpacing(6);
+  padding-bottom: getSpacing(2);
+  padding-inline: getSpacing(5);
+}
+
+.lastYearAdjudicationsGaugeChartsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lastYearAdjudicationsGaugeChart {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  padding-top: getSpacing(4);
+  padding-bottom: getSpacing(4);
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  padding-bottom: getSpacing(4);
+}
+
+.blockTitle {
+  @extend %importantTextPlaceholder;
+}
+
+.priceContainer {
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  text-align: center;
+}
+
+.text {
+  font-size: $fontSizeTiny;
+}

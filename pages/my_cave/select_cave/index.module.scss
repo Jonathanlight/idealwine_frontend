@@ -1,0 +1,41 @@
+/* stylelint-disable selector-max-type */
+@import "@/styles/stylesheet";
+@import "https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400&display=swap";
+
+.gridwrappercave {
+  background: url("/img-bg-1.jpg") no-repeat $amberBottleContent;
+  min-height: getSpacing(150);
+  display: grid;
+  max-width: 84%;
+  margin: getSpacing(5) auto;
+  grid-template-columns: 1fr 1fr;
+  @include isMobileOrTablet {
+    display: block;
+  }
+}
+
+.gridwrappercave > div {
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(5);
+  margin: getSpacing(20);
+  padding: getSpacing(20);
+  justify-content: center;
+  text-align: center;
+  font-family: Cormorant, serif;
+  max-height: 550px;
+  @include isMobileOrTablet {
+    margin: auto;
+    padding: 0;
+  }
+}
+
+.gridwrappercave svg {
+  font-size: $fontSizeExtraLarge;
+  padding: getSpacing(1);
+}
+
+.gridwrappercave a {
+  padding: getSpacing(1.8) getSpacing(2);
+}

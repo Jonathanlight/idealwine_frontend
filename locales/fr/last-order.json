@@ -1,0 +1,14 @@
+{
+  "title": "Les derniers ordres & achats de <0>vin</0>",
+  "subtitle": "Ici, retrouvez les enchères et achats de <0>vin</0> les plus récents...",
+  "seeLot": "Voir le lot",
+  "netPrice": "Prix net",
+  "currentPrice": "Prix actuel",
+  "auctionTitle": "Enchère le {{triggerDate}} à {{triggerHour}}",
+  "directPurchaseTitle": "E-caviste le {{triggerDate}} à {{triggerHour}}",
+  "timeoutMessage": "Cette enchère est terminée",
+  "seo": {
+    "title": "Ordres d'enchère et achats de vin sur iDealwine",
+    "description": "Retrouvez Ici, les enchères et achats de vin les plus récent proposées par iDealwine"
+  }
+}

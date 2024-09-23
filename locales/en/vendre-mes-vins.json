@@ -1,0 +1,117 @@
+{
+  "h1": "GIVE YOUR WINE INTERNATIONAL EXPOSURE",
+  "h2": "iDealwine finds you the right buyers",
+  "meta": "Get the best price for your wines with iDealwine ★ A global leader in online wine auctions ★ 650,000 potential customers in more than ★ 65 countries!",
+  "title": "SELL YOUR WINE | iDealwine",
+  "h2-2": "HOW DO I SELL MY WINE ONLINE?",
+  "h3": "Sell your wine at the best price in 4 easy steps:",
+  "h3-1": "1. Send us your wine inventory",
+  "h3-1-p": "For <strong>selling your cellar</strong> at auction or through a <strong>outright repurchase</strong>, fill in the online <a href=\"{{freeEstimateFormUrl}}\"> <u>form</u></a> or send us your wine list by <rel=\"nofollow\" href=\"mailto:estimate@idealwine.com?subject=iDealwine Estimate Request&body=Hello,%0A%0AHere is the list of wines that I wish to estimate: %0AExample : %0A1 Bottle Petrus 2005 - Label: normal - Level: normal%0A...%0A%0AThank you\">email</a>. We'll send you the <strong>evaluation as soon as possible.</strong><br>For a long list (30+ wines), you can also use the attached <a rel=\"nofollow\" href=\"/iDealwine-SellMyWines.xlsx\"> Excel file<Image  style=\"display:inline;\" src=\"/Excel.png\" alt=\"vendre ses vins\" width={17} height={16} /> </a><br> and send it to us directly at <a rel=\"nofollow\" href=\"mailto:estimate@idealwine.com?subject=iDealwine estimate request form - Excel file&body=Hello,%0A%0APlease find attached the list of wines that I want to estimate.%0A%0AThank you\">estimate@idealwine.com</a>.",
+  "h3-2": "2. Shipment, appraisal and storage",
+  "h3-2-p": "Our team of <strong>specialists</strong> will <strong>collect, package and transport</strong> your wines to our warehouse in optimum conditions, or you can choose to <strong>drop the wines</strong> off yourself. <br> Your wines will then be meticulously assessed, described, photographed and packaged by our specialists in the iDealwine Lab.",
+  "h3-3": "3. Your wine is sold at auction",
+  "h3-3-p": "Each <strong>online auction </strong> on iDealwine lasts around 10 days. 3 to 4 auctions are organised per month, exposing your wines to more than <strong>650,000 potential buyers</strong> from around the world. <br><br>This unique exposure allows you to <strong>sell your wines for the best price</strong> and in the <strong>most secure conditions</strong>, thanks to our status as authorised auctioneers.",
+  "h3-4": "4. The hammer falls and you receive payment",
+  "h3-4-p": "<strong>Auctions</strong>: Your wines’ auction results are sent to you 24 hours after the end of the sale. You are guaranteed payment within 35 days of this date.<br>If you <strong>sell your wines directly</strong> to iDealwine, you will receive payment immediately after your wines have been apraised.<br>",
+  "buttonestim": "QUICK ESTIMATE",
+  "h3-5": "RECENT AUCTION HIGHLIGHTS",
+  "h2-questions": "FEQUENTLY ASKED QUESTIONS",
+  "button1": "Free estimate",
+  "button2": "Seller's guide",
+  "button3": " MONTHLY AUCTION REPORTS",
+  "button4": "Barometer 2024",
+  "1ervin": "Pouilly Fumé Silex Dagueneau 1996",
+  "1ervin-p": "Sold at auction for €4,092 <small>(+300%)</small>",
+  "1ervin-p2": "1 Double Magnum",
+  "2emevin": "Meursault Les Narvaux Domaine d'Auvenay 1999",
+  "2emevin-p": " Sold at auction for €7,440 <small>(+285%)</small>",
+  "2emevin-p2": "1 Bottle",
+  "3emevin": "Collection case Lieux Dits Jacques Selosse",
+  "3emevin-p": "Sold at auction for €4,712 <small>(+45%)</small>",
+  "3emevin-p2": "1 collection in a wooden case",
+  "LinkBarometre": "/en/buy-a-wine/B2110149-759-1-bottle-iDealwine-Auction-Barometer-2024-English-Version-Various",
+  "slide1": "auctions per year",
+  "slide2": "wine auction house in France since 2014 and a global leader in online auctions",
+  "slide3": "registered wine lovers",
+  "slide4": "nationalities represented at each auction",
+  "slide5": "bottles auctioned per year",
+  "first": "No. 1",
+  "vendez-pour": "SELL YOUR WINES WITH IDEALWINE TO BENEFIT FROM:",
+  "vendez-pour-li": "<li>  20+ years of experience with the global leader in online wine auctions</li><li>Free appraisal</li><li>A complete package (transport, storage, sale)</li><li>Secure payment</li><li>  A guaranteed and quick payment (from appraisal to delivery to the end customerl)</li><li>  <a href=\"https://www.winedex.io/uk/index.html\"  rel=\"sponsored\">WineDex Blockchain </a> : security, traceability, and authentication of your wines</li><li>  Brilliant visibility for your bottles (customers in over 65  countries)</li>",
+  "question1": {
+    "title": "Why sell wine online with iDealwine?",
+    "content": "Whether you are looking to sell collectible wine, mature vintages, or simply good fine wine, iDealwine is here to help, by auction or direct purchase, in France and abroad. It is indeed, through International Wine Auction, Voluntary Sales Operator (licensed auctioneer) and subsidiary of iDealwine, it is the number 1 wine auctioneer in France, appreciated by more than 650 000 wine lovers in 60 countries. iDealwine is the go-to in the wine world for industry analysis, resale and the purchase of fine wine."
+  },
+  "question2": {
+    "title": "How do I sell my wine: Online auction or binding purchase: what's the difference?",
+    "content": "Selling and consigning wine couldn't be easier, iDealwine will give you a valuation of your wines based on previous results at auction. If you require faster payment you can request a binding purchase. For binding purchases, the price offered is the lowest estimate minus the sales commission. Payment is immediate."
+  },
+  "question3": {
+    "title": "What is the estimate based on?",
+    "content": "<a href='{{priceEstimateUrl}}'>The iDealwine price estimate</a> is regularly updated and is an average calculated from most recent auction results from throughout France. It consists of the hammer price and the buyer's premium. The estimation sent to sellers excludes the buyers premium which is why there is a difference in price."
+  },
+  "question4": {
+    "title": "At auction, who sets the reserve (starting auction price)?",
+    "content": "The reserve price is the starting auction price for a lot, i. e. the price below which a lot cannot be sold. The reserve price is automatically set as the low estimate provided. The vendor can set a reserve below the lower estimate, or opt not to set any reserve. In the latter case, the auction starting price will be fixed at €1 to encourage competition between bidders, which is very successful at generated buzz with wine enthusiasts."
+  },
+  "question5": {
+    "title": "How much is the sales commission?",
+    "content": "When buying wine at auction, sales commission is charged to the seller when the hammer falls. This is iDealwine's fee for appraising, storing, insuring, advertising, and selling your wine. Advertising includes promotion through our offices in Paris, Bordeaux, Beaune, Hong Kong and Singapore, and to a global customer base (65 countries). In the case of a binding purchase of your wine (that is then sold at a fixed price rather than at auction), the sales commission is deducted from the final purchase price, the rate for which is variable according to the volume of wines sold."
+  },
+  "question6": {
+    "title": "Where and how is my wine stored once it has been appraised?",
+    "content": "At every stage of the sale (from receipt to dispatch), the bottles are stored in a secure facility at an appropriate temperature. iDealwine holds an insurance policy covering wine stored on behalf of a third party."
+  },
+  "question7": {
+    "title": "How long does the auction last?",
+    "content": "Each auction sale lasts approximately ten days. During this period, your wine will be given prominent exposure and high visibility on our website. Over 650,000 people have an iDealwine account, all looking for precious wine, meaning that you wine should find it's new forever home."
+  },
+  "question8": {
+    "title": "Can I track the sale of my wines in real time?",
+    "content": "You can monitor your wines throughout the auction process. Use your iDealwine account to track bids on each of your lots in real time, in the form of email alerts."
+  },
+  "question9": {
+    "title": "What are the payment terms?",
+    "content": "For binding purchase, payment will be made immediately by cheque or bank transfer as soon as the wines have been checked. The estimate submitted to you are based on auction results minus the buyer's premium. For wines which are not listed, the estimate is an average market prices based on a panel of leading wine merchants. iDealwine makes a commitment to complete the transaction promptly once a buyer has been found, and payment is guaranteed. You will be paid by cheque within 35 days of the end of the auction sale.. Alternatively you can send your bank details by email to estimate@idealwine.com or by fax to +33 1 56 05 86 11 if you wish to be paid by bank transfer."
+  },
+  "question10": {
+    "title": "Who is responsible for transporting the wine ?",
+    "content": "For the transit of your bottles to iDealwine, you can choose from 3 options: <br></br>1- Drop off your bottles at our storage warehouse: Drop off your bottles at our storage warehouse: you can drop off your bottles directly in our warehouse by making an appointment with our Selling Team on +33 1 56 05 86 19 at least 72 hours in advance, bringing a piece of identity with you. We ask that you send a complete list of the wines you’re selling, agreed in advance by the Selling Team, by email to estimate@idealwine.com or by fax on +33 (0)1 56 05 86 11. <br></br>2- Pick up by iDealwine (we will give a cost estimate for this within a few days of request)<br></br>3- Transport your wines by post through our trusted partners or by your own means<br><br>There are several transport solutions for France and abroad:<br></br>1- Special, pre-paid packaging and labels for Colissimo shipment (only for France). Shipping costs are for you to manage.<br></br>2- All-inclusive solution: pick up from your home and transport by iDealwine or one of our partners (specialist courier).<br></br>3- Transport organised yourself: find a courier. In this case, we recommend that you check the courier is qualified to transport wine, and to make sure you have insurance to the value of the bottles (ad-valorem).<br></br>4- You must give us all the necessary information about the wines you are transporting before they are sent, so that we can verify the delivery on its arrival. Our teams are available to advise you on the best solution."
+  },
+  "question11": {
+    "title": "How much will it cost for my wines to be picked up?",
+    "content": " The transport cost will vary depending on the quantity and value of the bottles you are selling, as well as your location. Our teams are at your service to provide a quote. You can equally choose to deliver the bottles yourself, or to have them delivered by a courier of your choice."
+  },
+  "question12": {
+    "title": "Are the wines insured during transport?",
+    "content": "All of our transportation is value insured (ad valorem insurance). In the case of an accident during transport, your wines are reimbursed at the median value of the estimation given (between the high and low estimate)."
+  },
+  "question13": {
+    "title": "Should I prepare specific packaging for transport?",
+    "content": "Whatever mode of transport is chosen, the wines have to travel in suitable packaging. In the case that you choose Colissimo or collection by iDealwine, we will provide special packaging. If you choose any other option for sending, you must use specialised packaging (wooden cases or cardboard boxes). We can also provide you with these on request, the price of this service depending on the quantity and your location."
+  },
+  "question14": {
+    "title": "How will I know that my wine has been received?",
+    "content": "iDealwine will inform you by email when your wine is received. Once the bottles have been verified, you will receive confirmation of handover by email."
+  },
+  "question15": {
+    "title": "Can I fix a minimum price for the sale of my wines?",
+    "content": "During the evaluation of your cellar, iDealwine will give you a high and low estimate for each lot. The low estimate will be the reserve price during the auction. Our specialists reserve the right to review and, if necessary, lower the estimate price once the bottles are received if they do not conform to the description and/or photos provided. Your agreement will be required in order for the bottles to be put up for sale at a modified price. iDealwine also reserves the right to refuse to sell lots that have not been preserved in a satisfactory manner."
+  },
+  "question16": {
+    "title": "How will I know the result of my wines in the sale?",
+    "content": "Once the auction is closed, you will receive an email detailing the results for each of the lots up for sale."
+  },
+  "question17": {
+    "title": "What happens if some of my wines are not sold?",
+    "content": "If your wines don’t find a buyer during the sale, they are automatically entered into the next sale at no extra cost. "
+  },
+  "question18": {
+    "title": "Can I take unsold lots back?",
+    "content": "Once the sale is closed, it is possible for you to pick up any bottles that haven’t been sold at no extra cost (apart from eventual transport costs). To do this you have to make an appointment with the Selling Team (estimate@idealwine.com info@iwa-auction.com) at least 72 hours before the desired collection date."
+  },
+  "seo": {
+    "title": "Sell your wine online | iDealwine",
+    "description": "Get the best price for your wines with iDealwine ★ A global leader in online wine auctions ★ 650,000 potential customers in more than ★ 65 countries!"
+  }
+}

@@ -1,0 +1,18 @@
+@import "@/styles/stylesheet";
+
+.container {
+  display: grid;
+  padding: getSpacing(2) getSpacing(5);
+
+  > :first-child {
+    border-bottom: 1px solid #eeeeee;
+  }
+  @include isLargeOrExtraLargeDesktop {
+    grid-gap: getSpacing(8);
+    grid-template-columns: 1fr 1fr;
+
+    > :first-child {
+      border-bottom: none;
+    }
+  }
+}

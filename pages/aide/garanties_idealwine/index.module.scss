@@ -1,0 +1,150 @@
+@import "@/styles/stylesheet";
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: $greyLight;
+  padding: getSpacing(4);
+
+  @include isTabletOrDesktop {
+    padding: getSpacing(4) getSpacing(10);
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  gap: getSpacing(4);
+  align-items: center;
+  margin: auto;
+}
+
+.separatorContainer {
+  display: flex;
+  justify-content: center;
+  margin: getSpacing(3);
+}
+
+.separator {
+  display: flex;
+  justify-content: center;
+  width: getSpacing(10);
+  height: 4px;
+  border: 0;
+  background-color: $blackLighter;
+}
+
+.subtitle {
+  font-size: $fontSizeMediumSmall;
+  color: $greyDarkest;
+  text-align: center;
+}
+
+.formInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: getSpacing(4);
+  text-align: center;
+}
+
+.formInfoBottles {
+  margin-bottom: getSpacing(4);
+}
+
+.countryInfo {
+  margin-top: getSpacing(2);
+}
+
+.guaranteesContainer {
+  position: relative;
+  padding: getSpacing(4);
+  margin: getSpacing(4) getSpacing(-4);
+
+  @include isTabletOrDesktop {
+    margin: getSpacing(4) getSpacing(-10);
+  }
+}
+
+.guaranteesContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: getSpacing(4) 0;
+  gap: getSpacing(4) 0;
+}
+
+.guaranteesTitle {
+  font-size: $fontSizeLarge;
+  text-transform: uppercase;
+  text-align: center;
+  color: $greyLight;
+}
+
+.guaranteesParagraph {
+  max-width: 75%;
+  letter-spacing: 1px;
+  margin: auto;
+  font-size: $fontSizeMediumSmall;
+  text-align: justify;
+  color: $grey;
+}
+
+.moreInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+  align-items: center;
+}
+
+.moreInfoTitle {
+  font-size: $fontSizeMedium;
+  font-weight: bold;
+  text-align: center;
+}
+
+.accordion {
+  @include isTabletOrDesktop {
+    width: 80%;
+  }
+
+  .accordionHeader {
+    text-transform: uppercase;
+    color: $blackLighter;
+    font-weight: 500;
+
+    @include isTabletOrDesktop {
+      font-size: $fontSizeBase;
+    }
+  }
+}
+
+.accordionItem {
+  margin: getSpacing(4) 0;
+  border-radius: 4px;
+}
+
+.accordionItem:focus-within {
+  box-shadow: 0 0 0 2px $goldenLighter;
+}
+
+.accordionTrigger {
+  padding: getSpacing(6);
+  font-size: $fontSizeMedium;
+}
+
+.accordionContentContainer {
+  font-size: $fontSizeMediumSmall;
+}
+
+.moreQuestions {
+  text-align: center;
+}
+
+.helpLink {
+  text-decoration: underline;
+}

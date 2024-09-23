@@ -1,0 +1,27 @@
+@import "@/styles/stylesheet";
+@import "./constants";
+
+.textHighlight {
+  color: $white;
+  background-color: $blueishGreyLighter;
+}
+
+.estateBoxContainer {
+  font-size: $fontSizeBase;
+  background-color: $blueishWhite;
+  padding: getSpacing(2) getSpacing(3);
+  min-width: $estateBoxMinWidth;
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+
+  &:hover {
+    text-decoration: none;
+    background-color: $greyishBlue;
+    color: $white;
+
+    .textHighlight {
+      background-color: $greyishBlue;
+    }
+  }
+}

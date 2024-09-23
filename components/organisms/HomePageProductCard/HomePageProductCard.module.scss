@@ -1,0 +1,64 @@
+@import "@/styles/stylesheet";
+
+$fontSizeOldPriceEuro: 17px;
+
+.linkToProduct {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(1);
+  align-items: center;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    text-decoration: none;
+  }
+}
+
+.cardContainer {
+  padding: getSpacing(2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: getSpacing(3);
+  width: 175px;
+  height: 400px;
+  border: 1px $greyLighter solid;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 25%) 0 25px 20px -20px;
+
+  @include isDesktop {
+    padding: getSpacing(4);
+    width: 225px;
+  }
+}
+
+.goldenSaleType {
+  color: $golden;
+  text-transform: uppercase;
+  font-size: $fontSizeSmall;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(1);
+  justify-content: center;
+  text-align: center;
+}
+
+.maxFiveLinesText {
+  /* stylelint-disable-next-line value-no-vendor-prefix */
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  letter-spacing: 1px;
+}
+
+.boldPrice {
+  font-weight: bold;
+}

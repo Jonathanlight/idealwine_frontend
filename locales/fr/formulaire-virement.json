@@ -1,0 +1,23 @@
+{
+  "title": "Paiement par virement",
+  "callout": "Veuillez <0>{{link}}</0> et la renvoyer signée par courrier accompagnée d'un IBAN et d'une photocopie d'une pièce d'identité à iDealwine.com S.A.S. / Service Clients, 190 rue d'Estienne d'Orves - 92700 Colombes",
+  "calloutPrint": "imprimer cette page",
+  "fields": {
+    "name": "Nom",
+    "firstName": "Prénom",
+    "address": "Adresse",
+    "zipCode": "Code postal",
+    "city": "Ville",
+    "country": "Pays",
+    "username": "Nom d'utilisateur",
+    "email": "Email",
+    "phone": "Téléphone",
+    "place": "À",
+    "date": "Fait le"
+  },
+  "signature": "Signature",
+  "legalNotice": "J'atteste avoir lu et accepté les conditions générales des services offerts sur le site www.idealwine.com lors de mon inscription comme membre, en particulier les Article VI - Modification ou annulation d'un ordre - Droit de rétractation et VII - prix et paiement. Je souhaite bénéficier de l'option \"autre moyen de paiement \" me permettant de régler mes enchères gagnantes par virement. En cas d'enchères gagnantes ou d'achats à prix fixes, les différents lots seront regroupés dans une même commande et je serai averti par e-mail. Je devrai alors confirmer la commande sur le site et faire parvenir à la société iDealwine.com S.A.S. un virement bancaire du montant à régler indiqué sur la facture consultable en ligne. J'ai bien noté que la livraison de ma commande n'interviendra qu'à réception par iDealwine.com S.A.S. de mon règlement.Afin de valider mon inscription avec l'option \" autre moyen de paiement \", je joins à ce formulaire un Relevé d'Identité Bancaire ou Postale (RIB ou RIP) à mon nom, ainsi qu'une photocopie d'une pièce d'identité en cours de validité. Au dessus de certains seuils d'encours d'enchères, iDealwine peut être amené à me demander des garanties supplémentaires sous la forme d'un dépôt de garantie (virement bancaire). Dans ce cas, mes ordres en cours ne seront pris en compte que si je fournis ces garanties avant la date de la vente aux enchères. J'ai bien noté que je peux modifier (changement de moyen de paiement) ou annuler mon inscription avec option \" autre moyen de paiement \" à tout moment, en ligne ou en adressant un courrier à iDealwine.com S.A.S. - Service Clients - 190 rue d'Estienne d'Orves - 92700 Colombes. Dans ce cas, la société iDealwine.com S.A.S. me retournera alors ce formulaire et ses pièces jointes (RIB ou RIP, pièce d'identité) dans les 7 jours ouvrables suivant la réception de ma demande.",
+  "instructions": "Veuillez imprimer cette page et la renvoyer signée par courrier accompagnée d'un RIB ou RIP et d'une photocopie d'une pièce d'identité à iDealwine.com S.A.S. / Service Clients, 190 rue d'Estienne d'Orves - 92700 Colombes Vous disposez d'un droit d'accès, de modification, de rectification et de suppression des données qui vous concernent (art. 34 de la loi \" Informatique et Libertés \"). Vous pouvez l'exercer en accédant directement à votre compte personnel en ligne au moyen de votre pseudonyme et de votre mot de passe.",
+  "credits": "Vous pouvez également vous adresser à iDealwine.com S.A.S., 190 rue d'Estienne d'Orves - 92700 Colombes.",
+  "seo": { "title": "Formulaire iDealwine à imprimer", "description": "" }
+}

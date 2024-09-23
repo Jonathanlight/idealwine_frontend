@@ -1,0 +1,147 @@
+{
+  "id": "grouped_three_block_banner",
+  "type": "SharedSlice",
+  "name": "GroupedThreeBlocksBanner",
+  "description": "GroupedThreeBlockBanner",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "GroupedThreeBlockBanner",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "image1": {
+          "type": "Image",
+          "config": {
+            "label": "image1",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "textimage1": {
+          "type": "Text",
+          "config": {
+            "label": "textImage1",
+            "placeholder": ""
+          }
+        },
+        "linkimage1": {
+          "type": "Link",
+          "config": {
+            "label": "linkImage1",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "textbuttonimage1": {
+          "type": "Text",
+          "config": {
+            "label": "textButtonImage1",
+            "placeholder": ""
+          }
+        },
+        "image2": {
+          "type": "Image",
+          "config": {
+            "label": "image2",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "textimage2": {
+          "type": "Text",
+          "config": {
+            "label": "textImage2",
+            "placeholder": ""
+          }
+        },
+        "linkimage2": {
+          "type": "Link",
+          "config": {
+            "label": "linkImage2",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        },
+        "textbuttonimage2": {
+          "type": "Text",
+          "config": {
+            "label": "textButtonImage2",
+            "placeholder": ""
+          }
+        },
+        "image3": {
+          "type": "Image",
+          "config": {
+            "label": "Image3",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "textimage3": {
+          "type": "Text",
+          "config": {
+            "label": "textImage3",
+            "placeholder": ""
+          }
+        },
+        "linkimage3": {
+          "type": "Link",
+          "config": {
+            "label": "linkImage3",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "textbuttonimage3": {
+          "type": "Text",
+          "config": {
+            "label": "textButtonImage3",
+            "placeholder": ""
+          }
+        },
+        "image4": {
+          "type": "Image",
+          "config": {
+            "label": "Image4",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "textimage4": {
+          "type": "Text",
+          "config": {
+            "label": "textImage4",
+            "placeholder": ""
+          }
+        },
+        "linkimage4": {
+          "type": "Link",
+          "config": {
+            "label": "linkImage4",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "textbuttonimage4": {
+          "type": "Text",
+          "config": {
+            "label": "textButtonImage4",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

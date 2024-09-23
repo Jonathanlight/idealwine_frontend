@@ -1,0 +1,15 @@
+{
+  "seo": {
+    "title": "Margaux, your digital sommelier",
+    "description": "Margaux, your digital sommelier, helps you to choose the perfect wine for any occasion. Discover the best food and wine pairings, vintages and winemaking regions."
+  },
+  "writing": "Margaux is writing...",
+  "error": "An error has occurred, please try again later",
+  "h1": "Margaux",
+  "h2": "Your digital sommelier",
+  "welcome": "Hello, I'm Margaux, your digital sommelier. How can I help you?",
+  "placeholder": "Ask me a question...",
+  "send": "Send",
+  "clear": "Delete the conversation",
+  "connect": "Log in to talk to Margaux"
+}

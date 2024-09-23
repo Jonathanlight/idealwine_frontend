@@ -1,0 +1,116 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Labore do eu cupidatat id. Non nulla veniam sit elit ullamco tempor nulla elit. Minim enim ex aliqua voluptate ex non do in id elit do Lorem fugiat aliquip."
+            }
+          }
+        ]
+      },
+      "indice100": {
+        "__TYPE__": "FieldContent",
+        "value": "52",
+        "type": "Number"
+      },
+      "indicebordeaux": {
+        "__TYPE__": "FieldContent",
+        "value": "54",
+        "type": "Number"
+      },
+      "indicerhone": {
+        "__TYPE__": "FieldContent",
+        "value": "45",
+        "type": "Number"
+      },
+      "cac40": {
+        "__TYPE__": "FieldContent",
+        "value": "33",
+        "type": "Number"
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Velit irure Lorem cillum ad et ad excepteur officia deserunt amet eiusmod. Consequat irure mollit magna voluptate sint. Enim deserunt pariatur magna quis."
+            }
+          }
+        ]
+      },
+      "indice100text": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Do quis enim enim sunt irure ut officia tempor aute minim ut."
+            }
+          }
+        ]
+      },
+      "indicebordeauxtext": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Nisi mollit est voluptate aute reprehenderit officia est aliquip nisi officia. Esse nulla aute veniam. Lorem nulla minim do ullamco."
+            }
+          }
+        ]
+      },
+      "indicebourgognetext": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Anim aliqua occaecat pariatur laboris eiusmod ullamco exercitation voluptate et reprehenderit irure. Dolore veniam aliqua in eiusmod sunt. Fugiat occaecat aliquip ut occaecat minim magna voluptate excepteur veniam aliqua qui."
+            }
+          }
+        ]
+      },
+      "indicebourgogne": {
+        "__TYPE__": "FieldContent",
+        "value": "66",
+        "type": "Number"
+      },
+      "indicerhonetext": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Reprehenderit amet non aute cillum velit laboris. Proident elit tempor non ea dolor qui sunt duis. Velit occaecat officia tempor in pariatur."
+            }
+          }
+        ]
+      },
+      "cac40text": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Proident reprehenderit pariatur esse aliquip tempor cillum est ad duis cupidatat ad tempor labore. Aliqua occaecat officia anim dolor nulla mollit ea labore mollit ut excepteur est voluptate sit."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

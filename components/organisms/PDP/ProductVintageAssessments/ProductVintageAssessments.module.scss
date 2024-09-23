@@ -1,0 +1,19 @@
+@import "@/styles/stylesheet";
+
+.container {
+  background-color: $greyLight;
+  padding: getSpacing(8);
+  margin: 0 auto getSpacing(4);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: getSpacing(1);
+}
+
+.quoteContainer {
+  padding: getSpacing(3) 0;
+}
+
+.title {
+  text-transform: uppercase;
+}

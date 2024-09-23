@@ -1,0 +1,44 @@
+{
+  "chooseShipping": "Scegli la modalità di consegna",
+  "disclaimer": "Attenzione, questa azione è definitiva! Se desideri rimandare la consegna, seleziona “Consegna Differita”. Per garantire la qualità dei tuoi vini, nessun ordine sarà spedito il venerdì.",
+  "ON_SITE": {
+    "title": "Ritiro presso\nle nostre strutture"
+  },
+  "GROUPING": {
+    "title": "Consegna differita / Raggruppamento",
+    "explicativeText": "Dopo il pagamento, potrai mettere in attesa il tuo ordine per raggrupparlo con acquisti futuri al fine di ottimizzare le spese di spedizione, o per ritirare tutti i tuoi vini in una volta sola presso le nostre strutture. A partire dalla data dell’ordine avrai un mese di giacenza gratuita. Trascorso questo periodo, ti saranno addebitate le spese di giacenza."
+  },
+  "STORAGE": {
+    "title": "Stoccaggio",
+    "notAllowed": "Questa opzione non è disponibile perché non hai ancora attivato l’offerta per la cantina di stoccaggio iDealwine.",
+    "learnMore": "Per ulteriori informazioni su questo servizio,",
+    "clickHere": "clicca qui.",
+    "allowed": "Dopo il pagamento, prepareremo l’ordine e lo trasferiremo nella tua cantina di stoccaggio iDealwine."
+  },
+  "HOME_DELIVERY": {
+    "title": "Consegna immediata"
+  },
+  "RELAY_POINT": {
+    "title": "Pickup Point",
+    "yourAddress": "Il tuo indirizzo",
+    "validate": "Conferma",
+    "choseRelayPoint": "Scegli un punto di ritiro",
+    "distance": "Distanza: {{distance}} metri",
+    "jourSemaine1": "Lunedì",
+    "jourSemaine2": "Martedì",
+    "jourSemaine3": "Mercoledì",
+    "jourSemaine4": "Giovedì",
+    "jourSemaine5": "Venerdì",
+    "jourSemaine6": "Sabato",
+    "jourSemaine7": "Domenica",
+    "noRelayPoint": "Nessun punto di ritiro disponibile presso l’indirizzo indicato. Verifica le informazioni inserite e riprova."
+  },
+  "giftMessageCheckboxLabel": "Personalizza il tuo ordine con un messaggio: lo stamperemo e lo inseriremo all'interno del pacco.",
+  "giftMessageTextareaLabel": "Il tuo messaggio:",
+  "giftMessageTextareaPlaceholder": "Inserisci qui il tuo messaggio",
+  "maxCharacters": "Massimo 300 caratteri",
+  "nonMatchingAdressesModal": {
+    "title": "Attenzione",
+    "content": "Il paese di consegna è stato modificato automaticamente, in modo da coincidere con l’indirizzo indicato negli ordini che desideri raggruppare. Verifica l’esattezza delle informazioni inserite prima di continuare."
+  }
+}

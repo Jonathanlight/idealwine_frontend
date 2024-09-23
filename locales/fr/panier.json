@@ -1,0 +1,42 @@
+{
+  "myBasketTooltip": "Les lots présents dans votre panier vous sont réservés pour une durée de {{timer}} min",
+  "alreadyPaid": "payé",
+  "awaitingForPayment": "en attente de validation de paiement",
+  "unpaid": "à payer",
+  "myPaidOrdersTooltip": "Je coche mes commandes passées que je veux me faire livrer.",
+  "myUnpaidOrdersTooltipXtraOrder": "Je coche les commandes que je veux payer.",
+  "myUnpaidOrdersTooltipNormal": "Je dois payer mes enchères remportées",
+  "myAwaitingPaymentOrders": "Mes commandes en attente de validation du paiement",
+  "myAwaitingPaymentOrdersTooltip": "Après règlement, vous pouvez mettre en attente votre commande pour la regrouper avec vos futurs achats afin d'optimiser vos frais de port, ou de récupérer tous vos vins en une fois. Vous bénéficiez d'un mois de stockage gratuit à compter de la date de votre commande. Passé ce délai, des frais de stockage sont facturés.",
+  "directSale": "E-caviste",
+  "shippingCountry": "Pays de livraison :",
+  "forbidden": "Interdit",
+  "errorOccurred": "Une erreur est survenue.",
+  "noItemsInBasket": "Vous n'avez aucun lot dans votre panier",
+  "seeAllWines": "Voir tous les vins",
+  "storageFee": "Frais de stockage (j+{{numberOfDays}})",
+  "xtraOrderAutomaticCheckoutButton": "Réserver & payer plus tard",
+  "basketGroupingInfoMessage": "A l’étape suivante vous pourrez gérer la livraison/récupération de votre commande, ou la placer en attente de regroupement pour optimiser les frais de port",
+  "learnMore": "En savoir plus",
+  "basketGroupingInfoModalMessage": "A l’étape suivante vous pourrez organiser la livraison ou la récupération de vos vins. Vous pourrez également choisir de placer votre commande en attente de regroupement avec vos futurs achats, afin d’optimiser vos frais de port. Pour bénéficier de cette option de regroupement, votre commande doit être préalablement réglée. Vous disposerez alors d’un mois de stockage gratuit. Passé ce délai, des frais de stockage seront facturés.",
+  "incompatibleOrderCountriesModal": {
+    "title": "Pays de livraison incompatibles",
+    "content": "Vous ne pouvez pas regrouper cette commande car elle n'a pas le même pays de livraison que d'autres commandes que vous avez regroupées. Veuillez valider votre panier avant de regrouper cette commande."
+  },
+  "limitedQuantityWarning": "Vous dépassez la limitation d'achat définie pour ce produit. La quantité de ce produit dans votre panier a été ajustée.",
+  "quantityOf": {
+    "1": "{{count}} lot de",
+    "other": "{{count}} lots de"
+  },
+  "orderNumber": "Commande n°{{orderNumber}}",
+  "bottleNumber": {
+    "1": "1 bouteille",
+    "other": "{{count}} bouteilles"
+  },
+  "seo": {
+    "title": "Mon panier - iDealwine",
+    "description": "Buy and sell your wines at auctions, on fixed-price sales with iDealwine"
+  },
+  "emptyBasket": "Votre panier est vide",
+  "emptyBasketCallToAction": "Découvrez nos dernières nouveautés"
+}

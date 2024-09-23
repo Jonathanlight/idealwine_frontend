@@ -1,0 +1,29 @@
+@import "@/styles/stylesheet";
+
+// https://codesandbox.io/s/github/tanem/react-nprogress/tree/master/examples/next-router?file=/components/Loading.tsx
+
+.container {
+  pointer-events: none;
+  transition: opacity linear;
+}
+
+.bar {
+  background: $goldenLightest;
+  height: 3px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: margin-left linear;
+  width: 100%;
+}
+
+.shadow {
+  transform: rotate(3deg) translate(-1px, -3px);
+  box-shadow: 0 0 10px $goldenLightest, 0 0 5px $goldenLightest;
+  display: block;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  width: 100px;
+}

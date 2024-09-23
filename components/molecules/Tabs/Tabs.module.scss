@@ -1,0 +1,34 @@
+@import "@/styles/stylesheet";
+
+.container {
+  width: 100%;
+}
+
+.titlesContainer {
+  display: flex;
+  flex-grow: 0;
+  margin-bottom: getSpacing(1);
+}
+
+.title {
+  font-size: $fontSizeSmall;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 2px solid $grey;
+  flex-basis: 50%;
+  text-align: center;
+  padding: getSpacing(3) 0;
+  outline: none;
+  transition: all 0.2s linear;
+  cursor: pointer;
+
+  &[data-state="active"],
+  &:hover {
+    border-color: $black;
+  }
+}
+
+.content {
+  padding: getSpacing(3) 0;
+  min-height: getSpacing(23);
+}

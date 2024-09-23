@@ -1,0 +1,139 @@
+@import "@/styles/stylesheet";
+
+.pageContainer {
+  @include mainContainerPadding;
+
+  display: flex;
+  gap: getSpacing(4);
+
+  @include isMobile {
+    flex-direction: column;
+  }
+}
+
+.filters {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.refinementListLabel,
+.toggleRefinementLabel {
+  display: flex;
+  gap: getSpacing(1);
+}
+
+.results {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(1);
+}
+
+$gridGap: getSpacing(1);
+$minColumns: 2;
+$maxColumns: 5;
+$minItemWidth: 175px;
+
+.hitsList {
+  gap: $gridGap;
+  display: grid;
+  // https://stackoverflow.com/a/69154193
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(
+      min(
+        100% / $minColumns - ($minColumns - 1) * $gridGap,
+        max($minItemWidth, 100% / $maxColumns - ($maxColumns - 1) * $gridGap)
+      ),
+      1fr
+    )
+  );
+}
+
+.hitsItem {
+  display: flex;
+}
+
+.paginationList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: getSpacing(2);
+  font-size: $fontSizeMedium;
+}
+
+.resultsViewport {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(1);
+  flex-grow: 1;
+}
+
+.resultBar {
+  display: flex;
+  justify-content: space-around;
+  gap: getSpacing(4);
+  border: 1px solid $greyLighter;
+  padding: getSpacing(4) getSpacing(5);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 4%);
+  align-items: center;
+
+  @include isDesktop {
+    justify-content: space-between;
+  }
+}
+
+.resultBarLeftText {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: getSpacing(1);
+}
+
+.pageTitle {
+  font-size: $fontSizeBase;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* stylelint-disable-next-line value-no-vendor-prefix */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.numberResults {
+  white-space: nowrap;
+}
+
+.hideSoldCheckbox {
+  display: flex;
+  align-items: center;
+  gap: getSpacing(1);
+}
+
+.hideSoldLabel {
+  font-size: $fontSizeBase;
+  white-space: nowrap;
+}
+
+.sortDropdown {
+  width: 80%;
+
+  @include isDesktop {
+    width: 40%;
+    min-width: 150px;
+    max-width: 265px; // So that it never grows bigger than the options dropdown
+  }
+}
+
+.estateInformationsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @include isDesktop {
+    grid-template-columns: 1fr 1fr;
+  }
+}

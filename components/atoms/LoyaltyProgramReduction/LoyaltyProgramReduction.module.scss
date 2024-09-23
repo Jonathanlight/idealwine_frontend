@@ -1,0 +1,26 @@
+@import "@/styles/stylesheet";
+
+.loyalityPromoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 getSpacing(2);
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.discount {
+  font-size: $fontSizeLarge;
+  font-weight: 600;
+}
+
+.cumulativeDiscount {
+  display: flex;
+  font-size: $fontSizeTiny;
+  text-align: center;
+}

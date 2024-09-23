@@ -1,0 +1,22 @@
+@import "@/styles/stylesheet";
+
+.rankingSearchFormHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-style: arial;
+  background-color: $white;
+  gap: getSpacing(2);
+  align-items: center;
+  margin-bottom: getSpacing(3);
+}
+
+.ratingRankingSearchFormTitle {
+  font-weight: bold;
+  font-size: $fontSizeMedium;
+}
+
+.ratingRankingSearchFormUnderTitle {
+  font-weight: 400;
+  font-size: $fontSizeMediumSmall;
+}

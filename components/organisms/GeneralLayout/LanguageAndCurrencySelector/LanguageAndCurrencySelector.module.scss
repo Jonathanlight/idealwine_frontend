@@ -1,0 +1,18 @@
+@import "@/styles/stylesheet";
+
+.dropdownMenuContent {
+  min-width: 125px;
+}
+
+.languageLogo {
+  min-width: 25px;
+  @include isMobileOrTablet {
+    min-width: 20px;
+  }
+}
+
+.currencyItem {
+  display: flex;
+  justify-content: center;
+  color: $golden;
+}

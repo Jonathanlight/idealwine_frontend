@@ -1,0 +1,51 @@
+@import "@/styles/stylesheet";
+
+.page {
+  padding-top: getSpacing(2);
+}
+
+.pageBlock {
+  background-color: $white;
+  padding: getSpacing(5);
+  margin-top: getSpacing(5);
+  margin-bottom: getSpacing(5);
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  object-fit: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.customerBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-style: arial;
+  gap: getSpacing(5);
+}
+
+.customerMessage {
+  padding-top: getSpacing(4);
+  font-style: $fontFamily;
+  font-weight: 350;
+  font-size: getSpacing(4);
+}
+
+.boardWithDescription {
+  width: 100%;
+  padding-top: getSpacing(5);
+}
+
+.description {
+  text-align: justify;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.pagination {
+  padding-bottom: getSpacing(5);
+}

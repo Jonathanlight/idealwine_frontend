@@ -1,0 +1,24 @@
+@import "@/styles/stylesheet";
+
+.description::first-letter {
+  font-size: $fontSizeExtraLarge;
+  color: $lightBrown;
+}
+
+.description {
+  width: 250px;
+  text-align: justify;
+
+  @include isTabletOrSmallDesktop {
+    display: flex;
+    align-items: center;
+    padding-left: getSpacing(4);
+  }
+}
+
+.box {
+  @include isTabletOrSmallDesktop {
+    display: flex;
+    justify-content: center;
+  }
+}

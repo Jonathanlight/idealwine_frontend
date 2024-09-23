@@ -1,0 +1,26 @@
+{
+  "title": "Berichte über Weinauktionen",
+  "text": "Berichte, Bilanzen, Auktionen, Wein, Analysen, investieren, Weininvestitionen, Weinanlage, Trends, Markt;",
+  "seo": {
+    "title": "Berichte über Weinauktionen - iDealwine",
+    "description": "Alle Berichte und Analysen der Weinauktionen auf iDealwine, für Ihr optimales Investment in Wein."
+  },
+  "h1": "Berichte über Weinauktionen",
+  "h2": "iDealwine stellt für Sie monatliche Analysen und Berichte über aktuelle Tendenzen auf dem Auktionsmarkt sowie unerwartete Vorkommnisse bei den Online-Auktionen zusammen. Die optimale Grundlage, um erfolgreich in Wein zu investieren!",
+  "yearTitle": "Neueste Analysen {{year}} zum Weinmarkt von iDealwine",
+  "auctionReport": "Bericht",
+  "auctionReportLink": {
+    "01": "online Auktionen\nJanuar {{year}}",
+    "02": "online Auktionen\nFebruar {{year}}",
+    "03": "online Auktionen\nMärz {{year}}",
+    "04": "online Auktionen\nApril {{year}}",
+    "05": "online Auktionen\nMai {{year}}",
+    "06": "online Auktionen\nJuni {{year}}",
+    "07": "online Auktionen\nJuli {{year}}",
+    "08": "online Auktionen\nAugust {{year}}",
+    "09": "online Auktionen\nSeptember {{year}}",
+    "10": "online Auktionen\nOktober {{year}}",
+    "11": "online Auktionen\nNovember {{year}}",
+    "12": "online Auktionen\nDezember {{year}}"
+  }
+}

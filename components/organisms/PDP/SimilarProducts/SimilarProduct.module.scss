@@ -1,0 +1,121 @@
+@import "@/styles/stylesheet";
+
+$fontSizeOldPriceEuro: 17px;
+
+.cardContainer {
+  padding: getSpacing(8) getSpacing(4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: getSpacing(2);
+  flex-grow: 1;
+}
+
+.vintageYear {
+  font-weight: bold;
+  text-align: center;
+}
+
+.discountCents {
+  font-size: $fontSizeSmall;
+  vertical-align: top;
+}
+
+.cardTopPart {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(1);
+  flex-grow: 1;
+}
+
+.sellingTitle {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+
+.bottleImage {
+  align-self: center;
+  object-fit: cover;
+}
+
+.name {
+  font-size: $fontSizeMedium;
+  font-weight: 500;
+}
+
+.linkToProduct {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(1);
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    text-decoration: none;
+
+    .productName {
+      text-decoration: underline;
+    }
+  }
+}
+
+.bottleDescriptionContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: $fontSizeMediumSmall;
+  font-weight: normal;
+  margin-top: getSpacing(3);
+}
+
+.bottleDescription {
+  display: inline flow;
+  font-weight: bold;
+  gap: getSpacing(2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cardBottomPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: getSpacing(2);
+  gap: getSpacing(3);
+}
+
+.price {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  font-weight: 600;
+  column-gap: getSpacing(2);
+}
+
+.vintageContainer {
+  border: 1px solid $black;
+  font-size: $fontSizeSmall;
+  border-radius: 20px;
+  padding: 0 getSpacing(1);
+  font-weight: bold;
+}
+
+.remainingStocks {
+  font-size: $fontSizeSmall;
+  text-transform: uppercase;
+  color: $goldenLighter;
+  padding-top: getSpacing(4);
+  text-align: center;
+}
+
+.lotDiscountContainer {
+  font-size: $fontSizeSmall;
+  text-align: center;
+  background-color: $lighterWarningYellow;
+  padding: getSpacing(2);
+  margin: getSpacing(2) getSpacing(4);
+}

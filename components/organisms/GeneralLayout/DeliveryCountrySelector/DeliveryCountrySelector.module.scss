@@ -1,0 +1,40 @@
+@import "@/styles/stylesheet";
+
+.deliveryCountry {
+  background-color: $antiqueGrey;
+  text-align: center;
+  color: $black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: getSpacing(1) getSpacing(5);
+  margin-left: getSpacing(5);
+
+  @include isTablet {
+    margin-left: getSpacing(3);
+    padding: 0 getSpacing(3);
+  }
+
+  .golden {
+    color: $golden;
+  }
+
+  .triggerClassName {
+    border: unset;
+    background: unset;
+    height: unset;
+    padding: unset;
+
+    // quick hack to prevent CLS
+    > * {
+      min-height: 15px;
+    }
+  }
+}
+
+.ordersIcon {
+  min-width: 10.5px;
+}
+
+.split {
+  padding: 0 getSpacing(1);
+}

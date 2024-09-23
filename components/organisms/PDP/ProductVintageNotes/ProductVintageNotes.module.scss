@@ -1,0 +1,68 @@
+@import "@/styles/stylesheet";
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+  max-width: 340px;
+  padding: 1px;
+
+  @include isExtraLargeDesktop {
+    max-width: 680px;
+    min-width: 680px;
+  }
+}
+
+.innerContainer {
+  display: flex;
+  min-width: 340px;
+  max-width: 340px;
+
+  @include isExtraLargeDesktop {
+    max-width: 680px;
+    min-width: 680px;
+  }
+}
+
+.singleNote {
+  min-width: 170px;
+  max-width: 170px;
+}
+
+.navigationWrapper {
+  position: relative;
+}
+
+.noteContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.dots {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.dotContainer {
+  border-width: 0;
+  margin: 0 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dotContainer:focus {
+  outline: none;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: $grey;
+}
+
+.active > .dot,
+.dotContainer:hover > .dot {
+  background: $greyDarker;
+}

@@ -1,0 +1,42 @@
+@import "@/styles/stylesheet";
+
+.root {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 1.5fr;
+  padding: getSpacing(5) getSpacing(10) 0 getSpacing(10);
+  gap: getSpacing(10);
+  width: 100%;
+}
+
+.title {
+  letter-spacing: 0.5px;
+  font-size: $fontSizeMediumLarge;
+  color: $blueishGrey;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auctionOfTheMomentPanel {
+  flex-grow: 1;
+}
+
+.fsaLink {
+  letter-spacing: 0.5px;
+}
+
+.fsaLink:visited,
+.fsaLink:active,
+.fsaLink:focus {
+  text-decoration: none;
+}
+
+.fsaLink:hover {
+  text-decoration: none;
+  color: $amberBottleContent;
+}

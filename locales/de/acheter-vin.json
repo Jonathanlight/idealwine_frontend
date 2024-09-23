@@ -1,0 +1,440 @@
+{
+  "bio": "Bio",
+  "natural": "Natur",
+  "tripleA": "Triple A",
+  "soonAvailable": "Bald verfügbar",
+  "customsFeeIncluded": "Zölle und Steuern inklusive",
+  "insteadOf": "anstatt",
+  "similarVariants": "Ähnliche Posten",
+  "timeZoneName": "Paris",
+  "inYourTimeZone": "In Ihrer Zeitzone",
+  "availabilityAlert": {
+    "title": "Benachrichtigung wenn verfügbar",
+    "added": "Alarm gespeichert",
+    "removed": "Alarm gelöscht"
+  },
+  "remainingStocks": {
+    "singular": "Nur noch {{remainingStocks}} Posten verfügbar",
+    "plural": "Nur noch {{remainingStocks}} Posten verfügbar"
+  },
+  "lotDiscount": "by {{bottleNumber}} | - {{discountPercentage}} %",
+  "loyaltyProgram": {
+    "NONE": "iDealwine-Treueprogramm",
+    "PRIVILEGE": "Privilège",
+    "IDEAL": "Club iDéal",
+    "QUINTESSENCE": "Quintessence",
+    "offer": "Angebote",
+    "cumulativeDiscount": "Mit diesem Einkauf sammeln Sie {{discount}}% Rabatt  auf Ihrem Treuekonto",
+    "onlyLoyaltyProgramUsersTitle": "Treueangebot",
+    "onlyLoyaltyProgramUsersDescription": "Erhalten Sie Rabatt-Coupons bei jedem Einkauf!"
+  },
+  "condition": {
+    "quantity": {
+      "1": "Menge: {{count}} Flasche",
+      "other": "Menge: {{count}} Flaschen"
+    },
+    "level": {
+      "1": "Füllstand:",
+      "other": "Füllstand:"
+    },
+    "observation": {
+      "1": "Bemerkung:",
+      "other": "Bemerkungen:"
+    }
+  },
+  "region": "Region:",
+  "appellation": "Appellation/Wein:",
+  "intensity": "Intensität",
+  "directPurchaseName": "Festpreise",
+  "quintessence": "Quintessence",
+  "auctionName": "Auktion",
+  "bottleQuantity": {
+    "0": "Posten leer",
+    "1": "Posten besteht aus {{count}} Flasche",
+    "other": "Posten besteht aus {{count}} Flaschen"
+  },
+  "shortDescriptionLink": "Weitere Informationen",
+  "tabsLabel": "Informationen auf der Flasche",
+  "tabs": {
+    "vintage": {
+      "title": {
+        "new": "Der Wein",
+        "secondHand": "Beschreibung des Postens"
+      }
+    },
+    "advice": {
+      "title": "Verkostung und Lagerung",
+      "temperature": "wird bei einer Temperatur von {{temperature}}°C serviert.",
+      "dishes": {
+        "1": "Passt perfekt zu folgendem Gericht:",
+        "other": "Passt perfekt zu folgenden Gerichten:"
+      },
+      "sagaRating": "Notizen zum Jahrgang:"
+    }
+  },
+  "lotDiscountFirstLine": "-{{percentage}}% ab {{quantity}} Flaschen",
+  "lotDiscountSecondLinePartOne": "entspricht",
+  "lotDiscountSecondLinePartTwo": "pro Einheit",
+  "assessment": {
+    "expert": "Das sagen die Experten…",
+    "idealWine": "iDealwine meint..."
+  },
+  "assurance": {
+    "new": "Eine breite Auswahl an Weinen, die mit Leidenschaft von unseren Experten zusammengestellt wurde",
+    "secondHand": {
+      "withoutExpert": "Kontrolliert, begutachtet & zertifiziert von iDealwine",
+      "withExpert": "Kontrolliert, begutachtet & zertifiziert von {{}}, Experte von iDealwine"
+    }
+  },
+  "detailedInformation": {
+    "title": "Präsentation",
+    "variantSectionTitle": "Der Wein",
+    "estateSectionTitle": "Das Weingut",
+    "estateExternalLink": "Weitere Informationen finden Sie auf <0>der Website des Weingutes</0>.",
+    "characteristicsSectionTitle": "Detaillierte Eigenschaften",
+    "characteristics": {
+      "estate": "Weingut:",
+      "quantity": "Anzahl:",
+      "origin": "Herkunft:",
+      "storageType": "Typ Weinkeller:",
+      "VATRecoverable": "Mwst. erstattbar:",
+      "hasOriginalWoodenCrate": "Holzkiste/Originalverpackung:",
+      "CRD": "Französisches Zoll-Siegel:",
+      "alcoolProportion": "Alkohol in Prozent:",
+      "region": "Region:",
+      "appellation": "Appellation:",
+      "classification": "Klassifizierung:",
+      "owner": "Eigentümer:",
+      "vintage": "Jahrgang:",
+      "color": "Farbe:",
+      "peak": "Trinkreife:",
+      "temperature": "Trinktemperatur:",
+      "biologicProfile": "Produktionsmethode:",
+      "surface": "Fläche:",
+      "yield": "Produktion:",
+      "intensity": "Intensität des Weins:",
+      "dominantAroma": "Dominante Aromen des Weins:",
+      "tastingOccasion": "Anlass der Verkostung:",
+      "remark": "Anmerkung:",
+      "wineVarieties": "Rebsorten:",
+      "wineDishPairings": "Welcher Wein zum Essen?",
+      "disgorgementYear": "Jahr des Degorgements",
+      "values": {
+        "surface": {
+          "1": "{{count}} Hektar",
+          "other": "{{count}} Hektar"
+        },
+        "yield": {
+          "1": "{{count}} Flasche",
+          "other": "{{count}} Flaschen"
+        },
+        "peak": {
+          "collection": "Sammlerflasche",
+          "drinkNow": "dieses Jahr zu trinken",
+          "drinkIn": "zu trinken ab {{yearStart}}",
+          "drinkFromTo": "zu trinken ab {{yearStart}} und bis {{yearEnd}}",
+          "drinkFromNow": "ab sofort zu trinken",
+          "drinkFromStart": "zu trinken ab {{yearStart}}",
+          "drinkUntil": "zu trinken bis {{yearEnd}}"
+        }
+      }
+    }
+  },
+  "direct-purchase": "Festpreise",
+  "signalVariantMailTo": {
+    "signalVariant": "Haben Sie ein Problem bei diesem Posten festgestellt? ",
+    "signalVariantLink": "Melden",
+    "mail": {
+      "subject": "Fehler: {{productVariantCode}} - {{productVariantName}}",
+      "body": "Guten Tag, ich habe einen Fehler bei folgendem Posten festgestellt: {{ productVariantURL }} \n\n [Bitte geben Sie die Art des Problems an, das Sie gesichtet haben]. \n Vielen Dank und einen schönen Tag noch!"
+    }
+  },
+  "enum": {
+    "classification": {
+      "AOP": "AOP",
+      "BORDEAUX": "Bordeaux",
+      "BRUT": "Brut",
+      "CINQUIEME_GRAND_CRU_CLASSE": "5ème Grand Cru Classé",
+      "CINQUIEME_GRAND_CRU": "5ème Grand Cru",
+      "CRU_BOURGEOIS_EXCEPTIONNEL": "Cru Bourgeois Exceptionnel",
+      "CRU_BOURGEOIS": "Cru Bourgeois ",
+      "CRU_CLASSE_DE_GRAVES": "Cru classé de graves (Cru klassifiziert)",
+      "CRU_CLASSE": "Cru Classé",
+      "CRU_D_ALSACE": "Cru d'Alsace",
+      "CUVEE_DES_DAMES": "Cuvée des dames",
+      "DEUXIEME_GRAND_CRU_CLASSE": "2ème Grand Cru Classé",
+      "DO": "DO",
+      "DOC": "DOC",
+      "DOCA": "DOCA",
+      "DOCG": "DOCG",
+      "DSC": "DSC",
+      "EXTRA_BRUT_BLANC_DE_BLANCS": "Extra Brut Blanc de Blancs",
+      "GG": "GG",
+      "GRAND_CRU_CLASSE": "Grand Cru Classé",
+      "GRAND_CRU": "Grand Cru ",
+      "IGP": "IGP",
+      "IGT": "IGT",
+      "PREMIER_CRU_CLASSE_SUPERIEUR": "Premier Cru Classé Supérieur",
+      "PREMIER_CRU": "1er Cru",
+      "PREMIER_GRAND_CRU_CLASSE_A": "1er Grand Cru Classé A",
+      "PREMIER_GRAND_CRU_CLASSE_B_DEPUIS_2012": "1er Grand Cru Classé B seit 2012",
+      "PREMIER_GRAND_CRU_CLASSE_B": "1er Grand Cru Classé B",
+      "PREMIER_GRAND_CRU_CLASSE": "1er Grand Cru Classé",
+      "QUATRIEME_GRAND_CRU_CLASSE": "4ème Grand Cru Classé",
+      "SECOND_VIN": "Zweitwein",
+      "TROISIEME_GRAND_CRU_CLASSE": "3ème Grand Cru Classé",
+      "TROISIEME_VIN": "Drittwein",
+      "VIN_DE_PAYS": "Landwein",
+      "VIN_DE_TABLE": "Tafelwein",
+      "WO": "WO"
+    },
+    "origin": {
+      "ESTATE": "Weingut",
+      "INDIVIDUAL": "Privatperson",
+      "PROFESSIONAL": "Unternehmen",
+      "OTHER": "Andere",
+      "FAMILY_CELLAR": "Weinkeller der Familie",
+      "WINE_MERCHANT": "Weinhandlung",
+      "IDEALWINE_LOT": "Posten gehört iDealwine",
+      "STARRED_PROFESSIONAL": "Sterne-Profi",
+      "AUCTIONS": "Auktion"
+    },
+    "storageType": {
+      "WINE_CABINET": "Weinkühlschrank",
+      "OTHER": "Andere",
+      "AIR_CONDITIONED_UNDERGROUND_CELLAR": "klimatisierter Weinkeller",
+      "IDEALWINE_STORAGE_CELLAR": "iDealwines Lagerservice",
+      "CLASSIC_UNDERGROUND_CELLAR": "unterirdischer Keller",
+      "DEDICATED_RENTAL_STORAGE": "Anmietung eines Lagerraums speziell für Wein",
+      "SPECIALIZED_STORAGE": "Spezielle Lagerung"
+    },
+    "priceType": {
+      "PRIX_SPECIAL": "Sonderpreis",
+      "PRIX_PROPRIETE": "Winzerpreis"
+    },
+    "productionUnit": {
+      "BOUTEILLE": {
+        "1": "{{count}} Flasche",
+        "other": "{{count}} Flaschen"
+      },
+      "BOUTEILLES_CUVEE": {
+        "1": "{{count}} Flasche (Wein)",
+        "other": "{{count}} Flaschen (Wein)"
+      },
+      "DOMAINE": {
+        "1": "{{count}} Weingut",
+        "other": "{{count}} Weingüter"
+      },
+      "HECTARE": {
+        "1": "{{count}} Hektar",
+        "other": "{{count}} Hektar"
+      },
+      "HECTOLITRE": {
+        "1": "{{count}} Hektoliter",
+        "other": "{{count}} Hektoliter"
+      },
+      "MAGNUM": {
+        "1": "{{count}} Magnum",
+        "other": "{{count}} Magnum"
+      },
+      "UNKNOWN": "{{count}}"
+    }
+  },
+  "addToBasket": "In den Warenkorb legen",
+  "allStockAddedToBasket": "Sie haben das Limit für dieses Gebot erreicht",
+  "identicalWinesOnSale": "Ähnliche Weine",
+  "unitPrice": "Preis pro Einheit",
+  "estimatedDelivery": "Auf Lager, Lieferung zwischen {{dateMin}} und {{dateMax}} ",
+  "additionalDeliveryFees": "Für den Versand dieses Formats können zusätzliche Kosten anfallen.",
+  "deliveryDelayDialog": {
+    "title": "Verspätung der Lieferung",
+    "content": "Standardlieferung zwischen {{dateMin}} und {{dateMax}}. Expresslieferung zwischen {{dateMin}} und {{dateMax}}. Die geschätzten Liefertermine werden für eine Lieferung per Colissimo für eine Standardlieferung und per Chronopost für eine Expresslieferung innerhalb des französischen Mutterlandes berechnet. Sie hängen von dem Datum ab, an dem die Zahlung für die Bestellung registriert wurde. Sie können sich ändern, wenn die Bestellung in eine Warteschlange für die Zusammenstellung gestellt wird. Diese Fristen können auch während der Hauptverkehrszeiten oder aufgrund von Lieferzwängen des Spediteurs am Wohnort des Kunden variieren."
+  },
+  "alert": {
+    "title": "POSTEN UNTER BEOBACHTUNG",
+    "content": "Sie erhalten 45 Minuten vor dem Ende des Verkaufs eine Benachrichtigung. Um Ihre überwachten Posten zu verwalten und die Zeiten für Ihre Warnungen zu programmieren, klicken Sie <0>hier</0>."
+  },
+  "sold": "Verkauft",
+  "lot": "Posten von",
+  "auction": {
+    "bid": "Bieten",
+    "userSellerInformation": "Sie können nicht bieten, da Sie der Verkäufer dieses Postens sind.",
+    "userWinningInformation": "Ihr Gebot gewinnt derzeit.",
+    "userWinningDesktopInformation": ", verwenden Sie das automatische Gebot, wenn Sie den Betrag Ihres Maximalgebots erhöhen möchten,",
+    "userWinningThreshold": "Sie haben ein automatisches Gebot abgegeben auf",
+    "thresholdBid": "Automatisches Gebot",
+    "numberOfBids": {
+      "0": "{{count}} Gebote",
+      "1": "{{count}} Gebot",
+      "other": "{{count}} Gebote"
+    },
+    "showHistory": "Historie ansehen",
+    "withCommission": "Kommission mit inbegriffen",
+    "live": "live",
+    "reserveBid": "Startpreis: ",
+    "averageEstimate": "Schätzung: "
+  },
+  "oneLot": "1 Posten",
+  "lots": "Posten",
+  "lotsDropbox": {
+    "lots": {
+      "1": "1 Posten",
+      "other": "{{count}} Posten"
+    }
+  },
+  "authenticateWithNFC": "Authentifizierung durch NFC",
+  "winedexUrl": "www.wineDex.io",
+  "stockWarning": "Letzte Flasche!",
+  "confirmation_cart_dialog": {
+    "title": "BESTÄTIGUNG WARENKORB",
+    "description": {
+      "0": "Wir konnten Ihren Wein nicht Ihrem Warenkorb hinzufügen.",
+      "1": "Sie haben {{count}} Posten von <0>{{wineName}}</0> hinzugefügt",
+      "other": "Sie haben {{count}} Posten von <0>{{wineName}}</0> hinzugefügt"
+    },
+    "limitedQuantityWarning": "Sie haben die maximale Kaufmenge für diesen Posten überschritten!",
+    "seeBasket": "Sie können Ihren Warenkorb hier ansehen",
+    "yourAccount": "Ihr Konto ansehen",
+    "note": "Bitte beachten Sie: Die Posten in Ihrem Warenkorb sind eine Stunde lang für Sie reserviert. Danach werden sie erneut anderen Kunden angeboten.",
+    "button1": "EINKAUF FORTSETZEN",
+    "button2": "WARENKORB ANSEHEN"
+  },
+  "auction_countdown": {
+    "remainingDays": "Noch {{remainingDays}}",
+    "remainingDaysAndHours": "Noch {{remainingDays}} {{remainingHours}}",
+    "remainingHoursAndMinutes": "Noch {{remainingHours}} {{remainingMinutes}}",
+    "remainingMinutesAndSeconds": "Noch {{remainingMinutes}} {{remainingSeconds}}",
+    "remainingSeconds": "Noch {{remainingSeconds}}",
+    "days": {
+      "0": "{{count}} Tag",
+      "1": "{{count}} Tag",
+      "other": "{{count}} Tage"
+    },
+    "hours": {
+      "0": "{{count}} Stunden",
+      "1": "{{count}} Stunde",
+      "other": "{{count}} Stunden"
+    },
+    "minutes": {
+      "0": "{{count}} Minuten",
+      "1": "{{count}} Minute",
+      "other": "{{count}} Minuten"
+    },
+    "seconds": {
+      "0": "{{count}} Sekunden",
+      "1": "{{count}} Sekunde",
+      "other": "{{count}} Sekunden"
+    },
+    "endDate": "{{endDate}}",
+    "timeZone": "{{timeZone}}",
+    "auctionOver": "Auktion beendet"
+  },
+  "finalizeInscription": "Meine Registrierung abschließen",
+  "returnToAuctions": "WEITERE GEBOTE ABGEBEN",
+  "auction_confirmation_dialog": {
+    "bid": {
+      "title": "Bestellung registriert",
+      "confirmation": "Ihr Gebot wurde registriert.",
+      "description": "In einigen Minuten erhalten Sie eine Bestätigungs-E-Mail. Sie können Ihre laufenden Bestellungen in Ihrem Konto einsehen."
+    },
+    "threshold": {
+      "title": "Automatisches Gebot registriert",
+      "confirmation": "Ihr automatisches Gebot wurde registriert.",
+      "description": "Dieser Maximalpreis (für andere Bieter nicht sichtbar) wird nur erreicht, wenn andere Kunden versuchen, über Ihr Gebot hinaus zu bieten. Das Gebot wird automatisch bis zu dem von Ihnen festgelegten Höchstbetrag erhöht, ohne dass Sie Ihre Gebote verfolgen müssen. Ihr automatisches Gebot wird nur erreicht, wenn Sie einen Konkurrenten haben, der bereit ist, darüber hinaus zu bieten.\n"
+    }
+  },
+  "invalid_payment_method_dialog": {
+    "r6p7b6jb2": {
+      "title": "Ihre Bestellung konnte nicht registriert werden.",
+      "description": "Ihre angegebene Kreditkarte ist ungültig, daher haben Sie keinen Zugang zu Auktionen"
+    },
+    "xhjDlAo4D": {
+      "title": "Ihre Bestellung konnte nicht registriert werden.",
+      "description": "Sie haben sich bei Ihrer Anmeldung für „Überweisung“ entschieden, aber noch nicht alle für die Aktivierung Ihres Kontos notwendigen Dokumente eingeschickt und daher keinen Zugang zu Auktionen."
+    },
+    "eUnrn3LSx": {
+      "title": "Ihre Bestellung konnte nicht registriert werden.",
+      "description": "Sie haben noch kein Zahlungsmittel auf My iDealwine angegeben undd deshalb noch keinen Zugang zu Auktionen."
+    }
+  },
+  "missing_default_address_dialog": {
+    "title": "Ihre Bestellung konnte nicht registriert werden",
+    "description": "Sie haben Ihre Anmeldung beendet, ohne Ihre Lieferadresse anzugeben und haben deshalb keinen Zugang zu den Auktionen."
+  },
+  "auction_bid_surpassed_by_threshold_dialog": {
+    "title": "Ihre Bestellung konnte nicht registriert werden.",
+    "description": "Ihr Gebot ist nicht hoch genug. Ein anderer Nutzer hat bereits ein Maximalgebot in gleicher Höhe oder höher abgegeben. Wenn Sie möchten, können Sie ein höheres Gebot abgeben."
+  },
+  "auction_bid_history_dialog": {
+    "title": "Historie der Auktionen",
+    "description": "Die wiederholte Anzeige desselben Benutzernamens bedeutet, dass der Versuch, einen anderen Bieter zu überbieten, angesichts des vom Erstbieter festgelegten Maximalgebots gescheitert ist.",
+    "learnMoreOnAuctions": "Mehr zu Auktionen erfahren",
+    "bidder": "Bieter",
+    "bidAmount": "Höhe des Gebots",
+    "bidDate": "Uhrzeit des Gebots"
+  },
+  "total_amount_information_dialog": {
+    "title": "Schätzung der Kosten Ihres Gebots",
+    "table": {
+      "nextBid": "Nächstes Gebot",
+      "buyerFee": "Aufgeld exkl. MwSt. (21 %)",
+      "VATOnBuyerFee": "Mwst. auf das Aufgeld (20 %)",
+      "customDutiesFee": "Zölle und Steuern inklusive",
+      "allIncludedAmount": "Bruttopreis"
+    },
+    "description": "I / Ich kaufe für ein Unternehmen aus Europa (außerhalb Frankreichs und mit einer gültigen MwS.-Identifikationsnummer) : wenn MwSt. erstattet werden kann => 20% der MwSt. werden bei der Bezahlung vom Preis abgezogen\nII / Ich bin ein Kunde von außerhalb der EU:\n• Wenn MWSt.= ja => 20% der MWSt. werden bei der Bezahlung vom Gesamtwert abgezogen\n• Wenn MWSt.= nein => Die MWSt. auf die Provision wird bei der Bezahlung gestrichen.\nIII/ Andere Fälle: Keine Änderung.",
+    "isVATrecoverable": "Mehrwertsteuer erstattungsfähig: {{isVATrecoverable}}"
+  },
+  "auction_bid_threshold_dialog": {
+    "title": "Passen Sie Ihre Maximalgebot an",
+    "confirmButton": "Bestätigen"
+  },
+  "outdated_bid_exception_dialog": {
+    "title": "Ihre Bestellung konnte nicht registriert werden. ",
+    "description": "Die Auktion wurde beendet. Sie haben nicht mehr die Möglichkeit, ein Gebot abzugeben"
+  },
+  "sum_unpaid_orders_exception_dialog": {
+    "title": "Ihre Bestellung konnte nicht registriert werden. ",
+    "description": "Die Gesamtsumme Ihrer unbezahlten Bestellungen übersteigt das von iDealwine festgelegte Limit"
+  },
+  "sum_ongoing_bids_exception_dialog": {
+    "title": "Ihre Bestellung konnte nicht registriert werden. ",
+    "description": "Die Gesamtsumme der von Ihnen gewonnenen Auktionen übersteigt das von iDealwine festgelegte Limit",
+    "contentLink": "Für weitere Informationen kontaktieren Sie gerne unseren Kundenservice"
+  },
+  "overdue_unpaid_orders_exception_dialog": {
+    "title": "Ihre Bestellung konnte nicht registriert werden. ",
+    "description": "Sie haben mindestens eine Bestellung, die seit mehr als sieben Tagen auf Bezahlung wartet oder fällig ist. Um mehr darüber zu erfahren, was zu einer Sperrung Ihres Kontos führt, schauen Sie in unsere Allgemeinen Geschäftsbedingungen oder ",
+    "click_here": "Klicken Sie hier"
+  },
+  "limitedQuantity": {
+    "1": "Limitierte Menge von {{formatWithQuantity}}",
+    "other": "Limitierte Menge von {{formatWithQuantity}}"
+  },
+  "seo": {
+    "nextseo": {
+      "title": "Kaufen {{name}} (Posten: {{code}})",
+      "description": "{{titleAndQuantity}}{{region}}. Posten {{code}}{{availableInSale}}, auf Lager auf iDealwine.com.",
+      "availableInSale": ", verfügbar in der Auktion {{auctionCatalogId}}",
+      "type": "Produktseite"
+    },
+    "jsonld": {
+      "model": "Flaschen"
+    }
+  },
+  "ProductVintageRatingBlock": {
+    "title": "Die Weinnotierung von iDealwine",
+    "chart": {
+      "subtitle": "Die Weinnotierung von iDealwine<sup>(1)</sup> wird aus den Ergebnissen der Auktionen berechnet. Sie entspricht dem Zuschlags- oder \"Hammerpreis\" zuzüglich der beim Verkauf erhobenen Käufergebühren.",
+      "format": "(1) Flaschenformat"
+    },
+    "text": {
+      "title": "Aktuelle Notierung in den Auktionen<sup>(1)</sup>",
+      "latestAdjudications": "Letzte Zuschlagspreise",
+      "sameWine": "Sie verfügen über einen identischen Wein?",
+      "sellButtonLabel": "Verkaufen Sie ihn jetzt",
+      "annualHighest": "(höchster jährlich)",
+      "annualLowest": "(niedrigster jährlich)"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+@import "@/styles/stylesheet";
+
+.container {
+  position: relative;
+  padding: getSpacing(3);
+  max-height: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+
+  @include isMobileOrTablet {
+    padding: getSpacing(5) getSpacing(2);
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.image {
+  object-fit: cover;
+}
+
+.backgroundImage {
+  z-index: -1;
+}
+
+.bannerImagesContainer {
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: getSpacing(4);
+  column-gap: getSpacing(4);
+  width: 40%;
+  min-width: getSpacing(106);
+
+  @include isMobile {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+.bannerImageContainer {
+  position: relative;
+  height: getSpacing(34);
+  aspect-ratio: 3/2;
+}
+
+.textContainer {
+  margin: auto;
+  padding: getSpacing(3);
+  padding-right: getSpacing(1);
+  width: fit-content;
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $white;
+}
+
+.estateName {
+  font-size: $fontSizeMediumLarge;
+  font-weight: 400;
+  margin-bottom: getSpacing(3);
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding-right: getSpacing(2);
+
+  @include isMobile {
+    text-align: center;
+    font-size: $fontSizeMedium;
+    margin-bottom: getSpacing(2);
+  }
+}
+
+.estateShortDescription {
+  margin-bottom: getSpacing(2);
+}
+
+.estateDescription {
+  white-space: pre-line;
+  text-align: justify;
+  max-height: getSpacing(50);
+  overflow-y: auto;
+  padding-right: getSpacing(2);
+
+  @include isMobileOrTablet {
+    text-align: center;
+  }
+}

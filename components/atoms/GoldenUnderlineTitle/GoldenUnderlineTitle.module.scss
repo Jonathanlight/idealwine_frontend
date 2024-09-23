@@ -1,0 +1,22 @@
+@import "@/styles/stylesheet";
+
+%goldenUnderline {
+  text-align: center;
+  background-color: $golden;
+  margin: getSpacing(2) getSpacing(5);
+  display: block;
+}
+
+.medium {
+  @extend %goldenUnderline;
+
+  width: 40px;
+  height: 4px;
+}
+
+.large {
+  @extend %goldenUnderline;
+
+  width: 60px;
+  height: 5px;
+}

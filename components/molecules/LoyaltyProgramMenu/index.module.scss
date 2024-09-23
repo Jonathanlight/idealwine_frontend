@@ -1,0 +1,95 @@
+@import "@/styles/stylesheet";
+
+.bigCard {
+  padding: getSpacing(4);
+  background-color: $white;
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  display: flex;
+  gap: getSpacing(4);
+  margin-top: getSpacing(4);
+
+  @include isMobile {
+    flex-direction: column;
+  }
+}
+
+.image {
+  object-fit: cover;
+  padding-right: getSpacing(3);
+  border-right: 1px solid $grey;
+  align-self: center;
+
+  @include isMobileOrTablet {
+    padding-right: unset;
+    border-right: unset;
+  }
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(3);
+  padding: getSpacing(2) getSpacing(6);
+  height: 100%;
+  font-size: $fontSizeSmall;
+}
+
+.button {
+  align-self: center;
+  text-decoration: none;
+
+  &:focus,
+  &:hover,
+  &:visited,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+.link {
+  color: $blueishGrey;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:focus,
+  &:hover,
+  &:visited,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+.title {
+  font-size: $fontSizeMedium;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 0 getSpacing(3) 0 0;
+
+  @include isMobileOrTablet {
+    text-align: center;
+  }
+}
+
+.subtitle {
+  letter-spacing: 1.5px;
+  font-size: $fontSizeMedium;
+}
+
+.disclaimer {
+  color: $greyDark;
+  font-size: $fontSizeSmall;
+  text-align: justify;
+}
+
+.list {
+  padding-left: getSpacing(3);
+  list-style-type: circle;
+}

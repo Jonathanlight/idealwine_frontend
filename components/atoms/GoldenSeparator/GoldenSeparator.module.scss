@@ -1,0 +1,26 @@
+@import "@/styles/stylesheet";
+
+.goldenSeparator {
+  background-color: $golden;
+  margin-top: getSpacing(3);
+}
+
+.extraSmall {
+  height: 5px;
+  width: 30px;
+}
+
+.small {
+  height: 5px;
+  width: 60px;
+}
+
+.medium {
+  height: 5px;
+  width: 150px;
+}
+
+.large {
+  height: 5px;
+  width: 300px;
+}

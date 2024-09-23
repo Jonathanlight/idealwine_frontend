@@ -1,0 +1,36 @@
+@import "@/styles/stylesheet";
+
+.paginationContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: getSpacing(5) 0;
+
+  @include isTabletOrDesktop {
+    gap: getSpacing(2);
+  }
+}
+
+.pageNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+
+  @include isTabletOrDesktop {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.currentPage {
+  background-color: $golden;
+  border-radius: 50%;
+  color: $white;
+}

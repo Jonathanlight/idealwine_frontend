@@ -1,0 +1,100 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  color: $black;
+  font-size: $fontSizeBase;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+}
+
+.title {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.manyInputs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: getSpacing(2);
+  flex-direction: column;
+
+  @include isTabletOrDesktop {
+    flex-direction: row;
+  }
+}
+
+.expandDropdown {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.validateButton {
+  margin: getSpacing(2) 0;
+  align-self: flex-start;
+}
+
+.relayPointContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: getSpacing(1);
+  align-items: center;
+  padding: getSpacing(1) 0;
+}
+
+.relayPointMainContainer {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  gap: getSpacing(1);
+
+  @include isTabletOrDesktop {
+    flex-direction: row;
+  }
+}
+
+.relayPointName {
+  text-transform: uppercase;
+  text-align: start;
+}
+
+.relayPointAddress {
+  text-transform: capitalize;
+  text-align: start;
+}
+
+.relayPointDistance {
+  white-space: nowrap;
+}
+
+.relayPointHoraires {
+  padding-left: 5%;
+  text-align: start;
+  font-weight: lighter;
+}
+
+.relayPointHoraires td {
+  padding: 2px;
+  margin-right: 20%;
+}
+
+.noRelayPoint {
+  color: $greyDark;
+  font-style: italic;
+}
+
+.absolute {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}

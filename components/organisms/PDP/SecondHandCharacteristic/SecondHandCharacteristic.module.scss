@@ -1,0 +1,12 @@
+@import "@/styles/stylesheet";
+
+.item {
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+.link {
+  text-decoration: underline;
+  color: $greyDark;
+  font-size: $fontSizeSmall;
+}

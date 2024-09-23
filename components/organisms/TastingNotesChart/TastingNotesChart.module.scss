@@ -1,0 +1,15 @@
+@import "@/styles/stylesheet";
+
+.notesGraphContainer {
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 500px;
+  margin-top: getSpacing(6);
+  grid-column: 1 / 3;
+}

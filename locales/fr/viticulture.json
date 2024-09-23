@@ -1,0 +1,23 @@
+{
+  "seo": {
+    "title": "Viticulture - iDealwine",
+    "description": "Chaque année, à l’issue de la semaine de dégustation des Primeurs qui se tient à Bordeaux au mois d’avril, iDealwine établit une sélection des grands crus jugés intéressants à acquérir. Découvrez le service primeurs d'iDealwine"
+  },
+  "h1": "VITICULTURE",
+  "h2-1": "Général",
+  "h2-2": "biodynamie",
+  "h2-3": "Biologique",
+  "h2-4": "Raisonnée",
+  "h2-5": "Ecologique",
+  "h2-6": "Nature",
+  "h2-7": "Triple A",
+  "viticulture_general": "Le critère « Type de culture/ vinification », regroupe les vins certifiés en biodynamie, en agriculture biologique, en agriculture raisonnée / haute valeur environnementale, ainsi que les vins « écologiques » qui n’ont pas de certification officielle.Ces critères concernent les millésimes récents (la date de certification est spécifiée dans le descriptif du domaine, dans la mesure où elle est connue). Pour plus de détails sur ce critère, reportez-vous à",
+  "viticulture_biodynamie": "Le critère « biodynamie » regroupe tous les domaines certifiés en biodynamie, validé par l’un des deux organismes officiels : Demeter ou Biodyvin. Tous les vins en biodynamie sont également certifiés en agriculture biologique. Ce critère concerne les millésimes récents.",
+  "viticulture_biologique": "Le critère « biologique » regroupe tous les domaines certifiés en agriculture biologique, validé par l’un des organismes agréés par le ministère de l’Agriculture, comme Ecocert. Ce critère concerne les millésimes récents.",
+  "viticulture_raisonee": "Le critère « raisonnée » regroupe tous les domaines certifiés en agriculture raisonnée ou en Haute Valeur Environnementale (niveau 3 de la Certification Environnementale). Ce critère concerne les millésimes récents.",
+  "viticulture_ecologique": "Le critère écologique concerne les domaines qui ont des pratiques viticoles respectueuses de l’environnement, sans avoir fait le choix d’une certification ou dont la conversion en bio ou biodynamie n’est pas encore achevée. Il rassemble aussi bien des domaines qui ont des pratiques biodynamiques (non certifié), que des domaines ayant simplement banni les intrants chimiques. Ce critère concerne les millésimes récents.",
+  "viticulture_nature": "Ce critère désigne les vins produits sans soufre ajouté (ou presque) et sans autre intrant. Toutefois, aucun organisme officiel ne délivrant de label nature, cette distinction est fondée sur les déclarations des vignerons. Ce critère concerne les millésimes récents.",
+  "viticulture_triplea": "Un critère qui rassemble les vins nature à la vinification répondant à un cahier des charges précis et exigeant. Triple A est un manifeste né en 2001 en Italie sous l’impulsion de Luca Gargano, PDG d’une importante société d’importation de vins italiens, dans le but de fédérer des domaines à la production compatible avec la devise « Agriculteurs, Artisans et Artistes ».Ce critère concerne les millésimes récents.",
+  "viticulture_general-a": "https://www.idealwine.net/nouveau-reperez-clic-vins-bio-idealwine/",
+  "viticulture_general-txt-a": "l’article du blog"
+}

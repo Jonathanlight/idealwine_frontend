@@ -1,0 +1,39 @@
+@import "@/styles/stylesheet";
+
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: getSpacing(4);
+  max-height: 300px;
+  overflow: auto;
+}
+
+.table {
+  text-align: left;
+  border-collapse: collapse;
+  margin-inline: 30px;
+
+  td {
+    padding: 8px;
+    border-bottom: 1px solid $moonGrey;
+  }
+
+  td:first-child {
+    text-align: left;
+  }
+
+  /* Right-align text in the last column */
+  td:last-child {
+    text-align: right;
+    font-weight: bold;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+.text {
+  margin-top: 30px;
+  margin-inline: 30px;
+}

@@ -1,0 +1,90 @@
+{
+  "bidsHistory": "Historie meiner Autionen",
+  "ongoingBids": "Aktuelle Auktionen",
+  "buyHistory": "Einkaufshistorie",
+  "orderHistoryTab": "Bestellhistorie",
+  "neverBoughtDirectPurchaseProduct": "Sie haben noch keinen Kauf getätigt.",
+  "neverMadeABid": "Sie haben noch keine Bestellung aufgegeben.",
+  "noOngoingAuction": "Sie nehmen aktuell an keiner Auktion teil",
+  "see": "ANZEIGEN",
+  "endDate": "Ende des Verkaufs :",
+  "myOrder": "Mein Gebot:",
+  "currentOrder": "Aktuelles Gebot: ",
+  "wineBottle": "Flasche Wein",
+  "isWinning": "Gewinner der Auktion",
+  "isLoosing": "Verlierer der Auktion",
+  "gap": "Abweichung",
+  "estimate": "Schätzung",
+  "finalPrice": "Endpreis",
+  "obtained": "Gewonnen",
+  "purchasePrice": "Endpreis:",
+  "quantity": "Menge:",
+  "sortType": {
+    "ORDER_DESC": "Aktuelle Gebote absteigend",
+    "ORDER_ASC": "Aktuelle Gebote aufsteigend",
+    "HIGHEST_BID_DESC": "Gewonnene Auktionen absteigend",
+    "HIGHEST_BID_ASC": "Gewonnene Auktionen aufsteigend",
+    "AUCTION_END_DATE_DESC": "Nach Auktionsschluss absteigend",
+    "AUCTION_END_DATE_ASC": "Nach Auktionsschluss aufsteigend",
+    "defaultSortValue": "Sortieren nach ..."
+  },
+  "isObtained": {
+    "true": "JA",
+    "false": "NEIN"
+  },
+  "orderHistory": {
+    "title": "Bestellhistorie",
+    "btnViewCurrentAuctions": "Alle aktuellen Auktionen",
+    "orderNumber": "Bestellung vom {{orderDate}}",
+    "orderDate": "Datum der Bestellung {{orderDate}}",
+    "paymentState": "Zahlungsstatus: {{paymentState}}",
+    "shippingState": "Status: {{shippingState}}",
+    "packageReference": "Referenznummer Paket:",
+    "shippingDate": "Lieferdatum: {{shippingDate}}",
+    "shippingMethod": "Lieferungsart: {{shippingMethod}}",
+    "recap": "Zusammenfassung der Lieferung",
+    "errorGenerateInvoiceUrl": "Ihre Rechnung ist nicht verfügbar. Bitte wenden Sie sich an den Kundenservice.",
+    "details": {
+      "title": "Weitere Informationen",
+      "invoice": "Rechnungen",
+      "paymentRecap": "Zusammenfassung der Zahlung"
+    },
+    "orderIsPriorToMep": "Um die Rechnung für eine Bestellung vor dem 14. Mai 2024 zu erhalten, wenden Sie sich bitte an den Kundenservice."
+  },
+  "paymentStateEnum": {
+    "cart": "Warenkorb",
+    "awaiting_payment": "Zahlung fällig",
+    "partially_authorized": "Teilweise autorisiert",
+    "authorized": "Autorisiert",
+    "partially_paid": "Teilweise bezahlt",
+    "cancelled": "Abgebrochen",
+    "paid": "Bezahlt",
+    "partially_refunded": "Zum Teil zurückerstattet",
+    "refunded": "Zurückerstattet",
+    "unpaid": "Unbezahlt"
+  },
+  "shippingStateEnum": {
+    "cart": "Warenkorb",
+    "ready": "Nicht vorbereitet",
+    "cancelled": "Abgebrochen",
+    "partially_shipped": "Teilweise versandt",
+    "shipped": "Versandt am",
+    "on_going": "Ausstehend",
+    "pickup_ready": "Bereit zur Abholung",
+    "picked_up": "Abgeholt am"
+  },
+  "seo": {
+    "ongoingBids": {
+      "title": "Meine aktuellen Gebote - iDealwine",
+      "description": "Meine aktuellen Bestellungen"
+    },
+    "orderHistory": {
+      "title": "Bestellhistorie und Verfolgen meiner Lieferungen ",
+      "description": ""
+    },
+    "purchaseHistory": {
+      "title": "Bestellhistorie - iDealwine",
+      "description": ""
+    }
+  }
+}

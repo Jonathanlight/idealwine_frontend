@@ -1,0 +1,23 @@
+@import "@/styles/stylesheet";
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: arial;
+  width: 92%;
+  background-color: $white;
+  gap: getSpacing(5);
+  height: 250px;
+}
+
+.message {
+  padding-top: getSpacing(4);
+  font-style: $fontFamily;
+  font-weight: 350;
+  font-size: getSpacing(5);
+
+  @include isMobile {
+    font-size: getSpacing(4);
+  }
+}

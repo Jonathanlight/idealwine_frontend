@@ -1,0 +1,16 @@
+{
+  "shippingOptimized": "Ihre Lieferkosten wurden optimiert.",
+  "shippingOptimizedHelper": {
+    "1": "Sie können noch {{count}} Flasche mehr für nur <0></0> zusätzliche Lieferkosten bestellen",
+    "other": "Sie können noch {{count}} Flaschen mehr für nur <0></0> zusätzliche Lieferkosten bestellen"
+  },
+  "shippingUnoptimized": "Optimieren Sie Ihre Lieferkosten!",
+  "shippingUnoptimizedHelperBottles": {
+    "1": "Beispiel: fügen Sie {{count}} Flasche hinzu und bezahlen Sie dieselben Lieferkosten.",
+    "other": "Beispiel: fügen Sie {{count}} Flaschen hinzu und bezahlen Sie dieselben Lieferkosten."
+  },
+  "shippingUnoptimizedHelperMagnums": {
+    "1": "Beispiel: fügen Sie {{count}} Flasche oder {{count}} Magnum hinzu und bezahlen Sie dieselben Lieferkosten.",
+    "other": "Beispiel: fügen Sie {{count}} Flaschen oder {{count}} Magnum hinzu und bezahlen Sie dieselben Lieferkosten."
+  }
+}

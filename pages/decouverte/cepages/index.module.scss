@@ -1,0 +1,61 @@
+@import "@/styles/stylesheet";
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: $greyLight;
+  padding: getSpacing(4);
+
+  @include isTabletOrDesktop {
+    padding: getSpacing(4) getSpacing(10);
+  }
+}
+
+.title {
+  font-size: $fontSizeLarge;
+  font-weight: 200;
+  margin: getSpacing(3) 0;
+}
+
+.text {
+  text-align: justify;
+  font-weight: 400;
+  font-size: $fontSizeMediumSmall;
+}
+
+.varietiesContainer {
+  padding: getSpacing(4);
+}
+
+.subtitle {
+  font-size: $fontSizeMediumLarge;
+  font-weight: 200;
+  margin: getSpacing(3) 0;
+}
+
+.varieties {
+  width: 50%;
+  min-width: fit-content;
+  font-weight: 200;
+  column-count: 4;
+
+  @include isTablet {
+    column-count: 3;
+  }
+
+  @include isMobile {
+    column-count: 2;
+  }
+}
+
+.linkContainer {
+  padding-right: getSpacing(3);
+  padding-bottom: getSpacing(2);
+}
+
+.link {
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+}

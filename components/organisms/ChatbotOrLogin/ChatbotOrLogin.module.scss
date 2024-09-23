@@ -1,0 +1,37 @@
+@import "@/styles/stylesheet";
+
+$borderWidth: 1px;
+
+.loaderOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: -$borderWidth;
+  background-color: rgba($white, 50%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+  align-items: center;
+  margin: 0 auto;
+  padding: getSpacing(4);
+  max-width: 1600px;
+  @include isMobileOrTablet {
+    padding: getSpacing(2);
+  }
+}
+
+.disconnectedTitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: getSpacing(4) 0 getSpacing(2);
+}
+
+.connexionButton {
+  text-transform: none;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}

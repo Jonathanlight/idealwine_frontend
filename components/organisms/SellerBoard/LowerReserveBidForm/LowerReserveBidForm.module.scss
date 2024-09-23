@@ -1,0 +1,25 @@
+@import "@/styles/stylesheet";
+
+.reserveBidForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: justify;
+  gap: getSpacing(2);
+  padding: getSpacing(4);
+  max-width: 600px;
+  align-items: center;
+}
+
+.reserveBidInput {
+  display: flex;
+  width: getSpacing(50);
+  align-items: center;
+  gap: getSpacing(2);
+}
+
+.actions {
+  display: flex;
+  gap: getSpacing(2);
+  justify-content: center;
+}

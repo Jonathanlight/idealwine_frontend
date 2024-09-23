@@ -1,0 +1,37 @@
+@import "@/styles/stylesheet";
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: justify;
+  gap: getSpacing(2);
+  padding: getSpacing(6);
+  max-width: 600px;
+}
+
+.confirmation {
+  text-align: left;
+}
+
+.description {
+  text-align: justify;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: getSpacing(6);
+  gap: getSpacing(2);
+  justify-content: center;
+}
+
+.button {
+  text-transform: uppercase;
+  flex: 1;
+}

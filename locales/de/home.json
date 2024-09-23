@@ -1,0 +1,23 @@
+{
+  "initialDescription": "Kauf und Verkauf von Weinen, große Weine, alte Jahrgänge, Online-Auktionen oder Direktbezug von den Weingütern. Kostenlose Preislisten und Notierungen für Weine.",
+  "lastOrdersTitle": "Die letzten Wein- Bestellungen & -Käufe",
+  "auction": "auktion",
+  "directPurchase": "festpreis",
+  "sliderAuctionTitle": "Aktuelle Auktionen",
+  "sliderDirectPurchaseTitle": "Festpreis",
+  "seeMore": "Mehr sehen",
+  "newReleasesTitle": "Kaufen Sie die neuesten Weine",
+  "seeMoreNewReleases": "Neuheiten aus",
+  "ratingsSearchTitle": "Suchen Sie nach einer Notierung\nFinden Sie schnell den Preis für einen Wein ...",
+  "ratingsSearchPlaceholder": "Geben Sie den Namen eines Weins, Produzenten etc. ein …",
+  "regionEnum": {
+    "bordeaux": "Bordeaux",
+    "bourgogne": "Burgund",
+    "rhone": "Rhone",
+    "autre": "Andere Regionen"
+  },
+  "seo": {
+    "title": "iDealwine - Die Seite, um Wein zu kaufen, zu verkaufen und schätzen zu lassen",
+    "description": "Kauf und Verkauf von Weinen, große Weine, alte Jahrgänge, Online-Auktionen oder Direktbezug von den Weingütern. Kostenlose Preislisten und Notierungen für Weine."
+  }
+}

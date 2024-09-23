@@ -1,0 +1,31 @@
+@import "@/styles/stylesheet";
+@import "./constants";
+
+.searchInput {
+  padding: getSpacing(4) getSpacing(5);
+  background-color: $greyLight;
+}
+
+.estateBoxesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($estateBoxMinWidth, 1fr));
+  overflow: auto;
+  gap: getSpacing(3);
+  margin: getSpacing(5) 0;
+}
+
+.scrollableContainer {
+  max-height: 250px;
+}
+
+.showAllButton {
+  color: $white;
+  background-color: $blueishGreyLighter;
+  padding: getSpacing(4);
+  flex-grow: 0;
+
+  &:hover {
+    background-color: $greyishBlue;
+    cursor: pointer;
+  }
+}

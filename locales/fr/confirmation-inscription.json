@@ -1,0 +1,19 @@
+{
+  "welcome": "Bienvenue sur iDealwine !",
+  "confirmationMail": "Dans quelques instants, vous recevrez une confirmation par email. Dès lors vous aurez accès aux services de \"My iDealwine\".",
+  "important": "important",
+  "inscriptionReminder": "Nous vous rappelons que votre inscription actuelle ne vous donne pas accès au service des enchères. Pour participer aux enchères, vous devrez compléter vos données personnelles dans la rubrique \"Mon profil\" de \"My iDealwine\".",
+  "completeProfile": "Compléter mon profil",
+  "offer": "Pour vous souhaiter la bienvenue, iDealwine vous offre <0>un bon d'achat de 15€</0> à utiliser sur votre première commande supérieure à 150€. Pour cela, rien de plus simple, utilisez le code promotionnel « FIRST » au moment du règlement de celle-ci. A vous de jouer !",
+  "refer": "Parrainage : cumulez les bons d'achat",
+  "firstSale": "Une fois votre première commande effectuée, vous verrez apparaître dans votre espace personnel un formulaire de parrainage.",
+  "referInstructions": "Vous pourrez alors parrainer vos proches depuis votre espace personnel iDealwine et cumuler des bons de réduction de 15€ à chaque première commande de l’un d’entre eux ! Ils recevront alors eux-mêmes un bon de réduction de 15€ à utiliser sur iDealwine pour leurs premiers achats.",
+  "moreInfo": "Pour en savoir plus sur ce programme, cliquez ici.",
+  "idealwineTeam": "L’équipe iDealwine",
+  "goodbye": "Nous vous remercions de votre confiance et sommes à votre disposition pour tout renseignement,",
+  "signature": "L'équipe d'iDealwine.",
+  "seo": {
+    "title": "Confirmation d'inscription - iDealwine",
+    "description": "Achetez et vendez vos vins aux enchères ou à prix fixe avec iDealwine."
+  }
+}

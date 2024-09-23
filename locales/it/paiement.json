@@ -1,0 +1,30 @@
+{
+  "unknownPaymentMethod": "Metodo di pagamento sconosciuto",
+  "edit": "Modifica",
+  "validatedCommand": "Ordine confermato",
+  "paymentTaken": "Il tuo ordine è stato confermato ed è in attesa di pagamento.",
+  "validatedFreeOrder": "Ordine confermato.",
+  "validatedMessage": "Riceverai un'email di conferma tra pochi istanti. Grazie per la fiducia, ti auguriamo una buona degustazione! 😃",
+  "validatedTeam": "Il team iDealwine",
+  "validatedBack": "Torna al sito",
+  "billingAddress": "Indirizzo di fatturazione",
+  "validate": "Conferma",
+  "paymentFailure": "Il pagamento non è andato a buon fine, il tuo ordine non può essere elaborato.",
+  "payBankTransfer": "Bonifico bancario",
+  "bankTransferInstructions": "<strong>Si prega di specificare il numero dell’ordine nella causale del bonifico.</strong><br/><strong>Per i bonifici in euro, puoi usare il nostro conto francese:</strong><br/>BRED<br/>IBAN:<br/> FR76 1010 7001 7500 1140 7454 286<br/>Codice SWIFT: BREDFRPPXXX<br/><strong>Per i bonifici in valute diverse dall'euro (USD, HKD, GPD, SGD), puoi usare il nostro conto di Hong Kong :</strong><br/>Conto n.: 848 540407 838<br/>Beneficiario : iDealwine.com<br/>Codice SWIFT : HSBCHKHHHKH<br/>Banca del beneficiario: HSBC Hong Kong<br/>Indirizzo della banca del beneficiario: 1 Queen's Road Central, Hong Kong",
+  "nothingToPay": "Per quest'ordine non è richiesto alcun pagamento.",
+  "orderTotal": "Totale ordine: <0></0> ",
+  "orderNumber": "Ordine n. {{orderNumber}}",
+  "unsupportedCurrencyModal": {
+    "title": "Valuta non supportata",
+    "content": "Non è possibile pagare tramite carta di credito con la valuta selezionata ({{currency}}). Sarai automaticamente reindirizzato verso il pagamento in euro. Se desideri pagare tramite USD o GBP, ti preghiamo di cambiare la valuta selezionandola direttamente in alto a destra o modificandola sul tuo profilo. Puoi pagare in {{currency}} solo ed esclusivamente tramite bonifico bancario.",
+    "amountInEur": "Importo totale dell'ordine in euro: <0></0>",
+    "cancel": "Annulla",
+    "continue": "Continua"
+  },
+  "applePay": {
+    "notAvailable": "Non è possibile accedere ad Apple Pay tramite questo dispositivo. Per poter utilizzare Apple Pay si prega di scegliere un altro browser o di scaricare l'ultima vesione del browser attualmente in uso.",
+    "errorMerchantValidation": "Impossibile connettersi al server di Apple Pay. Si prega di riprovare più tardi.",
+    "errorPaymentProcess": "Si è verificato un errore durante il pagamento. In caso di addebito, si prega di contattare il servizio clienti. In caso contrario, si prega di ripetere la procedura."
+  }
+}

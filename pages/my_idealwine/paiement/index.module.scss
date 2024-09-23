@@ -1,0 +1,112 @@
+@import "@/styles/stylesheet";
+
+.recapBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid $grey;
+  padding: getSpacing(4);
+  gap: getSpacing(4);
+  background-color: $darkerWhite;
+}
+
+.titleLine {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: getSpacing(2);
+
+  @include isTabletOrDesktop {
+    flex-direction: row;
+  }
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(1);
+}
+
+.titleText {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.editLink {
+  text-transform: uppercase;
+  font-weight: bold;
+  order: -1;
+
+  @include isTabletOrDesktop {
+    order: 1;
+  }
+}
+
+.freeCartText {
+  font-size: $fontSizeMediumLarge;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding: getSpacing(6) 0;
+}
+
+.shippingAddressContainer {
+  width: 100%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+  border: solid 1px $grey;
+  padding: getSpacing(4);
+  background-color: $darkerWhite;
+}
+
+.billingTitle {
+  font-size: $fontSizeBase;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.editBillingAddressButton {
+  font-size: $fontSizeBase;
+  font-weight: bold;
+  padding: 0 getSpacing(2);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.manyInputs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: getSpacing(2);
+  flex-direction: column;
+
+  @include isTabletOrDesktop {
+    flex-direction: row;
+  }
+}
+
+.expandDropdown {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.validateButton {
+  margin: getSpacing(2) 0;
+  align-self: flex-start;
+}
+
+.applePayButton {
+  --apple-pay-button-width: 100%;
+  --apple-pay-button-height: 40px;
+  --apple-pay-button-border-radius: 0;
+  --apple-pay-button-padding: 0 0;
+  --apple-pay-button-box-sizing: border-box;
+}

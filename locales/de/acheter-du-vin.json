@@ -1,0 +1,153 @@
+{
+  "advancedSearch": "Erweiterte Suche",
+  "clearRefinments": "Filter löschen",
+  "winesOnSale": "Weine im Verkauf:",
+  "numberResults": {
+    "0": "Keine Ergebnisse",
+    "1": "{{count}} Ergebnis",
+    "other": "{{count}} Ergebnisse"
+  },
+  "hideSold": "Verkaufte Posten nicht anzeigen",
+  "noResult": "Keine Ergebnisse",
+  "showMore": "Mehr anzeigen",
+  "showLess": "Weniger anzeigen",
+  "useSearchBar": "....andere Filter verfügbar, bitte nützen Sie die Suchfunktion",
+  "sortBy": "Sortieren nach ...",
+  "closingDateDesc": "Enddatum der Auktion absteigend",
+  "closingDateAsc": "Enddatum der Auktion aufsteigend",
+  "priceDesc": "Vom teuersten zum günstigsten",
+  "priceAsc": "Vom günstigsten zum teuersten",
+  "vintageAsc": "Aufsteigend nach Jahrgang",
+  "vintageDesc": "Aufsteigend nach Jahrgang",
+  "bidsDesc": "Anzahl der Gebote absteigend",
+  "bidsAsc": "Anzahl der Gebote aufsteigend",
+  "watchDesc": "Anzahl der Alarme absteigend",
+  "watchAsc": "Anzahl der Alarme aufsteigend",
+  "search": "Suche",
+  "sortingStrategy": "Trennfilter",
+  "filters": {
+    "bottleSize": "Format",
+    "color": "Farbe",
+    "isDirectPurchase": "Verkaufstyp",
+    "advancedSearch": "Erweiterte Suche",
+    "directPurchase": "Festpreise",
+    "auction": "Auktion",
+    "priceFilter": "Preis pro Flakon",
+    "minPriceRange": "Mindestpreis ({{currency}})",
+    "maxPriceRange": "Maximaler Preis ({{currency}})",
+    "submit": "Bestätigen",
+    "country": "Land",
+    "region": "Region",
+    "subregion": "Appellation",
+    "domainName": "Weingut",
+    "vintage": "Jahrgang",
+    "grapeVariety": "Rebsorte",
+    "tags": "Unsere Auswahl",
+    "wineStyle": "Stil des Weins (Bio, Intensität...)",
+    "intensity": "Intensität des Weins",
+    "mainAroma": "Dominante Aromen des Weins",
+    "tastingOccasion": "Anlass der Verkostung",
+    "biologicProfile": "Biologisches Profil",
+    "status": "Status des Weins",
+    "peak": "Trinkreife",
+    "productCategory": "Produktkategorie",
+    "bottleCount": "Flaschenanzahl",
+    "ownerName": "Eigentümer",
+    "newReleases": "Neuheiten",
+    "newReleasesValue": "Neuheiten",
+    "hasBids": "Uhrzeit des Gebots",
+    "hasReservePrice": "Kaufpreis",
+    "liquidLevel": "Füllstand",
+    "bottleObservations": "Zustand des Etiketts",
+    "woodenCase": "Holzkiste",
+    "refundableVat": "Mwst. erstattbar",
+    "hasLotDiscount": "Mengenrabatt",
+    "hasDiscount": "Reduzierte Preise",
+    "alcoholPorcentageLevel": "Alkohol in Prozent:",
+    "minAlcoholLevelRange": "Alkohol in Prozent Min.:",
+    "maxAlcoholLevelRange": "Alkohol in Prozent Max.:",
+    "sale": "Verkauf"
+  },
+  "enums": {
+    "isDirectPurchase": {
+      "true": "Festpreise",
+      "false": "Auktionen"
+    },
+    "hasBids": {
+      "true": "Andere Bieter",
+      "false": "Keine anderen Bieter"
+    },
+    "hasReservePrice": {
+      "true": "Mit Mindestpreis",
+      "false": "Ohne Mindestpreis"
+    },
+    "peak": {
+      "A_BOIRE": "Sofort trinken",
+      "COLLECTION": "Sammlung",
+      "VIEILLISSEMENT": "Alterung"
+    },
+    "productCategory": {
+      "PRODUITS_INTERMEDIAIRES": "Mittlere Preisklasse",
+      "AUTRES_VINS": "Andere Weine",
+      "BIERE": "Biere",
+      "VDN": "Natürlicher-Süßwein",
+      "VINS_AOC_AVEC_IG_AOP": "AOP-WEINE",
+      "VINS_MOUSSEUX": "Schaumweine",
+      "SPIRITUEUX": "Spirituosen"
+    },
+    "bidStatus": {
+      "true": "Andere Gebote",
+      "false": "Noch kein Gebot"
+    },
+    "liquidLevel": {
+      "Base goulot": "Base Neck",
+      "Normal": "Normal",
+      "Très légèrement bas": "High Shoulder"
+    },
+    "bottleCondition": {
+      "Bch lég enfoncé": "Korken leicht eingedrückt",
+      "Etiq déchirée": "Etikett eingerissen",
+      "Etiq marquée": "Etikett markiert",
+      "Normal": "Normal"
+    }
+  },
+  "noResults": {
+    "title1": "Wir bitten vielmals um Entschuldigung,",
+    "title2": "Wir finden den von Ihnen gesuchten Wein nicht.",
+    "title3": "Bitte überprüfen Sie Ihren Eintrag.",
+    "subtitle1": "Unser Tipp:",
+    "subtitle2": "Überprüfen Sie die Rechtschreibung, die Reihenfolge der Worte oder vereinfachen Sie Ihre Suche (z.B. ein Schlüsselwort)",
+    "subtitle3": "Sie benötigen Hilfe oder haben eine Frage? Wenden Sie sich an unseren Kundenservice in der Rubrik \"Hilfe\"."
+  },
+  "estate": {
+    "title": "Das sagen die Experten …",
+    "noteBdTitle": "BETTANE & DESSEAUVE",
+    "noteRvfTitle": "LA REVUE DU VIN DE FRANCE",
+    "weeklyEstate": {
+      "title": "WEINGUT DER WOCHE",
+      "cta": "Weine kaufen von {{estateName}}"
+    }
+  },
+  "seo": {
+    "firstOf": "aus",
+    "of": "aus",
+    "withFilters": {
+      "title": "Weine {{filtersAndPurchaseType}}",
+      "description": "Wein-Liste {{filtersAndPurchaseType}}",
+      "isDirectPurchase": {
+        "true": "im Verkauf zu Festpreisen",
+        "false": "In Auktionen",
+        "notSelected": " - iDealwine"
+      }
+    },
+    "withQuery": {
+      "title": "{{query}} zum Verkauf - iDealwine",
+      "description": "Weinliste aus {{query}} im Verkauf zu Festpreisen oder in Auktionen"
+    },
+    "default": {
+      "title": "Weine im Verkauf - iDealwine",
+      "description": "Wein im Verkauf zu Festpreisen oder in Auktionen"
+    }
+  },
+  "vintageSagaDescription": "{{region}} | Jahrgang {{vintage}}"
+}

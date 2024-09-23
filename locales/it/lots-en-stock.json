@@ -1,0 +1,52 @@
+{
+  "myStoredLots": "I miei vini in stock",
+  "myStoredLotsHistory": "I miei vini in stock - Storico",
+  "noProductsInStock": "Al momento non hai vini in stock presso le nostre strutture.",
+  "neverHadProductInStock": "Al momento non hai vini in stock presso le nostre strutture.",
+  "numLot": "Numero del lotto",
+  "description": "Descrizione",
+  "quantity": "Quantità",
+  "purchasePrice": "Prezzo d'acquisto",
+  "storageStartDate": "Data d’inizio stoccaggio",
+  "purchaseDate": "Data di acquisto",
+  "askForSale": "Richiesta di vendita",
+  "askForDelivery": "Richiesta di consegna",
+  "cancel": "Annulla",
+  "validate": "Conferma",
+  "selectQuantity": "Seleziona la quantità",
+  "storageEndDate": "Data di fine stoccaggio",
+  "status": "Stato",
+  "error": "Errore",
+  "success": "Confermato",
+  "totalGlobal": "Totale globale",
+  "deliveryRequestSuccess": "La tua richiesta di consegna è andata a buon fine. Abbiamo spostato le bottiglie selezionate direttamente sul tuo carrello.",
+  "sellRequestSuccess": "La tua richiesta di vendita è stata inoltrata. Il nostro team ti contatterà a breve per trasmetterti la valutazione dei tuoi vini.",
+  "actualValue": "Valore complessivo: ",
+  "bottles": "bottiglie",
+  "lots": "lotti",
+  "productStatus": {
+    "groupTitle": "Stato",
+    "allFilters": "Tutti gli articoli",
+    "DELIVERY_REQUEST": "Richiesta di consegna",
+    "SELL_REQUEST": "Richiesta di vendita",
+    "SOLD": "Venduto",
+    "CANCELLED": "Richiesta annullata",
+    "TO_SELL": "Da vendere",
+    "placeholder": ""
+  },
+  "filterBy": "Filtra per stato: ",
+  "noProductForThisFilter": "Nessun prodotto per il filtro selezionato.",
+  "seo": {
+    "current": {
+      "title": "I miei vini in stock",
+      "description": ""
+    },
+    "history": {
+      "title": "I miei vini in stock - Storico",
+      "description": ""
+    }
+  },
+  "requestNotAllowed": "La tua richiesta è stata inoltrata ed è in fase di elaborazione.",
+  "search": "Ricerca",
+  "noresult": "Nessun risultato"
+}

@@ -1,0 +1,126 @@
+@import "@/styles/stylesheet";
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px -1px rgb(0 0 0 / 10%);
+
+  @include isDesktop {
+    flex-direction: row;
+    height: 90px;
+  }
+}
+
+.price {
+  color: $goldenLighter;
+  font-weight: 600;
+}
+
+.container:hover {
+  box-shadow: 0 8px 24px 0 rgb(140 149 159 / 20%);
+}
+
+.legend {
+  font-size: $fontSizeTiny;
+}
+
+.index {
+  color: $white;
+  background-color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: $fontSizeMedium;
+  border-radius: 60px;
+  height: 80px;
+  width: 80px;
+  @include isDesktop {
+    width: 5%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+.justifiedText {
+  text-align: justify;
+
+  @include isDesktop {
+    text-align: left;
+  }
+}
+
+.container:hover .index {
+  background-color: $golden;
+}
+
+.infos {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $white;
+  font-size: $fontSizeMediumSmall;
+  @include isDesktop {
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: getSpacing(4);
+    margin-right: getSpacing(2);
+  }
+}
+
+.image {
+  border: 1px solid $black;
+  border-radius: 5px;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: getSpacing(2);
+}
+
+.nameWithPrice {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: getSpacing(4);
+  justify-content: center;
+  font-size: $fontSizeMediumSmall;
+  text-align: justify;
+  padding: getSpacing(3);
+
+  @include isDesktop {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.nameWithPrice .small {
+  font-size: $fontSizeTiny;
+}
+
+.nameWithPrice:hover {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.infos:hover {
+  text-decoration: none;
+}
+
+.tooltipContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: getSpacing(2);
+}
+
+.color {
+  text-transform: capitalize;
+}

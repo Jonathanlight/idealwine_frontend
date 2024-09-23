@@ -1,0 +1,38 @@
+@import "@/styles/stylesheet";
+
+.fullScreenCarousel {
+  margin: 0 auto;
+  width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 600px 1fr;
+  grid-template-rows: auto;
+}
+
+.fullScreenThumbnailsGridPosition {
+  width: 150px;
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+
+.fullScreenSliderGridPosition {
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+}
+
+.fullScreenDescriptionGridPosition {
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+}
+
+.imageContainer {
+  height: getSpacing(140);
+}
+
+.description {
+  color: $white;
+  text-align: center;
+}
+
+.image {
+  object-fit: contain;
+}

@@ -1,0 +1,84 @@
+@import "@/styles/stylesheet";
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #0000001a;
+  border-radius: 5px;
+}
+
+.imageContainer {
+  height: 260px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.image {
+  object-fit: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  @include isMobile {
+    object-position: 0% 0%;
+  }
+}
+
+.textContainer {
+  display: flex;
+  flex-grow: 1;
+  padding: getSpacing(4);
+  gap: getSpacing(2);
+  min-height: 158px;
+
+  @include isMobile {
+    flex-direction: column;
+    min-height: inherit;
+  }
+}
+
+.descriptionContainer {
+  flex-grow: 1;
+}
+
+.text {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.header {
+  color: $goldenDarkest;
+  font-size: $fontSizeBase;
+  font-weight: 300;
+}
+
+.title {
+  margin-top: getSpacing(1);
+  font-size: $fontSizeMedium;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.linkContainer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  @include isMobile {
+    align-self: center;
+    width: inherit;
+  }
+}
+
+.link {
+  width: 230px;
+  display: block;
+  text-align: center;
+  height: fit-content;
+}
+
+.secondLink {
+  text-decoration: underline;
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "text": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "ENCHÈRE\nRHÔNE, LANGUEDOC : LA MOITIÉ SUD DE LA FRANCE À L’HONNEUR JUSQU'AUX 11 ET 12 OCTOBRE",
+              "spans": [
+                {
+                  "type": "strong",
+                  "start": 8,
+                  "end": 66
+                }
+              ]
+            },
+            "direction": "ltr"
+          }
+        ]
+      },
+      "image": {
+        "origin": {
+          "id": "3uJt73tr4hI",
+          "url": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw4fHx3aW5lfGVufDB8fHx8MTY5NjQxMzQ4MHww&ixlib=rb-4.0.3&q=85",
+          "width": 4256,
+          "height": 2832
+        },
+        "url": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw4fHx3aW5lfGVufDB8fHx8MTY5NjQxMzQ4MHww&ixlib=rb-4.0.3&q=85",
+        "width": 4256,
+        "height": 2832,
+        "edit": {
+          "background": "transparent",
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      },
+      "linkbutton": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      "textbutton": {
+        "__TYPE__": "FieldContent",
+        "type": "Text",
+        "value": "Découvrir"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

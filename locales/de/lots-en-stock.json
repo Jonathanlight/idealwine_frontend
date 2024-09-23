@@ -1,0 +1,52 @@
+{
+  "myStoredLots": "Meine gelagerten Weine",
+  "myStoredLotsHistory": "Meine Posten auf Lager - Historie",
+  "noProductsInStock": "Sie haben keine Chargen auf Lager.",
+  "neverHadProductInStock": "Sie hatten noch nie Weine auf Lager.",
+  "numLot": "Nummer des Postens",
+  "description": "Beschreibung",
+  "quantity": "Anzahl",
+  "purchasePrice": "Kaufpreis",
+  "storageStartDate": "Startdatum der Lagerung",
+  "purchaseDate": "Kaufdatum",
+  "askForSale": "Fordern Sie den Verkauf an",
+  "askForDelivery": "Lieferung anfordern",
+  "cancel": "Abbrechen",
+  "validate": "Bestätigen",
+  "selectQuantity": "Wählen Sie die Menge, die Sie sich liefern lassen/verkaufen wollen",
+  "storageEndDate": "Enddatum der Lagerung",
+  "status": "Status des Weins",
+  "error": "Fehler",
+  "success": "Erfolg",
+  "totalGlobal": "Gesamtbetrag",
+  "deliveryRequestSuccess": "Ihre Lieferungsanfrage wurde berücksichtigt. Sie finden Ihre Bestellung im Warenkorb.",
+  "sellRequestSuccess": "Ihre Verkaufsanfrage wurde berücksichtigt und wird so bald wie möglich von unserem Team bearbeitet.",
+  "actualValue": "Aktueller Wert: ",
+  "bottles": "Flaschen",
+  "lots": "Posten",
+  "productStatus": {
+    "groupTitle": "Status des Weins",
+    "allFilters": "Alle Produkte",
+    "DELIVERY_REQUEST": "Fordern Sie die Lieferung an",
+    "SELL_REQUEST": "Fordern Sie den Verkauf an",
+    "SOLD": "Verkauft",
+    "CANCELLED": "Abgebrochen",
+    "TO_SELL": "Zu verkaufen",
+    "placeholder": ""
+  },
+  "filterBy": "Nach Status filtern : ",
+  "noProductForThisFilter": "Kein Produkt für diesen Filter",
+  "seo": {
+    "current": {
+      "title": "Meine gelagerten Weine",
+      "description": ""
+    },
+    "history": {
+      "title": "Meine Lose auf Lager - historisch",
+      "description": ""
+    }
+  },
+  "requestNotAllowed": "Lageranfrage wird gerade vom iDealwine bearbeitet.",
+  "search": "Suche",
+  "noresult": "Keine Ergebnisse"
+}

@@ -1,0 +1,17 @@
+@import "@/styles/stylesheet";
+
+.additionalDeliveryFees {
+  text-align: center;
+}
+
+.desktopSold {
+  font-size: $fontSizeLarge;
+  font-style: italic;
+  text-transform: uppercase;
+  display: none;
+
+  @include isLargeOrExtraLargeDesktop {
+    display: flex;
+    justify-content: center;
+  }
+}

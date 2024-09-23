@@ -1,0 +1,94 @@
+@import "@/styles/stylesheet";
+
+.serviceContainer {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: auto;
+  margin: getSpacing(1);
+}
+
+.service {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  min-width: 165px;
+  overflow: hidden;
+  padding: getSpacing(8) getSpacing(3) getSpacing(3) getSpacing(3);
+  margin: getSpacing(3);
+  border: 2px solid $white;
+
+  @include isTabletOrSmallDesktop {
+    gap: getSpacing(4);
+    padding: getSpacing(6) getSpacing(3);
+    margin: getSpacing(2);
+  }
+
+  @include isMobile {
+    padding: getSpacing(3) getSpacing(2);
+    gap: getSpacing(4);
+    border-radius: 5px;
+  }
+}
+
+.serviceContainer:hover {
+  @include isDesktop {
+    filter: brightness(90%);
+  }
+}
+
+.serviceTitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: $fontSizeBase;
+  text-align: center;
+  padding: inherit;
+}
+
+.description {
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-size: $fontSizeSmall;
+  line-height: 1.5;
+  margin-top: auto;
+  overflow: hidden;
+
+  @include isMobile {
+    text-align: center;
+  }
+}
+
+.thirdLine {
+  margin-top: auto;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+.loyaltyProgram {
+  background-color: $almond;
+  color: $black;
+}
+
+.tailorMadeCellar {
+  background-color: $ashGrey;
+  color: $black;
+}
+
+.storageCellar {
+  background-color: $lemonGrass;
+  color: $black;
+}
+
+.corporateGifts {
+  background-color: $steelGrey;
+  color: $black;
+}
+
+.celebrationsAndWeddings {
+  background-color: $blueBayoux;
+  color: $white;
+}

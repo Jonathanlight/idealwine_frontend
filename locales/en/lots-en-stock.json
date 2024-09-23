@@ -1,0 +1,52 @@
+{
+  "myStoredLots": "My lots in storage",
+  "myStoredLotsHistory": "My lots in storage - history",
+  "noProductsInStock": "You do not have any lots in storage.",
+  "neverHadProductInStock": "You have never had any lots in stock.",
+  "numLot": "Lot number",
+  "description": "Description",
+  "quantity": "Quantity",
+  "purchasePrice": "Buying Price",
+  "storageStartDate": "Date of start of storage",
+  "purchaseDate": "Purchase Date",
+  "askForSale": "Request sale",
+  "askForDelivery": "Request delivery",
+  "cancel": "Cancel",
+  "validate": "Validate",
+  "selectQuantity": "Select the quantity that you wish to sell/have delivered",
+  "storageEndDate": "Date of end of storage",
+  "status": "Style of wine",
+  "error": "Error",
+  "success": "Success",
+  "totalGlobal": "Overall total",
+  "deliveryRequestSuccess": "Your delivery request has been taken into account. Find your order in you basket",
+  "sellRequestSuccess": "Your sale request has been noted and will be processed by our teams",
+  "actualValue": "Current value: ",
+  "bottles": "bottles",
+  "lots": "lots",
+  "productStatus": {
+    "groupTitle": "Status",
+    "allFilters": "All products",
+    "DELIVERY_REQUEST": "Delivery request",
+    "SELL_REQUEST": "Sale Request",
+    "SOLD": "Sold",
+    "CANCELLED": "Cancelled",
+    "TO_SELL": "For sale",
+    "placeholder": ""
+  },
+  "filterBy": "Filter by status: ",
+  "noProductForThisFilter": "No product available for this filter",
+  "seo": {
+    "current": {
+      "title": "My lots in storage",
+      "description": ""
+    },
+    "history": {
+      "title": "My lots in storage - history",
+      "description": ""
+    }
+  },
+  "requestNotAllowed": "Storage request being processed by the iDealwine team",
+  "search": "Search",
+  "noresult": "No results"
+}

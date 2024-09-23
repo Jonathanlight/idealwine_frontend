@@ -1,0 +1,1123 @@
+{
+  "boolean": {
+    "true": "Yes",
+    "false": "No"
+  },
+  "tastingOccasion": {
+    "VIN_APERITIF": "Aperitif",
+    "VIN_GASTRONOMIE": "Food-friendly wine",
+    "VIN_MEDITATION": "Wine to sip"
+  },
+  "profile": {
+    "ETOILE_MONTANTE": "Rising star",
+    "ICONE": "ICON-WINE",
+    "VIN_COPAINS": "Easy-drinking wine",
+    "VIN_CURIOSITE": "Wine for the adventurous",
+    "VIN_DE_GARDE": "Wine for cellaring"
+  },
+  "color": {
+    "SPARKLING_WHITE": "Sparkling white",
+    "DEMI_DRY_WHITE": "Semi-dry white",
+    "DRY_WHITE": "Dry white",
+    "AMBER": "Amber",
+    "SPARKLING_ROSE": "Sparkling rosé",
+    "VARIOUS": "Various",
+    "ORANGE": "Orange",
+    "GREEN": "Green",
+    "SPARKLING_RED": "Sparkling red",
+    "RED": "Red",
+    "WHITE": "White",
+    "LIQUOROUS_WHITE": "dessert wine",
+    "ROSE": "Rosé",
+    "YELLOW": "Yellow",
+    "INDIFFERENT": "Indifferent"
+  },
+  "intensity": {
+    "ONCTUEUX": "Rich",
+    "CLASSIQUE": "Classic",
+    "DOUX": "sweet",
+    "DOSAGE_CLASSIQUE": "Classic secondary fermentation",
+    "FAIBLE_DOSAGE": "Low dosage",
+    "FRUITE": "Fruity",
+    "GOURMAND": "Leaves you wanting more",
+    "LEGER": "Light",
+    "LIQUOREUX": "Dessert",
+    "MINERAL": "Mineral",
+    "MOELLEUX": "sweet",
+    "PUISSANT": "Full-bodied",
+    "SOYEUX": "Smooth",
+    "VIN_MUTE": "Fortified wine",
+    "VIF": "Crisp"
+  },
+  "biologicProfile": {
+    "ENVIRONNEMENT": "Environment",
+    "CONVENTIONNEL": "Conventional",
+    "ECOLOGIQUE": "Environmentally friendly",
+    "RAISONNEE": "Sustainable farming",
+    "BIOLOGIQUE": "Organic",
+    "BIODYNAMIQUE": "Biodynamic",
+    "NATURE": "Natural",
+    "BIOLOGIQUE_ET_NATURE": "Organic and natural",
+    "BIODYNAMIQUE_ET_NATURE": "Biodynamic and natural",
+    "TRIPLE_A": "Triple A",
+    "TRIPLE_A_ET_BIOLOGIQUE": "Triple A and organic",
+    "TRIPLE_A_ET_BIODYNAMIQUE": "Triple A and biodynamic"
+  },
+  "formatWithoutCount": {
+    "BALTHAZAR": "Balthazar",
+    "BOUTEILLE": "Bottle",
+    "CHOPINE": "Chopine",
+    "CLAVELIN": "Clavelin",
+    "DEMI_BOUTEILLE": "Half bottle",
+    "DOUBLE_MAGNUM": "Double magnum",
+    "FILLETTE": "Half-bottle (fillette)",
+    "FLACON": "bottle",
+    "FORMAT_50_CL": "50cl format",
+    "INCONNU": "Unknown",
+    "IMPERIALE": "Imperial",
+    "JEROBOAM": "Jéroboam",
+    "LITRE": "Litre",
+    "MAGNUM": "Magnum",
+    "MATHUSALEM": "Methuselah",
+    "MELCHIOR": "Melchior",
+    "NABUCHODONOSOR": "Nebuchadnezzar",
+    "POT": "Pot",
+    "REHOBOAM": "Réhoboam",
+    "SALMANAZAR": "Salmanazar"
+  },
+  "dominantAroma": {
+    "AGRUMES": "Citrus",
+    "CARAMEL": "Caramel",
+    "CAFE": "Coffee",
+    "EPICES": "Spice",
+    "EPICES_DOUCES": "Mild spice",
+    "FLORAL": "Floral",
+    "FLEURS_BLANCHES": "White floral",
+    "FRUITE": "Fruity",
+    "FRUITS_BLANCS": "White fruit",
+    "FRUITS_CONFITS": "Candied fruit",
+    "FRUITS_EXOTIQUES": "Exotic fruit",
+    "FRUITS_JAUNES": "Yellow fruit",
+    "FRUITS_NOIRS": "Black fruit",
+    "FRUITS_ROUGES": "Red fruit",
+    "FRUITS_SECS": "Dry fruit",
+    "FUME": "Smoked",
+    "MIEL": "Honey",
+    "MINERAL": "Mineral",
+    "NOIX": "Nuts",
+    "TOURBE": "peaty",
+    "VANILLE": "Vanilla"
+  },
+  "bottleObservationWithoutCount": {
+    "BCH_DESCENDU": "Lowered cork",
+    "BCH_ENFONCE": "Sunken cork",
+    "BCH_ESTAMPE": "Embossed cork",
+    "BCH_FAIBLE": "Weak cork",
+    "BCH_LEG_DESCENDU": "Slightly lowered cork",
+    "BCH_LEG_ENFONCE": "Slightly sunken cork",
+    "BCH_LEG_SOULEVE": "Slightly risen cork",
+    "BTE_CIREE": "Waxed bottle",
+    "BTE_COULEUSE": "Leaking bottle",
+    "BTE_LEG_COULEUSE": "Bottle with a tiny leak",
+    "BTE_LEGERE": "Light bottle",
+    "BTE_RECONDITIONNEE": "Reconditioned bottle",
+    "CAPS_ABIMEE": "Damaged capsule",
+    "CAPS_ABSENTE": "Missing capsule",
+    "CAPS_CIRE_ABIMEE": "Damaged wax capsule",
+    "CAPS_CIRE_LEG_ABIMEE": "Slightly damaged wax capsule",
+    "CAPS_CIRE": "Wax capsule",
+    "CAPS_CONGE": "Foil capsule",
+    "CAPS_CORRODEE": "Corroded capsule",
+    "CAPS_DECOUPEE": "Cut capsule",
+    "CAPS_DESOLIDARISEE": "Broken capsule",
+    "CAPS_GRIFFEE": "Scratched capsule",
+    "CAPS_LEG_ABIMEE": "Slightly damaged capsule",
+    "CAPS_LEG_CORRODEE": "Slightly corroded capsule",
+    "CAPS_LEG_GRIFFEE": "Slightly scratched capsule",
+    "CAPS_NEUTRE": "Neutral capsule",
+    "CAPS_PLASTIQUE_ABIMEE": "Damaged plastic capsule",
+    "CAPS_PLASTIQUE": "Plastic capsule",
+    "CAPS_SALE": "Dirty capsule",
+    "CAPS_TACHEE": "Stained capsule",
+    "CAPS_TRES_ABIMEE": "Very damaged capsule",
+    "CAPSULE_NORMALE": "Normal capsule",
+    "CIRE_ABIMEE": "Wax seal damaged",
+    "CIRE_LEG_ABIMEE": "Slightly damaged wax",
+    "COFFRET_D_ORIGINE_ABIME": "Damaged original case",
+    "COFFRET_D_ORIGINE_LEGEREMENT_ABIME": "Slightly damaged original case",
+    "COFFRET_D_ORIGINE_TRES_LEGEREMENT_ABIME": "Marginally damaged original case",
+    "COLL_ABIMEE": "Damaged vintage neck label",
+    "COLL_GRIFFEE": "Scratched vintage neck label",
+    "COLL_MILL_TACHEE": "Detached vintage neck label",
+    "COLL_MILLESIME_ABSENTE": "Missing vintage neck label",
+    "COLL_MILLESIME_LEG_ABIMEE": "Slightly damaged vintage neck label",
+    "COLL_MILLESIME_LEG_GRIFFEE": "Slightly scratched vintage neck label",
+    "COULEUR_TROUBLE": "Murky colour",
+    "ETIQ_ABIMEE": "Damaged label",
+    "ETIQ_DE_SECURITE": "Security label",
+    "ETIQ_DECHIREE": "Torn label",
+    "ETIQ_DECOLLEE": "Peeling label",
+    "ETIQ_DIFFICILEMENT_LISIBLE": "Label difficult to read",
+    "ETIQ_EMPOUSSIEREE": "Dusty label",
+    "ETIQ_FANEE": "Faded label",
+    "ETIQ_FILMEE": "Film-wrapped label",
+    "ETIQ_FRAGILE": "Fragile label",
+    "ETIQ_FRIABLE": "Flaky label",
+    "ETIQ_FRIPEE": "Crumpled label",
+    "ETIQ_GRIFFEE": "Scratched label",
+    "ETIQ_HUMIDE": "Damp label",
+    "ETIQ_ILLISIBLE": "Illegible label",
+    "ETIQ_JAUNIE": "Yellowed label",
+    "ETIQ_LAMBEAUX": "Tattered label",
+    "ETIQ_LEG_ABIMEE": "Slightly damaged label",
+    "ETIQ_LEG_DECHIREE": "Slightly torn label",
+    "ETIQ_LEG_DECOLLEE": "Slightly unstuck label",
+    "ETIQ_LEG_FANEE": "Slightly faded label",
+    "ETIQ_LEG_FRIPEE": "Slightly dishevelled label",
+    "ETIQ_LEG_GRIFFEE": "Slightly scratched label",
+    "ETIQ_LEG_HUMIDE": "Slightly damp label",
+    "ETIQ_LEG_MARQUEE": "Slightly marked label",
+    "ETIQ_LEG_PIQUEE": "Slightly spotted label",
+    "ETIQ_LEG_PLISSEE": "Slightly creased label",
+    "ETIQ_LEG_SALE": "Slightly dirty label",
+    "ETIQ_LEG_TACHEE": "Slightly stained label",
+    "ETIQ_LEG_USEE": "Slightly worn label",
+    "ETIQ_LISIBLE": "Legible label",
+    "ETIQ_MARQUEE": "Marked label",
+    "ETIQ_PIQUEE": "Spotted label",
+    "ETIQ_PLISSEE": "Creased label",
+    "ETIQ_QUASI_ILLISIBLE": "Label almost illegible",
+    "ETIQ_RECOLLEE": "Label has been reapplied",
+    "ETIQ_SALE": "Dirty label",
+    "ETIQ_SALIE_DE_COLLE": "Label has been sullied by glue",
+    "ETIQ_SALIE_PAR_L_HUMIDITE": "Label stained by moisture",
+    "ETIQ_SCOTCHEE": "Label has been taped",
+    "ETIQ_TACHEE": "Stained label",
+    "ETIQ_TRES_ABIMEE": "Very damaged label",
+    "ETIQ_TRES_HUMIDE": "Very humid label",
+    "ETIQ_TRES_LEG_ABIMEE": "Very slightly damaged Label",
+    "ETIQ_TRES_LEG_DECHIREE": "Very slightly torn label",
+    "ETIQ_TRES_LEG_FRIPEE": "Very slightly crumpled label",
+    "ETIQ_TRES_LEG_GRIFFEE": "Very Slightly Scratched label",
+    "ETIQ_TRES_LEG_MARQUEE": "Very slightly marked label",
+    "ETIQ_TRES_LEG_TACHEE": "Very Slightly stained label",
+    "ETIQ_TRES_MARQUEE": "Very marked label",
+    "ETIQ_TRES_SALE": "Very dirty label",
+    "ETIQ_TRES_TACHEE": "Very stained label",
+    "ETIQ_TRES_USEE": "Very worn label",
+    "ETIQ_USEE": "Worn label",
+    "ETIQ_VERNIE": "Polished label",
+    "MILL_DIFFICILEMENT_LISIBLE": "Vintage difficult to read",
+    "MILLESIME_ILLISIBLE": "Vintage illegible",
+    "MILLESIME_LISIBLE": "Legible vintage",
+    "MILLESIME_MANUSCRIT": "Handwritten vintage",
+    "MILLESIME_SUR_BOUCHON": "Vintage on cork",
+    "NORMALE": "Normal",
+    "NUMERO_DE_SERIE_EFFACE": "serial number removed",
+    "SANS_ETIQUETTE": "No label",
+    "SANS_MILLESIME": "No vintage",
+    "TRACES_ANCIENNE_COULURES": "Traces of coulure water marks",
+    "TRACES_DE_COLLE": "Traces of glue",
+    "TRACES_DE_CUTTER": "Traces of box cutter"
+  },
+  "bottleObservations": {
+    "BCH_DESCENDU": {
+      "1": "{{count}} Lowered cork",
+      "other": "{{count}} Lowered corks"
+    },
+    "BCH_ENFONCE": {
+      "1": "{{count}} Sunken cork",
+      "other": "{{count}} Sunken corks"
+    },
+    "BCH_ESTAMPE": {
+      "1": "{{count}} Engraved cork",
+      "other": "{{count}} Engraved corks"
+    },
+    "BCH_FAIBLE": {
+      "1": "{{count}} Weak cork",
+      "other": "{{count}} Weak corks"
+    },
+    "BCH_LEG_DESCENDU": {
+      "1": "{{count}} Slightly lowered cork",
+      "other": "{{count}} Slightly lowered corks"
+    },
+    "BCH_LEG_ENFONCE": {
+      "1": "{{count}} Slightly sunken cork",
+      "other": "{{count}} Slightly sunken corks"
+    },
+    "BCH_LEG_SOULEVE": {
+      "1": "{{count}} Slightly risen cork",
+      "other": "{{count}} Slightly risen corks"
+    },
+    "BTE_CIREE": {
+      "1": "{{count}} Waxed bottle",
+      "other": "{{count}} Waxed bottles"
+    },
+    "BTE_COULEUSE": {
+      "1": "{{count}} Leaking bottle",
+      "other": "{{count}} Leaking bottles"
+    },
+    "BTE_LEG_COULEUSE": {
+      "1": "{{count}} Bottle with a tiny leak",
+      "other": "{{count}} Bottles with tiny leaks"
+    },
+    "BTE_LEGERE": {
+      "1": "{{count}} Light bottle",
+      "other": "{{count}} Light bottles"
+    },
+    "BTE_RECONDITIONNEE": {
+      "1": "{{count}} Reconditioned bottle",
+      "other": "{{count}} Reconditioned bottles"
+    },
+    "CAPS_ABIMEE": {
+      "1": "{{count}} Damaged capsule",
+      "other": "{{count}} Damaged capsules"
+    },
+    "CAPS_ABSENTE": {
+      "1": "{{count}} Missing capsule",
+      "other": "{{count}} Missing capsules"
+    },
+    "CAPS_CIRE": {
+      "1": "{{count}} Wax capsule",
+      "other": "{{count}} Wax capsules"
+    },
+    "CAPS_CIRE_ABIMEE": {
+      "1": "{{count}} Damaged wax capsule",
+      "other": "{{count}} Damaged wax capsules"
+    },
+    "CAPS_CIRE_LEG_ABIMEE": {
+      "1": "{{count}} Slightly damaged wax capsule",
+      "other": "{{count}} Slightly damaged wax capsules"
+    },
+    "CAPS_CONGE": {
+      "1": "{{count}} Foil capsule",
+      "other": "{{count}} Foil capsules"
+    },
+    "CAPS_CORRODEE": {
+      "1": "{{count}} Corroded capsule",
+      "other": "{{count}} Corroded capsules"
+    },
+    "CAPS_DESOLIDARISEE": {
+      "1": "{{count}} Separated capsule",
+      "other": "{{count}} Separated capsules"
+    },
+    "CAPS_DECOUPEE": {
+      "1": "{{count}} Cut capsule",
+      "other": "{{count}} Cut capsules"
+    },
+    "CAPS_GRIFFEE": {
+      "1": "{{count}} Scratched capsule",
+      "other": "{{count}} Scratched capsules"
+    },
+    "CAPS_LEG_ABIMEE": {
+      "1": "{{count}} Slightly damaged capsule",
+      "other": "{{count}} Slightly damaged capsules"
+    },
+    "CAPS_LEG_CORRODEE": {
+      "1": "{{count}} Slightly corroded capsule",
+      "other": "{{count}} Slightly corroded capsules"
+    },
+    "CAPS_LEG_GRIFFEE": {
+      "1": "{{count}} Slightly scratched capsule",
+      "other": "{{count}} Slightly scratched capsules"
+    },
+    "CAPS_NEUTRE": {
+      "1": "{{count}} Neutral capsule",
+      "other": "{{count}} Neutral capsules"
+    },
+    "CAPS_PLASTIQUE": {
+      "1": "{{count}} Plastic capsule",
+      "other": "{{count}} Plastic capsules"
+    },
+    "CAPS_PLASTIQUE_ABIMEE": {
+      "1": "{{count}} Damaged plastic capsule",
+      "other": "{{count}} Damaged plastic capsules"
+    },
+    "CAPS_SALE": {
+      "1": "{{count}} Dirty capsule",
+      "other": "{{count}} Dirty capsules"
+    },
+    "CAPS_TACHEE": {
+      "1": "{{count}} Stained capsule",
+      "other": "{{count}} Stained capsules"
+    },
+    "CAPS_TRES_ABIMEE": {
+      "1": "{{count}} Very damaged capsule",
+      "other": "{{count}} Very damaged capsules"
+    },
+    "CAPSULE_NORMALE": {
+      "1": "{{count}} Normal capsule",
+      "other": "{{count}} Normal capsules"
+    },
+    "CIRE_ABIMEE": {
+      "1": "{{count}} Damaged wax",
+      "other": "{{count}} Damaged waxes"
+    },
+    "CIRE_LEG_ABIMEE": {
+      "1": "{{count}} Slightly damaged wax",
+      "other": "{{count}} Slightly damaged waxes"
+    },
+    "COFFRET_D_ORIGINE_ABIME": {
+      "1": "{{count}} Damaged original case",
+      "other": "{{count}} Damaged original cases"
+    },
+    "COFFRET_D_ORIGINE_LEGEREMENT_ABIME": {
+      "1": "{{count}} Slightly damaged original case",
+      "other": "{{count}} Slightly damaged original cases"
+    },
+    "COFFRET_D_ORIGINE_TRES_LEGEREMENT_ABIME": {
+      "1": "{{count}} Marginally damaged original case",
+      "other": "{{count}} Marginally damaged original cases"
+    },
+    "COLL_ABIMEE": {
+      "1": "{{count}} Damaged vintage neck label",
+      "other": "{{count}} Damaged vintage neck labels"
+    },
+    "COLL_GRIFFEE": {
+      "1": "{{count}} Scratched vintage neck label",
+      "other": "{{count}} Scratched vintage neck labels"
+    },
+    "COLL_MILL_TACHEE": {
+      "1": "{{count}} Detached vintage neck label",
+      "other": "{{count}} Detached vintage neck labels"
+    },
+    "COLL_MILLESIME_ABSENTE": {
+      "1": "{{count}} Missing vintage neck label",
+      "other": "{{count}} Missing vintage neck labels"
+    },
+    "COLL_MILLESIME_LEG_ABIMEE": {
+      "1": "{{count}} Slightly damaged vintage neck label",
+      "other": "{{count}} Slightly damaged vintage neck labels"
+    },
+    "COLL_MILLESIME_LEG_GRIFFEE": {
+      "1": "{{count}} Slightly scratched vintage neck label",
+      "other": "{{count}} Slightly scratched vintage neck labels"
+    },
+    "COULEUR_TROUBLE": {
+      "1": "{{count}} Murky colour",
+      "other": "{{count}} Murky colours"
+    },
+    "ETIQ_ABIMEE": {
+      "1": "{{count}} Damaged label",
+      "other": "{{count}} Damaged labels"
+    },
+    "ETIQ_DE_SECURITE": {
+      "1": "{{count}} Security label",
+      "other": "{{count}} Security labels"
+    },
+    "ETIQ_DECHIREE": {
+      "1": "{{count}} Torn label",
+      "other": "{{count}} Torn labels"
+    },
+    "ETIQ_DECOLLEE": {
+      "1": "{{count}} Unstuck label",
+      "other": "{{count}} Unstuck labels"
+    },
+    "ETIQ_DIFFICILEMENT_LISIBLE": {
+      "1": "{{count}} Label difficult to read",
+      "other": "{{count}} Labels difficult to read"
+    },
+    "ETIQ_EMPOUSSIEREE": {
+      "1": "{{count}} Dusty label",
+      "other": "{{count}} Dusty labels"
+    },
+    "ETIQ_FANEE": {
+      "1": "{{count}} Faded label",
+      "other": "{{count}} Faded labels"
+    },
+    "ETIQ_FILMEE": {
+      "1": "{{count}} Plastic-covered label",
+      "other": "{{count}} Plastic-covered labels"
+    },
+    "ETIQ_FRAGILE": {
+      "1": "{{count}} Fragile label",
+      "other": "{{count}} Fragile labels"
+    },
+    "ETIQ_FRIABLE": {
+      "1": "{{count}} Flaky label",
+      "other": "{{count}} Flaky labels"
+    },
+    "ETIQ_FRIPEE": {
+      "1": "{{count}} Dishevelled label",
+      "other": "{{count}} Dishevelled labels"
+    },
+    "ETIQ_GRIFFEE": {
+      "1": "{{count}} Scratched label",
+      "other": "{{count}} Scratched labels"
+    },
+    "ETIQ_HUMIDE": {
+      "1": "{{count}} Damp label",
+      "other": "{{count}} Damp labels"
+    },
+    "ETIQ_ILLISIBLE": {
+      "1": "{{count}} Illegible label",
+      "other": "{{count}} Illegible labels"
+    },
+    "ETIQ_JAUNIE": {
+      "1": "{{count}} Yellowed label",
+      "other": "{{count}} Yellowed labels"
+    },
+    "ETIQ_LAMBEAUX": {
+      "1": "{{count}} Dilapidated label",
+      "other": "{{count}} Dilapidated labels"
+    },
+    "ETIQ_LEG_ABIMEE": {
+      "1": "{{count}} Slightly damaged label",
+      "other": "{{count}} Slightly damaged labels"
+    },
+    "ETIQ_LEG_DECHIREE": {
+      "1": "{{count}} Slightly torn label",
+      "other": "{{count}} Slightly torn labels"
+    },
+    "ETIQ_LEG_DECOLLEE": {
+      "1": "{{count}} Slightly unstuck label",
+      "other": "{{count}} Slightly unstuck labels"
+    },
+    "ETIQ_LEG_FANEE": {
+      "1": "{{count}} Slightly faded label",
+      "other": "{{count}} Slightly faded labels"
+    },
+    "ETIQ_LEG_FRIPEE": {
+      "1": "{{count}} Slightly dishevelled label",
+      "other": "{{count}} Slightly dishevelled labels"
+    },
+    "ETIQ_LEG_GRIFFEE": {
+      "1": "{{count}} Slightly scratched label",
+      "other": "{{count}} Slightly scratched labels"
+    },
+    "ETIQ_LEG_HUMIDE": {
+      "1": "{{count}} Slightly damp label",
+      "other": "{{count}} Slightly damp labels"
+    },
+    "ETIQ_LEG_MARQUEE": {
+      "1": "{{count}} Slightly marked label",
+      "other": "{{count}} Slightly marked labels"
+    },
+    "ETIQ_LEG_PIQUEE": {
+      "1": "{{count}} Slightly spotted label",
+      "other": "{{count}} Slightly spotted labels"
+    },
+    "ETIQ_LEG_PLISSEE": {
+      "1": "{{count}} Slightly creased label",
+      "other": "{{count}} Slightly creased labels"
+    },
+    "ETIQ_LEG_SALE": {
+      "1": "{{count}} Slightly dirty label",
+      "other": "{{count}} Slightly dirty labels"
+    },
+    "ETIQ_LEG_TACHEE": {
+      "1": "{{count}} Slightly stained label",
+      "other": "{{count}} Slightly stained labels"
+    },
+    "ETIQ_LEG_USEE": {
+      "1": "{{count}} Slightly worn label",
+      "other": "{{count}} Slightly worn labels"
+    },
+    "ETIQ_LISIBLE": {
+      "1": "{{count}} Legible label",
+      "other": "{{count}} Legible labels"
+    },
+    "ETIQ_MARQUEE": {
+      "1": "{{count}} Marked label",
+      "other": "{{count}} Marked labels"
+    },
+    "ETIQ_PIQUEE": {
+      "1": "{{count}} Spotted label",
+      "other": "{{count}} Spotted labels"
+    },
+    "ETIQ_PLISSEE": {
+      "1": "{{count}} Creased label",
+      "other": "{{count}} Creased labels"
+    },
+    "ETIQ_QUASI_ILLISIBLE": {
+      "1": "{{count}} Label almost illegible",
+      "other": "{{count}} Labels almost illegible"
+    },
+    "ETIQ_RECOLLEE": {
+      "1": "{{count}} Label glued back down",
+      "other": "{{count}} Labels glued back down"
+    },
+    "ETIQ_SALE": {
+      "1": "{{count}} Dirty label",
+      "other": "{{count}} Dirty labels"
+    },
+    "ETIQ_SALIE_DE_COLLE": {
+      "1": "{{count}} Glue-stained label",
+      "other": "{{count}} Glue-stained labels"
+    },
+    "ETIQ_SALIE_PAR_L_HUMIDITE": {
+      "1": "{{count}} Label stained by moisture",
+      "other": "{{count}} Labels stained by moisture"
+    },
+    "ETIQ_SCOTCHEE": {
+      "1": "{{count}} Label taped",
+      "other": "{{count}} Labels taped"
+    },
+    "ETIQ_TACHEE": {
+      "1": "{{count}} Stained label",
+      "other": "{{count}} Stained labels"
+    },
+    "ETIQ_TRES_ABIMEE": {
+      "1": "{{count}} Very damaged label",
+      "other": "{{count}} Very damaged labels"
+    },
+    "ETIQ_TRES_HUMIDE": {
+      "1": "{{count}} Very damp label",
+      "other": "{{count}} Very damp labels"
+    },
+    "ETIQ_TRES_LEG_ABIMEE": {
+      "1": "{{count}} Marginally damaged label",
+      "other": "{{count}} Marginally damaged labels"
+    },
+    "ETIQ_TRES_LEG_DECHIREE": {
+      "1": "{{count}} Marginally torn label",
+      "other": "{{count}} Marginally torn labels"
+    },
+    "ETIQ_TRES_LEG_FRIPEE": {
+      "1": "{{count}} Marginally dishevelled label",
+      "other": "{{count}} Marginally dishevelled labels"
+    },
+    "ETIQ_TRES_LEG_GRIFFEE": {
+      "1": "{{count}} Marginally scratched label",
+      "other": "{{count}} Marginally scratched labels"
+    },
+    "ETIQ_TRES_LEG_MARQUEE": {
+      "1": "{{count}} Marginally marked label",
+      "other": "{{count}} Marginally marked labels"
+    },
+    "ETIQ_TRES_LEG_TACHEE": {
+      "1": "{{count}} Marginally stained label",
+      "other": "{{count}} Marginally stained labels"
+    },
+    "ETIQ_TRES_MARQUEE": {
+      "1": "{{count}} Highly marked label",
+      "other": "{{count}} Highly marked labels"
+    },
+    "ETIQ_TRES_SALE": {
+      "1": "{{count}} Very dirty label",
+      "other": "{{count}} Very dirty labels"
+    },
+    "ETIQ_TRES_TACHEE": {
+      "1": "{{count}} Highly stained label",
+      "other": "{{count}} Highly stained labels"
+    },
+    "ETIQ_TRES_USEE": {
+      "1": "{{count}} Highly worn label",
+      "other": "{{count}} Highly worn labels"
+    },
+    "ETIQ_USEE": {
+      "1": "{{count}} Highly worn label",
+      "other": "{{count}} Highly worn labels"
+    },
+    "ETIQ_VERNIE": {
+      "1": "{{count}} Varnished label",
+      "other": "{{count}} Varnished labels"
+    },
+    "MILL_DIFFICILEMENT_LISIBLE": {
+      "1": "{{count}} Vintage difficult to read",
+      "other": "{{count}} Vintage difficult to read"
+    },
+    "MILLESIME_ILLISIBLE": {
+      "1": "{{count}} Illegible vintage",
+      "other": "{{count}} Illegible vintage"
+    },
+    "MILLESIME_LISIBLE": {
+      "1": "{{count}} Legible vintage",
+      "other": "{{count}} Legible vintage"
+    },
+    "MILLESIME_MANUSCRIT": {
+      "1": "{{count}} Handwritten vintage",
+      "other": "{{count}} Handwritten vintage"
+    },
+    "MILLESIME_SUR_BOUCHON": {
+      "1": "{{count}} Vintage on cork",
+      "other": "{{count}} Vintage on cork"
+    },
+    "NORMALE": {
+      "1": "{{count}} Normal",
+      "other": "{{count}} Normal"
+    },
+    "NUMERO_DE_SERIE_EFFACE": {
+      "1": "{{count}} Serial number removed",
+      "other": "{{count}} Serial numbers removed"
+    },
+    "SANS_ETIQUETTE": {
+      "1": "{{count}} No label",
+      "other": "{{count}} No labels"
+    },
+    "SANS_MILLESIME": {
+      "1": "{{count}} No vintage",
+      "other": "{{count}} No vintages"
+    },
+    "TRACES_ANCIENNE_COULURES": {
+      "1": "{{count}} Old leak marks",
+      "other": "{{count}} Old leak marks"
+    },
+    "TRACES_DE_COLLE": {
+      "1": "{{count}} Glue marks",
+      "other": "{{count}} Glue marks"
+    },
+    "TRACES_DE_CUTTER": {
+      "1": "{{count}} Knife marks",
+      "other": "{{count}} Knife marks"
+    }
+  },
+  "liquidLevel": {
+    "A_10_CM": "To 10cm",
+    "A_2_5_CM": "To 2.5cm",
+    "A_2_CM": "To 2cm",
+    "A_3_5_CM": "To 3.5cm",
+    "A_3_CM": "To 3cm",
+    "A_4_5_CM": "To 4.5cm",
+    "A_4_CM": "To 4cm",
+    "A_5_5_CM": "To 5.5cm",
+    "A_5_CM": "To 5cm",
+    "A_6_5_CM": "To 6.5cm",
+    "A_6_CM": "To 6cm",
+    "A_7_CM": "To 7cm",
+    "A_8_CM": "To 8cm",
+    "A_9_CM": "To 9cm",
+    "BAS": "Low",
+    "BASE_GOULOT": "Low neck",
+    "BASSE_EPAULE": "Low shoulders",
+    "ENTRE_2_ET_4_CM": "Between 2cm and 4cm",
+    "ENTRE_4_ET_6_CM": "Between 4cm and 6cm",
+    "HAUTE_EPAULE": "High shoulders",
+    "LEGEREMENT_BAS": "Slightly low",
+    "MI_EPAULE": "Medium shoulders",
+    "MOINS_DE_2_CM": "Less than 2cm",
+    "NORMAL": "Normal",
+    "PLUS_DE_10_CM": "More than 10cm",
+    "PLUS_DE_6_CM": "More than 6cm",
+    "TRES_LEGEREMENT_BAS": "Marginally low",
+    "VIDANGE": "Seepage"
+  },
+  "wineVarieties": {
+    "AGLIANICO": "Aglianico",
+    "ALIGOTE": "Aligoté",
+    "ALTESSE": "Altesse",
+    "ARBANE": "Arbanne",
+    "BACO": "Baco",
+    "BARBERA": "Barbera",
+    "BARBAROSSA": "Barbarossa",
+    "BOURBOULENC": "Bourboulenc",
+    "CABERNET_FRANC": "Cabernet Franc",
+    "CABERNET_SAUVIGNON": "Cabernet Sauvignon",
+    "CAMARALET": "Camaralet",
+    "CARIGNAN": "Carignan",
+    "CARTOIXA": "Cartoixa",
+    "CARMENERE": "Carmenère",
+    "CHARDONNAY": "Chardonnay",
+    "CHENIN_BLANC": "Chenin Blanc",
+    "CLAIRETTE": "Clairette",
+    "COLOMBARD": "Colombard",
+    "CINSAULT": "Cinsault",
+    "CORVINA": "Corvina",
+    "COUNOISE": "Counoise",
+    "DOLCETTO": "Dolcetto",
+    "DOUCE_NOIRE": "Douce Noire",
+    "FOLLE_BLANCHE": "Folle Blanche",
+    "FURMINT": "Furmint",
+    "GAMAY": "Gamay",
+    "GEWURZTRAMINER": "Gewurztraminer",
+    "GIBERT": "Gibert",
+    "GROS_MANSENG": "Gros Manseng",
+    "GRENACHE": "Grenache",
+    "GRENACHE_BLANC": "Grenache Blanc",
+    "GRENACHE_GRIS": "Grenache Gris",
+    "JACQUERE": "Jacquère",
+    "JURANCON_NOIR": "Jurançon Noir",
+    "LAUZET": "Lauzet",
+    "MACABEU": "Macabeu",
+    "MALBEC": "Malbec",
+    "MALVOISIE": "Malvoisie",
+    "MARSANNE": "Marsanne",
+    "MERLOT": "Merlot",
+    "MELON_DE_BOURGOGNE": "Melon de Bourgogne",
+    "MONDEUSE": "Mondeuse",
+    "MONDEUSE_BLANCHE": "Mondeuse Blanche",
+    "MONTEPULCIANO": "Montepulciano",
+    "MOURVEDRE": "Mourvèdre",
+    "MUSCADELLE": "Muscadelle",
+    "MUSCARDIN": "Muscardin",
+    "MUSCAT": "Muscat",
+    "MUSCAT_BLANC_A_PETITS_GRAINS": "Muscat Blanc à Petits Grains",
+    "NEBBIOLO": "Nebbiolo",
+    "NERELLO_CAPUCCIO": "Nerello Capuccio",
+    "NERELLO_MASCALESE": "Nerello Mascalese",
+    "NERO_D_AVOLA": "Nero d'Avola",
+    "NEGRETTE": "Negrette",
+    "NIELLUCCIU": "Niellucciu",
+    "NOUAL": "Noüal",
+    "PERDO_XIMENEZ": "Pedro Ximénez",
+    "PELAVERGA_PICCOLO": "Pelaverga Piccolo",
+    "PETITE_ARVINE": "Petite Arvine",
+    "PETIT_MANSENG": "Petit Manseng",
+    "PETIT_MESLIER": "Petit Meslier",
+    "PETIT_VERDOT": "Petit Verdot",
+    "PERSAN": "Persan",
+    "PINOT_BLANC": "Pinot Blanc",
+    "PINOT_GRIS": "Pinot Gris",
+    "PINOT_MEUNIER": "Pinot Meunier",
+    "PINOT_NOIR": "Pinot Noir",
+    "POULSARD": "Poulsard",
+    "RIESLING": "Riesling",
+    "RIBOLLA_GIALLA": "Ribolla Gialla",
+    "RONDINELLA": "Rondinella",
+    "ROUSSANNE": "Roussanne",
+    "SANGIOVESE": "Sangiovese",
+    "SAUVIGNON_BLANC": "Sauvignon Blanc",
+    "SAUVIGNON_A_GROS_GRAINS": "Sauvignon à Gros Grains",
+    "SAVAGNIN": "Savagnin",
+    "SEMILLON": "Sémillon",
+    "SCIACCARELLU": "Sciaccarellu",
+    "SYLVANER": "Sylvaner",
+    "SYRAH": "Syrah",
+    "TANNAT": "Tannat",
+    "TEMPRANILLO": "Tempranillo",
+    "TERRET_NOIR": "Terret Noir",
+    "TROUSSEAU": "Trousseau",
+    "TREBBIANO": "Trebbiano",
+    "UGNI": "Ugni",
+    "UGNI_BLANC": "Ugni Blanc",
+    "VACCARESE": "Vaccarèse",
+    "VALDIGUIE": "Valdiguié",
+    "VERMENTINO": "Vermentino",
+    "VIOGNIER": "Viognier",
+    "ZINFANDEL": "Zinfandel"
+  },
+  "country": {
+    "AFRIQUE_DU_SUD": "South Africa",
+    "ALLEMAGNE": "Germany",
+    "ALGERIE": "Algeria",
+    "ARMENIE": "Armenia",
+    "ANTIGUA_ET_BARBUDA": "Antigua and Barbuda",
+    "ANTILLES": "Antilles",
+    "ARGENTINE": "Argentina",
+    "AUSTRALIE": "Australia",
+    "AUTRES_PAYS": "Other countries",
+    "AUTRICHE": "Austria",
+    "BAHAMAS": "Bahamas",
+    "BARBADE": "Barbados",
+    "BELGIQUE": "Belgium",
+    "BELIZE": "Belize",
+    "BERMUDES": "Bermuda",
+    "BOSNIE_HERZEGOVINE": "Bosnie Herzégovina",
+    "BRESIL": "Brazil",
+    "CANADA": "Canada",
+    "CAP_VERT": "Cap Verde",
+    "CARAIBES": "Caribbean",
+    "CHILI": "Chile",
+    "CHINE": "China",
+    "COLOMBIE": "Colombia",
+    "CROATIE": "Croatia",
+    "CUBA": "Cuba",
+    "DANEMARK": "Denmark",
+    "ECOSSE": "Scotland",
+    "ESPAGNE": "Spain",
+    "ETATS_UNIS": "USA",
+    "FIDJI": "Fiji",
+    "FRANCE": "France",
+    "GRECE": "Greece",
+    "GRENADE": "Grenada",
+    "GUADELOUPE": "Guadeloupe",
+    "GUATEMALA": "Guatemala",
+    "GUYANA": "Guyana",
+    "GUYANE": "Guyana",
+    "HAITI": "Haiti",
+    "HONGRIE": "Hungary",
+    "ILE_MAURICE": "Mauritius",
+    "INDE": "India",
+    "IRLANDE": "Ireland",
+    "ISRAEL": "Israel",
+    "ITALIE": "Italy",
+    "JAMAIQUE": "Jamaica",
+    "JAPON": "Japan",
+    "KENYA": "Kenya",
+    "LA_REUNION": "La Réunion",
+    "LIBAN": "Lebanon",
+    "MACEDOINE": "Macedonia",
+    "MADAGASCAR": "Madagascar",
+    "MAROC": "Morocco",
+    "MARTINIQUE": "Martinique",
+    "MEXIQUE": "Mexico",
+    "NEPAL": "Nepal",
+    "NICARAGUA": "Nicaragua",
+    "NOUVELLE_ZELANDE": "New Zealand",
+    "PANAMA": "Panama",
+    "PEROU": "Peru",
+    "PHILIPPINES": "Philippines",
+    "POLOGNE": "Poland",
+    "POLYNESIE_FRANCAISE": "French Polynesia",
+    "PORTO_RICO": "Puerto Rico",
+    "PORTUGAL": "Portugal",
+    "REPUBLIQUE_DOMINICAINE": "Dominican Republic",
+    "REPUBLIQUE_TCHEQUE": "Czech Republic",
+    "ROYAUME_UNI": "United Kingdom",
+    "RUSSIE": "Russia",
+    "SAINT_MARTIN": "Saint-Martin",
+    "SAINTE_LUCIE": "Saint Lucia",
+    "SEYCHELLES": "Seychelles",
+    "SLOVAQUIE": "Slovakia",
+    "SLOVENIE": "Slovenia",
+    "SRI_LANKA": "Sri Lanka",
+    "SUEDE": "Sweden",
+    "SUISSE": "Switzerland",
+    "TAIWAN": "Taiwan",
+    "TCHECOSLOVAQUIE": "Czechoslovakia",
+    "TRINITE_ET_TOBAGO": "Trinity and Tobago",
+    "URUGUAY": "Uruguay",
+    "VENEZUELA": "Venezuela"
+  },
+  "region": {
+    "AUTRES_PAYS": "Other countries",
+    "ABRUZZES": "Abruzzo",
+    "ADELAIDE_HILLS": "Adelaide Hills",
+    "AFRIQUE_DU_SUD": "South Africa",
+    "ALLEMAGNE": "Germany",
+    "ALSACE": "Alsace",
+    "ALENTEJO": "Alentejo",
+    "ALGEROIS": "Algiers",
+    "ARMENIE": "Armenia",
+    "ANDALOUSIE": "Andalusia",
+    "ANGLETERRE": "England",
+    "ANTIGUE_ET_BARBUDE": "Antigua and Barbuda",
+    "ANTILLES": "Antilles",
+    "ANTRIM_COUNTY": "County Antrim",
+    "ARAGON": "Aragon",
+    "ARGENTINE": "Argentina",
+    "AUCKLAND": "Auckland",
+    "AUSTRALIE": "Australia",
+    "AUTRES_REGIONS": "Other regions",
+    "AUTRICHE": "Austria",
+    "AUVERGNE": "Auvergne",
+    "BAHAMAS": "Bahamas",
+    "BALEARES": "Balearics",
+    "BANGALORE": "Bangalore",
+    "BARBADE": "Barbados",
+    "BAIRRADA": "Bairrada",
+    "BAROSSA_VALLEY": "Barossa Valley",
+    "BASILICATA": "Basilicata",
+    "BEAUJOLAIS": "Beaujolais",
+    "BEKAA": "Bekaa Valley",
+    "BELGIQUE": "Belgium",
+    "BELIZE": "Belize",
+    "BERMUDES": "Bermuda",
+    "BORDEAUX": "Bordeaux",
+    "BOSNIE_HERZEGOVINE": "Bosnia Herzégovina",
+    "BOURGOGNE": "Burgundy",
+    "BRESIL": "Brazil",
+    "BRETAGNE": "Brittany",
+    "BURGENLAND": "Burgenland",
+    "CALIFORNIE": "California",
+    "CAMPANIE": "Campania",
+    "CAMPBELTOWN": "Campbeltown",
+    "CANADA": "Canada",
+    "CANTERBURY": "Canterbury",
+    "CAP_VERT": "Cape Verde",
+    "CARAIBES": "Caribbean",
+    "CASTILLE_ET_LEON": "Castillo and Leon",
+    "CASTILLE_LA_MANCHE": "Castilla–La Mancha",
+    "CATALOGNE": "Catalonia",
+    "CENTRAL_OTAGO": "Central Otago",
+    "CITRUSDAL_MOUNTAIN": "Citrusdal Mountain",
+    "CHAMPAGNE": "Champagne",
+    "CHARENTE": "Charente",
+    "CHILI": "Chile",
+    "CHINE": "China",
+    "CLARE_VALLEY": "Clare Valley",
+    "COLCHAGUA": "Colchagua Valley",
+    "COLOMBIE": "Colombia",
+    "CORK_COUNTY": "County Cork",
+    "CORSE": "Corsica",
+    "COTE_CENTRALE": "Central Coast",
+    "COTE_CENTRALE_USA": "Central Coast",
+    "CROATIE": "Croatia",
+    "CUBA": "Cuba",
+    "DANEMARK": "Denmark",
+    "DEMERARA_MAHAICA": "Demerara-Mahaica",
+    "DIVERS": "Various",
+    "DUBLIN_COUNTY": "County Dublin",
+    "ECOSSE": "Scotland",
+    "EDEN_VALLEY": "Eden Valley",
+    "EMILIE_ROMAGNE": "Emilie Romagna",
+    "ESPAGNE": "Spain",
+    "ETATS_UNIS": "USA",
+    "FIDJI": "Fiji",
+    "FINGER_LAKES": "Finger Lakes",
+    "FRANCE": "France",
+    "FRANSCHHOEK": "Franschhoek",
+    "FRIBOURG": "Freiburg",
+    "FRIOUL": "Friuli",
+    "FRIOUL_VENETIE_JULIENNE": "Friuli-Venezia Giulia",
+    "GALICE": "Galicia",
+    "GALLES_DU_SUD": "South Wales",
+    "GAVLEBORG_COUNTY": "Gavleborg County",
+    "GRANDE_BRETAGNE": "Great Britain",
+    "GRECE": "Greece",
+    "GRENADE": "Grenada",
+    "GRISONS": "Grisons",
+    "GUADELOUPE": "Guadeloupe",
+    "GUATEMALA": "Guatemala",
+    "GUYANE": "Guyana",
+    "GUYANE_BRITANNIQUE": "British Guyana",
+    "HAITI": "Haiti",
+    "HAWAI": "Hawaii",
+    "HAWKE_S_BAY": "Hawke’'s Bay",
+    "HIGHLANDS": "Highlands",
+    "HIGLANDS_ARRAN": "Arran Highlands",
+    "HIGLANDS_JURA": "Highlands Jura",
+    "HIGLANDS_MULL": "Highands Mull",
+    "HIGLANDS_ORKNEY": "Higlands Orkney",
+    "HIGLANDS_SKYE": "Skye Highlands",
+    "HOKKAIDO": "Hokkaido",
+    "HONGRIE": "Hungary",
+    "HONSHU": "Honshu",
+    "HONSHU_AOMORI": "Honshu Aomori",
+    "HONSHU_HYOGO": "Honshu Hyogo",
+    "HONSHU_KANAWAGA": "Honshu Kanawaga",
+    "HONSHU_KYOTO": "Honshu Kyoto",
+    "HONSHU_MIYAGI": "Honshu Miyagi",
+    "HONSHU_NAGANO": "Honshu Nagano",
+    "HONSHU_OSAKA": "Honshu Osaka",
+    "HONSHU_SAITAMA": "Honshu Saitama",
+    "HONSHU_YAMAGATA": "Honshu Yamagata",
+    "HONSHU_YAMANASHI": "Honshu Yamanashi",
+    "INDE": "India",
+    "INDIANA": "Indiana",
+    "IRLANDE": "Ireland",
+    "ISLAND_OF_NEGROS": "Negros Island",
+    "ISLAY": "Islay",
+    "ISRAEL": "Israel",
+    "ITALIE": "Italy",
+    "JALISCO": "Jalisco",
+    "JAMAIQUE": "Jamaica",
+    "JAPON": "Japan",
+    "JURA": "Jura",
+    "JUZNOSLOVENSKA": "Juznoslovenski",
+    "KAMPTAL": "Kamptal",
+    "KENTUCKY": "Kentucky",
+    "KENYA": "Kenya",
+    "LA_REUNION": "La Réunion",
+    "LANGHORNE_CREEK": "Langhorne Creek",
+    "LANGUEDOC": "Languedoc",
+    "LANZAROTE": "Lanzarote",
+    "LIBAN": "Lebanon",
+    "LIGURIE": "Liguria",
+    "LOMBARDIE": "Lombardy",
+    "LOWLANDS": "Lowlands",
+    "MACEDOINE": "Macedonia",
+    "MADAGASCAR": "Madagascar",
+    "MADERE": "Madeira",
+    "MAIPO": "Maipo",
+    "MARCHES": "Marche",
+    "MARGARET_RIVER": "Margaret River",
+    "MARIE_GALANTE": "Marie Galante",
+    "MARLBOROUGH": "Marlborough",
+    "MARTINIQUE": "Martinique",
+    "MAURICE": "Mauritius",
+    "MCLAREN_VALE": "McLaren Vale",
+    "MEKNES": "Meknes",
+    "MENDOZA": "Mendoza",
+    "MEXIQUE": "Mexico",
+    "MOSEL_SAAR": "Mosel Saar",
+    "MOSELLE": "Moselle",
+    "MURCIE": "Murcia",
+    "NAHE": "Nahe",
+    "NAPA_VALLEY": "Napa Valley",
+    "NAVARRE": "Navarre",
+    "NELSON": "Nelson",
+    "NEPAL": "Nepal",
+    "NEUCHATEL": "Neuchâtel",
+    "NEW_YORK": "New York",
+    "NICARAGUA": "Nicaragua",
+    "NORD": "north",
+    "NORMANDIE": "Normandy",
+    "NOUVELLE_ANGLETERRE": "New England",
+    "NOUVELLE_ZELANDE": "New Zealand",
+    "OAXACA": "Oaxaca",
+    "OKINAWA": "Okinawa",
+    "OMBRIE": "Umbria",
+    "OREGON": "Oregon",
+    "PANAMA": "Panama",
+    "PATAGONIE": "Patagonia",
+    "PAYS_DE_BADE": "Baden",
+    "PELOPONNESE": "Peloponnese",
+    "PENNSYLVANIE": "Pennsylvania",
+    "PEROU": "Peru",
+    "PFALZ": "Pfalz",
+    "PIEMONT": "Piedmont",
+    "POLOGNE": "Poland",
+    "PORTO_RICO": "Puerto Rico",
+    "PORTUGAL": "Portugal",
+    "PRIMORSKI": "Primorski",
+    "PROVENCE": "Provence",
+    "REPUBLIQUE_DOMINICAINE": "Dominican Republic",
+    "REPUBLIQUE_TCHEQUE": "Czech Republic",
+    "RHEINGAU": "Rheingau",
+    "RHEINHESSEN": "Rhine Hesse",
+    "RHONE_ALPES": "Rhône-Alpes",
+    "RHONE": "Rhône",
+    "RIBERA_DEL_DUERO": "Ribera Del Duero",
+    "RIO_NEGRO": "Rio Negro",
+    "RIOJA": "Rioja",
+    "ROUSSILLON": "Roussillon",
+    "RUSSIE": "Russia",
+    "SAINT_MARTIN": "Saint-Martin",
+    "SAINTE_LUCIE": "Saint Lucia",
+    "SAN_JUAN": "San Juan",
+    "SANTORIN": "Santorini",
+    "SARDAIGNE": "Sardinia",
+    "SAVOIE": "Savoie",
+    "SEYCHELLES": "Seychelles",
+    "SICILE": "Sicily",
+    "SLOVAQUIE": "Slovakia",
+    "SONOMA": "Sonoma",
+    "SOUTH_AUSTRALIA": "South Australia",
+    "SUD": "South",
+    "SPEYSIDE": "Speyside",
+    "SRI_LANKA": "Sri Lanka",
+    "STELLENBOSCH": "Stellenbosch",
+    "SUD_OUEST": "South-West",
+    "SUEDE": "Sweden",
+    "SWARTLAND": "Swartland",
+    "TAHITI": "Tahiti",
+    "TAIWAN": "Taiwan",
+    "TASMANIE": "Tasmania",
+    "TCHECOSLOVAQUIE": "Czechoslovakia",
+    "TENERIFE": "Tenerife",
+    "TENNESSEE": "Tennessee",
+    "TESSIN": "Ticino",
+    "TEXAS": "Texas",
+    "TOKAJ": "Tokaj",
+    "TORO": "Toro",
+    "TOSCANE": "Tuscany",
+    "TOTORI": "Tottori",
+    "TRENTIN_HAUT_ADIGE": "Trentino-Alto Adige",
+    "TRINITE_ET_TOBAGO": "Trinidad and Tobago",
+    "UCO": "Uco Valley",
+    "URSS": "USSR",
+    "URUGUAY": "Uruguay",
+    "VALAIS": "Valais",
+    "VALENCE": "Valencia",
+    "VALLEE_D_AOSTE": "Aosta Valley",
+    "VALLEE_DE_LA_LOIRE": "Loire Valley",
+    "VALLEE_DU_DOURO": "Douro Valley",
+    "VALLEE_DU_RHONE": "Rhone Valley",
+    "VALLEE_DU_RHONE_NORD": "Northern Rhône",
+    "VALLEE_DU_RHONE_SUD": "Southern Rhône",
+    "VENETIE": "Veneto",
+    "VENEZUELA": "Venezuela",
+    "VICTORIA": "Victoria",
+    "VINHO_VERDE": "Vinho Verde",
+    "VIRGINIE": "Virgina",
+    "WAIRAPAPA": "Wairapapa",
+    "WALLA_WALLA_VALLEY": "Walla Walla Valley",
+    "WASHINGTON": "Washington",
+    "WESTERN_AUSTRALIA": "Western Australia",
+    "WESTERN_CAPE": "Western Cape",
+    "YAMANASHI": "Yamanashi",
+    "YILAN_COUNTY": "Yilan County",
+    "YUNNAN": "Yunnan"
+  }
+}

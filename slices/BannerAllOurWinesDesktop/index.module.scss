@@ -1,0 +1,81 @@
+@import "@/styles/stylesheet";
+
+.section {
+  width: 90%;
+}
+
+.content {
+  display: flex;
+  height: 160px;
+  position: relative;
+}
+
+.link {
+  width: 100%;
+}
+
+.imageDiv {
+  position: relative;
+  width: 55%;
+  height: 100%;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.textContent {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: getSpacing(4);
+  border-top: 1px solid $greyLighter;
+  border-bottom: 1px solid $greyLighter;
+  border-right: 1px solid $greyLighter;
+}
+
+.text {
+  width: 100%;
+  color: $black;
+  font-family: $fontFamily;
+  font-size: $fontSizeSmall;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: getSpacing(3);
+  text-align: center;
+  @include isDesktop {
+    font-size: $fontSizeMediumSmall;
+  }
+}
+
+.button {
+  background-color: $black;
+  padding: getSpacing(1) getSpacing(3);
+  min-width: 150px;
+  border-radius: 2px;
+  color: $white;
+  font-size: $fontSizeSmall;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: $letterSpacingSmall;
+
+  &:hover {
+    background-color: $white;
+    border: 1px solid $black;
+    color: $black;
+    cursor: pointer;
+  }
+
+  @include isDesktop {
+    font-size: $fontSizeBase;
+  }
+}
+
+.decorationNoneHover {
+  &:hover {
+    text-decoration: none;
+  }
+}

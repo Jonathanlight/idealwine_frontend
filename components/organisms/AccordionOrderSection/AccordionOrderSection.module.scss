@@ -1,0 +1,62 @@
+@import "@/styles/stylesheet";
+
+.accordionGroup {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  margin: getSpacing(1);
+  border: 1px $greyDropdown solid;
+  border-radius: 2px;
+  padding: getSpacing(1);
+  gap: getSpacing(2);
+
+  @include isTabletOrDesktop {
+    margin: getSpacing(2);
+    padding: getSpacing(2);
+  }
+}
+
+.accordionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.accordionHeaderMain {
+  display: flex;
+  align-items: center;
+  gap: getSpacing(2);
+  padding: 0 getSpacing(1);
+  width: 100%;
+
+  @include isTabletOrDesktop {
+    gap: getSpacing(4);
+    padding: 0 getSpacing(2);
+  }
+}
+
+.goldenLogo {
+  color: $golden;
+}
+
+.accordionHeaderPrice {
+  text-transform: none;
+  letter-spacing: $letterSpacingSmall;
+  font-size: $fontSizeSmall;
+  font-weight: normal;
+  display: flex;
+  gap: getSpacing(1);
+}
+
+.accordionHeaderTitle {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.orderGroupTitle {
+  letter-spacing: $letterSpacingMedium;
+  text-transform: uppercase;
+}

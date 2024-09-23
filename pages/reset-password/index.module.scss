@@ -1,0 +1,23 @@
+@import "@/styles/stylesheet";
+
+.pageContainer {
+  @include mainContainerPadding;
+
+  display: flex;
+  justify-content: center;
+}
+
+.formContainer {
+  padding: getSpacing(4);
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+  text-align: center;
+}
+
+.errorMessage {
+  color: $red;
+  font-size: $fontSizeSmall;
+  text-align: center;
+}

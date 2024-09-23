@@ -1,0 +1,67 @@
+@import "@/styles/stylesheet";
+
+.heroblockSection {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: getSpacing(7) 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  text-align: center;
+  padding: getSpacing(5);
+  width: 100%;
+}
+
+.mainTitle {
+  font-size: $fontSizeMediumLarge;
+  color: $lightBlue;
+  font-weight: bold;
+  letter-spacing: $letterSpacingMedium;
+  text-transform: uppercase;
+  margin: getSpacing(3) 0;
+  @include isTabletOrDesktop {
+    font-size: $fontSizeLarge;
+    margin: getSpacing(1) 0;
+    width: 80%;
+  }
+}
+
+.subtitle {
+  line-height: 1.5;
+  font-size: $fontSizeMediumSmall;
+  color: $lightBlue;
+  font-weight: normal;
+  letter-spacing: $letterSpacingMedium;
+  text-transform: uppercase;
+  @include isTabletOrDesktop {
+    width: 70%;
+    font-size: $fontSizeMedium;
+  }
+}
+
+.button {
+  background-color: $lightBlue;
+  padding: getSpacing(2) getSpacing(10);
+  font-size: $fontSizeMediumSmall;
+  text-transform: uppercase;
+  color: $white;
+  font-weight: bold;
+  margin: getSpacing(5);
+  border-radius: getSpacing(1);
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: $white;
+    color: $lightBlue;
+    border: 1px solid $lightBlue;
+  }
+}

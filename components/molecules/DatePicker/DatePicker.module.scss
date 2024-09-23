@@ -1,0 +1,19 @@
+@import "@/styles/stylesheet";
+
+.formContainer {
+  display: flex;
+  gap: getSpacing(2);
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.errorMessage {
+  color: $red;
+  font-size: $fontSizeSmall;
+  text-align: center;
+}
+
+.input {
+  width: 10%;
+}

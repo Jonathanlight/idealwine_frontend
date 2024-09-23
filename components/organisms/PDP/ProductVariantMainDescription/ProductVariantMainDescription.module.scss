@@ -1,0 +1,88 @@
+@import "@/styles/stylesheet";
+
+.container {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: getSpacing(2);
+}
+
+.saleType {
+  padding-right: getSpacing(5);
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: $fontSizeSmaller;
+  margin-bottom: getSpacing(1);
+  letter-spacing: $letterSpacingSmall;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: getSpacing(2);
+}
+
+.mainTitle {
+  color: $redDark;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: $fontSizeMediumLarge;
+  letter-spacing: $letterSpacingNormal;
+  margin-bottom: getSpacing(2);
+}
+
+%infoRowPlaceholder {
+  display: flex;
+  align-items: center;
+  column-gap: getSpacing(1);
+  row-gap: getSpacing(1);
+  font-size: $fontSizeSmaller;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: $letterSpacingMedium;
+  flex-wrap: wrap;
+}
+
+.infoRow {
+  @extend %infoRowPlaceholder;
+
+  margin-bottom: 25px;
+}
+
+.separator {
+  width: 1px;
+  height: 1rem;
+  margin: 0 2px;
+  background-color: $grey;
+}
+
+.tooltipTrigger {
+  @extend %infoRowPlaceholder;
+
+  align-items: normal;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.shortDescriptionLink {
+  color: $greyDark;
+  font-size: $fontSizeSmall;
+}
+
+.bioIcon {
+  color: $greenBio;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  font-weight: normal;
+  font-size: $fontSizeMediumSmall;
+  text-align: center;
+}

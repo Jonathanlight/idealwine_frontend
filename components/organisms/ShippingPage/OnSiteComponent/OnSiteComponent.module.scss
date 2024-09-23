@@ -1,0 +1,12 @@
+@import "@/styles/stylesheet";
+
+.titleContainer,
+.descriptionContainer {
+  text-align: start;
+  letter-spacing: normal;
+}
+
+.titleContainer {
+  padding-bottom: getSpacing(2);
+  font-size: $fontSizeMediumSmall;
+}

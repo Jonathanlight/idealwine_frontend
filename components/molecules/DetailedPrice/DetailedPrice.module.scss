@@ -1,0 +1,29 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: getSpacing(1);
+}
+
+.discountContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.promoText {
+  font-size: $fontSizeSmall;
+}
+
+.discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $golden;
+  color: $white;
+  align-self: flex-start;
+  padding: 0 getSpacing(1);
+}

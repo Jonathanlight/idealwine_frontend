@@ -1,0 +1,46 @@
+{
+  "basket": {
+    "nextPageButtonText": "Conferma il tuo ordine"
+  },
+  "shipping": {
+    "nextPageButtonText": "Procedi con l’acquisto"
+  },
+  "payment": {
+    "nextPageButtonText": "Conferma l'ordine"
+  },
+  "basketName": "Carrello",
+  "shippingName": "Consegna",
+  "shippingNameDelivery": "Consegna",
+  "paymentName": "Pagamento",
+  "basketItems": {
+    "0": "Nessun articolo",
+    "1": "{{count}} articolo",
+    "other": "{{count}} articoli"
+  },
+  "complete_personal_info_dialog": {
+    "title": "Inserisci i tuoi  dati",
+    "content": "Per confermare il tuo ordine è necessario inserire alcuni dati sul tuo profilo.",
+    "button": "Continua"
+  },
+  "total": "Totale",
+  "amountTotal": "Importo totale",
+  "includingVAT": "di cui IVA",
+  "customsFee": "Dazi doganali",
+  "errorOccurred": "Si è verificato un errore.",
+  "auctionAt": "Aste del {{date}}",
+  "auctionAtWithCountry": "aste del {{date}} - {{country}}",
+  "directPurchaseAt": "Vendita a prezzo fisso del {{date}}",
+  "directPurchaseAtWithCountry": "vendita a prezzo fisso del {{date}} - {{country}}",
+  "deliveryRequestAt": "richiesta di consegna del {{date}}",
+  "storage": "Spese di giacenza",
+  "promotionsAndReductions": "Sconti e promozioni:",
+  "reductions": "Sconto",
+  "countdown": "I lotti aggiunti al carrello sono bloccati per {{minutesDisplayed}}:{{secondsDisplayed}} minuti",
+  "disclaimer": "Trascorso questo periodo di tempo, saranno di nuovo disponibili per gli altri clienti.",
+  "tooLate": "Il tuo carrello sta per scadere",
+  "recap": "Riepilogo",
+  "myUnpaidOrders": "Ordini in attesa di essere saldati",
+  "myPaidOrders": "Ordini in attesa di consegna",
+  "myBasket": "Il mio carrello",
+  "securePayment": "Pagamento sicuro"
+}

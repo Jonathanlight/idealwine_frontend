@@ -1,0 +1,209 @@
+@import "@/styles/stylesheet";
+
+.header {
+  border-bottom: 1px solid $grey;
+  background-color: $white;
+}
+
+.viewportContainer {
+  max-width: $maxViewportWidth;
+  margin: 0 auto;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: $fontSizeSmall;
+  line-height: 1.5;
+  margin-bottom: getSpacing(4);
+  align-items: center;
+
+  @include isTabletOrDesktop {
+    padding: 0 getSpacing(4);
+    white-space: nowrap;
+  }
+
+  @include isTablet {
+    font-size: $fontSizeSmaller;
+  }
+}
+
+.leftFakeDiv {
+  flex-grow: 1;
+}
+
+.contactLinkCentered {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.contactLinkCentered .link:hover {
+  text-decoration: none;
+}
+
+.phoneNumber {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.rightPart {
+  flex-basis: 0;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: getSpacing(5);
+
+  @include isLargeOrExtraLargeDesktop {
+    gap: getSpacing(10);
+  }
+
+  @include isTablet {
+    gap: getSpacing(2);
+  }
+}
+
+.shopIcons {
+  flex-shrink: 0;
+  display: flex;
+  gap: getSpacing(4);
+  min-width: 200px;
+  align-items: center;
+  justify-content: flex-end;
+
+  @include isMobileOrTablet {
+    min-width: inherit;
+    gap: getSpacing(3);
+  }
+
+  .iconLink {
+    text-decoration: none;
+    position: relative;
+
+    &:hover {
+      color: $golden;
+    }
+  }
+}
+
+.shopIcon {
+  min-width: 16px;
+  font-size: $fontSizeMediumLarge;
+  @include isMobileOrTablet {
+    font-size: $fontSizeBase;
+  }
+}
+
+.logoContainer {
+  flex-shrink: 0;
+}
+
+.logo {
+  object-fit: cover;
+  object-position: left;
+
+  @include isMobileOrTablet {
+    width: 40px;
+  }
+}
+
+.actionsNavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: getSpacing(4);
+  padding: 0 getSpacing(4);
+  @include isMobileOrTablet {
+    padding: getSpacing(2);
+    gap: getSpacing(2);
+  }
+}
+
+.idealwineServices {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.idealwineService {
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0 getSpacing(2);
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+  }
+
+  &:not(:last-child) {
+    border-right: 1px solid $grey;
+  }
+}
+
+// increase specificity to override the default style
+html .dropdownIdealwineServices {
+  padding: getSpacing(2) 0;
+  gap: unset;
+
+  &:first-child {
+    padding-top: getSpacing(1);
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+// increase specificity to override the default style
+html .buttonDropdownIdealwineServices {
+  text-decoration: none;
+
+  &.golden {
+    background: $golden;
+    color: $white;
+    padding: getSpacing(1) getSpacing(2);
+    text-transform: uppercase;
+    font-size: $fontSizeSmall;
+    border: 1px solid $golden;
+
+    &:hover {
+      background: transparent;
+      color: $golden;
+    }
+  }
+}
+
+.dropdownItemIdealwineServices {
+  text-align: center;
+  white-space: nowrap;
+  padding: getSpacing(2) getSpacing(6);
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $greyDropdown;
+  }
+}
+
+.thirdLine {
+  display: flex;
+  justify-content: center;
+  padding: getSpacing(2);
+}
+
+html .drawer {
+  padding: 0;
+}
+
+.absoluteNumber {
+  position: absolute;
+  font-size: $fontSizeSmall;
+  bottom: -4px;
+  right: -5px;
+  background-color: $white;
+  color: $golden;
+  padding: getSpacing(0.1) getSpacing(0.6);
+  border-radius: 2px;
+}

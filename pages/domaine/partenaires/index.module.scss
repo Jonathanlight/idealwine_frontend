@@ -1,0 +1,173 @@
+@import "@/styles/stylesheet";
+
+.container {
+  padding: getSpacing(2) getSpacing(4);
+  display: flex;
+  flex-direction: column;
+  column-gap: getSpacing(2);
+  background-color: $antiqueGrey;
+
+  @include isDesktop {
+    flex-direction: row;
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  height: fit-content;
+  padding: getSpacing(2) getSpacing(2);
+  width: 100%;
+  text-align: center;
+
+  @include isDesktop {
+    padding: getSpacing(2) getSpacing(4);
+    top: 0;
+    width: 25%;
+    text-align: start;
+  }
+}
+
+.menuContent {
+  display: none;
+
+  @include isDesktop {
+    display: block;
+  }
+}
+
+.linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scrollbarDomain {
+  height: 750px;
+  overflow-y: auto;
+}
+
+.scrollbarDomain::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollbarDomain::-webkit-scrollbar-thumb {
+  background-color: $black;
+}
+
+.regionLink {
+  background-color: $white;
+  margin: getSpacing(1);
+  padding: getSpacing(1) getSpacing(2);
+  font-size: $fontSizeSmall;
+  border: 1px solid $white;
+  outline: 2px solid $white;
+}
+
+.regionLink:hover,
+.regionLink:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.regionLink.active {
+  background-color: $black;
+  color: $white;
+  outline-color: $black;
+}
+
+.text {
+  margin-top: getSpacing(3);
+  white-space: pre-line;
+  text-align: justify;
+}
+
+.title {
+  white-space: pre-line;
+  font-size: $fontSizeLarge;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.content {
+  padding: getSpacing(2) getSpacing(4);
+}
+
+// increase specificity to override the default style
+html .accordion {
+  .accordionHeader {
+    text-transform: uppercase;
+    color: $blackLighter;
+    font-weight: 500;
+    text-align: start;
+
+    @include isDesktop {
+      font-size: $fontSizeBase;
+    }
+  }
+}
+
+// increase specificity to override the default style
+html .accordionRoot {
+  width: 100%;
+}
+
+// increase specificity to override the default style
+html .accordionItem {
+  margin: getSpacing(4) 0;
+  box-shadow: none;
+}
+
+// increase specificity to override the default style
+html .accordionItem:focus-within {
+  box-shadow: none;
+}
+
+// increase specificity to override the default style
+html .accordionTrigger {
+  font-size: $fontSizeMediumSmall;
+  display: flex;
+  justify-content: flex-start;
+  padding: getSpacing(6) 0;
+  line-height: $fontSizeMediumSmall;
+  background-color: inherit;
+}
+
+// increase specificity to override the default style
+html .accordionChevron {
+  transition: transform 300ms cubic-bezier(0.87, 0, 0.13, 1);
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  right: getSpacing(4);
+}
+
+// increase specificity to override the default style
+html .accordionContentContainer {
+  font-size: $fontSizeMediumSmall;
+  background-color: inherit;
+  overflow: hidden;
+}
+
+// increase specificity to override the default style
+html .accordionContent {
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: getSpacing(4);
+  justify-content: center;
+
+  @include isDesktop {
+    justify-content: flex-start;
+  }
+}
+
+.noHeight {
+  /* stylelint-disable-next-line declaration-no-important */
+  height: 0 !important;
+
+  @include isDesktop {
+    height: auto;
+  }
+}

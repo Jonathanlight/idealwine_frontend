@@ -1,0 +1,94 @@
+@import "@/styles/stylesheet";
+
+%displayFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+%borderBottom {
+  border-bottom: 1px solid $greyLighter;
+}
+
+%paddingReset {
+  padding: 0;
+}
+
+%noTextDecoration {
+  text-decoration: none;
+}
+
+.navigationMenuRoot {
+  width: 80dvw;
+}
+
+.navigationItem {
+  @extend %displayFlex;
+  @extend %borderBottom;
+  @extend %paddingReset;
+}
+
+.navigationItem > :not(.details) {
+  padding: getSpacing(3);
+}
+
+.spacingServicesPlus {
+  padding: 0;
+}
+
+.spacingOtherServices {
+  padding: getSpacing(3);
+}
+
+.redirectLinkItem {
+  flex-grow: 1;
+}
+
+.goldenSection {
+  background-color: $golden;
+  color: $white;
+}
+
+.linkButton {
+  @extend %noTextDecoration;
+}
+
+.details {
+  @extend %paddingReset;
+
+  border: 1px solid $antiqueGrey;
+  flex-grow: 1;
+}
+
+.details[open] .arrowDown {
+  display: none;
+}
+
+.details .arrowUp {
+  display: none;
+}
+
+.details[open] .arrowUp {
+  display: unset;
+}
+
+.summary {
+  @extend %displayFlex;
+
+  background-color: $antiqueGrey;
+  padding: getSpacing(3);
+  cursor: pointer;
+  width: 100%;
+}
+
+.navgationSubitem {
+  @extend %displayFlex;
+  @extend %borderBottom;
+}
+
+.navigator {
+  @extend %displayFlex;
+  @extend %noTextDecoration;
+
+  flex-grow: 1;
+}

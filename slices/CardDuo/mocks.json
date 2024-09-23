@@ -1,0 +1,139 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "link1": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "https://prismic.io"
+        }
+      },
+      "link2": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      "image1": {
+        "__TYPE__": "ImageContent",
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43",
+          "width": 4024,
+          "height": 4024
+        },
+        "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43",
+        "width": 4024,
+        "height": 4024,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "thumbnails": {}
+      },
+      "image2": {
+        "__TYPE__": "ImageContent",
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0",
+          "width": 3344,
+          "height": 2509
+        },
+        "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0",
+        "width": 3344,
+        "height": 2509,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "thumbnails": {}
+      },
+      "title1": {
+        "__TYPE__": "FieldContent",
+        "value": "jar",
+        "type": "Text"
+      },
+      "title2": {
+        "__TYPE__": "FieldContent",
+        "value": "whole",
+        "type": "Text"
+      },
+      "date1": {
+        "__TYPE__": "FieldContent",
+        "value": "making",
+        "type": "Text"
+      },
+      "imageLabel1": {
+        "__TYPE__": "FieldContent",
+        "value": "courage",
+        "type": "Text"
+      },
+      "imageLabel2": {
+        "__TYPE__": "FieldContent",
+        "value": "camera",
+        "type": "Text"
+      },
+      "linkLabel1": {
+        "__TYPE__": "FieldContent",
+        "value": "boat",
+        "type": "Text"
+      },
+      "linkLabel2": {
+        "__TYPE__": "FieldContent",
+        "value": "score",
+        "type": "Text"
+      },
+      "description1": {
+        "__TYPE__": "FieldContent",
+        "value": "eventually",
+        "type": "Text"
+      },
+      "description2": {
+        "__TYPE__": "FieldContent",
+        "value": "store",
+        "type": "Text"
+      },
+      "secondLink1": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "https://prismic.io"
+        }
+      },
+      "secondLink2": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      "secondLinkLabel1": {
+        "__TYPE__": "FieldContent",
+        "value": "flies",
+        "type": "Text"
+      },
+      "secondLinkLabel2": {
+        "__TYPE__": "FieldContent",
+        "value": "aboard",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

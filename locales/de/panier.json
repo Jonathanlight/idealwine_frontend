@@ -1,0 +1,42 @@
+{
+  "myBasketTooltip": "De prijzen in uw winkelmandje zijn voor een periode van {{timer}} minuten voor u gereserveerd",
+  "alreadyPaid": "bezahlt",
+  "awaitingForPayment": "Zahlung fällig",
+  "unpaid": "noch zu bezahlen",
+  "myPaidOrdersTooltip": "Ich kreuze meine vergangenen Bestellungen an, die ich mir liefern lassen möchte.",
+  "myUnpaidOrdersTooltipXtraOrder": "Ich kreuze die Bestellungen an, die ich bezahlen will.",
+  "myUnpaidOrdersTooltipNormal": "Ich bezahle gewonnene Auktionen",
+  "myAwaitingPaymentOrders": "Meine Bestellungen, die auf die Bestätigung der Zahlung warten",
+  "myAwaitingPaymentOrdersTooltip": "Nach der Bezahlung können Sie Ihre Bestellung auf „Warten“ setzen, um sie mit weiteren Bestellungen zu bündeln und Versandkosten zu sparen oder alle Weine zusammen in unserem Lager abzuholen. Ab Bestelldatum profitieren Sie von einem Monat kostenfreier Lagerung. Nach Ablauf dieser Frist werden Lagergebühren erhoben.",
+  "directSale": "Festpreise",
+  "shippingCountry": "Lieferland :",
+  "forbidden": "verboten",
+  "errorOccurred": "Ein Fehler ist aufgetreten",
+  "noItemsInBasket": "Ihr Warenkorb ist leer.",
+  "seeAllWines": "Alle Weine ansehen",
+  "storageFee": "Lagergebühr (j+{{numberOfDays}})",
+  "xtraOrderAutomaticCheckoutButton": "Bestätigen und später bezahlen",
+  "basketGroupingInfoMessage": "Im nächsten Schritt können Sie die Lieferung/Abholung Ihrer Bestellung verwalten oder sie zur Bündelung zurückstellen, um die Versandkosten zu optimieren.",
+  "learnMore": "Mehr Informationen",
+  "basketGroupingInfoModalMessage": "Im nächsten Schritt können Sie die Lieferung/Abholung Ihrer Bestellung verwalten. Sie können auch Ihre Bestellung auf „Warten“ setzen, um sie mit weiteren Bestellungen zu bündeln und Versandkosten zu sparen. Um diese Bündelungsoption nutzen zu können, muss Ihre Bestellung im Voraus bezahlt werden. Ab Bestelldatum profitieren Sie von einem Monat kostenfreier Lagerung. Nach Ablauf dieser Frist werden Lagergebühren erhoben.",
+  "incompatibleOrderCountriesModal": {
+    "title": "Lieferländer nicht kombinierbar",
+    "content": "Sie können diese Bestellung nicht bündeln, da ein anderes Lieferland vorliegt, als bei anderen Bestellungen in der Bündelung. Bitte bestätigen Sie Ihren Warenkorb, um Ihre Bestellungen zu bündeln."
+  },
+  "limitedQuantityWarning": "Sie überschreiten die für dieses Produkt festgelegte Kaufbeschränkung. Die Menge dieses Produkts in Ihrem Warenkorb wurde angepasst.",
+  "quantityOf": {
+    "1": "{{count}} Posten von",
+    "other": "{{count}} Posten von"
+  },
+  "orderNumber": "Bestellung Nr. {{orderNumber}}",
+  "bottleNumber": {
+    "1": "1 Flasche",
+    "other": "{{count}} Flaschen"
+  },
+  "seo": {
+    "title": "Mein Warenkorb - iDealwine",
+    "description": "Kaufen und verkaufen Sie Ihre Weine in Auktionen und zu Festpreisen mit iDealwine"
+  },
+  "emptyBasket": "Ihr Warenkorb ist leer",
+  "emptyBasketCallToAction": "Entdecken Sie unsere Neuheiten"
+}

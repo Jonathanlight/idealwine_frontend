@@ -1,0 +1,440 @@
+{
+  "bio": "Organic",
+  "natural": "Natural",
+  "tripleA": "Triple A",
+  "soonAvailable": "Available soon",
+  "customsFeeIncluded": "applied duties and taxes included",
+  "insteadOf": "instead of",
+  "similarVariants": "Similar lots",
+  "timeZoneName": "CET",
+  "inYourTimeZone": "In your time zone",
+  "availabilityAlert": {
+    "title": "Availability alert",
+    "added": "Alert saved",
+    "removed": "Alert deleted"
+  },
+  "remainingStocks": {
+    "singular": "More than {{remainingStocks}} lot available",
+    "plural": "More than {{remainingStocks}} lots available"
+  },
+  "lotDiscount": "by {{bottleNumber}} | - {{discountPercentage}} %",
+  "loyaltyProgram": {
+    "NONE": "The iDealwine Loyalty Programme",
+    "PRIVILEGE": "Privilège",
+    "IDEAL": "Club iDéal",
+    "QUINTESSENCE": "Quintessence",
+    "offer": "discount",
+    "cumulativeDiscount": "With this purchase, get {{discount}}% off next time",
+    "onlyLoyaltyProgramUsersTitle": "Reward scheme",
+    "onlyLoyaltyProgramUsersDescription": "Get credit notes from your purchases!"
+  },
+  "condition": {
+    "quantity": {
+      "1": "Quantity: {{count}} bottle",
+      "other": "Quantity: {{count}} bottles"
+    },
+    "level": {
+      "1": "Level:",
+      "other": "Levels:"
+    },
+    "observation": {
+      "1": "Observation:",
+      "other": "Observations:"
+    }
+  },
+  "region": "Country/Region:",
+  "appellation": "Appellation/Wine:",
+  "intensity": "Intensity",
+  "directPurchaseName": "fixed price",
+  "quintessence": "Quintessence",
+  "auctionName": "auction",
+  "bottleQuantity": {
+    "0": "Empty lot",
+    "1": "Lot of {{count}} bottle",
+    "other": "Lot of {{count}} bottles"
+  },
+  "shortDescriptionLink": "More info",
+  "tabsLabel": "Information about the bottle",
+  "tabs": {
+    "vintage": {
+      "title": {
+        "new": "The wine",
+        "secondHand": "Lot description"
+      }
+    },
+    "advice": {
+      "title": "Tasting and cellaring",
+      "temperature": "serve at a temperature of {{temperature}}°C.",
+      "dishes": {
+        "1": "This wine will pair perfectly with the following dish:",
+        "other": "This wine will pair perfectly with the following dishes:"
+      },
+      "sagaRating": "Vintage score:"
+    }
+  },
+  "lotDiscountFirstLine": "-{{percentage}}% from {{quantity}} bottles",
+  "lotDiscountSecondLinePartOne": " or",
+  "lotDiscountSecondLinePartTwo": "per unit",
+  "assessment": {
+    "expert": "<h2>What the experts say...</h2>",
+    "idealWine": "The iDealwine review..."
+  },
+  "assurance": {
+    "new": "A range of wines curated by our passionate experts",
+    "secondHand": {
+      "withoutExpert": "Checked, appraised and certified by iDealwine",
+      "withExpert": "Checked, appraised and certified by {{name}}, a member of the iDealwine appraisal team"
+    }
+  },
+  "detailedInformation": {
+    "title": "Lot presentation",
+    "variantSectionTitle": "The wine",
+    "estateSectionTitle": "About the Producer",
+    "estateExternalLink": "For more information, please go to <0>the producer's website</0>.",
+    "characteristicsSectionTitle": "Detailed characteristics",
+    "characteristics": {
+      "estate": "Producers and wineries:",
+      "quantity": "Quantity:",
+      "origin": "Origin:",
+      "storageType": "Type of cellar:",
+      "VATRecoverable": "Recoverable VAT:",
+      "hasOriginalWoodenCrate": "Original wooden case / Original case:",
+      "CRD": "French customs seal:",
+      "alcoolProportion": "Alcohol percentage:",
+      "region": "Region:",
+      "appellation": "Appellation:",
+      "classification": "Classification:",
+      "owner": "Owner:",
+      "vintage": "Vintage:",
+      "color": "Colour:",
+      "peak": "Peak drinking window:",
+      "temperature": "Service temperature:",
+      "biologicProfile": "Viticulture:",
+      "surface": "Size (in ha):",
+      "yield": "Volume:",
+      "intensity": "Intensity:",
+      "dominantAroma": "Leading aroma:",
+      "tastingOccasion": "Tasting occasion:",
+      "remark": "Comments:",
+      "wineVarieties": "Grape variety:",
+      "wineDishPairings": "Food and wine pairings:",
+      "disgorgementYear": "Disgorgement year",
+      "values": {
+        "surface": {
+          "1": "{{count}} hectare",
+          "other": "{{count}} hectares"
+        },
+        "yield": {
+          "1": "{{count}} bottle",
+          "other": "{{count}} bottles"
+        },
+        "peak": {
+          "collection": "Collectable bottle",
+          "drinkNow": "Drink this year",
+          "drinkIn": "Drink in {{yearStart}}",
+          "drinkFromTo": "Drink from {{yearStart}} to {{yearEnd}}",
+          "drinkFromNow": "Drink from now on",
+          "drinkFromStart": "Drink from {yearStart}} onwards",
+          "drinkUntil": "Drink until {{yearEnd}}"
+        }
+      }
+    }
+  },
+  "direct-purchase": "Fixed price",
+  "signalVariantMailTo": {
+    "signalVariant": "Report a problem with this lot? ",
+    "signalVariantLink": "Report",
+    "mail": {
+      "subject": "Lot error: {{productVariantCode}} - {{productVariantName}}",
+      "body": "Hello. \n\n I would like to let you know that there is a problem with this lot: {{ productVariantURL }} \n\n [please specify the problem that you noticed] \n\n Thank you and best wishes!"
+    }
+  },
+  "enum": {
+    "classification": {
+      "AOP": "AOP",
+      "BORDEAUX": "Bordeaux",
+      "BRUT": "Brut",
+      "CINQUIEME_GRAND_CRU_CLASSE": "Cinquième Grand Cru Classé",
+      "CINQUIEME_GRAND_CRU": "Cinquième Grand Cru",
+      "CRU_BOURGEOIS_EXCEPTIONNEL": "Cru bourgeois exceptionnel",
+      "CRU_BOURGEOIS": "Cru bourgeois",
+      "CRU_CLASSE_DE_GRAVES": "Grave cru classé",
+      "CRU_CLASSE": "Cru classé",
+      "CRU_D_ALSACE": "Alsace cru",
+      "CUVEE_DES_DAMES": "Cuvée des dames",
+      "DEUXIEME_GRAND_CRU_CLASSE": "Deuxième Grand Cru Classé",
+      "DO": "DO",
+      "DOC": "DOC",
+      "DOCA": "DOCA",
+      "DOCG": "DOCG",
+      "DSC": "DSC",
+      "EXTRA_BRUT_BLANC_DE_BLANCS": "Extra Brut Blanc de Blancs",
+      "GG": "Grosses Gewächs (GG)",
+      "GRAND_CRU_CLASSE": "Grand cru classé",
+      "GRAND_CRU": "Grand cru",
+      "IGP": "IGP",
+      "IGT": "IGT",
+      "PREMIER_CRU_CLASSE_SUPERIEUR": "Premier Cru Classé Supérieur",
+      "PREMIER_CRU": "Premier Cru",
+      "PREMIER_GRAND_CRU_CLASSE_A": "Premier Grand Cru Classé A",
+      "PREMIER_GRAND_CRU_CLASSE_B_DEPUIS_2012": "1er grand cru classé B since 2012",
+      "PREMIER_GRAND_CRU_CLASSE_B": "Premier Grand Cru Classé B",
+      "PREMIER_GRAND_CRU_CLASSE": "Premier Grand Cru Classé",
+      "QUATRIEME_GRAND_CRU_CLASSE": "Quatrième Grand Cru Classé",
+      "SECOND_VIN": "Second wine",
+      "TROISIEME_GRAND_CRU_CLASSE": "Troisième Grand Cru Classé",
+      "TROISIEME_VIN": "Third wine",
+      "VIN_DE_PAYS": "IGP",
+      "VIN_DE_TABLE": "Table wine ",
+      "WO": "Wine of origin"
+    },
+    "origin": {
+      "ESTATE": "Domain",
+      "INDIVIDUAL": "Private individual",
+      "PROFESSIONAL": "Professional",
+      "OTHER": "Other",
+      "FAMILY_CELLAR": "Family cellar",
+      "WINE_MERCHANT": "Wine shop",
+      "IDEALWINE_LOT": "Lot owned by iDealwine",
+      "STARRED_PROFESSIONAL": "Reputed professionals",
+      "AUCTIONS": "Auctions"
+    },
+    "storageType": {
+      "WINE_CABINET": "Temperature-controlled cabinet",
+      "OTHER": "Other",
+      "AIR_CONDITIONED_UNDERGROUND_CELLAR": "Temperature-controlled cellar",
+      "IDEALWINE_STORAGE_CELLAR": "iDealwine's storage wine cellar",
+      "CLASSIC_UNDERGROUND_CELLAR": "Underground, natural cellar",
+      "DEDICATED_RENTAL_STORAGE": "Renting a storage space dedicated to wine",
+      "SPECIALIZED_STORAGE": "Specialised storage"
+    },
+    "priceType": {
+      "PRIX_SPECIAL": "special price",
+      "PRIX_PROPRIETE": "producer's price"
+    },
+    "productionUnit": {
+      "BOUTEILLE": {
+        "1": "{{count}} bottle",
+        "other": "{{count}} bottles"
+      },
+      "BOUTEILLES_CUVEE": {
+        "1": "{{count}} bottle (cuvée)",
+        "other": "{{count}} bottles (cuvée)"
+      },
+      "DOMAINE": {
+        "1": "{{count}} domain",
+        "other": "{{count}} domains"
+      },
+      "HECTARE": {
+        "1": "{{count}} hectare",
+        "other": "{{count}} hectares"
+      },
+      "HECTOLITRE": {
+        "1": "{{count}} hectolitre",
+        "other": "{{count}} hectolitres"
+      },
+      "MAGNUM": {
+        "1": "{{count}} magnum",
+        "other": "{{count}} magnums"
+      },
+      "UNKNOWN": "{{count}}"
+    }
+  },
+  "addToBasket": "Add to basket",
+  "allStockAddedToBasket": "You have reached the limit for this lot",
+  "identicalWinesOnSale": "Browse similar wines",
+  "unitPrice": "Price per bottle",
+  "estimatedDelivery": "In stock. Delivery estimated between {{dateMin}} and {{dateMax}}",
+  "additionalDeliveryFees": "Large formats may be subject to additional delivery charges.",
+  "deliveryDelayDialog": {
+    "title": "Delivery time",
+    "content": "Standard delivery estimated between {{dateMin}} and {{dateMax}}. Express delivery estimated between {{dateExpressMin}} and {{dateExpressMax}}. Estimated delivery dates are calculated using Colissimo for standard delivery and Chronopost for express delivery in Metropolitan France. They are dependant on the date the order is paid. They can be modified if the order is placed on hold to be grouped with other orders. Delivery times can also vary during peak periods or on delivery constraints the delivery company has where the client lives."
+  },
+  "alert": {
+    "title": "You are now tracking this lot",
+    "content": "You will receive an email alert 45 minutes before the end of the auction. Manage your tracking list and schedule your alerts by clicking <0>here</0>"
+  },
+  "sold": "Sold",
+  "lot": "Lot of",
+  "auction": {
+    "bid": "Place bid",
+    "userSellerInformation": "You cannot bid on this lot because you are the owner of it.",
+    "userWinningInformation": "You currently have the leading bid. ",
+    "userWinningDesktopInformation": "Use the maximum bid feature if you wish to increase the amount of your bid.",
+    "userWinningThreshold": "Your maximum bid is",
+    "thresholdBid": "Maximum bid",
+    "numberOfBids": {
+      "0": "{{count}} bid",
+      "1": "{{count}} bid",
+      "other": "{{count}} bids"
+    },
+    "showHistory": "See history",
+    "withCommission": "Commission included",
+    "live": "live",
+    "reserveBid": "Starting bid: ",
+    "averageEstimate": "Estimate: "
+  },
+  "oneLot": "1 lot",
+  "lots": "Lots",
+  "lotsDropbox": {
+    "lots": {
+      "1": "1 lot",
+      "other": "{{count}} lots"
+    }
+  },
+  "authenticateWithNFC": "Authenticate with NFC",
+  "winedexUrl": "www.wineDex.io",
+  "stockWarning": "It's the last one!",
+  "confirmation_cart_dialog": {
+    "title": "Confirm basket",
+    "description": {
+      "0": "We couldn’t add this wine to your basket.",
+      "1": "You have added {{count}} lot of <0>{{wineName}}</0>",
+      "other": "You have added {{count}} lots of <0>{{wineName}}</0>"
+    },
+    "limitedQuantityWarning": "You have surpassed the maximum lots allowed for this wine!",
+    "seeBasket": "You can see your basket in",
+    "yourAccount": "your account",
+    "note": "NB: Lots added to your basket are reserved for 1 hour. After this, these articles will be put back onto sale.",
+    "button1": "Continue shopping",
+    "button2": "See my basket"
+  },
+  "auction_countdown": {
+    "remainingDays": "{{remainingDays}} remain",
+    "remainingDaysAndHours": "{{remainingDays}} {{remainingHours}} remain",
+    "remainingHoursAndMinutes": "{{remainingHours}} {{remainingMinutes}} remain",
+    "remainingMinutesAndSeconds": "{{remainingMinutes}} {{remainingSeconds}} remain",
+    "remainingSeconds": "{{remainingSeconds}} remain",
+    "days": {
+      "0": "{{count}} day",
+      "1": "{{count}} day",
+      "other": "{{count}} days"
+    },
+    "hours": {
+      "0": "{{count}} hour",
+      "1": "{{count}} hour",
+      "other": "{{count}} hours"
+    },
+    "minutes": {
+      "0": "{{count}} minute",
+      "1": "{{count}} minute",
+      "other": "{{count}} minutes"
+    },
+    "seconds": {
+      "0": "{{count}} second",
+      "1": "{{count}} second",
+      "other": "{{count}} seconds"
+    },
+    "endDate": "{{endDate}}",
+    "timeZone": "{{timeZone}}",
+    "auctionOver": "Sale closed"
+  },
+  "finalizeInscription": "Finish creating your account",
+  "returnToAuctions": "Continue bidding",
+  "auction_confirmation_dialog": {
+    "bid": {
+      "title": "Bid placed",
+      "confirmation": "Your bid has been placed",
+      "description": "You'll receive a confirmation email shortly. You can view your current bids in your account."
+    },
+    "threshold": {
+      "title": "Maximum bid saved",
+      "confirmation": "Your maximum bid has been saved.",
+      "description": "This maximum bid (not visible to other bidders) will only be reached if others bid against you. Your bid will be increased automatically until the maximum you set is reached without you having to track the lot. Your maximum bid will only be reached if there is competition for the lot."
+    }
+  },
+  "invalid_payment_method_dialog": {
+    "r6p7b6jb2": {
+      "title": "Your order could not be saved",
+      "description": "The credit/debit card you saved is not valid which means that you can’t place bids at auction."
+    },
+    "xhjDlAo4D": {
+      "title": "Your order could not be saved",
+      "description": "You chose “bank transfer” when setting up your account but you have not sent us the necessary documents to activate your account so you can’t place bids at auction."
+    },
+    "eUnrn3LSx": {
+      "title": "Your order could not be saved",
+      "description": "You have not entered a payment method in My iDealwine so you can’t place bids at auction."
+    }
+  },
+  "missing_default_address_dialog": {
+    "title": "Your order could not be saved",
+    "description": "You finished creating an account without entering your delivery address which means you cannot yet take part in iDealwine auctions."
+  },
+  "auction_bid_surpassed_by_threshold_dialog": {
+    "title": "Your order could not be saved",
+    "description": "Your bis is too low. Another bidder has placed a maximum bid higher than or equal to yours. Do you want to try again with a higher amount?"
+  },
+  "auction_bid_history_dialog": {
+    "title": "Bid history",
+    "description": "The successive appearance of the same bidder's name means that the amounts set by other bidders remain below their maximum bid.",
+    "learnMoreOnAuctions": "Learn more about auctions",
+    "bidder": "Bidders",
+    "bidAmount": "Bid amount",
+    "bidDate": "Time of bid"
+  },
+  "total_amount_information_dialog": {
+    "title": "Estimation of your bid",
+    "table": {
+      "nextBid": "Next bid increment",
+      "buyerFee": "Buyer's Premium (21%)",
+      "VATOnBuyerFee": "VAT on buyer's premium (20%)",
+      "customDutiesFee": "Applied duties and taxes",
+      "allIncludedAmount": "Total (VAT incl.)"
+    },
+    "description": "I / I am a European professional (outside France and with a valid VAT registration number): Recoverable VAT: yes => 20% VAT will be subtracted before payment\nII / I am a non-EU client:\n• Recoverable VAT: yes => 20% VAT will be subtracted from the total sum before payment\n• Recoverable VAT: no => VAT on the commission will be removed before payment\nIII / Other cases: no change",
+    "isVATrecoverable": "Recoverable VAT: {{isVATrecoverable}}"
+  },
+  "auction_bid_threshold_dialog": {
+    "title": "Adjust your maximum bid",
+    "confirmButton": "confirm"
+  },
+  "outdated_bid_exception_dialog": {
+    "title": "Your order could not be saved ",
+    "description": "The finish time of the auction has passed. You can no longer place any bids."
+  },
+  "sum_unpaid_orders_exception_dialog": {
+    "title": "Your order could not be saved ",
+    "description": "Your unpaid orders exceed the amount allowed by iDealwine."
+  },
+  "sum_ongoing_bids_exception_dialog": {
+    "title": "Your order could not be saved ",
+    "description": "The amount of your orders is more than the limit fixed by iDealwine.",
+    "contentLink": "If you would like to clarify anything, please get in touch with our Customer Service team."
+  },
+  "overdue_unpaid_orders_exception_dialog": {
+    "title": "Your order could not be saved ",
+    "description": "You have at least one order that has been awaiting payment for 7 days or an unpaid order. To know more about how your account can be blocked, please go to the general terms and conditions or ",
+    "click_here": "click here."
+  },
+  "limitedQuantity": {
+    "1": "Quantity limited to {{formatWithQuantity}}",
+    "other": "Quantity limited to {{formatWithQuantity}}"
+  },
+  "seo": {
+    "nextseo": {
+      "title": "Buy {{name}} (lot: {{code}})",
+      "description": "{{titleAndQuantity}}{{region}}. Lot {{code}}{{availableInSale}}, is currently on iDealwine.com.",
+      "availableInSale": ", available in the {{auctionCatalogId}} auction",
+      "type": "Product page"
+    },
+    "jsonld": {
+      "model": "bottles"
+    }
+  },
+  "ProductVintageRatingBlock": {
+    "title": "iDealwine Price Estimate",
+    "chart": {
+      "subtitle": "The iDealwine Price Estimate<sup>(1)</sup> is based on auction results, using the hammer price of lots including the buyer's premium for the sale.",
+      "format": "(1)Bottle format"
+    },
+    "text": {
+      "title": "Current auction price estimate<sup>(1)</sup>",
+      "latestAdjudications": "Latest auctions",
+      "sameWine": "Do you own this wine?",
+      "sellButtonLabel": "Sell it here",
+      "annualHighest": "(year's highest)",
+      "annualLowest": "(year's lowest)"
+    }
+  }
+}

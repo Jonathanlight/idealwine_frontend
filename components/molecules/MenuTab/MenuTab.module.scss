@@ -1,0 +1,36 @@
+@import "@/styles/stylesheet";
+
+.sellerMenuDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sellerMenuChild {
+  color: $greyDark;
+  // height: getSpacing(9);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sellerMenuChildCurrent {
+  color: $black;
+  pointer-events: none;
+}
+
+.sellerMenuChildCurrent::after {
+  content: "";
+  position: absolute;
+  bottom: -70%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: getSpacing(7);
+  height: getSpacing(0.8);
+  background-color: $goldenDarker;
+}
+
+.titleTab {
+  font-size: $fontSizeSmall;
+}

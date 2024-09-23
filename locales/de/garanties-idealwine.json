@@ -1,0 +1,78 @@
+{
+  "idealwineGuarantees": "iDealwines Garantien",
+  "title": "Versandkosten kalkulieren",
+  "subtitle": "Bitte füllen Sie folgende Felder aus:",
+  "inputs": {
+    "country": {
+      "label": "Land",
+      "placeholder": "Ein Land wählen"
+    },
+    "bottles": {
+      "label": "Flasche(n)",
+      "placeholder": "Zahl eingeben"
+    },
+    "magnums": {
+      "label": "Magnum",
+      "placeholder": "Zahl eingeben"
+    },
+    "others": {
+      "label": "Andere",
+      "placeholder": "Zahl eingeben"
+    }
+  },
+  "numBottles": {
+    "1": "{{count}} Flasche",
+    "other": "{{count}} Flaschen"
+  },
+  "numMagnums": {
+    "1": "{{count}} Magnum",
+    "other": "{{count}} Magnum"
+  },
+  "numOthers": {
+    "1": "{{count}} Anderes Format",
+    "other": "{{count}} Andere Formate"
+  },
+  "formInfoBottles": "* oder Demi-Flasche oder Fillette oder Chopine oder Liter",
+  "guaranteesTitle": "iDealwines Garantien",
+  "guaranteesFirstParagraph": "iDealwine tut sein Möglichstes, damit Ihre Bestellung unversehrt bei Ihnen ankommt. Ihre Flaschen werden in einer geeigneten, sicheren und isothermischen Verpackung (Europack / Appro-Diffusion) verpackt und gegen Transportrisiken abgesichert, bevor sie an die Adresse Ihrer Wahl versandt werden. Ihre Lieferung ist gegen alle mit dem Transport verbundenen Risiken (Verlust, Diebstahl, Bruch) abgesichert.",
+  "guaranteesSecondParagraph": "iDealwine hat die Transportunternehmen ausgewählt, die den besten Service bieten. Die Lieferung ist durch COLISSIMO SUIVI (Standard-Versand) bzw. durch CHRONOPOST (Express-Versand, sofern verfügbar) oder für die Lieferung per spezialisiertem Kurier (Départements 75 bis 92 in Frankreich) versichert. Sollte es dennoch zu einem Transportschaden kommen, verweigern Sie bitte die Annahme, machen Sie alle rechtlichen Vorbehalte auf dem Lieferschein geltend und kontaktieren Sie so schnell wie möglich unseren Kundenservice. Sollte sich die Lieferung um mehr als 72 Stunden gegenüber dem angegebenen Zeitraum verspäten, erstattet iDealwine Ihnen die Versandkosten.",
+  "moreInfoTitle": "Weitere Informationen",
+  "moreInfo": {
+    "1": {
+      "title": "BÜNDELUNG VON BESTELLUNGEN",
+      "content": "Die Bündelung von Bestellungen ist möglich, um Versandkosten zu sparen. Als Kunde nehmen Sie die Bündelung selbst vor. Dazu müssen Sie jede Bestellung  direkt bezahlen und dabei die Option „Aufgeschobener Versand / Bündelung“ auswählen. Sobald Sie Ihr Paket erhalten möchten, wählen Sie alle Bestellungen aus, die versendet werden sollen. Das System errechnet daraufhin die Versandkosten anhand der Anzahl der Flaschen. iDealwine bietet Ihnen die Lagerung Ihrer Weine für 30 Tage ab Bestelldatum an. Nach Ablauf dieses Zeitraums fallen Gebühren von 0,06 € (inkl. Mwst.) pro Flasche und Tag an."
+    },
+    "2": {
+      "title": "ABHOLUNG IHRER WEINE",
+      "content": "Sie können Ihre Bestellung auch direkt bei iDealwine abholen oder sie von einem Transportunternehmen Ihrer Wahl abholen lassen. Wählen Sie bei Ihrer Bestellung die Option „Abholung vor Ort“. Die Versandkosten entfallen. Sobald Ihre Bestellung bei uns eingelangt ist, erhalten Sie eine Email mit einem Link. Darüber können Sie einen Zeitraum auswählen, in dem Sie die Bestellung abholen wollen. Die Adresse lautet: 190, rue d'Estienne d'Orves - 92700 Colombes, Frankreich. Sie können Ihre Bestellung von Montag bis Freitag zwischen 9 und 17:30 Uhr abholen (durchgehend). Bitte bringen Sie einen Identitätsnachweis mit.  Die Abholung ist innerhalb von 14 Tagen nach Bestelldatum kostenfrei möglich. Wenn Sie den Abholtermin nicht einhalten können, kontaktieren Sie bitte unseren Kundenservice, um einen neuen Termin zu vereinbaren. Nach 14 Tagen werden die Bestellungen an unser Lager zurückgeschickt und es können Einlagerungs- und Auslagerungsgebühren anfallen. Die Bestellung wird nur dem Käufer persönlich oder einem von ihm benannten Dritten ausgehändigt, der eine Originalvollmacht und eine Kopie des Personalausweises des Käufers vorzeigen kann. Wenn Sie Dritte mit der Abholung beauftragen wollen, geben Sie dies bitte bei der  Terminvereinbarung an."
+    },
+    "3": {
+      "title": "Kommission",
+      "content": "iDealwine garantiert für alle Posten auf der Seite, dass die Beschreibung (Zustand des Etiketts, Füllniveau, spezielle Angaben) mit den beschriebenen Produkten übereinstimmt und es sich nicht um Fälschungen handelt. Die auf der Seite von iDealwine präsentierten Posten werden im Rahmen öffentlicher Auktionen angeboten und unterliegen damit der Garantie, die von Auktionatoren, vereidigten Amtsträgern und Sachverständigen des Verkaufs gewährt wird. Sollte sich, aus welchen Gründen auch immer, die Beschreibung eines Postens, der bereits zum Verkauf steht, ändern, werden alle auf diesen Posten abgegebenen Gebote storniert. Die Bieter erhalten eine E-Mail, die sie darüber informiert. Personen, die auf den geänderten Posten bieten möchten, müssen ihr Gebot erneut abgeben."
+    },
+    "4": {
+      "title": "Begutachtung",
+      "content": "iDealwine garantiert für alle auf der Website angebotenen Posten; diese Garantie bezieht sich auf die Authentizität und die Übereinstimmung der Produkte mit der Beschreibung, die auf der Website gemacht wurde (Zustand des Etiketts, Füllstand der Flaschen, besondere Angaben). Die auf der Website iDealwine angebotenen Posten werden im Rahmen öffentlicher Versteigerungen angeboten und unterliegen daher der Garantie von Auktionatoren, vereidigten Ministerialbeamten und dem Sachverständigen der Versteigerung. Wenn aus irgendeinem Grund die Beschreibung eines bereits zum Verkauf stehenden Postens geändert wird, werden alle Gebote für diesen Posten annulliert und die Bieter erhalten eine E-Mail, in der sie darüber informiert werden. Wer auf den geänderten Posten bieten möchte, muss erneut einen Auftrag erteilen."
+    },
+    "5": {
+      "title": "SICHERE ZAHLUNG",
+      "content": "Zahlungen auf der Webseite von iDealwine sind zu 100 % sicher. Für die Abwicklung von Zahlungen per Kreditkarte nutzt iDealwine die gesicherte Zahlung der Gruppe BNP PARIBAS: Axepta. Dealwine hat keinen Zugang zu den Bankdaten der Kunden. Diese Information wird per SSL (Secured Socket Layer)-Protokoll verschlüsselt und direkt über den sicheren Server Axepta übertragen."
+    }
+  },
+  "moreQuestions": "Haben Sie weitere Fragen? Werfen Sie einen Blick in den Leitfaden",
+  "help": "Hilfe",
+  "deliveryConditions": {
+    "common": "Die Zölle und Steuern des Ziellandes sind vom Kunden zu tragen.",
+    "TW_KR": "Die Zölle und Steuern des Ziellandes sind vom Kunden zu tragen. Sobald Sie Ihr Lieferland ausgewählt haben, werden die Preise ohne Steuern angezeigt. Eventuelle lokale Gebühren sind unmittelbar vor der Lieferung Ihrer Bestellung zu entrichten.",
+    "HK": "Sobald Sie Ihr Lieferland ausgewählt haben, werden die Preise ohne Steuern angezeigt. Alle lokalen Steuern müssen bei Erhalt Ihrer Bestellung bezahlt werden. In Hongkong unterliegen Spirituosen mit einem Alkoholgehalt von über 30% (z. B. starke Alkoholika wie Whisky, Gin, Rum, Wodka und bestimmte Arten von chinesischen Spirituosen) einer 100%igen Ad-Valorem-Steuer. Alkohol mit einem Alkoholgehalt von weniger als 30% (die meisten Weine) unterliegen nicht dieser Steuer. Lokale Steuern sind vom Kunden zu tragen.",
+    "US": "Im Jahr 2021 stimmten die Behörden zu, die 25%ige Steuer auszusetzen, die französische Weine, die in die USA importiert wurden, betraf. Bitte beachten Sie jedoch, dass Einfuhrgebühren anfallen können, um die Lieferung Ihres Weins zu erhalten.\niDealwine hat keine Kontrolle über die lokalen Steuern und profitiert nicht von ihnen; sie gehen immer zu Lasten des Kunden. Leider ist es uns nicht möglich, sie im Voraus zu berechnen oder abzuschätzen. Sobald Sie die VEREINIGTEN STAATEN als Lieferland auswählen, sind die deutschen Steuern im Preis nicht enthalten, so dass Ihnen keine zusätzlichen Kosten entstehen. Die Lieferung dauert in der Regel drei Wochen ab dem Datum der Zahlung.",
+    "AU": "Bitte beachten Sie, dass alle Lieferungen außerhalb der Europäischen Union den örtlichen Zöllen und Steuern unterliegen. iDealwine hat keine Kontrolle über diese örtlichen Steuern und erzielt keinen Gewinn aus ihnen. Die Zahlung der Zölle und Steuern wird von unserem Spediteur vor der Lieferung veranlasst. Die Regeln zur Berechnung der australischen Zölle und Steuern sind unten zur Schätzung angegeben. Wir können jedoch nicht für die genaue Höhe garantieren. Insgesamt können die verschiedenen Steuern etwa 100% des iDealwine-Preises ausmachen.\nZollgebühren = 5% FOB-Wert\nWET/OTHER GOVT FEES (Weinsteuer) = 29% x (Zollwert CIF + Zollgebühren).\nGST (Mehrwertsteueräquivalent) = 10% x (Zollwert CIF + Zoll + WET).",
+    "GB": "BREXIT UND LIEFERUNG:\nVersenden Sie 12 Flaschen für {{dozenBottlesDeliveryCost}} (ca. {{dozenBottlesDeliveryCostInActiveCurrency}}).\nZum Zeitpunkt der Zahlung der Versandkosten werden wir für eine Lieferung in das Vereinigte Königreich die folgenden zusätzlichen Gebühren erheben:\n• Verkaufsteuern und Zollgebühren: {{dutyAndCustomsCost}} (ca. {{dutyAndCustomsCostInActiveCurrency}}) pro Flasche.\n- 20% Mehrwertsteuer auf den Wert der Weine.\nLieferung innerhalb von zehn Werktagen, das Passieren des Zolls kann manchmal zu längeren Lieferzeiten führen.",
+    "eu": "Sobald Sie Ihr Lieferland ausgewählt haben, berücksichtigen die angezeigten Preise die lokale Mehrwertsteuer. Für jede Bestellung auf iDealwine.com, die in die Europäische Union geht, zahlen wir in Ihrem Namen die Verbrauchssteuer.",
+    "other": "Sobald Sie Ihr Lieferland ausgewählt haben, werden die Preise ohne Steuern angezeigt. Eventuelle lokale Gebühren sind unmittelbar bei der Lieferung Ihrer Bestellung zu entrichten."
+  },
+  "seo": {
+    "title": "iDealwines Garantien",
+    "description": "Lieferungssimulator - iDealwine"
+  }
+}

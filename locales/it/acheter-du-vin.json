@@ -1,0 +1,153 @@
+{
+  "advancedSearch": "Ricerca avanzata",
+  "clearRefinments": "Elimina tutti i filtri",
+  "winesOnSale": "Vini in vendita:",
+  "numberResults": {
+    "0": "Nessun risultato",
+    "1": "{{count}} risultato",
+    "other": "{{count}} risultati"
+  },
+  "hideSold": "Nascondi i lotti venduti",
+  "noResult": "Nessun risultato",
+  "showMore": "Mostra di più",
+  "showLess": "Mostra di meno",
+  "useSearchBar": "...sono disponibili altri filtri, per visualizzarli usa la barra di ricerca",
+  "sortBy": "Ordina per...",
+  "closingDateDesc": "Data di chiusura ordine decrescente",
+  "closingDateAsc": "Data di chiusura ordine crescente",
+  "priceDesc": "Prezzo più alto",
+  "priceAsc": "Prezzo più basso",
+  "vintageAsc": "Annata ordine crescente",
+  "vintageDesc": "Annata ordine decrescente",
+  "bidsDesc": "Maggior numero di offerte",
+  "bidsAsc": "Minor numero di offerte",
+  "watchDesc": "Lotti più monitorati",
+  "watchAsc": "Lotti meno monitorati",
+  "search": "Ricerca",
+  "sortingStrategy": "Ordina per",
+  "filters": {
+    "bottleSize": "Formato",
+    "color": "Colore",
+    "isDirectPurchase": "Tipo di vendita",
+    "advancedSearch": "Ricerca avanzata",
+    "directPurchase": "Prezzo fisso",
+    "auction": "Asta",
+    "priceFilter": "Prezzo a bottiglia",
+    "minPriceRange": "Prezzo min ({{currency}})",
+    "maxPriceRange": "Prezzo max ({{currency}})",
+    "submit": "Conferma",
+    "country": "Paese",
+    "region": "Regione",
+    "subregion": "Denominazione",
+    "domainName": "Tenuta",
+    "vintage": "Annata",
+    "grapeVariety": "Vitigno",
+    "tags": "Le nostre selezioni",
+    "wineStyle": "Stile del vino (Filosofia, Intesità...)",
+    "intensity": "Intensità del vino",
+    "mainAroma": "Aroma dominante",
+    "tastingOccasion": "Occasione di degustazione",
+    "biologicProfile": "Filosofia",
+    "status": "Categoria",
+    "peak": "Capacità e consumo ideale",
+    "productCategory": "Tipologia Prodotto",
+    "bottleCount": "Quantità",
+    "ownerName": "Proprietario",
+    "newReleases": "Le new entry",
+    "newReleasesValue": "New entry",
+    "hasBids": "Tipo di asta",
+    "hasReservePrice": "Prezzo di partenza",
+    "liquidLevel": "Livello",
+    "bottleObservations": "Stato generale bottiglia",
+    "woodenCase": "Cassetta di legno",
+    "refundableVat": "IVA detraibile",
+    "hasLotDiscount": "Promozioni per quantità",
+    "hasDiscount": "Prezzi scontati",
+    "alcoholPorcentageLevel": "Gradazione alcolica:",
+    "minAlcoholLevelRange": "Gradazione alcolica min",
+    "maxAlcoholLevelRange": "Gradazione alcolica max",
+    "sale": "Tipo di vendita"
+  },
+  "enums": {
+    "isDirectPurchase": {
+      "true": "Prezzo fisso",
+      "false": "Asta"
+    },
+    "hasBids": {
+      "true": "Lotti con offerte",
+      "false": "Lotti senza offerte"
+    },
+    "hasReservePrice": {
+      "true": "Con prezzo di riserva",
+      "false": "Senza prezzo di riserva"
+    },
+    "peak": {
+      "A_BOIRE": "Capacità e consumo ideale",
+      "COLLECTION": "Da collezione",
+      "VIEILLISSEMENT": "Da invecchiamento"
+    },
+    "productCategory": {
+      "PRODUITS_INTERMEDIAIRES": "Prodotti Intermedi",
+      "AUTRES_VINS": "Altri vini",
+      "BIERE": "Birra",
+      "VDN": "Vini liquorosi",
+      "VINS_AOC_AVEC_IG_AOP": "Vini con AOC/DOC e IGP/IGT",
+      "VINS_MOUSSEUX": "Spumanti",
+      "SPIRITUEUX": "Distillati"
+    },
+    "bidStatus": {
+      "true": "Lotti con offerte",
+      "false": "Lotti senza offerte"
+    },
+    "liquidLevel": {
+      "Base goulot": "A livello del collo",
+      "Normal": "Normale",
+      "Très légèrement bas": "Appena sotto il livello del collo"
+    },
+    "bottleCondition": {
+      "Bch lég enfoncé": "Tappo non totalmente ermetico",
+      "Etiq déchirée": "Etichetta strappata",
+      "Etiq marquée": "Etichetta macchiata",
+      "Normal": "Normale"
+    }
+  },
+  "noResults": {
+    "title1": "Spiacenti,",
+    "title2": "Ma nessun vino corrisponde alla tua ricerca. ",
+    "title3": "Verifica che non ci siano errori:",
+    "subtitle1": "Un consiglio: ",
+    "subtitle2": "controlla l’ortografia, l’ordine delle parole o semplifica la tua ricerca inserendo solo una parola.",
+    "subtitle3": "Per ulteriori informazioni o se hai bisogno di un consiglio, non esitare a contattare il nostro servizio clienti."
+  },
+  "estate": {
+    "title": "L’OPINIONE DELLA CRITICA…",
+    "noteBdTitle": "BETTANE & DESSEAUVE",
+    "noteRvfTitle": "LA REVUE DU VIN DE FRANCE",
+    "weeklyEstate": {
+      "title": "TENUTA DELLA SETTIMANA",
+      "cta": "Acquista i vini di {{estateName}}"
+    }
+  },
+  "seo": {
+    "firstOf": "",
+    "of": "di",
+    "withFilters": {
+      "title": "{{filtersAndPurchaseType}}: tutti i vini in vendita",
+      "description": "Elenco dei vini in vendita {{filtersAndPurchaseType}}",
+      "isDirectPurchase": {
+        "true": "a prezzo fisso",
+        "false": "all'asta",
+        "notSelected": " - iDealwine"
+      }
+    },
+    "withQuery": {
+      "title": "{{query}} in vendita - iDealwine",
+      "description": "{{query}} - Elenco dei vini in vendita all’asta o a prezzo fisso"
+    },
+    "default": {
+      "title": "Elenco dei vini in vendita - iDealwine",
+      "description": "Elenco dei vini in vendita all’asta o a prezzo fisso - iDealwine"
+    }
+  },
+  "vintageSagaDescription": "{{region}} | Annata {{vintage}}"
+}

@@ -1,0 +1,18 @@
+@import "@/styles/stylesheet";
+
+.tabImportantText {
+  font-weight: 600;
+}
+
+.sagaRating {
+  margin-top: getSpacing(1);
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.justifiedText {
+  text-align: justify;
+  white-space: pre-wrap;
+}

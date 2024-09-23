@@ -1,0 +1,39 @@
+@import "@/styles/stylesheet";
+
+.details {
+  border: 1px solid $antiqueGrey;
+}
+
+.summary {
+  background-color: $antiqueGrey;
+  padding: getSpacing(2);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.summaryTitle {
+  display: inline-flex;
+  align-items: center;
+}
+
+.filterContent {
+  padding: getSpacing(2);
+}
+
+.filtersNumber {
+  margin-left: getSpacing(1);
+  font-size: $fontSizeSmaller;
+  color: $white;
+  // Circle
+  height: 20px;
+  width: 20px;
+  background-color: $golden;
+  border-radius: 50%;
+  // Centering the number
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}

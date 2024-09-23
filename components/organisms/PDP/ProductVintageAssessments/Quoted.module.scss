@@ -1,0 +1,25 @@
+@import "@/styles/stylesheet";
+
+.quoteBlock {
+  display: flex;
+}
+
+.quotes {
+  padding: 0;
+  color: $grey;
+  width: 3rem;
+  flex-shrink: 0;
+
+  &.left {
+    margin-bottom: auto;
+  }
+
+  &.right {
+    margin-top: auto;
+  }
+}
+
+.quotedText {
+  margin: getSpacing(6) 0;
+  font-style: italic;
+}

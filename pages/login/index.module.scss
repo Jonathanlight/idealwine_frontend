@@ -1,0 +1,36 @@
+@import "@/styles/stylesheet";
+
+.background {
+  display: flex;
+  margin-top: getSpacing(4);
+  flex-direction: column;
+  align-items: center;
+  gap: getSpacing(5);
+  padding: getSpacing(4) getSpacing(2);
+  @include isTabletOrDesktop {
+    padding: getSpacing(10) getSpacing(5);
+  }
+
+  width: 100%;
+  background: $greyLighter url("/login-banner.png") 50% 50% repeat-x;
+}
+
+.container {
+  padding: getSpacing(4);
+
+  @include isTabletOrDesktop {
+    padding: getSpacing(6);
+  }
+
+  background-color: $white;
+  box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+  max-width: 400px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+}

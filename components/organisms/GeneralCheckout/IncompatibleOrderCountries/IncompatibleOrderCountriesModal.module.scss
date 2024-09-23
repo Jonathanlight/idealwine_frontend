@@ -1,0 +1,15 @@
+@import "@/styles/stylesheet";
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contentContainer {
+  padding: getSpacing(2);
+  max-width: 600px;
+
+  @include isTabletOrDesktop {
+    padding: getSpacing(2) getSpacing(4);
+  }
+}

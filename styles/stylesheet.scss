@@ -1,0 +1,279 @@
+/**
+ * App spacing measurement convention
+ * Use the getSpacing function below to compute padding and margin
+ */
+$spacingUnit: 5;
+$measurementUnit: "px";
+
+@function getSpacing($multiplier) {
+  @return unquote($spacingUnit * $multiplier + $measurementUnit);
+}
+
+/**
+ * App sizes
+ */
+$maxViewportWidth: 1600px;
+$mobilePDPCarouselWidth: 340px;
+$desktopPDPCarouselWidth: 450px;
+
+@mixin mainContainerPadding {
+  padding: getSpacing(4) getSpacing(2);
+
+  @include isDesktop {
+    padding: getSpacing(2);
+  }
+}
+
+/**
+ * App color palette
+ */
+
+$goldenDarkest: #8e6824;
+$goldenDarker: #9a7430;
+$golden: #a7813d;
+$goldenLighter: #b48e4a;
+$goldenLightest: #c19b57;
+$orange: #c98e6e;
+
+$black: #000000;
+$blackLighter: rgba($black, 0.8);
+
+$blueishGrey: #404356;
+$blueishGreyLighter: #3f4c6b;
+$blueishWhite: #ecf0f1;
+$blueBayoux: #45676d;
+$blueBayouxLighter: #d1e7fd;
+$blueNavy: #1d252d;
+$lightBlue: #98c3c8;
+$greyishBlue: #9ea4b4;
+$greyBlue: #363f48;
+
+$ashGrey: #bdc1ad;
+$grey: #c8c8c8;
+$greyLighter: #eeeeee;
+$greyLight: #f3f3f3;
+$greyDark: #989898;
+$greyDropdown: #ebedf2;
+$greyDarker: #999999;
+$greyDarkest: #666666;
+$steelGrey: #668580;
+$darkerWhite: #f8f8f8;
+$lighterGrey: #d3d3d3;
+$moonGrey: #dddddd;
+
+$almond: #eadfcd;
+$white: #ffffff;
+$antiqueWhite: #f3eede;
+$antiqueGrey: #f6f4f2;
+$whiteBottleContent: #fce697;
+
+$red: #ff0000;
+$redDark: #990000;
+$redDiscount: #ee5253;
+$brickRed: #b33939;
+$brickRedLight: #c73f4a;
+
+$lightBrown: #bc8f6e;
+
+$arrowGreen: #13a085;
+$green: #2a8f31;
+$greenBio: #2a8f31;
+$greenBottleContent: #2a8f31;
+$lemonGrass: #8fa394;
+
+$pinkBottleContent: #fab3b3;
+
+$amberBottleContent: #e0a253;
+
+$orangeBottleContent: #ff5722;
+
+$yellowBottleContent: #f4fc6a;
+
+$warningYellow: #ffc500;
+$lighterWarningYellow: #fdc63f;
+
+$orange: #ee5a24;
+$orangeDark: #ca8861;
+$orangeLighter: #f7eeda;
+$orangeLight: #f6f4f2;
+$wineColorRed: #b71540;
+$wineColorSparklingWhite: #eccc68;
+$wineColorAmber: #f79f1f;
+$wineColorSparklingRose: #fab1a0;
+$wineColorVarious: #404356;
+$wineColorOrange: #ee5a24;
+$wineColorGreen: #2a8f31;
+$wineColorSparklingRed: #b71540;
+$wineColorWhite: #eccc68;
+$wineColorLiquorousWhite: #c58b0d;
+$wineColorRose: #fab1a0;
+$wineColorYellow: #c19b57;
+$wineColorUnknown: #404356;
+
+/**
+ * App typography
+ */
+
+$fontFamily: var(--font-futura-pt);
+$fontSizeTinier: 8px;
+$fontSizeTiny: 10px;
+$fontSizeSmaller: 13px;
+$fontSizeSmall: 14px;
+$fontSizeBase: 16px;
+$fontSizeMediumSmall: 18px;
+$fontSizeMedium: 20px;
+$fontSizeMediumLarge: 24px;
+$fontSizeLarge: 28px;
+$fontSizeExtraLarge: 36px;
+$fontSizeExtraExtraLarge: 54px;
+$fontSizeExtraExtraExtraLarge: 108px;
+
+/**
+ * App letter spacing
+ */
+
+$letterSpacingSmall: 1px;
+$letterSpacingNormal: 2px;
+$letterSpacingMedium: 3px;
+
+/**
+ * App breakpoints
+ *
+ * mobile < breakpointSmall <= tablet < breakpointMedium <= smallDesktop < breakpointLarge <= largeDesktop
+ */
+$breakpointSmall: 768px;
+$breakpointMedium: 1024px;
+$breakpointLarge: 1280px;
+$breakpointExtraLarge: 1600px;
+
+/**
+ * App media queries
+ */
+@mixin isMobile {
+  @media (max-width: calc($breakpointSmall - 1px)) {
+    @content;
+  }
+}
+
+@mixin isTablet {
+  @media (min-width: $breakpointSmall) and (max-width: calc($breakpointMedium - 1px)) {
+    @content;
+  }
+}
+
+@mixin isSmallDesktop {
+  @media (min-width: $breakpointMedium) and (max-width: calc($breakpointLarge - 1px)) {
+    @content;
+  }
+}
+
+@mixin isLargeOrExtraLargeDesktop {
+  @media (min-width: $breakpointLarge) {
+    @content;
+  }
+}
+
+@mixin isExtraLargeDesktop {
+  @media (min-width: $breakpointExtraLarge) {
+    @content;
+  }
+}
+
+@mixin isMobileOrTablet {
+  @media (max-width: calc($breakpointMedium - 1px)) {
+    @content;
+  }
+}
+
+@mixin isMobileOrTabletOrSmallDesktop {
+  @media (max-width: calc($breakpointLarge - 1px)) {
+    @content;
+  }
+}
+
+@mixin isTabletOrSmallDesktop {
+  @media (min-width: $breakpointSmall) and (max-width: calc($breakpointLarge - 1px)) {
+    @content;
+  }
+}
+
+@mixin isDesktop {
+  @media (min-width: $breakpointMedium) {
+    @content;
+  }
+}
+
+@mixin isTabletOrDesktop {
+  @media (min-width: $breakpointSmall) {
+    @content;
+  }
+}
+
+// Wrap in html tag to increase specificity
+html {
+  .dontShowOnMobile {
+    @include isMobile {
+      display: none;
+    }
+  }
+
+  .dontShowOnDesktop {
+    @include isDesktop {
+      display: none;
+    }
+  }
+
+  .dontShowOnMobileOrTablet {
+    @include isMobileOrTablet {
+      display: none;
+    }
+  }
+
+  .dontShowOnLargeOrExtraLargeDesktop {
+    @include isLargeOrExtraLargeDesktop {
+      display: none;
+    }
+  }
+
+  .dontShowOnTabletOrDesktop {
+    @include isTabletOrDesktop {
+      display: none;
+    }
+  }
+
+  .showOnlyOnLargeDesktop {
+    @include isMobileOrTablet {
+      display: none;
+    }
+    @include isSmallDesktop {
+      display: none;
+    }
+  }
+
+  .showOnlyOnTabletOrSmallDesktop {
+    @include isMobile {
+      display: none;
+    }
+    @include isLargeOrExtraLargeDesktop {
+      display: none;
+    }
+  }
+
+  .showOnlyOnMobile {
+    @include isTabletOrDesktop {
+      display: none;
+    }
+    @include isSmallDesktop {
+      display: none;
+    }
+    @include isLargeOrExtraLargeDesktop {
+      display: none;
+    }
+  }
+
+  .dontShowOnSmallDesktop {
+    @include isSmallDesktop {
+      display: none;
+    }
+  }
+}

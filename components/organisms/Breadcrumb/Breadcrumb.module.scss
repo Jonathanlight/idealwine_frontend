@@ -1,0 +1,22 @@
+@import "@/styles/stylesheet";
+
+.breadcrumb {
+  display: flex;
+  color: $grey;
+  font-family: $fontFamily;
+  margin: getSpacing(2) 0;
+  font-size: $fontSizeSmall;
+  @include isMobileOrTablet {
+    justify-content: center;
+    font-size: $fontSizeSmaller;
+    display: inline;
+  }
+
+  gap: getSpacing(1);
+}
+
+.isLastBreadcrumbItem {
+  color: $greyDark;
+  font-weight: bold;
+  text-decoration: none;
+}

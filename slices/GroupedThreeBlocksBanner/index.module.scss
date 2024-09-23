@@ -1,0 +1,160 @@
+@import "@/styles/stylesheet";
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: getSpacing(7);
+  width: 100%;
+}
+
+.title {
+  font-size: $fontSizeMediumSmall;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: $letterSpacingMedium;
+  margin-bottom: getSpacing(7);
+  text-align: center;
+  width: 100%;
+}
+
+.contentQuintessence {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: getSpacing(2) getSpacing(5);
+  width: 100%;
+  padding: 5%;
+  border: 3px double $greyDropdown;
+
+  @include isMobileOrTablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.noQuintessence {
+  display: grid;
+  grid-template-columns: 390px 1fr;
+  grid-gap: getSpacing(2) getSpacing(5);
+  width: 100%;
+  padding: 5%;
+  border: 3px double $greyDropdown;
+
+  @include isMobileOrTablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.absolutePosition {
+  position: absolute;
+}
+
+.relativePosition {
+  position: relative;
+}
+
+.quintessenceBlock {
+  max-height: 425px;
+
+  @include isDesktop {
+    grid-column: 1;
+    grid-row: 1/3;
+  }
+  @include isMobileOrTablet {
+    height: 300px;
+  }
+}
+
+.firstImageBlock {
+  min-height: 200px;
+  @include isDesktop {
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+}
+
+.secondImageBlock {
+  min-height: 200px;
+  @include isDesktop {
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+}
+
+.thirdImageBlock {
+  height: 425px;
+
+  @include isDesktop {
+    grid-column: 3;
+    grid-row: 1/3;
+  }
+  @include isMobileOrTablet {
+    height: 300px;
+  }
+}
+
+.noQuintessence .thirdImageBlock {
+  @include isDesktop {
+    max-width: 390px;
+    grid-column: 1;
+    grid-row: 1/3;
+  }
+}
+
+.titleSmallBlocks {
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titleLargeBlocks {
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imageTitle {
+  color: $white;
+  text-transform: uppercase;
+  font-size: $fontSizeMedium;
+  font-weight: bold;
+  font-family: $fontFamily;
+  text-align: center;
+  width: 100%;
+}
+
+.button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0);
+}
+
+.titlefont {
+  font-family: essonnes-display, arial, helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.imageDiv {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.roundedButton {
+  border-radius: 200px;
+  height: 75px;
+  width: 75px;
+  bottom: 35px;
+  right: 35px;
+  padding: getSpacing(5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

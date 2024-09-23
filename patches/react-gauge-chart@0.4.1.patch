@@ -1,0 +1,50 @@
+diff --git a/dist/GaugeChart/index.js b/dist/GaugeChart/index.js
+index 60d9c1f8b2b77e185edb3b00229ee7f301925d96..cd12f625c76970cbe3a9020b9ce1544c6c7fd3b7 100644
+--- a/dist/GaugeChart/index.js
++++ b/dist/GaugeChart/index.js
+@@ -145,6 +145,7 @@ GaugeChart.defaultProps = {
+   textColor: "#fff",
+   needleColor: "#464A4F",
+   needleBaseColor: "#464A4F",
++  needleLength: 0.55,
+   hideText: false,
+   animate: true,
+   animDelay: 500,
+@@ -167,6 +168,7 @@ GaugeChart.propTypes = {
+   textColor: _propTypes.default.string,
+   needleColor: _propTypes.default.string,
+   needleBaseColor: _propTypes.default.string,
++  needleLength: _propTypes.default.number,
+   hideText: _propTypes.default.bool,
+   animate: _propTypes.default.bool,
+   formatTextValue: _propTypes.default.func,
+@@ -254,7 +256,7 @@ var drawNeedle = function drawNeedle(resize, prevProps, props, width, needle, co
+   //var pathStr = `M ${leftPoint[0]} ${leftPoint[1]} L ${topPoint[0]} ${topPoint[1]} L ${rightPoint[0]} ${rightPoint[1]}`;
+ 
+   var prevPercent = prevProps ? prevProps.percent : 0;
+-  var pathStr = calculateRotation(prevPercent || percent, outerRadius, width);
++  var pathStr = calculateRotation(prevPercent || percent, outerRadius, width, props);
+   needle.current.append("path").attr("d", pathStr).attr("fill", needleColor); //Add a circle at the bottom of needle
+ 
+   needle.current.append("circle").attr("cx", centerPoint[0]).attr("cy", centerPoint[1]).attr("r", needleRadius).attr("fill", needleBaseColor);
+@@ -269,16 +271,16 @@ var drawNeedle = function drawNeedle(resize, prevProps, props, width, needle, co
+       var currentPercent = (0, _d.interpolateNumber)(prevPercent, percent);
+       return function (percentOfPercent) {
+         var progress = currentPercent(percentOfPercent);
+-        return container.current.select(".needle path").attr("d", calculateRotation(progress, outerRadius, width));
++        return container.current.select(".needle path").attr("d", calculateRotation(progress, outerRadius, width, props));
+       };
+     });
+   } else {
+-    container.current.select(".needle path").attr("d", calculateRotation(percent, outerRadius, width));
++    container.current.select(".needle path").attr("d", calculateRotation(percent, outerRadius, width, props));
+   }
+ };
+ 
+-var calculateRotation = function calculateRotation(percent, outerRadius, width) {
+-  var needleLength = outerRadius.current * 0.55,
++var calculateRotation = function calculateRotation(percent, outerRadius, width, props) {
++  var needleLength = outerRadius.current * props.needleLength,
+       //TODO: Maybe it should be specified as a percentage of the arc radius?
+   needleRadius = 15 * (width.current / 500),
+       theta = percentToRad(percent),

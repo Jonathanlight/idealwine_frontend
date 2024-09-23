@@ -1,0 +1,48 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: getSpacing(5);
+  padding: getSpacing(2) getSpacing(4);
+  border: solid 1px $grey;
+  border-radius: getSpacing(1);
+  overflow: hidden;
+  width: 100%;
+
+  &.selected {
+    color: $golden;
+    border-color: $golden;
+  }
+}
+
+.textContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: getSpacing(5);
+}
+
+.textName {
+  color: $blackLighter;
+  text-align: left;
+
+  &.goldenFont {
+    color: $golden;
+  }
+}
+
+.textDescription {
+  color: $blackLighter;
+  text-transform: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+  &.goldenFont {
+    color: $golden;
+  }
+}

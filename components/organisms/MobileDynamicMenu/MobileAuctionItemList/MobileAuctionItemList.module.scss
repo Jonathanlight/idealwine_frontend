@@ -1,0 +1,29 @@
+@import "@/styles/stylesheet";
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleEndDate {
+  background-color: $blueBayoux;
+  color: $white;
+  flex-grow: 1;
+  padding: 0 getSpacing(3);
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  gap: getSpacing(1);
+  padding: getSpacing(3);
+  border-bottom: 1px solid $greyLighter;
+}
+
+.link,
+.link:visited,
+.link:hover,
+.link:active,
+.link:focus {
+  text-decoration: none;
+}

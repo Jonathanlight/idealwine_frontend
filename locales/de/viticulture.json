@@ -1,0 +1,23 @@
+{
+  "seo": {
+    "title": "Primeurs und Grand Crus - iDealwine",
+    "description": "Jedes Jahr stellt iDealwine nach Abschluss der Primeur-Verkostungswoche, die im April in Bordeaux stattfindet, eine Auswahl der besten und interessantesten Grands Crus zusammen. Entdecken Sie jetzt die Primeurs von iDealwine"
+  },
+  "h1": "Produktionsmethode",
+  "h2-1": "Allgemein",
+  "h2-2": "biodynamischer Anbau",
+  "h2-3": "Biologisch",
+  "h2-4": "Nachhaltige Landwirtschaft",
+  "h2-5": "umweltfreundlich",
+  "h2-6": "Natur",
+  "h2-7": "Triple A",
+  "viticulture_general": "Unter „Produktionsmethode“ finden Sie Informationen dazu, wie der Wein produziert wurde: konventionell, zertifiziert biodynamisch, zertifiziert biologisch, zertifiziert integriert/ökologisch wertvoll oder „ökologisch“ (ohne offizielle Zertifizierung). Diese Kriterien beziehen sich auf die neuesten Jahrgänge (das Datum der Zertifizierung finden Sie in der Beschreibung des Weinguts, soweit es bekannt ist).  Für weitere Informationen dazu, siehe",
+  "viticulture_biodynamie": "Biodynamisch: Das Kriterium „biodynamisch“ listet alle Weingüter auf, die das Demeter- oder Biodyvin-Zertifikat besitzen. Alle biodynamischen Weine sind gleichzeitig biozertifiziert. Dieses Kriterium bezieht sich auf neueste Jahrgänge.",
+  "viticulture_biologique": "Biologisch: Das Kriterium „biologisch“ listet alle Weingüter auf, die offiziell durch eines der vom Landwirtschaftsministerium zugelassenen Institute biozertifiziert sind, wie z. B. Ecocert.  Dieses Kriterium bezieht sich auf neueste Jahrgänge.",
+  "viticulture_raisonee": "Das Kriterium „integriert“ listet alle Weingüter auf, die als integriert oder ökologisch wertvoll zertifiziert sind (Stufe 3 der Umweltzertifizierung).  Dieses Kriterium bezieht sich auf neueste Jahrgänge.",
+  "viticulture_ecologique": "Ökologisch:  Das Kriterium „ökologisch“ listet alle Weingüter auf, die Produktionsmethoden in Achtung vor der Natur anwenden, ohne sich für eine offizielle Zertifizierung entschieden zu haben oder bei denen die offizielle Umwandlung in ein Bio- oder Biodynamie-Weingut noch nicht abgeschlossen ist. Es listet außerdem alle Weingüter auf, die ohne offizielle Zertifizierung biodynamisch produzieren oder auf den Einsatz chemischer Mittel verzichten.  Dieses Kriterium bezieht sich auf neueste Jahrgänge.",
+  "viticulture_nature": "Das Kriterium „Natur“ listet Weine auf, die ohne (oder nahezu ohne) die Zugabe von Schwefel oder anderen Zusatzstoffen produziert wurden. Da es jedoch kein offizielles Siegel dafür gibt, beruht dieses Merkmal auf den Angaben des jeweiligen Winzers. Dieses Kriterium bezieht sich auf neueste Jahrgänge.",
+  "viticulture_triplea": "Dieses Label kennzeichnet Naturweine, die unter sehr spezifischen, anspruchsvollen Bedingungen produziert wurden. Triple A liegt ein Manifest zugrunde, das 2001 von Luca Gargano, Geschäftsführer einer italienischen Weinimport-Firma formuliert wurde. Es hat zum Ziel, Weingüter zusammenzubringen, die sich als „Agriculteurs, Artisans et Artistes“ (Landwirte, Handwerker und Künstler) verstehen. Dieses Kriterium bezieht sich auf neueste Jahrgänge.",
+  "viticulture_general-a": "https://www.idealwine.info/new-find-organic-wines-idealwine-just-one-click/",
+  "viticulture_general-txt-a": "Blogartikel"
+}

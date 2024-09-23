@@ -1,0 +1,124 @@
+@import "@/styles/stylesheet";
+
+.wrapper {
+  max-width: 1350px;
+  margin: auto;
+}
+/* stylelint-disable selector-max-type */
+
+.accordion {
+  display: grid;
+  grid-template-columns: 1fr 90%;
+  max-width: 1350px;
+  margin: 50px auto;
+  gap: getSpacing(5);
+  @include isMobileOrTablet {
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    margin: auto;
+  }
+}
+
+.accordion .h1 {
+  background-color: $black;
+  color: $white;
+  font-size: $fontSizeExtraLarge;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  font-weight: 300;
+  text-transform: uppercase;
+  @include isMobileOrTablet {
+    writing-mode: inherit;
+    transform: rotate(0);
+  }
+}
+
+.accordion .intro {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: getSpacing(2);
+}
+
+.accordion .items {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #999999;
+  text-align: justify;
+  padding: getSpacing(2);
+}
+
+.accordion .sousitems {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.accordion .soussousitems {
+  background: #f6f4f2;
+  padding: getSpacing(5);
+  display: block;
+  flex-direction: column;
+  gap: getSpacing(5);
+  border-radius: getSpacing(1);
+}
+
+.bloc {
+  display: flex;
+  gap: getSpacing(2);
+  flex-direction: column;
+}
+
+.h2 {
+  margin: getSpacing(2) 0;
+  font-size: $fontSizeMedium;
+  text-transform: uppercase;
+}
+
+.h2:active,
+.expanded {
+  color: $golden;
+}
+
+.h2 a {
+  text-decoration: underline;
+}
+
+.h3,
+.span strong {
+  font-size: $fontSizeBase;
+}
+
+.span strong,
+.span h4 {
+  padding-top: getSpacing(4);
+  font-size: $fontSizeBase;
+  text-transform: lowercase;
+}
+
+.span strong::first-letter {
+  text-transform: capitalize;
+}
+
+.span td {
+  background-color: $white;
+  padding: getSpacing(2);
+}
+
+.span img {
+  height: 25px;
+  width: 25px;
+  margin: getSpacing(1);
+  padding: getSpacing(1);
+  border: 1px solid $black;
+}
+
+.span .sizer {
+  width: 300px;
+  height: 300px;
+}

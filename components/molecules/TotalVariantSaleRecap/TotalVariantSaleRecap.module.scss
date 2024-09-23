@@ -1,0 +1,51 @@
+@import "@/styles/stylesheet";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: getSpacing(4);
+  gap: getSpacing(2);
+}
+
+.totalBoard {
+  display: inline-grid;
+  grid-template-columns: repeat(5, auto);
+  background-color: $white;
+  width: 100%;
+  min-height: getSpacing(8);
+  @include isTablet {
+    grid-template-columns: repeat(2, auto);
+  }
+  @include isMobile {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+.totalItem {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding-left: getSpacing(3);
+  border-right: 0.1rem solid $grey;
+
+  &:nth-child(5n) {
+    border-right: none;
+  }
+
+  @include isTablet {
+    &:nth-child(2n) {
+      border-right: none;
+      padding-bottom: getSpacing(1);
+    }
+  }
+  @include isMobile {
+    border-right: none;
+    padding-bottom: getSpacing(1);
+  }
+}
+
+.totalTitle {
+  text-transform: uppercase;
+  font-weight: 800;
+}

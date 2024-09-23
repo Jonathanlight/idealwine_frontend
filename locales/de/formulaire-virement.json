@@ -1,0 +1,26 @@
+{
+  "title": "Per Überweisung zahlen",
+  "callout": "Bitte füllen Sie das Formular aus <0>{{link}}</0> und senden Sie es unterschrieben per Post zusammen mit einer IBAN und einer Fotokopie Ihres Personalausweises an iDealwine.com S.A.S. / Service Clients, 190 rue d'Estienne d'Orves - 92700 Colombes, Frankreich.",
+  "calloutPrint": "Seite drucken",
+  "fields": {
+    "name": "Name",
+    "firstName": "Vorname",
+    "address": "Adresse",
+    "zipCode": "PLZ",
+    "city": "Ort",
+    "country": "Land",
+    "username": "Benutzername",
+    "email": "E-Mail:",
+    "phone": "Telefon",
+    "place": "bis",
+    "date": "Am"
+  },
+  "signature": "Unterschrift",
+  "legalNotice": "Ich bestätige, die AGB der Website www.idealwine.com während meiner Registrierung als Mitglied gelesen zu haben, vor allem Abschnitt VI - Änderung oder Stornierung einer Bestellung - Widerrufsrecht und VII - Preise und Zahlung.  Ich will von der Option „Anderes Zahlungsmittel“ profitieren, um meine gewonnenen Auktionen per Überweisung bezahlen zu können.  Bei gewonnenen Auktionen und zusätzlichen Einkäufen zum Festpreis werden die Posten in eine einzige Bestellung zusammengefasst. Ich werde per Mail benachrichtigt und muss anschließend meine Bestellung bestätigen sowie eine Überweisung mit dem Betrag auf der online einsehbaren Rechnung an die Gesellschaft iDealwine.com S.A.S. ausstellen.  Ich nehme zur Kenntnis, dass meine Bestellung erst nach Erhalt der Überweisung von iDealwine.com S.A.S. geliefert werden kann. Nachdem ich meine Anmeldung mit Option „Anderes Zahlungsmittel“ bestätigt habe, füge ich diesem Formular einen Nachweis mit meinen Bankdaten sowie eine Kopie eines Identitätsnachweises hinzu.  Ab bestimmten Schwellenwerten für ausstehende Auktionen kann es sein, dass iDealwine von mir zusätzliche Sicherheiten in Form einer Kaution (Banküberweisung) verlangt.  In diesem Fall werden meine Bestellungen nur dann berücksichtigt, wenn ich die Kaution vor Ablauf der Auktion überweise.   Ich nehme zur Kenntnis, dass ich meine Anmeldung mit der Option „Anderes Zahlungsmittel“ jederzeit stornieren kann, online oder per Brief an iDealwine.com S.A.S. - Kundenservice, 190, rue d'Estienne d'Orves, 92700 Colombes, Frankreich In diesem Fall wird mir die Gesellschaft iDealwine.com S.A.S. dieses Formular und seine Anhänge (Banknachweis, ID) innerhalb der 7 Werktage nach meiner Anfrage zuschicken.",
+  "instructions": "Bitte drucken Sie diese Seite aus und schicken Sie sie uns zusammen mit Ihrer Bankinformation (IBAN/BIC) und einer Kopie eines Identitätsnachweises an iDealwine.com S.A.S.  / Service Clients, 190 rue d'Estienne d'Orves - 92700 Colombes, Frankreich. Sie haben das Recht, auf die Sie betreffenden Daten zuzugreifen, sie zu ändern, zu berichtigen und zu löschen (Art. 34 des Gesetzes \"Informatique et Libertés\").  Sie können dieses Recht ausüben, indem Sie mithilfe Ihres Benutzernamens und Ihres Passworts direkt auf Ihr persönliches Online-Konto zugreifen. ",
+  "credits": "Sie können Ihre Anfrage auch an iDealwine.com S.A.S., 190 rue d'Estienne d'Orves - 92700 Colombes, Frankreich richten.",
+  "seo": {
+    "title": "Formular ausdrucken",
+    "description": ""
+  }
+}

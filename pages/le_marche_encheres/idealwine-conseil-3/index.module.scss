@@ -1,0 +1,120 @@
+@import "@/styles/stylesheet";
+
+.wrapper {
+  max-width: 1600px;
+  padding: getSpacing(4);
+  @include isMobile {
+    max-width: 100%;
+    padding: getSpacing(0);
+  }
+}
+
+.contentbg {
+  background: url("/bg-placement.jpg") no-repeat;
+  display: flex;
+  justify-content: flex-end;
+
+  @include isMobile {
+    justify-content: center;
+    background: url("/bg-placement.jpg") fixed;
+  }
+}
+
+.content1 {
+  max-width: 70%;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(8);
+  padding: getSpacing(10);
+  margin: getSpacing(10) 0;
+  box-shadow: rgb(0 0 0 / 10%) 0 0 5px 0, rgb(0 0 0 / 10%) 0 0 1px 0;
+  text-align: justify;
+
+  @include isMobile {
+    max-width: 90%;
+    padding: getSpacing(6);
+    margin: getSpacing(4) 0;
+  }
+}
+
+.btnspace {
+  display: flex;
+  gap: getSpacing(4);
+  justify-content: space-between;
+
+  @include isMobile {
+    flex-direction: column;
+    gap: getSpacing(1);
+  }
+}
+
+.content2 {
+  padding: getSpacing(8);
+  margin: getSpacing(10) 0;
+  box-shadow: rgb(0 0 0 / 10%) 0 0 5px 0, rgb(0 0 0 / 10%) 0 0 1px 0;
+  display: flex;
+  gap: getSpacing(10);
+  align-items: center;
+  @include isMobile {
+    flex-direction: column;
+    margin: getSpacing(6) auto;
+    max-width: 90%;
+    gap: getSpacing(1);
+    padding: getSpacing(1);
+  }
+}
+
+.h1 {
+  font-size: $fontSizeMediumLarge;
+  @include isMobile {
+    font-size: $fontSizeBase;
+    font-size: $fontSizeLarge;
+    font-weight: 300;
+    text-align: left;
+    padding: getSpacing(1);
+    color: $golden;
+  }
+}
+
+.h2 {
+  font-family: $fontFamily;
+  font-size: $fontSizeBase;
+  text-transform: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 100%;
+  @include isMobile {
+    font-size: $fontSizeSmall;
+    letter-spacing: normal;
+    font-weight: normal;
+  }
+}
+
+.content2 .h2 {
+  font-size: $fontSizeLarge;
+  padding: getSpacing(5);
+  color: $golden;
+  text-align: right;
+  @include isMobile {
+    text-align: left;
+  }
+}
+
+.ol {
+  list-style-type: decimal;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(3);
+}
+
+.olcontent {
+  border-left: 5px solid $golden;
+  padding: getSpacing(10);
+  display: block;
+  @include isMobile {
+    border: none;
+    padding: getSpacing(1);
+    padding-left: getSpacing(8);
+  }
+}

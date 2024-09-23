@@ -1,0 +1,156 @@
+{
+  "index": {
+    "title": "La cote des vins",
+    "subtitle": "Rechercher le prix d'un vin par producteur",
+    "idealwine": "iDealwine",
+    "searchPlaceholder": "Ajouter un vin, un producteur ...",
+    "unfindableVintageRating": {
+      "cantFindARating": "Vous ne trouvez pas la cote d'un vin ou son prix ? ",
+      "mail": {
+        "subject": "Demande d’estimation",
+        "linkText": "Contactez-nous"
+      }
+    },
+    "whyIsIdwsRatingGood": {
+      "title": "pourquoi la cote idealwine® est le juste prix d'un vin ?",
+      "text1": "<strong>La cote des Vins iDealwine®</strong>, diffusée depuis la création d'iDealwine en 2000, est aujourd'hui la référence pour trouver <strong>la valeur réelle d'une bouteille</strong>.",
+      "text2": "Cet argus des Vins s'appuie sur une base de données unique de plus de <strong>3 millions de résultats de ventes de flacons aux enchères enregistrés depuis 1992</strong>.",
+      "text3": "Mise à jour chaque semaine en fonction des ventes de vins, la Cote des Vins iDealwine® intègre le montant des frais acheteurs prélevés lors d'une vente aux enchères. L'acheteur peut ainsi estimer de manière réaliste le prix qu'il devra payer pour se procurer ce vin.\nLe vendeur pourra quant à lui obtenir une estimation du prix de son vin.",
+      "text4": "Cette cote est calculée en fonction d'un algorithme mis au point par iDealwine en 2000. A la différence des moyennes de prix diffusées par les comparateurs, qui agrègent les prix « catalogue » des vins proposés dans le commerce, la <strong>Cote des Vins iDealwine®</strong> calcule un prix résultant de transactions effectivement réalisées dans les ventes aux enchères de vin.",
+      "text5": "Ce <strong>véritable Argus du vin</strong>, utilisé par près de 500 000 amateurs de vin, est repris dans de nombreux supports tels que La Revue du vin de France, le guide Bettane et Desseauve, la revue Drinks Business, les émissions Intégrale Placement sur BFM, le site Boursorama,..."
+    }
+  },
+  "searchPlaceholder": "Rechercher une autre cote",
+  "top50mostExpensiveWines": {
+    "title": "Les 50 vins les plus chers au monde",
+    "subtitle1": "Vendus par i",
+    "subtitle2": "Deal",
+    "subtitle3": "wine en",
+    "underTitle": "Classement des 50 bouteilles de vin les plus chères au monde vendues par iDealwine aux enchères durant l'année"
+  },
+  "searchRating": "Recherche cote",
+  "rankingYear": "classement {{year}}",
+  "mostExpensiveWinesIn": "Les vins les plus chers en {{year}}",
+  "mainTitle": "<strong>{{productName}} {{vintageYear}}</strong>",
+  "colorTitle": "({{color}})",
+  "winesRankedBy": "Classement par cote {{region}} {{year}}",
+  "subtitle": "Prix moyen proposé aux particuliers + TVA, tarif exprimé au format bouteille\nEvolution de la cote (format : Bouteille ) © iDealwine.com S.A. - (cotation / année)",
+  "currentRatingTitle": "Cote actuelle",
+  "currentRatingSubtitle": "(format 75cl)",
+  "sameEstateRatingVintageTitle1": "Côte des vins du même",
+  "sameEstateRatingVintageTitle2": "domaine",
+  "buyThisWine": "<strong>Acheter</strong> ce vin",
+  "winesOfTheEstate": "<strong>Vins</strong> du domaine",
+  "buy": "<strong>Acheter</strong>",
+  "sellThisWine": "<strong>Vendre</strong> ce vin",
+  "currentYearRating": "Cote actuelle du millésime {{year}}",
+  "minAdjudication": "Adjudication la plus basse \n (12 derniers mois)",
+  "maxAdjudication": "Adjudication la plus haute \n (12 derniers mois)",
+  "lastAdjudications": "Dernières adjudications du millésime {{year}} ({{currencyLogo}})",
+  "auctionHistory": "Historique des adjudications {{productName}} {{year}}",
+  "doYouHaveOneToSell": "Vous possédez un vin identique ?",
+  "sellIt": "Vendez-le !",
+  "noVintageYear": "----",
+  "bottleImage": "Etiquette du vin",
+  "backgroundBottleImage": "Image de fond de l'étiquette du vin",
+  "seo": {
+    "title": "Cote {{name}} {{year}} {{region}} {{color}}",
+    "description": "Cote du vin {{name}} {{color}}{{vintage}}{{appellation}}{{regionInDescription}}. Prix, informations et notes de dégustation",
+    "vintage": ", millésime {{year}}",
+    "appellation": ", d'appellation {{appellation}}",
+    "regionInDescription": ", et de la région {{region}}"
+  },
+  "indexSeo": {
+    "title": "Cote des vins iDealwine® | La référence depuis 20 ans",
+    "description": "Trouver le prix d'un vin facilement avec l'argus gratuit - Grande précision grâce à la cote iDealwine - Historique, statistiques, analyse et performance de la valeur des bouteilles pour chaque millésime."
+  },
+  "ratingsVariation": "Variation de la cote {{year}}",
+  "years": {
+    "1": "{{count}} an",
+    "other": "{{count}} ans"
+  },
+  "winePerformanceAndAnalysis": "Analyse & Performance du vin",
+  "price": "Prix",
+  "percentage": "Pourcentage",
+  "alertsCounter": {
+    "0": "Aucun amateur",
+    "1": "{{count}} amateur",
+    "other": "{{count}} amateurs"
+  },
+  "alertImage": "Logo: alerte sur un vin",
+  "alertsCounterSubtitle": "ont placé une alerte pour être avertis de la disponibilité du vin",
+  "createNewAlert": "Créer une nouvelle alerte",
+  "addToMyCellar": "Ajouter à ma cave",
+  "createAnAlert": "Créer une alerte",
+  "theDetailedCharacteristics": "Les caractéristiques détaillées",
+  "theRatingInDetails": "la cote en détail",
+  "theRatingInDetailsOfTheWine": "la cote en détail du vin",
+  "theVintageNotes": "Les notes du millésime",
+  "analysisAndPerformance": "Analyse & Performance",
+  "currentTrendTitle": "Variation cote par rapport\nau prix primeur",
+  "primeurPrice": "Prix primeurs {{year}}",
+  "variationCurrentRatingPrimeurPrice": "Variation cote actuelle / prix primeur",
+  "variationPrimeurPriceNPrimeurPriceNMinus1": "Variation prix primeur millésime {{year}} / {{pastYear}}",
+  "historicPrimeurPrice": "Historique des variations de la cote par rapport au prix primeur ({{currencyLogo}})",
+  "primeurPriceTrend": "Tendance actuelle de la cote",
+  "primeurPriceTrendUp": "Tendance à la hausse du millésime {{vintageYear}} en {{thisYear}} par rapport à {{lastYear}}",
+  "primeurPriceTrendDown": "Tendance à la baisse du millésime {{vintageYear}} en {{thisYear}} par rapport à {{lastYear}}",
+  "productInformation": "<strong>{{productName}}</strong><br />Les informations",
+  "youHaveASimilarWine": "Vous possédez un vin identique ?",
+  "estateAndVintageCharacteristics": "<strong>Caractéristiques</strong> du domaine & de la cuvée",
+  "disclaimer": "Les informations publiées ci-dessus présentent les caractéristiques actuelles du vin concerné.\nElles ne sont pas spécifiques au millésime.\nAttention, ce texte est protégé par un droit d'auteur. Il est interdit de le copier sans en avoir demandé préalablement la permission à l'auteur.",
+  "aboutEstate": "A propos du domaine",
+  "aboutProduct": "A propos de la cuvée",
+  "onSale": "<strong>{{productName}} en vente</strong>",
+  "furtherInformation": "Informations complémentaires pour <strong>{{productName}}</strong>",
+  "tastingNotesAndComments": "Notes & commentaires de dégustation",
+  "vintageQuality": "Qualité du millésime {{vintageYear}}",
+  "expertAssessment": "Commentaire de degustation",
+  "sagaRating": "{{sagaRating}}/20",
+  "selectSomething": "Veuillez choisir un critère",
+  "loginPanel": {
+    "title": "Accès gratuit et illimité<br />aux statistiques de plus de 126 000 cotes",
+    "button": "Consulter la cote de ce vin"
+  },
+  "consultEstateRatings": "Consulter les cotes du domaine {{estateName}}",
+  "estateRatings": "<strong>Les cotes</strong> du domaine {{estateName}}",
+  "ofRegion": " de {{region}}",
+  "ofVintage": " du millésime {{vintageYear}}",
+  "yearSelect": {
+    "noYear": "Toutes les années",
+    "adjudicatedAllYears": "Année"
+  },
+  "vintageYear": "Millésime",
+  "ratingRanking": {
+    "title": "Cote iDealwine",
+    "subtitle": "Top 50 des cotes les plus élevées"
+  },
+  "adjudicated": {
+    "title": "Adjugé sur iDealwine !",
+    "subtitle": "Top 50 des vins les plus chers"
+  },
+  "wineRanking": "Classement des vins",
+  "byIdealWineRating1": "par cote i",
+  "byIdealWineRating2": "Deal",
+  "byIdealWineRating3": "wine®",
+  "goToRatingPage": "Voir la page de cote du vin {{productName}} {{vintageYear}}",
+  "topIDWbyRating": "Top iDealwine par cote des 50 premieres bouteilles de vins",
+  "region": "Région",
+  "vintage": "millésime",
+  "by": "de",
+  "mostExpensiveWine": {
+    "title": "NB - Le montant indiqué peut etre affecté par le niveau de la TVA appliqué dans le pays de résidence de l'acquereur à la commission acheteur.",
+    "underTitle": "Nom du vin | millésime (date de vente) | Prix TTC"
+  },
+  "topIdealwineByRating": "Top iDealwine par cote des 50 premières bouteilles de vins",
+  "regionSelect": {
+    "ALSACE": "Alsace",
+    "BEAUJOLAIS": "Beaujolais",
+    "BORDEAUX": "Bordeaux",
+    "BOURGOGNE": "Bourgogne",
+    "CHAMPAGNE": "Champagne",
+    "VALLEE_DE_LA_LOIRE": "Vallee de la Loire",
+    "VALLEE_DU_RHONE": "Vallee du Rhone",
+    "noRegion": "Toutes les régions"
+  }
+}

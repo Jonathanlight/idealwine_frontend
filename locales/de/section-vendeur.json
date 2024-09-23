@@ -1,0 +1,78 @@
+{
+  "historicalSells": "Vergangene Verkäufe",
+  "ongoingSells": "Aktuelle Verkäufe",
+  "sellMyBottles": "Meinen Wein verkaufen",
+  "mySellerInformation": "Mein Verkäuferprofil",
+  "currentlyOnSellProductVariant": "Hier finden Sie eine Liste Ihrer Posten, die derzeit zum Verkauf stehen.",
+  "noOngoingSells": "Sie haben derzeit keinen Posten im Verkauf.",
+  "dateFilter": "Ihre Auktionen filtern nach Endtermin am ",
+  "noHistoricalSells": "Kein Posten in Ihrer Historie",
+  "and": "vom ",
+  "isLoading": "Lädt...",
+  "error": "Ein Fehler ist aufgetreten",
+  "noMatch": "Kein Ergebnis stimmt mit Ihrer Suche überein",
+  "sellYourBottles": "Verkaufen Sie Ihre Flaschen auf iDealwine!",
+  "withIdealwine": "Bei iDealwine profitieren Sie von:",
+  "freeEstimate": "Einer Gratis-Wertschätzung",
+  "globalServiceOffer": "einem umfassenden Angebot an Services (Transport, Verpackung, Lagerung vor dem Verkauf, Verkauf, etc.",
+  "guaranteedPaiement": "Der garantierten Zahlung, wenn Ihre Weine einen Käufer gefunden haben",
+  "guaranteedTransaction": "einer Garantie für den erfolgreichen Abschluss der Transaktion, unabhängig davon, für welche Verkaufsform Sie sich entschieden haben",
+  "sellerFormTitle": "Meiner Verkäufer-Daten",
+  "formDescription": "Hier können Sie Ihre Daten ändern, damit Ihr Profil auf dem neuesten Stand ist.",
+  "notSellerOne": "Sie sind noch kein Verkäufer auf iDealwine...",
+  "notSellerTwo": "Lassen Sie Ihr Lager gratis schätzen, indem Sie das Onlineformular ausfüllen.",
+  "notSellerButton": "Ich würde meinen Wein gerne schätzen lassen",
+  "estimfree": "\nMeine Weine schätzen lassen",
+  "description": "Beschreibung",
+  "lotNumber": "Posten Nr.",
+  "reservePrice": "Startpreis",
+  "estimate": "Schätzung",
+  "numberSaleWatcher": "Nombre de personnes suivant la vente",
+  "actualPrice": "Aktueller Preis",
+  "endDate": "Ende der Auktion",
+  "submitForm": "Bestätigen",
+  "notSold": "Nicht verkauft",
+  "noOngoingBid": "Meine aktuellen Bestellungen",
+  "finalPrice": "Endpreis",
+  "priceDrop": "Preis nach unten setzen",
+  "lowerReserveBid": "Startpreis nach unten setzen",
+  "information_has_been_saved": "Ihre Informationen wurden gespeichert",
+  "error_occurred": "Ein Fehler ist aufgetreten",
+  "lowerReserveBidDialog": {
+    "title": "Ich will meinen Startpreis nach unten setzen",
+    "reserveBidNotSet": "Der Startpreis wurde für den ausgewählten Posten noch nicht festgelegt.",
+    "cancel": "Abbrechen",
+    "submit": "Bestätigen",
+    "error": "Ein Fehler ist während der Preisänderung aufgetreten",
+    "success": "Der Startpreis wurde geändert"
+  },
+  "totals": {
+    "globalTitle": "Gesamtbetrag (Alle Seiten)",
+    "displayTitle": "Angezeigter Betrag",
+    "variants": "Posten",
+    "bottles": "Flaschen",
+    "reserveBid": "Startpreis (der verkauften Posten): ",
+    "reserveBidOnline": "Startpreis (Auktionen)",
+    "finalPrice": "Endpreis: ",
+    "currentPrice": "Aktueller Preis:",
+    "gap": "Abweichung: "
+  },
+  "seo": {
+    "sellerInfo": {
+      "title": "Meine Verkäufer-Infos - iDealwine",
+      "description": ""
+    },
+    "ongoingSales": {
+      "title": "Meine Weine im Verkauf - iDealwine",
+      "description": ""
+    },
+    "salesHistory": {
+      "title": "Meine Posten im Verkauf oder bereits verkauft - iDealwine",
+      "description": ""
+    },
+    "sellMyWine": {
+      "title": "Meinen Wein verkaufen - iDealwine",
+      "description": ""
+    }
+  }
+}

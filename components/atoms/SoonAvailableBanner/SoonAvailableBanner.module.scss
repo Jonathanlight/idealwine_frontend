@@ -1,0 +1,27 @@
+@import "@/styles/stylesheet";
+
+html .text {
+  color: $black;
+  font-size: $fontSizeMediumLarge;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 1px;
+  opacity: 0.9;
+  line-height: 1.1;
+  text-align: center;
+
+  @include isMobile {
+    font-size: $fontSizeMedium;
+  }
+}
+
+.text::after {
+  display: block;
+  width: 30px;
+  height: 1px;
+  margin: auto;
+  text-align: center;
+  background-color: $grey;
+  margin-top: getSpacing(1);
+  content: "";
+}

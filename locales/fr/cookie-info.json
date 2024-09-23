@@ -1,0 +1,74 @@
+{
+  "seo": {
+    "title": "Cookie iDealwine - iDealwine",
+    "description": "Information et utilisation des cookies sur le site iDealwine.com"
+  },
+
+  "intro": "<strong>Lors de la consultation de notre site iDealwine.com, des cookies sont déposés sur votre ordinateur, votre mobile ou votre tablette.</strong><br>La pose ou non de ces cookies est déterminée lors de votre première visite sur un navigateur web grâce à notre outil de collecte de consentement gérée par la plateforme Onetrust.<br> Notre site est conçu pour être particulièrement attentif aux besoins et attentes de nos clients. C'est entre autres pour cela que nous faisons usage de cookies afin par exemple de vous identifier et accéder à votre compte, mémoriser vos consultations et personnaliser les offres que nous vous proposons.<br>Cette page vous permet de mieux comprendre comment fonctionnent les cookies et comment modifier votre consentement.",
+  "h1": "COOKIES IDEALWINE",
+  "items": [
+    {
+      "header": "QU'EST-CE QU'UN COOKIE ?",
+      "content": "Un cookie est un petit fichier texte déposé sur votre ordinateur lors de la visite d'un site ou de la consultation d'une publicité. Ils ont notamment pour but de faciliter votre navigation, vous proposer des offres adaptées à vos attentes et mieux comprendre le comportement des internautes sur notre site, notamment pour pouvoir l’améliorer en continu.<br>Dans votre ordinateur les cookies sont gérés par votre navigateur internet."
+    },
+    {
+      "header": "DIFFÉRENTS ÉMETTEURS",
+      "content": [
+        {
+          "header": "Les cookies iDealwine",
+          "content": "Il s'agit des cookies déposés par iDealwine sur votre terminal pour les besoins de la navigation sur notre site internet, l'optimisation et la personnalisation de nos services sur le site. Par exemple, sans cookie de session, vous devriez vous reconnecter à votre compte à chaque visite même au cours d’une même session de navigation"
+        },
+        {
+          "header": "Les cookies tiers",
+          "content": "Il s'agit des cookies déposés par des sociétés tierces (par exemple des régies publicitaires ou par des prestataires) afin d'identifier vos centres d'intérêt au travers des produits consultés ou achetés sur notre site et personnaliser l'offre publicitaire qui vous est adressée sur notre site ou en dehors de notre site. Ces cookies nous servent également à analyser les données de navigation et le trafic sur notre site. <br>Ils peuvent être déposés à l'occasion de la navigation sur notre site ou lorsque vous cliquez dans les espaces publicitaires de notre site. <br>Nous n'avons pas la maîtrise des cookies déposés par les régies publicitaires qui agissent pour leur propre compte. <br><br>Dans le cadre des partenariats publicitaires nous pouvons être amenés à transmettre aux partenaires qui agissent pour notre compte des données concernant vos achats et les produits consultés sur notre site. Le transfert ou non de ces données est cependant conditionné à votre consentement conformément à <a href=\"https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies/que-dit-la-loi\" target=\"blank\">la règlementation en vigueur</a>."
+        }
+      ]
+    },
+
+    {
+      "header": "ACCEPTER OU REFUSER LES COOKIES",
+      "content": "iDealwine permet de modifier ses choix de consentement aux cookies grâce à l’outil de gestion de confidentialité développé par la société Onetrust.<br>Vous aurez alors la possibilité lors de votre première visite sur un navigateur d’accepter totalement, partiellement ou bien de refuser les cookies déposés par iDealwine et autres prestataires de service agissant pour notre société.<br>Vous pouvez également modifier vos consentements à tout moment en cliquant sur le bouton ci-dessous : <br><br><a id='ot-sdk-btn' class='ot-sdk-show-settings'>je paramètre mes choix</a><br><br> Certaines informations nécessaires à la bonne tenue de nos services seront collectées même en cas de refus, conformément à la règlementation du RGPD.<br>Pour en savoir plus sur l’utilisation de vos données personnelles, ainsi que sur les différents sous-traitants concernés, vous pouvez consulter notre page dédiée : <a href=\"/fr/corporate/donnees-personnelles\" target=\"blank\">donnees-personnelles</a>"
+    },
+
+    {
+      "header": "DIFFÉRENTS TYPES DE COOKIES",
+      "content": [
+        {
+          "header": "Cookies utilisés sur notre site",
+          "content": "Différents types de cookies sont utilisés sur notre site, ils ont des finalités différentes. Certains sont nécessaires à votre utilisation de notre site."
+        },
+        {
+          "header": "Les cookies analytiques",
+          "content": "Il s'agit des cookies qui nous permettent de connaître l'utilisation et les performances de notre site et d'en améliorer le fonctionnement (par exemple, les pages le plus souvent consultées, recherches des internautes dans le moteur iDealwine, liens les plus cliqués...).<br>Certains de ces cookies permettent également de savoir quand vous achetez ou enchérissez sur un vin, et ainsi ne plus vous proposer ce vin, adapter nos offres et celles des régies publicitaires partenaires. De même, cela nous permet de savoir si une publicité a été efficace.<br>De même, sur notre blog iDealwine.net, un cookie est posé pour ne pas reproposer aux inscrits à la newsletter de s’inscrire, cookie géré par la société Sumo."
+        },
+        {
+          "header": "Les cookies fonctionnels",
+          "content": "Il s'agit des cookies qui nous permettent de personnaliser votre expérience sur notre site (par exemple vous rappeler les derniers produits consultés, mémoriser les articles de votre panier avant de poursuivre vos achats.). Ils vous permettent également de bénéficier de nos conseils personnalisés et d'offres promotionnelles en fonction de votre origine de navigation (par exemple si vous venez de nos sites partenaires). Ils peuvent aussi être utilisés pour vous fournir des fonctionnalités que vous avez sollicités (ex mon magasin préféré, mes conseils personnalisés...)."
+        },
+        {
+          "header": "Les cookies publicitaires",
+          "content": "Il s'agit des cookies utilisés pour vous présenter des publicités ou vous adresser des informations adaptées à vos centres d'intérêts sur notre site ou en dehors de notre site lors de votre navigation sur Internet. Ils sont notamment utilisés pour limiter le nombre de fois où vous voyez une publicité et aider à mesurer l'efficacité d'une campagne publicitaire."
+        },
+        {
+          "header": "Cookies en lien avec l'application iDealwine",
+          "content": "iDealwine utilise des cookies et des technologies similaires de traçage en lien avec l'utilisation de l'application iDealwine et vos terminaux (mobiles ou ordinateurs) notamment afin de mieux vous identifier et personnaliser nos services.<br>Lorsque vous installez l'application iDealwine nous collectons des informations sur votre utilisation de l'application ou de votre téléphone. Nous utilisons ces informations pour comprendre et améliorer nos relations commerciales (notamment les services, suggestions et publicités). Comme c'est le cas sur le web, nous pouvons utiliser ces technologies pour stocker sur votre appareil un identifiant ou d'autres informations.<br>En fonction des systèmes d'exploitation, vous pouvez désactiver ces cookies en vous rendant dans les paramètres de votre téléphone qui permettent de gérer les applications."
+        },
+        {
+          "header": "Les cookies et plug-in de réseaux sociaux (boutons sociaux)",
+          "content": "Ces cookies sociaux visent à permettre aux utilisateurs de partager des pages et du contenu via des réseaux sociaux tiers. Ils permettent également de cibler l'offre publicitaire sur les réseaux sociaux. Notre site utilise également des \"plug-in\" ou boutons sociaux. Les plug-ins sociaux permettent notamment de faciliter le partage des pages et contenus du site www.idealwine.com sur les différentes plateformes sociales. Ils vous permettent par exemple d'aimer (\"liker\") et de partager des informations provenant de notre site avec vos amis sur les réseaux sociaux. A cette fin les plug-in utilisent des cookies permettant de tracer la navigation des internautes que vous soyez utilisateurs de ces plateformes ou non et que vous soyez connectés ou non au réseau social lors de votre navigation. Ces cookies permettent également de cibler les offres publicitaires sur ces plateformes. Pour plus d'information sur l'utilisation de vos données personnelles en relation avec les réseaux sociaux vous pouvez consulter les polices de confidentialité des réseaux sociaux tiers concernés."
+        }
+      ]
+    },
+
+    {
+      "header": "ACCEPTER OU REFUSER LES COOKIES",
+      "content": "iDealwine permet de modifier ses choix de consentement aux cookies grâce à l’outil de gestion de confidentialité développé par la société Onetrust.<br>Vous aurez alors la possibilité lors de votre première visite sur un navigateur d’accepter totalement, partiellement ou bien de refuser les cookies déposés par iDealwine et autres prestataires de service agissant pour notre société.<br>Vous pouvez également modifier vos consentements à tout moment en cliquant sur le bouton ci-dessous : <br><br><a id='ot-sdk-btn' class='ot-sdk-show-settings'>je paramètre mes choix</a><br><br> Certaines informations nécessaires à la bonne tenue de nos services seront collectées même en cas de refus, conformément à la règlementation du RGPD.<br>Pour en savoir plus sur l’utilisation de vos données personnelles, ainsi que sur les différents sous-traitants concernés, vous pouvez consulter notre page dédiée : <a href=\"/fr/corporate/donnees-personnelles\" target=\"blank\">donnees-personnelles</a>"
+    },
+
+    {
+      "header": "Plus d'information sur les cookies",
+
+      "content": "Sur le site de la CNIL : <a href=\"https://www.cnil.fr/vos-droits/vos-traces/les-cookies/\" target=\"_blank\">https://www.cnil.fr/vos-droits/vos-traces/les-cookies/</a>"
+    }
+  ]
+}

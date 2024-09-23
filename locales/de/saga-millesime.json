@@ -1,0 +1,25 @@
+{
+  "seo": {
+    "title": "Bewertung und Informationen zu den Jahrgängen, geordnet nach Region - iDealwine",
+    "description": "Entdecken Sie in unserem Jahrgangs-Führer Notizen, Kritiken, Beurteilungen und Bewertungen nach Region."
+  },
+  "ariane1": "Startseite",
+  "ariane2": "Jahrgangsguide",
+  "h1": "WEINNOTIERUNG NACH JAHRGANG SUCHEN",
+  "choisirRegion": "Region wählen",
+  "choisirMillesime": "Jahrgang wählen",
+  "alsace": "Elsass",
+  "p1": "Die Wahl des Jahrgangs ist entscheidend, denn die Weine einer Region weisen, von Ausnahmen einmal abgesehen, in unterschiedlicher Intensität die gleichen Hauptmerkmale auf. Jeder Weinliebhaber kann sich daran orientieren, wenn er ein bestimmtes Datum feiern oder eine Verkostung organisieren möchte. Dieser Jahrgangsguidehilft Ihnen dabei, gute und außergewöhnliche Jahrgänge ausfindig zu machen.",
+  "p2": "iDealwine bietet Ihnen drei Navigationsmöglichkeiten für diesen Jahrgangs-Führer: Wählen Sie eine Region, einen Jahrgang oder lassen Sie sich einfach die gesamte Tabelle anzeigen.",
+  "p3": "  Für jeden Jahrgang, der vertreten ist, finden Sie Informationen zu den Bedingungen, unter denen er entstanden ist, eine Bewertung, eine generelle Analyse der Hauptmerkmale, eine Liste der besten Crus sowie eine Auswahl der Weine, die wir aktuell im Angebot haben.",
+  "vintageNotes": "Notierungen der Jahrgänge",
+  "countriesTableTitle": "Jahrgangstabelle internationaler Weine",
+  "frenchRegionsTableTitle": "Jahrgangstabelle französischer Weine",
+  "YEAR": "Jahrg.",
+  "year": "Jahrgang",
+  "internationalWines": "Internationale Weine",
+  "frenchPageButton": "Weine aus Frankreich",
+  "frenchWines": "Französische Weine",
+  "footNote": "(*) Klicken Sie auf eine Notierung, um detailliertere Informationen zu erhalten.",
+  "valider": "Bestätigen"
+}

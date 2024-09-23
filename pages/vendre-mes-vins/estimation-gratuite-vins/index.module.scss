@@ -1,0 +1,20 @@
+@import "@/styles/stylesheet";
+
+.iframe {
+  background-color: transparent;
+  height: 100vh;
+  overflow: visible;
+}
+
+.page {
+  height: 100%;
+  padding-top: getSpacing(4);
+}
+
+.title {
+  text-align: center;
+  font-size: $fontSizeLarge;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: getSpacing(4);
+}

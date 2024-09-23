@@ -1,0 +1,44 @@
+{
+  "chooseShipping": "Wählen Sie Ihre Lieferart aus",
+  "disclaimer": "Achtung, diese Aktion kann nicht rückgängig gemacht werden! Wenn Sie Ihre Lieferung aufschieben möchten, wählen Sie bitte \"Spätere Lieferung\". Aus Qualitätsgründen werden keine Bestellungen an einem Freitag versandt.",
+  "ON_SITE": {
+    "title": "Abholung"
+  },
+  "GROUPING": {
+    "title": "Spätere Lieferung/Bündelung",
+    "explicativeText": "Nach der Bezahlung können Sie Ihre Bestellung auf „Warten“ setzen, um sie mit weiteren Bestellungen zu bündeln und Versandkosten zu sparen oder alle Weine zusammen in unserem Lager abzuholen. Ab Bestelldatum profitieren Sie von einem Monat kostenfreier Lagerung. Nach Ablauf dieser Frist werden Lagergebühren erhoben."
+  },
+  "STORAGE": {
+    "title": "Lagerung",
+    "notAllowed": "Diese Option steht Ihnen nicht zur Verfügung, da Sie unser Angebot für den idealen Weinlagerkeller noch nicht nutzen.",
+    "learnMore": "Um mehr über diesen Service zu erfahren,",
+    "clickHere": "klicken Sie hier.",
+    "allowed": "Nach der Bezahlung wird Ihre Bestellung vorbereitet und in Ihren iDealen Weinlagerkeller gebracht."
+  },
+  "HOME_DELIVERY": {
+    "title": "Lieferung nach Hause"
+  },
+  "RELAY_POINT": {
+    "title": "Pickup Point",
+    "yourAddress": "Ihre Adresse",
+    "validate": "Bestätigen",
+    "choseRelayPoint": "Einen Pickup Point wählen",
+    "distance": "Distanz: {{distance}} m",
+    "jourSemaine1": "Montag",
+    "jourSemaine2": "Dienstag",
+    "jourSemaine3": "Mittwoch",
+    "jourSemaine4": "Donnerstag",
+    "jourSemaine5": "Freitag",
+    "jourSemaine6": "Samstag",
+    "jourSemaine7": "Sonntag",
+    "noRelayPoint": "Kein Pickup Point kann in der Nähe Ihrer Adresse gefunden werden. Überprüfen Sie die angegebenen Informationen und versuchen Sie es erneut."
+  },
+  "giftMessageCheckboxLabel": "Personalisieren Sie Ihre Bestellung durch eine Karte im Paket.",
+  "giftMessageTextareaLabel": "Ihre Nachricht:",
+  "giftMessageTextareaPlaceholder": "Geben Sie hier Ihre Nachricht ein",
+  "maxCharacters": "Max. 300 Zeichen",
+  "nonMatchingAdressesModal": {
+    "title": "Änderung des Lieferlandes",
+    "content": "Ihr Lieferland wurde automatisch geändert, damit es mit der Lieferadresse der Bestellungen, die Sie zusammenfassen möchten, übereinstimmt. Vergewissern Sie sich, dass Ihr Lieferland korrekt ist, bevor Sie fortfahren."
+  }
+}

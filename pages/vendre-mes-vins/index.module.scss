@@ -1,0 +1,365 @@
+/* stylelint-disable selector-max-type */
+@import "@/styles/stylesheet";
+
+.largewrapper .bg {
+  background: url("/bg-vsv.jpg") center center;
+  background-size: cover;
+  padding: getSpacing(4) getSpacing(3);
+  text-align: center;
+  min-height: getSpacing(20);
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(0);
+}
+
+.largewrapperbis .bg2 {
+  background: url("/background-wine.jpg") 0 -470px $blueishGrey;
+  padding: getSpacing(4) getSpacing(3);
+  display: block;
+  text-align: center;
+  // min-height: getSpacing(20);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.imageinline {
+  display: inline;
+}
+
+.largewrapperbis {
+  display: block;
+  margin: auto;
+}
+
+.largewrapper {
+  max-height: getSpacing(80);
+  overflow: hidden;
+  margin-top: getSpacing(5);
+  @include isMobile {
+    max-height: inherit;
+  }
+}
+
+.headerImage {
+  text-align: center;
+}
+
+.wrappergrid2 {
+  max-width: 1300px;
+  margin: auto;
+  display: block;
+  list-style-type: none;
+  @include isMobile {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+.banniere {
+  max-width: 1350px;
+  margin: auto;
+  height: 650px;
+  display: block;
+}
+
+.childwrappers2 {
+  align-items: start;
+  grid-gap: 20px 50px;
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  text-align: justify;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  padding-bottom: 8em;
+}
+
+.childwrappers3 {
+  color: $white;
+  text-align: center;
+  max-width: 60%;
+  margin: auto;
+}
+
+.childwrappers2 .colgrid1 {
+  grid-column: 1/13;
+  text-align: center;
+}
+
+.childwrappers2 .colgrid2 {
+  grid-column: 1/4;
+  display: grid;
+  border: 1px solid $lighterGrey;
+  padding: getSpacing(3);
+  height: 550px;
+}
+
+.gridbox img {
+  margin: auto;
+}
+
+.gridbox > div {
+  border: 1px solid $ashGrey;
+  padding: getSpacing(5);
+}
+
+.childwrappers2 .colgrid3 {
+  grid-column: 4/7;
+  display: grid;
+  border: 1px solid $lighterGrey;
+  padding: getSpacing(3);
+  height: 550px;
+}
+
+.childwrappers2 .colgrid4 {
+  grid-column: 7/10;
+  display: grid;
+  border: 1px solid $lighterGrey;
+  padding: getSpacing(3);
+  min-height: 550px;
+}
+
+.childwrappers2 .colgrid5 {
+  grid-column: 10/13;
+  display: grid;
+  border: 1px solid $lighterGrey;
+  padding: getSpacing(3);
+  min-height: 550px;
+}
+
+.h2 {
+  color: $white;
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.h22 {
+  color: $black;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.h3 {
+  font-weight: 500;
+  min-height: 50px;
+  margin: 0.8em 0 0.5em;
+  letter-spacing: 1px;
+}
+
+.h3ban {
+  font-weight: 700;
+  min-height: 50px;
+  margin: 0.8em 0 0.5em;
+  letter-spacing: 1px;
+  font-size: $fontSizeMedium;
+}
+
+.redcolor {
+  color: $golden;
+  font-style: normal;
+}
+
+.childwrappers3 .colgrid2 {
+  background-color: $greyBlue;
+  padding: 25px;
+  outline: 10px solid rgb(255 255 255 / 20%);
+}
+
+.childwrappers3 li {
+  margin: 8px 0;
+}
+
+.childwrappers3 li:nth-child(2),
+.childwrappers3 li:nth-child(4) {
+  color: $golden;
+  font-weight: bold;
+  font-size: $fontSizeMedium;
+  text-shadow: 1px 1px $black;
+}
+
+.childwrappers3 li a {
+  color: $white;
+  text-decoration: underline;
+}
+
+.childwrappers2 li span {
+  font-size: $fontSizeMedium;
+  padding: 10px 0;
+  display: block;
+  font-weight: 600;
+  text-align: center;
+}
+
+.childwrappers6 {
+  display: flex;
+  gap: getSpacing(12);
+  justify-content: center;
+  @include isMobile {
+    flex-direction: column;
+    gap: getSpacing(2);
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+.vendremesvins2 > div {
+  display: grid;
+}
+
+.vendremesvins2 .flex {
+  display: flex;
+}
+
+.vendremesvins2 .flex div {
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.vendremesvins2 figure {
+  max-width: 360px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.vendremesvins2 figure img {
+  width: inherit;
+  height: inherit;
+  max-height: 240px;
+  max-width: 360px;
+}
+
+.gridbox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin: getSpacing(5) getSpacing(0);
+  @include isMobile {
+    max-width: 90%;
+    margin: 25px auto;
+    grid-template-columns: 1fr;
+  }
+}
+
+.childwrappers2 .gridbox span {
+  text-align: center;
+  grid-column: 1/5;
+  @include isMobile {
+    grid-column: 1/2;
+  }
+}
+
+.gridbox div:first-of-type {
+  grid-column: 1/5;
+  padding: 0;
+  text-align: center;
+  border: none;
+  @include isMobile {
+    grid-column: 1/2;
+  }
+}
+
+.recent h2 {
+  text-align: center;
+}
+
+.recent .flex {
+  display: flex;
+  gap: getSpacing(6);
+  padding: getSpacing(5);
+  justify-content: center;
+  @include isMobile {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.recent figure {
+  border: 1px solid $ashGrey;
+  padding: getSpacing(5);
+}
+
+.recent figure img {
+  width: 100%;
+  @include isMobile {
+    width: inherit;
+    height: inherit;
+  }
+}
+
+.recent figure:hover {
+  filter: contrast(130%);
+}
+
+.recent figcaption {
+  padding: getSpacing(5) 0;
+  display: flex;
+  gap: getSpacing(1);
+  white-space: normal;
+  flex-direction: column;
+  max-width: 360px;
+}
+
+.recent strong:first-of-type {
+  font-size: $fontSizeMediumLarge;
+  font-weight: 100;
+}
+
+.wrappergrid2 .reponses li {
+  background-color: $antiqueGrey;
+  margin: getSpacing(5) 0;
+  padding: getSpacing(5);
+}
+
+.wrappergrid2 .reponses span {
+  font-size: $fontSizeMediumLarge;
+}
+
+.strong {
+  display: block;
+  font-size: $fontSizeLarge;
+}
+
+.slider {
+  width: 1000px;
+  min-height: 200px;
+  margin: getSpacing(5) auto;
+  overflow: hidden;
+  display: flex;
+  @include isMobileOrTablet {
+    max-width: 95%;
+    width: inherit;
+  }
+}
+
+.fix {
+  min-width: 333.33px;
+  max-width: 333.33px;
+
+  @include isMobile {
+    min-width: calc(100% + 0px);
+    max-width: calc(100% + 0px);
+  }
+}
+
+.custom {
+  transform: translate3d(0, 0, 0);
+  color: $white;
+  padding: getSpacing(5) getSpacing(10);
+  margin: 0 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 20%);
+  border-radius: getSpacing(2);
+  border: 1px solid $white;
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+
+  @include isMobile {
+    padding: getSpacing(1);
+  }
+}

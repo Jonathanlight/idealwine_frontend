@@ -1,0 +1,93 @@
+@import "@/styles/stylesheet";
+
+$iconPaddingRight: getSpacing(2);
+$iconWidth: getSpacing(4);
+
+.input {
+  border: 1px solid $grey;
+  padding: getSpacing(2) getSpacing(3);
+  font-size: $fontSizeSmall;
+  accent-color: $golden;
+
+  &:focus {
+    border-color: $golden;
+  }
+
+  &.invalid {
+    border-color: $red;
+  }
+
+  &.readOnly {
+    border-color: $grey;
+    background-color: $grey;
+  }
+}
+
+.inputPaddingWithRightIcon {
+  padding-right: calc(2 * $iconPaddingRight + $iconWidth);
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+
+  &:not(:focus-within) {
+    .showOnlyOnFocus {
+      display: none;
+    }
+  }
+}
+
+.label {
+  font-size: $fontSizeSmall;
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(1);
+}
+
+.labelCheckbox {
+  flex-direction: row-reverse;
+  gap: getSpacing(1);
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.relative {
+  position: relative;
+  display: flex; // to center the checkbox
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.rightIcon {
+  position: absolute;
+  right: $iconPaddingRight;
+  width: $iconWidth;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.error {
+  color: $red;
+  font-size: $fontSizeSmall;
+  text-align: center;
+}
+
+.message {
+  font-size: $fontSizeSmall;
+  text-align: center;
+}
+
+.required {
+  color: $red;
+}

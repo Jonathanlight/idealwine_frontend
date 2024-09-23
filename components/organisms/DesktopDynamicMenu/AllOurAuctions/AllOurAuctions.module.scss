@@ -1,0 +1,71 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.root {
+  display: flex;
+  justify-content: space-between;
+  gap: getSpacing(5);
+  width: 1600px;
+  padding: getSpacing(5) getSpacing(10);
+}
+
+.title {
+  letter-spacing: 0.5px;
+  font-size: $fontSizeBase;
+  color: $blueishGrey;
+}
+
+.link {
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  font-size: $fontSizeSmall;
+}
+
+.link:visited,
+.link:active,
+.link:focus {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: $amberBottleContent;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(3);
+  overflow-y: auto;
+  height: 400px;
+  min-width: 250px;
+  padding: 0 getSpacing(2);
+  border-left: 1px solid $greyLighter;
+  border-right: 1px solid $greyLighter;
+}
+
+.listContainernoborder {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(3);
+  overflow-y: auto;
+  height: 305px;
+  min-width: 250px;
+}
+
+.titleEndDate {
+  color: $golden;
+  font-size: $fontSizeSmall;
+  padding-bottom: getSpacing(2);
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  gap: getSpacing(1);
+}

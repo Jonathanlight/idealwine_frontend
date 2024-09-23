@@ -1,0 +1,55 @@
+@import "@/styles/stylesheet";
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: getSpacing(2) auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg {
+  background: url("/bg-aaa.jpg") no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  margin: getSpacing(5);
+  @include isMobileOrTablet {
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: 0 0;
+    margin: getSpacing(2);
+  }
+}
+
+.bg .wrapper {
+  background: $white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: justify;
+  max-width: 50%;
+  padding: getSpacing(10) getSpacing(10);
+  margin: getSpacing(15) 0;
+  gap: getSpacing(4);
+  box-shadow: rgb(50 50 93 / 25%) 0 2px 5px -1px, rgb(0 0 0 / 30%) 0 1px 3px -1px;
+  @include isMobileOrTablet {
+    max-width: 95%;
+    padding: getSpacing(6);
+    margin: getSpacing(10) auto;
+  }
+}
+
+.bg .title {
+  margin: 0;
+}
+
+.bg2 {
+  background: $greyDropdown;
+  padding: getSpacing(5);
+}
+
+.linka:hover {
+  text-decoration: none;
+}

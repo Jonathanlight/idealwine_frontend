@@ -1,0 +1,27 @@
+@import "@/styles/stylesheet";
+
+.sellerMenu {
+  font-family: $fontFamily;
+  display: flex;
+  gap: getSpacing(5);
+  font-weight: 800;
+  font-size: $fontSizeSmall;
+  justify-content: space-evenly;
+  letter-spacing: 0.1em;
+  margin-top: getSpacing(5);
+
+  @include isMobileOrTabletOrSmallDesktop {
+    font-size: $fontSizeSmall;
+  }
+
+  @include isMobile {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.outline {
+  border: 1px solid $grey;
+  color: $black;
+  height: getSpacing(16);
+}

@@ -1,0 +1,89 @@
+{
+  "id": "slider_home",
+  "type": "SharedSlice",
+  "name": "SliderHome",
+  "description": "SliderHome",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SliderHome",
+      "primary": {},
+      "items": {
+        "auction": {
+          "type": "Boolean",
+          "config": {
+            "label": "auction",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "link1": {
+          "type": "Link",
+          "config": {
+            "label": "link1",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "link2": {
+          "type": "Link",
+          "config": {
+            "label": "link2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "date": {
+          "type": "Text",
+          "config": {
+            "label": "date",
+            "placeholder": ""
+          }
+        },
+        "imagelabel": {
+          "type": "Text",
+          "config": {
+            "label": "imageLabel",
+            "placeholder": ""
+          }
+        },
+        "link1label": {
+          "type": "Text",
+          "config": {
+            "label": "link1Label",
+            "placeholder": ""
+          }
+        },
+        "link2label": {
+          "type": "Text",
+          "config": {
+            "label": "link2Label",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

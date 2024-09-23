@@ -1,0 +1,36 @@
+@import "@/styles/stylesheet";
+
+.viewport {
+  background: url("/CGS/bg.jpg") no-repeat center center fixed;
+  width: 100%;
+  padding: getSpacing(10) getSpacing(5);
+  @include isTabletOrDesktop {
+    padding: getSpacing(10) getSpacing(30);
+  }
+}
+
+.content {
+  background-color: $white;
+  padding: getSpacing(7);
+  text-align: justify;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: $letterSpacingMedium;
+  font-size: $fontSizeMediumLarge;
+  margin: getSpacing(5) 0;
+  text-align: center;
+  @include isTabletOrDesktop {
+    text-align: left;
+    font-size: $fontSizeLarge;
+  }
+}
+
+.paragraph {
+  margin-bottom: getSpacing(2);
+}
+
+.modifDate {
+  color: $golden;
+}

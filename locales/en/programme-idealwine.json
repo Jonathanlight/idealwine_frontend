@@ -1,0 +1,57 @@
+{
+  "programsTitle": "iDealwine's Loyalty Programme",
+  "programsIntroduction": "At every stage of your experience on our site, iDealwine is delighted to offer you a great selection of benefits. It's our way to thank you for your trusting us.",
+  "classique": {
+    "title": "Classic",
+    "subtitle": "You like iDealwine a little",
+    "advantages": {
+      "advantage1": "Under €500 spent in the past 12 months",
+      "advantage2": "€15 off your first fixed-price order<0>(0)</0>",
+      "advantage3": "€15 for you and your friend<0>(1)</0>"
+    }
+  },
+  "privilege": {
+    "title": "Privilège",
+    "subtitle": "You like iDealwine a lot",
+    "advantages": {
+      "advantage1": "Over €500 spent in the past 12 months",
+      "advantage2": "\n€15 for you and your friend<0>(1)</0>",
+      "advantage3": "For every fixed-price purchase, get a credit note worth 3% of the order<0>(2)</0>",
+      "advantage4": "Invitations to iDealwine masterclasses",
+      "advantage5": "The annual auction barometer \n(digital version)"
+    }
+  },
+  "ideal": {
+    "title": "Club iDéal",
+    "subtitle": "You love iDealwine",
+    "advantages": {
+      "advantage1": "Over €4000 spent in the past 12 months",
+      "advantage2": "\n€15 for you and your friend<0>(1)</0>",
+      "advantage3": "For every fixed-price purchase, get a credit note worth 5% of the order<0>(2)</0>",
+      "advantage4": "Invitations iDealwine masterclasses and prestige tastings",
+      "advantage5": "The annual auction barometer \n(digital version)",
+      "advantage6": "Offers from our partners (subscriptions, wine events...)"
+    }
+  },
+  "quintessence": {
+    "title": "Quintessence",
+    "subtitle": "You can’t get enough of iDealwine",
+    "advantages": {
+      "advantage1": "Access through frequent purchases and longstanding custom",
+      "advantage2": "\n€15 for you and your friend<0>(1)</0>",
+      "advantage3": "For every fixed-price purchase, get a credit note worth 5% of the order<0>(2)</0>",
+      "advantage4": "Invitations iDealwine masterclasses and prestige tastings",
+      "advantage5": "The annual auction barometer \n(sent by post)",
+      "advantage6": "Offers from our partners (subscriptions, wine events...)",
+      "advantage7": "Privates sales"
+    }
+  },
+  "programsConditions": "You will enjoy enjoy these benefits for 12 months. <0></0>(0) Valid for your first order over €150, excluding shipping fees. Cannot be exchanged for cash. <0></0>(1) €15 off the first order for the person you refer. See our referral programme. <0></0>(2) Valid for our wines sold at fixed price, sourced directly from domains (recoverable VAT)",
+  "notACustomerYet": "Not already a customer?",
+  "offerNotClient": "iDealwine offers you €15 off your first order",
+  "offerNotClientConditions": " Valid on all first orders. To benefit from this offer, use the code <0>FIRST</0> when paying for your order.",
+  "seo": {
+    "title": "The iDealwine Loyalty Programme",
+    "description": "The iDealwine Loyalty Programme"
+  }
+}

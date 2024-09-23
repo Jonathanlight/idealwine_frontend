@@ -1,0 +1,15 @@
+{
+  "seo": {
+    "title": "Margaux, votre sommelière digitale",
+    "description": "Margaux, votre sommelière digitale, vous aide à choisir le vin parfait pour chaque occasion. Découvrez les meilleurs accords mets et vins, les millésimes et les régions viticoles."
+  },
+  "writing": "Margaux est en train d'écrire...",
+  "error": "Une erreur est survenue, veuillez réessayer plus tard",
+  "h1": "Margaux",
+  "h2": "Votre sommelière digitale",
+  "welcome": "Bonjour, je suis Margaux, votre sommelière digitale. Comment puis-je vous aider ?",
+  "placeholder": "Posez-moi une question...",
+  "send": "Envoyer",
+  "clear": "Effacer la conversation",
+  "connect": "Connectez-vous pour discuter avec Margaux"
+}

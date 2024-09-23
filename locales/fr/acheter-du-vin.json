@@ -1,0 +1,153 @@
+{
+  "advancedSearch": "Recherche avancée",
+  "clearRefinments": "Effacer les filtres",
+  "winesOnSale": "Vins en vente :",
+  "numberResults": {
+    "0": "Pas de résultats",
+    "1": "{{count}} résultat",
+    "other": "{{count}} résultats"
+  },
+  "hideSold": "Masquer les lots vendus",
+  "noResult": "Pas de résultats",
+  "showMore": "Afficher plus",
+  "showLess": "Afficher moins",
+  "useSearchBar": "...autres filtres disponibles, utilisez la barre de recherche",
+  "sortBy": "Trier par...",
+  "closingDateDesc": "Date de clôture décroissante",
+  "closingDateAsc": "Date de clôture croissante",
+  "priceDesc": "Du + cher au - cher",
+  "priceAsc": "Du - cher au + cher",
+  "vintageAsc": "Par millésime croissant",
+  "vintageDesc": "Par millésime décroissant",
+  "bidsDesc": "Nombre enchères décroissant",
+  "bidsAsc": "Nombre enchères croissant",
+  "watchDesc": "Nombre surveillé décroissant",
+  "watchAsc": "Nombre surveillé croissant",
+  "search": "Rechercher",
+  "sortingStrategy": "Mode de tri",
+  "filters": {
+    "bottleSize": "Format",
+    "color": "Couleur",
+    "isDirectPurchase": "Type de vente",
+    "advancedSearch": "Recherche avancée",
+    "directPurchase": "e-caviste",
+    "auction": "enchère",
+    "priceFilter": "Prix par flacon",
+    "minPriceRange": "Prix min ({{currency}})",
+    "maxPriceRange": "Prix max ({{currency}})",
+    "submit": "Valider",
+    "country": "Pays",
+    "region": "Région",
+    "subregion": "Appellation",
+    "domainName": "Domaine",
+    "vintage": "Millésime",
+    "grapeVariety": "Cépage",
+    "tags": "Nos sélections",
+    "wineStyle": "Style de vin (bio, intensité,...)",
+    "intensity": "Intensité du vin",
+    "mainAroma": "Arôme dominant du vin",
+    "tastingOccasion": "Occasion de dégustation",
+    "biologicProfile": "Profil biologique",
+    "status": "Statut",
+    "peak": "Apogée",
+    "productCategory": "Catégorie produit",
+    "bottleCount": "Nombre de flacons",
+    "ownerName": "Propriétaire",
+    "newReleases": "Les nouveautés",
+    "newReleasesValue": "Les nouveautés",
+    "hasBids": "Etat de l'enchère",
+    "hasReservePrice": "Prix de reserve",
+    "liquidLevel": "Niveau",
+    "bottleObservations": "Etat de l'étiquette",
+    "woodenCase": "Caisse en bois",
+    "refundableVat": "TVA récupérable",
+    "hasLotDiscount": "Prix réduits par quantités",
+    "hasDiscount": "Prix en baisse",
+    "alcoholPorcentageLevel": "Pourcentage alcool",
+    "minAlcoholLevelRange": "Pourcentage alcool min",
+    "maxAlcoholLevelRange": "Pourcentage alcool max",
+    "sale": "Vente"
+  },
+  "enums": {
+    "isDirectPurchase": {
+      "true": "E-caviste",
+      "false": "Enchère"
+    },
+    "hasBids": {
+      "true": "Avec enchérisseurs",
+      "false": "Sans enchérisseurs"
+    },
+    "hasReservePrice": {
+      "true": "Avec prix de réserve",
+      "false": "Sans prix de réserve"
+    },
+    "peak": {
+      "A_BOIRE": "A boire",
+      "COLLECTION": "Collection",
+      "VIEILLISSEMENT": "Vieillissement"
+    },
+    "productCategory": {
+      "PRODUITS_INTERMEDIAIRES": "Produits intermédiaires",
+      "AUTRES_VINS": "Autres vins",
+      "BIERE": "Bière",
+      "VDN": "VDN",
+      "VINS_AOC_AVEC_IG_AOP": "Vins AOC avec IG/AOP",
+      "VINS_MOUSSEUX": "Vins mousseux",
+      "SPIRITUEUX": "Spiritueux"
+    },
+    "bidStatus": {
+      "true": "Avec enchère",
+      "false": "Pas encore d'enchère"
+    },
+    "liquidLevel": {
+      "Base goulot": "Base goulot",
+      "Normal": "Normal",
+      "Très légèrement bas": "Très légèrement bas"
+    },
+    "bottleCondition": {
+      "Bch lég enfoncé": "Bch lég enfoncé",
+      "Etiq déchirée": "Etiq déchirée",
+      "Etiq marquée": "Etiq marquée",
+      "Normal": "Normal"
+    }
+  },
+  "noResults": {
+    "title1": "Désolé,",
+    "title2": "Nous ne trouvons pas le vin recherché.",
+    "title3": "Pouvez-vous vérifier votre saisie ?",
+    "subtitle1": "Notre conseil :",
+    "subtitle2": "vérifiez l’orthographe, l’ordre des mots, ou simplifiez votre demande (un seul mot clé)...",
+    "subtitle3": "Si vous avez besoin d'aide ou si vous souhaitez poser une question au service clientèle, veuillez visiter la section d'aide."
+  },
+  "estate": {
+    "title": "CE QUE DISENT LES GUIDES...",
+    "noteBdTitle": "BETTANE & DESSEAUVE",
+    "noteRvfTitle": "LA REVUE DU VIN DE FRANCE",
+    "weeklyEstate": {
+      "title": "ALLOCATION DE LA SEMAINE",
+      "cta": "Acheter les vins de {{estateName}}"
+    }
+  },
+  "seo": {
+    "firstOf": "de",
+    "of": "de",
+    "withFilters": {
+      "title": "Vins {{filtersAndPurchaseType}}",
+      "description": "Liste des vins {{filtersAndPurchaseType}}",
+      "isDirectPurchase": {
+        "true": "en vente en achat direct",
+        "false": "aux enchères",
+        "notSelected": " - iDealwine"
+      }
+    },
+    "withQuery": {
+      "title": "{{query}} en vente - iDealwine",
+      "description": "Liste des vins de {{query}} en vente en achat direct ou aux enchères"
+    },
+    "default": {
+      "title": "Liste des vins en vente - iDealwine",
+      "description": "Liste des vins en vente en achat direct ou aux enchères - iDealwine"
+    }
+  },
+  "vintageSagaDescription": "{{region}} | Millésime {{vintage}}"
+}

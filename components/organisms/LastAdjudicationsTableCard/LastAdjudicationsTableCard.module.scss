@@ -1,0 +1,25 @@
+@import "@/styles/stylesheet";
+
+%importantTextPlaceholder {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: getSpacing(1) 0;
+  padding-top: getSpacing(6);
+  padding-bottom: getSpacing(2);
+  padding-inline: getSpacing(5);
+}
+
+.header {
+  padding-bottom: getSpacing(4);
+}
+
+.blockTitle {
+  @extend %importantTextPlaceholder;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: getSpacing(4);
+  margin-bottom: getSpacing(4);
+}

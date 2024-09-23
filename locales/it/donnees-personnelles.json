@@ -1,0 +1,90 @@
+{
+  "seo": {
+    "title": "Politica sulla protezione dei dati personali",
+    "description": " Politica sulla protezione dei dati personali"
+  },
+  "h1": "Informativa sulla privacy",
+  "items": [
+    {
+      "header": "POLITICA SULLA PROTEZIONE DEI DATI PERSONALI",
+      "content": "<strong>Ultimo aggiornamento: 16/03/2023</strong><br><br>iDealwine S.A.S si preoccupa di proteggere le informazioni personali dei propri clienti. Si impegna a garantire il massimo livello di protezione dei dati in conformità con le leggi europee e francesi.<br><br>Per ulteriori informazioni in merito, è possibile consultare il sito della Commission Nationale de l’Informatique et des Libertés (CNIL) <a href='https://www.cnil.fr/fr'> www.cnil.fr.</a>"
+    },
+    {
+      "header": "CHI È IL RESPONSABILE DEL TRATTAMENTO DEI MIEI DATI PERSONALI?",
+      "content": "La società è responsabile del trattamento dei tuoi dati personali.<br> Le informazioni raccolte sul sito o sull’app iDealwine Estimation sono trattati da:<br>  iDealwine S.A.S,190 rue d'Estienne d'Orves - 92700 Colombes."
+    },
+    {
+      "header": "PERCHÉ IDEALWINE RACCOGLIE I MIEI DATI PERSONALI?",
+      "content": [
+        {
+          "header": "iDealwine S.A.S utilizza i tuoi dati personali per i seguenti scopi:",
+          "content": "<li><strong>Elaborazione degli ordini e delle relazioni con i clienti</strong><p>I dati dell’utente ci servono per elaborare e seguire i suoi ordini (ad esempio per consegne, fatture, contabilità, gestione dell’account, programma fedeltà e per la relazione con i clienti, come i questionari di gradimento, gestione dei reclami e servizi post-vendita).</p></li><li><strong>Pagamento dell’ordine</strong><p>I pagamenti effettuati sul nostro sito sono sicuri e iDealwine S.A.S. non raccoglie i tuoi dati bancari. Per i pagamenti tramite carta di credito, iDealwine utilizza la soluzione di pagamento sicura fornita dal gruppo BNP PARIBAS : Axepta. iDealwine non ha accesso alle coordinate bancarie dei propri clienti. I dati sono protetti mediante l’utilizzo del protocollo Secured Socket Layer e vengono inviati direttamente al server di Axepta.</p></li><li><strong>Conoscenza del cliente, statistiche e prestazioni del sito web</strong><p>Utilizziamo le informazioni personali per conoscere le preferenze dei clienti o a fini statistici, per analizzare le prestazioni del nostro sito. Se accetti i cookie di prestazione iDealwine, potremmo misurare, ad esempio, il numero di visite sul sito e la quantità di pagine visualizzate, nonché l’attività dei visitatori e la frequenza con cui tornano sul sito.\nSe rifiuti questi cookie, misureremo solo le conversioni relative alle offerte e agli acquisti effettuati sul nostro sito, oltre ad altre statistiche sul traffico che sono esenti ai sensi della CNIL.\n</p></li><li><strong>Personalizzazione dei nostri servizi e dei messaggi che ti inviamo</strong><p>Se accetti i cookie per la pubblicità mirata, i tuoi dati ci permetteranno di migliorare e personalizzare i nostri servizi e le comunicazioni. Possiamo, ad esempio, inviarti e-mail personalizzate.</p></li>"
+        }
+      ]
+    },
+    {
+      "header": "QUALI DATI PERSONALI VENGONO RACCOLTI?",
+      "content": [
+        {
+          "header": "Quali informazioni?",
+          "content": "Raccogliamo e trattiamo il tuo nome, cognome, indirizzo, indirizzo e-mail, password, numero di telefono, dati di connessione e navigazione, storico degli ordini, prodotti visualizzati, problemi nella consegna e reclami.<br>  Quando navighi sul nostro sito alcuni dati vengono raccolti automaticamente, altri ci vengono trasmessi dai partner a cui hai dato il consenso per la condivisione delle tue informazioni (nel rispetto delle normative vigenti)."
+        },
+        {
+          "header": "Quando?<br>Raccogliamo le tue informazioni quando:",
+          "content": "<li>Crei un account sul sito o l’app iDealwine  </li>  <li>Effettui un ordine sul nostro sito  </li>  <li>Consulti i prodotti sul sito o l’app iDealwine  </li>  <li>Contatti il servizio clienti  </li>"
+        }
+      ]
+    },
+    {
+      "header": "QUALI COMUNICAZIONI POTREI RICEVERE?",
+      "content": [
+        {
+          "header": "Information and newsletters",
+          "content": "<li><strong>Emails de service </strong></li>    <p>Suite à une commande, vous recevrez un email afin de vous permettre de suivre votre commande (confirmation de commandes, information sur la livraison de votre colis, …). Ces messages de service sont nécessaires à la bonne exécution des commandes et services que vous avez sollicités. La réception de ces informations n'est pas liée aux choix que vous aurez exprimé pour la réception des newsletters et offres commerciales. </p>    <li><strong>Newsletters iDealwine</strong></li>    <p>Suite à la création de votre compte et si vous ne vous y êtes pas opposés, vous pourrez recevoir des informations et offres d’iDealwine S.A.S. par communication électronique (email). Ces newsletters vous permettent de vous tenir informés de l'actualité iDealwine S.A.S. et des avantages dont vous pouvez bénéficier sur les sites www.idealwine.com. Nous mesurons le taux d'ouverture de nos envois électroniques afin de les adapter au mieux à vos besoins. </p>    <li><strong>Courrier postal </strong></li>    <p>Si vous ne vous y êtes pas opposé, vous pourrez recevoir des offres par courrier.</p>    <li><strong>Contact téléphonique  </strong></li>    <p>Si vous ne vous y êtes pas opposé (hors prospection par automate d'appel qui sera soumis à votre accord express) vous pourrez être contactés par nos opérateurs ou des partenaires pour vous proposer des offres et services en lien avec ceux que vous avez achetés.</p><li><strong>Les alertes produits</strong></li><p>Nous pouvons vous proposer des alertes afin d'être tenus informés par e-mail d'une disponibilité. <strong>Ces alertes permettent selon les cas</strong> :</p>d'être tenus informés ponctuellement de la disponibilité du produit qui vous intéresse.<br>d'être tenus informés ponctuellement de la fin d’une vente d’un produit qui vous intéresse.<br><br>Les alertes auxquelles vous êtes inscrits sont répertoriées dans votre <a href='/it/my_idealwine/mes_alertes/consulter'>Compte</a>.</li>"
+        }
+      ]
+    },
+    {
+      "header": "CHI AVRÀ ACCESSO AI MIEI DATI PERSONALI?",
+      "content": [
+        {
+          "header": "Informazioni inviate ai fornitori di servizi",
+          "content": "I dati raccolti possono essere trasmessi ai fornitori di servizi iDealwine (subappaltatori) per le finalità di cui sopra, ad esempio per la gestione, l’esecuzione, il trattamento e il pagamento dei tuoi ordini, nonché per le operazioni di marketing effettuate da iDealwine."
+        },
+        {
+          "header": "I subappaltatori interessati sono",
+          "content": "<strong>AT Internet</strong><br>Informativa sulla privacy: <a href='https://www.atinternet.com/en/data-protection/resources/'>https://www.atinternet.com/en/data-protection/resources/</a>Il fornitore di servizi può inviare e-mail informative e di marketing agli utenti che hanno acconsentito a essere contattati.<br><br><strong>Google Analytics</strong><br>Informativa sulla privacy:<a href=' https://policies.google.com/privacy#europeanrequirements'>https://policies.google.com/privacy#europeanrequirements</a>Il fornitore di servizi può analizzare il traffico sul sito iDealwine e le sue prestazioni.<br><strong>Sendinblue</strong><br>Informativa sulla privacy: <a href=' https://www.sendinblue.com/legal/privacypolicy/'>https://www.sendinblue.com/legal/privacypolicy/</a>Il fornitore di servizi può inviare e-mail informative e di marketing agli utenti che hanno acconsentito a essere contattati.<br><em>Fornitori di servizi per coloro che accettano cookie mirati</em><br><strong>Criteo</strong><br>Informativa sulla privacy: <a href='https://www.criteo.com/privacy/'>https://www.criteo.com/privacy/</a>Il fornitore di servizi crea pubblicità mirate e personalizzate per i partner di Criteo.<br><strong>Adequa</strong><br>Informativa sulla privacy: <a href='https://get-potions.com/en/politique-de-confidentialite/'>https://get-potions.com/en/politique-de-confidentialite/</a>Il fornitore di servizi inserisce strumenti personalizzati per facilitare la navigazione sul sito e per ricreare i carrelli abbandonati dagli utenti.<br><strong>Annunci di Google</strong><br>Informativa sulla privacy: <a href='https://policies.google.com/privacy#europeanrequirements'>https://policies.google.com/privacy#europeanrequirements</a>Il fornitore di servizi crea pubblicità mirate e personalizzate sui servizi di Google e dei suoi partner.<br><strong>Squadata</strong><br>Informativa sulla privacy: <a href='https://account.squadata.net/fr/privacy'>https://account.squadata.net/fr/privacy</a><br>Il fornitore di servizi invia e-mail personalizzate ai visitatori del sito iDealwine.<br><strong>AB Tasty</strong><br>Informativa sulla privacy: <a href='https://www.abtasty.com/privacy-policy/'>https://www.abtasty.com/privacy-policy/</a>Il fornitore di servizi può aggiungere contenuti personalizzati e geo-localizzati sul sito.<br><strong>Annunci Facebook</strong><br><br>Informativa sulla privacy: <a href='https://www.facebook.com/privacy/policy'>https://www.facebook.com/privacy/policy</a>Il fornitore di servizi può inviare pubblicità agli utenti che hanno visitato il sito."
+        }
+      ]
+    },
+    {
+      "header": "POSSO SCEGLIERE COME VENGONO UTILIZZATI I MIEI DATI?",
+      "content": "<strong>In qualsiasi momento è possibile rinunciare o opporsi all'utilizzo dei propri dati contattandoci:</strong><a id='ot-sdk-btn' class='ot-sdk-show-settings'>Scopri di più e personalizza</a><ul><li>Per e-mail all'indirizzo <a href='mailto:info@idealwine.com'>info@idealwine.com</a></li><li>Con una lettera al seguente indirizzo: iDealwine S.A.S, 190 rue d’Estienne d’Orves - 92700 Colombes.</li></ul><strong>Se procedi via e-mail o per via postale </strong>Comunicaci il tuo nome, cognome, e-mail e indirizzo. Specifica la natura della tua richiesta e il diritto che desideri esercitare. Per motivare la tua richiesta, puoi ad esempio specificare una o più ragioni:<br><ul><li>Per non ricevere più offerte commerciali: « Interrompi l’invio di newsletter »</li><li>Per cancellare il proprio account: « Cancella il mio account »</li></ul>"
+    },
+    {
+      "header": "QUALI SONO I MIEI DIRITTI IN MERITO ALL’UTILIZZO DEI DATI PERSONALI?",
+      "content": "Conformemente alla legge sulla protezione dei dati personali, puoi esercitare i tuoi diritti (accesso, rettifica, cancellazione, opposizione, limitazione e portabilità dei dati) e decidere il destino delle tue informazioni dopo la loro cancellazione da iDealwine S.A.S via e-mail <a href='mailto:info@idealwine.com'>(info@idealwine.com)</a>o per via postale inviando una lettera a: iDealwine S.A.S,190 rue d'Estienne d'Orves - 92700 Colombes.<br>Per consentirci di rispondere rapidamente, ti preghiamo di fornirci il tuo nome, cognome, e-mail, indirizzo e, se possibile, il codice cliente. Alcune richieste devono essere accompagnate da un documento d’identità firmato. Riceverai un’e-mail entro un mese dal ricevimento della richiesta.In qualsiasi momento, durante l’analisi dei rischi nell’ambito della prevenzione antifrode condotta da iDealwine S.A.S, potrai presentare commenti e osservazioni.<br>L’utente ha inoltre il diritto di presentare un reclamo alla Commission Nationale de l’Informatique et des Libertés (CNIL), anche sul sito <a href='www.cnil.fr/en/home'>www.cnil.fr/en/home.</a><br>iDealwine S.A.S dispone di un Responsabile della Protezione dei Dati che ha il compito di garantire la protezione delle informazioni personali degli utenti. È possibile contattare il Responsabile della protezione dei dati (RPD) di iDealwine all'indirizzo<a href='mailto:dpo@idealwine.com'>dpo@idealwine.com</a> (per domande relative ai propri diritti, contatta <a href='mailto:info@idealwine.com'>info@idealwine.com</a>)."
+    },
+    {
+      "header": "COME VENGONO UTILIZZATI I MIEI DATI IN RELAZIONE AI SOCIAL MEDIA?",
+      "content": "I tuoi dati possono essere raccolti e scambiati quando utilizzi le pagine social, i servizi o le app iDealwine. Ti invitiamo a leggere le politiche di protezione dei dati personali dei vari social media per conoscere con esattezza quali informazioni vengono raccolte, in che modo possono essere trasferite a iDealwine S.A.S a partire dal sito e dall’app, e infine in che modo possono essere utilizzate a fini pubblicitari. È possibile configurare l’accesso e la riservatezza dei dati sul proprio account social. iDealwine S.A.S raccoglie alcune informazioni e dati personali relativi al tempo trascorso sulle pagine social di iDealwine S.A.S Queste informazioni vengono utilizzate a fini di marketing per migliorare la nostra relazione commerciale, personalizzando così i nostri messaggi. Le informazioni raccolte da iDealwine S.A.S tramite le app e i siti collegati ai social media, sono soggette alle condizioni di cui sopra e alle condizioni specifiche delle app iDealwine.<br><strong>D’altra parte, iDealwine S.A.S non è responsabile del modo in cui i siti dei social media utilizzano i dati personali dell’utente.</strong>"
+    },
+    {
+      "header": "QUALI INFORMAZIONI VENGONO RACCOLTE DALLE APP?",
+      "content": [
+        {
+          "header": "L’uso delle tue informazioni in relazione all’app iDealwine - Acquisto/Vendita",
+          "content": "Se utilizzi l’app iDealwine, alcuni dati personali potrebbero essere raccolti dall’editore di software del sistema operativo del tuo telefono. Leggi l'informativa sulla privacy dei sistemi operativi (iOS, Android, Windows...) per saperne di più sull’utilizzo dei tuoi dati da parte degli editori di software in qualità di responsabili del trattamento."
+        },
+        {
+          "header": "Notifiche",
+          "content": "Se consenti all’app iDealwine di inviarti notifiche, riceverai informazioni sulle vendite di iDealwine S.A.S La funzione “Notifiche” ha come unico scopo l’invio di informazioni sulle vendite. L’utente può decidere di non riceverle quando scarica l’app o quando la utilizza per la prima volta. È possibile disattivare queste notifiche in qualsiasi momento, sia nelle impostazioni del telefono, che nell’app stessa, cliccando su “Il mio account” nella scheda “Impostazioni”."
+        },
+        {
+          "header": "Cookie dell’app iDealwine - Acquisto/Vendita",
+          "content": "iDealwine S.A.S utilizza cookie e tecnologie di tracciamento analoghe in relazione all’uso dell’app e dei dispositivi dell’utente (cellulare e computer), al fine di identificarne le esigenze e poter così personalizzare i propri servizi. Quando installi l’app iDealwine, raccogliamo informazioni sull’uso dell’app o del telefono. Come avviene su Internet, possiamo utilizzare questa tecnologia per memorizzare informazioni, come un identificatore e altri dati contenuti sul tuo dispositivo. A seconda del sistema operativo, è possibile disattivare questi cookie nelle impostazioni del telefono, nella sezione dedicata alla gestione delle app."
+        }
+      ]
+    }
+  ]
+}

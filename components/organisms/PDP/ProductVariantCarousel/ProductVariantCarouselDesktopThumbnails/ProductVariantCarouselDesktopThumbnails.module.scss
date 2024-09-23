@@ -1,0 +1,56 @@
+@import "@/styles/stylesheet";
+
+.imageContainer {
+  height: getSpacing(90);
+}
+
+.thumbnailsOuterContainer {
+  width: getSpacing(23);
+  padding: getSpacing(1);
+  display: flex;
+}
+
+.thumbnailsContainer {
+  min-height: getSpacing(75);
+  max-height: getSpacing(75);
+  margin: auto;
+  justify-content: center;
+
+  :global {
+    .active::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+      height: 2px;
+      width: 70%;
+      border-bottom: 2px solid $black;
+      z-index: 1;
+    }
+  }
+}
+
+.singleThumbnail {
+  min-height: getSpacing(25);
+}
+
+.twoThumbnails {
+  min-height: getSpacing(50);
+}
+
+.thumbnailImageContainer {
+  cursor: pointer;
+  border: 1px solid $grey;
+  background-color: $white;
+  min-height: 121.667px;
+  max-height: 121.667px;
+  transform: translate3d(0, 0, 0);
+}
+
+.image {
+  object-fit: contain;
+  cursor: pointer;
+}

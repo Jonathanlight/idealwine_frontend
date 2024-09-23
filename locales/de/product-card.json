@@ -1,0 +1,21 @@
+{
+  "bio": "Philosophie",
+  "natural": "Naturwein",
+  "tripleA": "Triple A",
+  "incomingSale": "zukünftige Auktion",
+  "saleOver": "Auktion beendet",
+  "directPurchase": "Festpreise",
+  "auction": "Auktion",
+  "lot": "Posten von",
+  "totalBids": {
+    "0": "{{count}} Gebote",
+    "1": "{{count}} Gebot",
+    "other": "{{count}} Gebote"
+  },
+  "limitedQuantity": "Limitierte Menge",
+  "actualPrice": "Aktueller Preis",
+  "startPrice": "Aktualisierung des Preises",
+  "soonAvailable": "Bald verfügbar",
+  "currentStock": "{{availableQuantity}} auf Lager",
+  "discountResume": "pro {{unitsPerLotOfDiscount}} | -{{lotDiscountPercentage}}%"
+}

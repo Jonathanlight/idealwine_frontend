@@ -1,0 +1,13 @@
+@import "@/styles/stylesheet";
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content {
+  text-align: justify;
+  margin-top: getSpacing(3);
+  margin-bottom: getSpacing(3);
+  max-width: 660px;
+}

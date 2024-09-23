@@ -1,0 +1,24 @@
+@import "@/styles/stylesheet";
+
+.iframe {
+  background-color: transparent;
+  height: 100%;
+}
+
+.modal {
+  height: 70%;
+  width: 40%;
+  overflow: hidden;
+  @include isSmallDesktop {
+    width: 60%;
+    height: 80%;
+  }
+  @include isTablet {
+    width: 70%;
+    height: 80%;
+  }
+  @include isMobile {
+    width: 80%;
+    height: 80%;
+  }
+}

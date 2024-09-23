@@ -1,0 +1,268 @@
+@import "@/styles/stylesheet";
+
+$footerViewportMaxWidth: 1600px;
+
+.whiteBackground {
+  background-color: $white;
+}
+
+.newsletterFooterViewport {
+  max-width: $footerViewportMaxWidth;
+  width: 100%;
+  margin: 0 auto;
+  padding: getSpacing(4);
+
+  @include isMobileOrTablet {
+    padding: getSpacing(4) getSpacing(2);
+  }
+}
+
+.newsletterFooter {
+  background-color: $white;
+  color: $black;
+  display: flex;
+  justify-content: center;
+  border: 1px solid $grey;
+
+  @include isMobileOrTablet {
+    flex-direction: column;
+  }
+}
+
+.newsletterPresentation {
+  padding: getSpacing(4);
+  flex: 1 1 0;
+}
+
+.presentationTitle {
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: $black;
+  text-transform: uppercase;
+  font-size: $fontSizeBase;
+}
+
+.presentationUnderlineTitle {
+  width: 40px;
+  height: 4px;
+  text-align: center;
+  background-color: $golden;
+  margin: getSpacing(2) 0;
+  display: block;
+}
+
+.presentationDescription {
+  font-size: $fontSizeSmall;
+  line-height: 1.4;
+  color: $black;
+}
+
+.newsletterLink {
+  font-size: $fontSizeSmall;
+  color: $black;
+  text-decoration: underline;
+}
+
+.emailSubscription {
+  position: relative;
+  padding: getSpacing(4);
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  gap: getSpacing(4);
+
+  @include isMobile {
+    padding: getSpacing(5);
+    flex-direction: column;
+  }
+}
+
+.input {
+  background: rgb(255 255 255 / 50%);
+  letter-spacing: 1px;
+  border: 1px solid $greyDark;
+}
+
+.subscriptionButton {
+  display: block;
+  text-transform: uppercase;
+}
+
+.navigationFooterBackground {
+  background-color: $black;
+  position: relative;
+}
+
+.navigationFooterViewport {
+  max-width: $footerViewportMaxWidth;
+  margin: 0 auto;
+  padding: getSpacing(10) getSpacing(4);
+  display: flex;
+  gap: getSpacing(8);
+  justify-content: center;
+  color: $white;
+
+  @include isMobileOrTablet {
+    padding: getSpacing(10);
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.contactButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include isMobileOrTablet {
+    width: 100%;
+  }
+}
+
+.contactButton {
+  flex-grow: 1;
+  border-color: rgb(255 255 255 / 70%);
+  font-size: $fontSizeSmall;
+  color: rgb(255 255 255 / 70%);
+}
+
+.navigationLinks {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  order: -1;
+  flex-direction: column;
+  gap: getSpacing(3);
+
+  @include isMobileOrTablet {
+    order: 0;
+    width: 100%;
+  }
+}
+
+.navigationLinksLine {
+  display: flex;
+  align-self: stretch;
+  gap: getSpacing(3);
+
+  @include isMobileOrTablet {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.navigationLinkContainer {
+  flex-grow: 1;
+  flex-basis: 0;
+
+  @include isMobileOrTablet {
+    border-bottom: 1px solid $greyDark;
+  }
+}
+
+.navigationLink {
+  font-size: $fontSizeSmall;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.7;
+
+  @include isMobileOrTablet {
+    width: 100%;
+    padding: getSpacing(2) 0;
+  }
+}
+
+.navigationLink:hover {
+  opacity: 1;
+}
+
+.socialNetworkIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: getSpacing(3);
+
+  @include isMobileOrTablet {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+.socialNetworksIcon {
+  height: 15px;
+  width: auto;
+  opacity: 0.7;
+}
+
+.socialNetworksIcon:hover {
+  opacity: 1;
+}
+
+.customerReviewsLogo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  @include isMobileOrTablet {
+    margin-bottom: 150px;
+  }
+}
+
+.legalFooterViewport {
+  margin: 0 auto;
+  max-width: $footerViewportMaxWidth;
+  width: 100%;
+  display: flex;
+  padding: getSpacing(4) getSpacing(2);
+  justify-content: space-between;
+  align-items: center;
+  gap: getSpacing(3);
+
+  @include isMobileOrTablet {
+    padding: getSpacing(4) getSpacing(2);
+    flex-direction: column;
+  }
+}
+
+.legalMentions {
+  display: flex;
+  align-items: center;
+  gap: getSpacing(3);
+  font-size: $fontSizeSmall;
+}
+
+.legalPreventionFr {
+  display: flex;
+  gap: getSpacing(3);
+}
+
+.legalPreventionLogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.legalPreventionLogo {
+  width: 60px;
+  height: 35px;
+}
+
+.legalPreventionText {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  font-size: $fontSizeSmaller;
+}
+
+.legalPreventionTitle {
+  font-weight: bold;
+}
+
+.legalPreventionNotFr {
+  flex: 1 1 0;
+  font-size: $fontSizeSmall;
+
+  @include isDesktop {
+    text-align: right;
+  }
+}

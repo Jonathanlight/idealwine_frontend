@@ -1,0 +1,52 @@
+@import "@/styles/stylesheet";
+
+.containersaga {
+  background: url("/bg-vintage.jpg") no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px;
+  @include isMobileOrTablet {
+    display: flex;
+    padding: 52px;
+    min-height: inherit;
+    justify-content: center;
+  }
+}
+
+.souscontainer {
+  background: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: justify;
+  max-width: 50%;
+  padding: 50px;
+  margin: 75px 0;
+  gap: 20px;
+  box-shadow: rgb(50 50 93 / 25%) 0 2px 5px -1px, rgb(0 0 0 / 30%) 0 1px 3px -1px;
+  @include isMobileOrTablet {
+    margin: auto;
+    padding: getSpacing(5);
+    max-width: inherit;
+    align-items: stretch;
+  }
+}
+
+.souscontainer .h1 {
+  text-align: left;
+  @include isMobileOrTablet {
+    font-size: $fontSizeMedium;
+  }
+}
+
+.regionsearchfield {
+  padding: getSpacing(2);
+}
+
+.form {
+  display: flex;
+  gap: getSpacing(2);
+  @include isMobileOrTablet {
+    flex-direction: column;
+  }
+}

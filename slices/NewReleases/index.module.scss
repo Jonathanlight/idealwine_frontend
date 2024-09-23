@@ -1,0 +1,108 @@
+@import "@/styles/stylesheet";
+
+$gridGap: getSpacing(3);
+$minColumns: 1;
+$maxColumns: 5;
+$minItemWidth: 175px;
+
+.newReleasesContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newReleasesTitle {
+  text-transform: uppercase;
+  font-size: $fontSizeBase;
+  letter-spacing: 2px;
+  text-align: center;
+
+  &::after {
+    content: "//////////////";
+    display: block;
+    opacity: 0.3;
+    font-style: italic;
+    font-size: $fontSizeTinier;
+    padding: getSpacing(3) 0;
+    text-align: center;
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: getSpacing(1);
+
+  @include isTabletOrDesktop {
+    flex-direction: row;
+  }
+}
+
+.regionSelectionButton {
+  font-size: $fontSizeSmall;
+  border: 1px solid $white;
+  letter-spacing: 3px;
+  padding: getSpacing(2);
+
+  &.selected {
+    border: 1px solid $black;
+    cursor: default;
+  }
+}
+
+.loader {
+  padding: getSpacing(3) 0;
+}
+
+.cardsContainer {
+  width: 100%;
+  display: flex;
+  padding: getSpacing(3) 0 getSpacing(5) 0;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.seeMoreButton {
+  width: 90%;
+
+  @include isDesktop {
+    width: 30%;
+  }
+
+  @include isTablet {
+    width: 80%;
+  }
+}
+
+@include isMobile {
+  .dots {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+  }
+
+  .dot {
+    border: none;
+    width: 10px;
+    height: 10px;
+    background: #9b9b9b;
+    border-radius: 50%;
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .dot:focus {
+    outline: none;
+  }
+
+  .dot.active {
+    background: #a7813d;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Letzte Bestellungen & und Käufe von <strong>Wein</strong>",
+  "subtitle": "Hier finden Sie die zuletzt getätigten Auktionen und Käufe zum Festpreis von <strong>Wein</strong>",
+  "seeLot": "Posten ansehen",
+  "netPrice": "(Nettopreis)",
+  "currentPrice": "Aktueller Preis",
+  "auctionTitle": "Auktion am {{triggerDate}} um {{triggerHour}}",
+  "directPurchaseTitle": "Kauf zum Festpreis am {{triggerDate}} um {{triggerHour}}",
+  "timeoutMessage": "Diese Auktion wurde beendet.",
+  "seo": {
+    "title": "Auktionen und Käufe zum Festpreis von Wein auf iDealwine",
+    "description": "Finden Sie hier die aktuellsten Verkäufe und Auktionen auf iDealwine"
+  }
+}

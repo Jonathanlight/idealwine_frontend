@@ -1,0 +1,55 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $grey;
+  padding: 0 getSpacing(3);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: getSpacing(2);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: getSpacing(3);
+}
+
+.vintageSagaNote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: getSpacing(2);
+  border-top: 1px solid $grey;
+  padding: getSpacing(3);
+}
+
+.vintageRegion {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+.rating {
+  font-size: $fontSizeSmaller;
+}
+
+.red {
+  background-color: $wineColorRed;
+}
+
+.white {
+  background-color: $whiteBottleContent;
+}
+
+.liquorousWhite {
+  background-color: $wineColorLiquorousWhite;
+}
+
+.icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+}

@@ -1,0 +1,78 @@
+{
+  "idealwineGuarantees": "Tariffe e tempi di consegna",
+  "title": "CALCOLA LE SPESE DI SPEDIZIONE",
+  "subtitle": "Inserisci le seguenti informazioni:",
+  "inputs": {
+    "country": {
+      "label": "Paese",
+      "placeholder": "Seleziona un paese"
+    },
+    "bottles": {
+      "label": "bottiglia(e)*",
+      "placeholder": "Inserisci un numero"
+    },
+    "magnums": {
+      "label": "magnum",
+      "placeholder": "Inserisci un numero"
+    },
+    "others": {
+      "label": "altro",
+      "placeholder": "Inserisci un numero"
+    }
+  },
+  "numBottles": {
+    "1": "{{count}} bottiglia",
+    "other": "{{count}} bottiglie"
+  },
+  "numMagnums": {
+    "1": "{{count}} magnum",
+    "other": "{{count}} magnum"
+  },
+  "numOthers": {
+    "1": "{{count}} altro formato",
+    "other": "{{count}} bt in altri formati"
+  },
+  "formInfoBottles": "* valido anche per: fillette, chopine, formato da 1 litro",
+  "guaranteesTitle": "Tariffe e tempi di consegna",
+  "guaranteesFirstParagraph": "iDealwine si impegna ad assicurare le migliori condizioni di consegna per i tuoi ordini. Le bottiglie vengono confezionate in un imballaggio su misura, sicuro e isotermico (Europack/Appro-Diffusion). La spedizione è garantita contro tutti i rischi derivanti dal trasporto (perdita, furto, rottura).",
+  "guaranteesSecondParagraph": "La consegna è effettuata da COLISSIMO per le consegne standard e da CHRONOPOST per le consegne express. Una volta che gli ordini arrivano nel Paese di consegna, il trasporto è gestito direttamente dal partner logistico designato dal nostro corriere (BRT o UPS nel caso dell’Italia). Tuttavia, qualora dovessero verificarsi problemi durante il trasporto, dovrai rifiutare il pacco e apporre la dicitura “con riserva” sulla bolla di consegna del prodotto, e contattare il nostro servizio clienti nel più breve tempo possibile. In caso di ritardo superiore a 72 ore rispetto alla data di consegna prevista, iDealwine si impegna a rimborsare le spese di spedizione.",
+  "moreInfoTitle": "Maggiori informazioni",
+  "moreInfo": {
+    "1": {
+      "title": "Raggruppamento / Consegna differita",
+      "content": "Al fine di ottimizzare le spese di spedizione, è possibile raggruppare più ordini. Il raggruppamento viene gestito dall’acquirente in completa autonomia. Per raggruppare più ordini, è necessario averli prima saldati. Al momento del pagamento di ciascun ordine occorre selezionare l’opzione “pagare e mettere in attesa di raggruppamento”: in questo modo gli ordini vengono saldati e potranno essere raggruppati in futuro. Dopodiché, quando si vuole effettuare la consegna, è sufficiente raggruppare gli ordini pagati selezionandoli uno dopo l’altro. Il sistema creerà quindi un ordine riassuntivo e determinerà l’importo delle spese di consegna da pagare in base al numero totale di bottiglie. iDealwine ti offre la possibilità di stoccare gratuitamente i tuoi vini per 30 giorni, per permetterti di raggruppare i tuoi ordini in maniera più semplice e ottimale. Trascorso questo periodo, ti verrà addebitato un importo di 0,06 € (IVA inclusa) al giorno a bottiglia."
+    },
+    "2": {
+      "title": "Ritiro presso le nostre strutture",
+      "content": "In alternativa puoi ritirare i tuoi ordini direttamente presso la nostra sede o farli prelevare da un trasportatore da te scelto. Al momento del pagamento dell’ordine, seleziona l’opzione “Ritiro in loco”, così non ti verranno addebitate spese di consegna. Non appena il tuo ordine sarà consegnato presso le nostre strutture riceverai un'email con un link. Quest'ultimo ti permetterà di selezionare il giorno e l'ora per il ritiro. I nostri uffici si trovano al seguente indirizzo: 190, rue d’Estienne d’Orves - 92700 Colombes (92) - Francia. Siamo aperti per il ritiro dal lunedì al venerdì dalle 09:00 alle 17:30 (orario continuato).  Il ritiro della merce deve essere effettuato entro un termine massimo di 30 giorni dalla data dell’ordine. Se non ti è possibile recarti all’appuntamento stabilito, ti preghiamo di contattare il nostro servizio clienti per fissare un nuovo orario per il ritiro. Trascorsi 14 giorni, gli ordini saranno rispediti al nostro magazzino e potrebbero essere applicate delle spese di stoccaggio e di messa a disposizione. I lotti saranno consegnati all’acquirente in persona o a un soggetto terzo da lui nominato, che dovrà avere con sé una delega originale e una copia del proprio documento d’identità. Si prega di specificare al momento di fissare l'appuntamento se la merce sarà ritirata da un soggetto terzo."
+    },
+    "3": {
+      "title": "Aste: valutazione e perizia",
+      "content": "iDealwine offre una garanzia sull’insieme dei lotti proposti all’asta Tale garanzia si riferisce all’autenticità e alla conformità dei prodotti rispetto alla descrizione presente sul sito (stato dell’etichetta, livello delle bottiglie, indicazioni speciali). I lotti presentati sul sito iDealwine sono proposti nell’ambito di vendite all’asta pubbliche e pertanto beneficiano della garanzia fornita da un banditore, dai funzionari certificati e dagli esperti che organizzano la vendita. Se per qualunque motivo venissero apportate delle modifiche alla descrizione di un lotto già messo in vendita, tutte le offerte fatte per il lotto in questione verranno annullate e gli offerenti ne riceveranno comunicazione tramite email. Le persone che desiderano fare un’offerta sul lotto modificato devono fare nuovamente un'offerta."
+    },
+    "4": {
+      "title": "Valutazione e garanzie",
+      "content": "iDealwine offre una garanzia sull’insieme dei lotti proposti sul sito. Tale garanzia si riferisce all’autenticità e alla conformità dei prodotti rispetto alla descrizione presente sul sito (stato dell’etichetta, livello delle bottiglie, indicazioni speciali). I lotti presentati sul sito iDealwine sono proposti nell’ambito di vendite all’asta pubbliche e pertanto beneficiano della garanzia fornita dai banditori, dai funzionari certificati e dagli esperti che organizzano la vendita. Se per qualunque motivo venissero apportate delle modifiche alla descrizione di un lotto già messo in vendita, tutte le offerte fatte per quel lotto verranno annullate e gli offerenti ne riceveranno comunicazione tramite email. Le persone che desiderano fare un’offerta sul lotto modificato devono fare nuovamente un'offerta."
+    },
+    "5": {
+      "title": "Pagamento sicuro",
+      "content": "I pagamenti effettuati sul sito di iDealwine sono assolutamente sicuri. Per la gestione dei pagamenti mediante carta di credito, iDealwine utilizza Axepta,  la soluzione di pagamento sicuro del gruppo BNP PARIBAS. iDealwine non ha accesso ai dati relativi alle carte di credito dei suoi clienti. I dati sono crittografati tramite protocollo SSL (Secured Socket Layer) e il loro trasferimento è gestito dal server protetto Axepta."
+    }
+  },
+  "moreQuestions": "Hai altre domande? Consulta la nostra sezione",
+  "help": "FAQ ",
+  "deliveryConditions": {
+    "common": "Le tasse e i dazi doganali del Paese di destinazione sono a carico dell’acquirente.",
+    "TW_KR": "Le tasse e i dazi doganali del Paese di destinazione sono a carico dell’acquirente. Una volta selezionato il Paese di consegna, i prezzi dei prodotti saranno visualizzati al netto delle imposte previste nel Paese di destinazione. Le eventuali tasse o dazi doganali saranno fatturate direttamente al cliente al momento della consegna dell'ordine.",
+    "HK": "Una volta selezionato il Paese di consegna, i prezzi dei prodotti saranno visualizzati al netto delle imposte previste nel Paese di destinazione. Le eventuali tasse o dazi doganali dovranno essere saldati direttamente dal cliente al momento della consegna dell’ordine. A Hong-Kong, la normativa in vigore, prevede un’imposta ad valorem del 100% su qualsiasi bevanda alcolica con una gradazione  superiore ai 30° (ad esempio per i distillati come whisky, gin, rum, vodka, etc.).. Gli alcolici con una gradazione inferiore ai 30°, come il vino, non sono dunque soggetti a questo tipo di tassazione. Le tasse e i dazi doganali del Paese di destinazione sono a carico dell’acquirente.",
+    "US": "Nel 2021, le autorità locali hanno deciso di sospendere la tassa sugli alcolici prevista per l’importazione dei vini francesi nel suolo americano. Tuttavia, alcune tasse locali possono essere applicate e richieste al momento della consegna. iDealwine non ha alcun controllo sull’imposizione e fatturazione di tali tasse e non ne trae alcun beneficio. Queste ultime, sono sempre a carico del cliente. Sfortunatamente, non è possibile calcolarle o fare una stima in anticipo. Nel momento in cui si seleziona “STATI UNITI” come paese di consegna, il prezzo mostrato è esente IVA, in questo modo non ci saranno spese aggiuntive. Ci vogliono all'incirca tre settimane per una consegna negli Stati Uniti.",
+    "AU": "Si prega di notare che tutte le consegne al di fuori dell’Unione Europea sono soggette a tasse doganali, tasse di importazione e imposte locali. iDealwine non ha alcuna influenza su queste ultime e non ne trae alcun beneficio. Il nostro partner logistico richiederà il pagamento delle tasse e dazi doganali direttamente al cliente prima della consegna. Il calcolo dei dazi e tasse qui sotto indicato è da considerarsi solo come una stima. Non possiamo garantire che tale importo sia quello definitivo. Le diverse tasse e dazi doganali applicabili rappresentano all’incirca 100% del valore dell’ordine totale.\nDazi doganali = 5% valore FOB\nWET/OTHER GOVT FEES (imposta sul vino) = 29% x (valore CFI + dazi doganali)\nGST (equivalente IVA) = 10% (valore CIF + dazi doganali + WET).",
+    "GB": "CONSEGNA DOPO LA BREXIT:\nPer 12 bottiglie (formato 0,75), le spese di spedizione ammontano a {{dozenBottlesDeliveryCost}} (all’incirca {{dozenBottlesDeliveryCostInActiveCurrency}}). Per una consegna nel Regno-Unito, applicheremo le seguenti spese aggiuntive al momento della conferma dell’ordine:\n• Dazi doganali e accise: {{dutyAndCustomsCost}} (all’incirca {{dutyAndCustomsCostInActiveCurrency}}) a bottiglia\n• 20% di IVA sul valore dei vini\nLa consegna può richiedere fino a 10 giorni lavorativi. Si prenda in considerazione il fatto che eventuali controlli doganali possono avere un impatto sui tempi di consegna indicati",
+    "eu": "Una volta selezionato il Paese di consegna, i prezzi saranno visualizzati sulla base dell’IVA locale. Per ogni ogni ordine effettuato su iDealwine e a destinazione dell’Unione Europea, i dazi doganali sono a carico nostro.",
+    "other": "Una volta selezionato il Paese di consegna, i prezzi dei prodotti saranno visualizzati al netto delle imposte previste nel Paese di destinazione. Le eventuali tasse di importazione e imposte locali, saranno fatturate dal corriere al momento della consegna dell’ordine."
+  },
+  "seo": {
+    "title": "Tariffe e tempi di consegna - iDealwine ",
+    "description": "Calcolo spese di spedizione - iDealwine "
+  }
+}

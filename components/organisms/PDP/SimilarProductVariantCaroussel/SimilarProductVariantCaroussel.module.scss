@@ -1,0 +1,63 @@
+@import "@/styles/stylesheet";
+
+.similarVariantsContainer {
+  display: flex;
+  flex-direction: column;
+
+  @include isMobileOrTablet {
+    .similarVariants {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+    }
+  }
+  @include isMobile {
+    .similarVariants {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.similarVariantsTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: getSpacing(3);
+  margin-bottom: getSpacing(10);
+  gap: getSpacing(3);
+  letter-spacing: getSpacing(1);
+  font-size: $fontSizeLarge;
+  text-transform: uppercase;
+}
+
+.similarVariants {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  @include isMobileOrTablet {
+    .similarVariants {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-items: center;
+    }
+  }
+}
+
+.similarVariantsCard {
+  width: 100%;
+
+  @include isMobileOrTablet {
+    border: 1px solid $greyLighter;
+  }
+}
+
+.similarVariantsCard:not(:last-child) {
+  border-right: 1px solid $greyLighter;
+
+  @include isMobileOrTablet {
+    border-right: none;
+  }
+}

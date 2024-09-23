@@ -1,0 +1,23 @@
+@import "@/styles/stylesheet";
+
+.orderInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.orderDetails {
+  font-size: $fontSizeMedium;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $blueishGrey;
+}
+
+.separator {
+  width: 40px;
+  height: 4px;
+  left: 50%;
+  background-color: $goldenDarkest;
+  margin: 10px 0;
+}

@@ -1,0 +1,89 @@
+@import "@/styles/stylesheet";
+
+.wrapper {
+  display: grid;
+  max-width: 1350px;
+  margin: getSpacing(10) auto;
+  gap: getSpacing(10);
+  @include isMobileOrTablet {
+    margin-top: 0;
+    gap: getSpacing(5);
+  }
+}
+
+.content1 {
+  padding: getSpacing(5) getSpacing(5);
+  display: grid;
+  grid-template-columns: 1fr 25%;
+  border: 1px solid $greyDarker;
+  gap: getSpacing(20);
+  align-items: center;
+  text-align: justify;
+  @include isMobileOrTablet {
+    flex-direction: column;
+    max-width: 95%;
+    margin: auto;
+    grid-template-columns: 1fr;
+    text-align: justify;
+    padding: getSpacing(6);
+    gap: getSpacing(1);
+  }
+}
+
+.content1 .figurestyle {
+  @include isMobileOrTablet {
+    display: none;
+  }
+}
+
+.souscontent1 {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(3);
+}
+
+.h1 {
+  color: $golden;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: getSpacing(3);
+  text-align: center;
+}
+
+.content2 {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: getSpacing(10);
+  align-items: center;
+  align-items: stretch;
+  text-align: center;
+  @include isMobileOrTablet {
+    display: flex;
+    flex-direction: column;
+    padding: getSpacing(4) getSpacing(2);
+    gap: getSpacing(1);
+  }
+}
+
+.content2 .article {
+  border: 1px solid $greyDarker;
+  padding: getSpacing(3);
+  gap: getSpacing(4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.content3 {
+  background-color: $antiqueGrey;
+  padding: getSpacing(10) getSpacing(3);
+  gap: getSpacing(1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}

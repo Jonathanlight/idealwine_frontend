@@ -1,0 +1,81 @@
+@import "@/styles/stylesheet";
+
+$gridGap: getSpacing(1);
+$minColumns: 1;
+$maxColumns: 5;
+$minItemWidth: 175px;
+
+.lastOrdersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.lastOrdersTitle {
+  text-transform: uppercase;
+  font-size: $fontSizeBase;
+  letter-spacing: 2px;
+  text-align: center;
+
+  &::after {
+    content: "//////////////";
+    display: block;
+    opacity: 0.3;
+    font-style: italic;
+    font-size: $fontSizeTinier;
+    padding: getSpacing(3) 0;
+    text-align: center;
+  }
+}
+
+.cardsContainer {
+  width: 100%;
+  display: flex;
+  padding: getSpacing(3) 0 getSpacing(5) 0;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.seeMoreButton {
+  width: 90%;
+
+  @include isDesktop {
+    width: 30%;
+  }
+
+  @include isTablet {
+    width: 80%;
+  }
+}
+
+@include isMobile {
+  .dots {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+  }
+
+  .dot {
+    border: none;
+    width: 10px;
+    height: 10px;
+    background: #9b9b9b;
+    border-radius: 50%;
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .dot:focus {
+    outline: none;
+  }
+
+  .dot.active {
+    background: #a7813d;
+  }
+}

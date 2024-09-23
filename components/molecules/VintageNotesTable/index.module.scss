@@ -1,0 +1,72 @@
+@import "@/styles/stylesheet";
+
+.table {
+  border-collapse: collapse;
+  border: 1px solid $greyLighter;
+  letter-spacing: 1px;
+  font-size: $fontSizeSmall;
+  width: 100%;
+
+  th {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: getSpacing(3);
+    text-align: center;
+    vertical-align: middle;
+    border-top: 1px solid $moonGrey;
+    border-bottom: 1px solid $moonGrey;
+  }
+
+  td {
+    padding: getSpacing(3) getSpacing(1);
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 2px;
+    border-bottom: 1px solid $moonGrey;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: $greyLighter;
+  }
+}
+
+.red {
+  background-color: $wineColorRed;
+}
+
+.white {
+  background-color: $whiteBottleContent;
+}
+
+.liquorousWhite {
+  background-color: $wineColorLiquorousWhite;
+}
+
+.tableTitle {
+  display: flex column;
+  justify-content: center;
+  align-items: center;
+  gap: getSpacing(2);
+}
+
+.tableTitle,
+.vintageYear {
+  font-weight: bold;
+}
+
+.footNote {
+  width: 100%;
+  font-size: $fontSizeSmall;
+  letter-spacing: normal;
+  text-align: end;
+}
+
+.link {
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+
+  text-decoration: none;
+}

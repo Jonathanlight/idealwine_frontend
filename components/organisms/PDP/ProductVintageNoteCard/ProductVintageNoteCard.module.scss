@@ -1,0 +1,26 @@
+@import "@/styles/stylesheet";
+
+.container {
+  padding: getSpacing(2);
+  aspect-ratio: 3/2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid $grey;
+}
+
+.value {
+  font-size: $fontSizeMedium;
+  margin: auto;
+}
+
+@include isTabletOrDesktop {
+  .container {
+    padding: getSpacing(6);
+  }
+
+  .value {
+    font-size: $fontSizeLarge;
+  }
+}

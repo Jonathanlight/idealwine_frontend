@@ -1,0 +1,35 @@
+@import "@/styles/stylesheet";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: getSpacing(4);
+  gap: getSpacing(2);
+}
+
+.totalBoard {
+  display: flex;
+  background-color: $white;
+  width: 100%;
+  align-items: center;
+  height: getSpacing(8);
+}
+
+.totalItem {
+  padding-left: getSpacing(3);
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 34%;
+  gap: 3px;
+}
+
+.border {
+  border-right: 0.1rem solid $grey;
+}
+
+.totalTitle {
+  text-transform: uppercase;
+  font-weight: 800;
+}

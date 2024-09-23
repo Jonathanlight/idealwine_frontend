@@ -1,0 +1,136 @@
+@import "@/styles/stylesheet";
+
+$widthImagePromoNewClient: 350px;
+
+.content {
+  background-position: center top getSpacing(70), center;
+  background-repeat: repeat-x, repeat;
+  height: 100%;
+  padding: getSpacing(5);
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goldenSeparator {
+  display: flex;
+  justify-content: center;
+  margin-top: getSpacing(5);
+}
+
+.loyaltyProgramsTitle {
+  text-transform: uppercase;
+  letter-spacing: $letterSpacingMedium;
+  text-align: center;
+  font-size: $fontSizeMediumLarge;
+  margin-bottom: 0;
+  margin-top: getSpacing(5);
+}
+
+.loyaltyProgramsIntroduction {
+  text-align: center;
+  margin: getSpacing(2);
+  text-transform: inherit;
+  font-size: $fontSizeMediumSmall;
+  letter-spacing: $letterSpacingSmall;
+  font-weight: lighter;
+}
+
+.articleTitleLoyalty {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  margin-top: getSpacing(8);
+}
+
+.sectionLoyaltyPrograms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articleLoyaltyPrograms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: getSpacing(8) 0;
+  gap: getSpacing(5) 0;
+
+  @include isDesktop {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+}
+
+.promotionNewClient {
+  grid-template-columns: 1fr;
+  width: 100%;
+  justify-items: center;
+  padding: getSpacing(2);
+  text-align: center;
+  background-color: $white;
+  border: 1px solid rgb(0 0 0 / 10%);
+
+  @include isDesktop {
+    display: grid;
+    grid-template-columns: $widthImagePromoNewClient 1fr;
+    text-align: left;
+    justify-items: start;
+    padding: 0;
+  }
+}
+
+.sectionPromotion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentPromoNewClient {
+  display: flex;
+  flex-direction: column;
+  font-family: $fontFamily;
+  justify-content: center;
+  margin-left: 0;
+  margin-top: getSpacing(2);
+
+  @include isDesktop {
+    margin-left: getSpacing(10);
+    margin-top: 0;
+  }
+}
+
+.stillNotClientTitle,
+.stillNotClientOffer {
+  letter-spacing: $letterSpacingMedium;
+  text-transform: uppercase;
+}
+
+.stillNotClientTitle {
+  font-size: $fontSizeMediumLarge;
+}
+
+.programsConditions {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(0 0 0 / 2%);
+  padding: getSpacing(5);
+}
+
+.programsConditions .br:nth-child(2),
+.programsConditions .br:nth-child(1) {
+  display: none;
+}
+
+.imagePromoNewClient {
+  display: inline;
+}
+
+.titleAndIntroDiv {
+  position: relative;
+}

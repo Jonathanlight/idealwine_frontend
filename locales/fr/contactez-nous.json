@@ -1,0 +1,12 @@
+{
+  "clientServicePhoneNumber": "01 56 05 86 10",
+  "noOngoingSells": "Vous n'avez aucun lot en vente actuellement",
+  "contactIdealwine": "Contact iDealwine",
+  "connectToFacilitate": "Connectez-vous pour faciliter",
+  "theTreatmentOfYourCommand": "le traitement de votre commande",
+  "hello": "Bonjour",
+  "yourDemand": "Votre demande porte sur :",
+  "stillLookingForAnswer": "Vous êtes toujours à la recherche d'une réponse ?",
+  "contactClient": "Contactez le service client",
+  "seo": { "title": "Contactez-nous - iDealwine", "description": "Formulaire de contact iDealwine" }
+}

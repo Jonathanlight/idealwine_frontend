@@ -1,0 +1,38 @@
+@import "@/styles/stylesheet";
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: geSpacing(6);
+  gap: getSpacing(2);
+}
+
+.content {
+  padding: getSpacing(2) 0 0 0;
+}
+
+.link {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  gap: getSpacing(2);
+  align-items: center;
+}
+
+.button {
+  text-transform: uppercase;
+  flex: 1;
+}

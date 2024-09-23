@@ -1,0 +1,14 @@
+{
+  "title": "Latest bids and purchases of <0>wine</0>",
+  "subtitle": "Your most recent bids and purchases of <0>wine</0> are listed here...",
+  "seeLot": "View",
+  "netPrice": "Net Price",
+  "currentPrice": "Current price",
+  "auctionTitle": "Bid on {{triggerDate}} at {{triggerHour}}",
+  "directPurchaseTitle": "Fixed-price purchase on {{triggerDate}} at {{triggerHour}}",
+  "timeoutMessage": "This auction has closed",
+  "seo": {
+    "title": "The international auction website to buy, sell and estimate your wines - iDealwine",
+    "description": "Find here the most recent auctions and new stock offered by iDealwine"
+  }
+}

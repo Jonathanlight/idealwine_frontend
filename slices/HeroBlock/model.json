@@ -1,0 +1,49 @@
+{
+  "id": "hero_block",
+  "type": "SharedSlice",
+  "name": "HeroBlock",
+  "description": "HeroBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroBlock",
+      "primary": {
+        "mainTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Titre Principal",
+            "placeholder": "Titre Principal"
+          }
+        },
+        "subtitle": {
+          "type": "Text",
+          "config": {
+            "label": "Sous-titre",
+            "placeholder": "Sous-Titre"
+          }
+        },
+        "buttonText": {
+          "type": "Text",
+          "config": {
+            "label": "Texte du bouton",
+            "placeholder": "Texte du bouton"
+          }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Lien du bouton",
+            "placeholder": "Lien de redirection du bouton",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

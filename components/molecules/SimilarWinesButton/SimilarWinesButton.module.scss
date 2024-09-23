@@ -1,0 +1,8 @@
+@import "@/styles/stylesheet";
+
+.link {
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,112 @@
+@import "@/styles/stylesheet";
+
+html .directionColumn {
+  flex-direction: column;
+}
+
+html .directionColumnReverse {
+  flex-direction: column-reverse;
+}
+
+html .dontDisplay {
+  display: none;
+}
+
+html .fullHorizontalWidth {
+  width: 100%;
+}
+
+.orderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: $white;
+  width: 100%;
+  padding: getSpacing(6) getSpacing(6) 0 getSpacing(6);
+}
+
+.orderDetails {
+  display: flex;
+  gap: getSpacing(2);
+  font-size: $fontSizeSmall;
+  color: $greyDarker;
+  margin: getSpacing(3);
+  flex-flow: column wrap;
+
+  @include isDesktop {
+    flex-direction: row;
+  }
+}
+
+.orderDetail {
+  @include isDesktop {
+    padding: 0 getSpacing(1);
+
+    &:not(:last-child) {
+      border-right: 1px solid $grey;
+    }
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: getSpacing(2);
+  width: 100%;
+
+  &:hover {
+    color: $goldenDarkest;
+  }
+}
+
+.sectionHeader {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: getSpacing(2);
+
+  @include isDesktop {
+    flex-direction: row;
+  }
+}
+
+.invoicesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footerSection {
+  display: flex;
+  justify-content: center;
+  padding: getSpacing(1);
+  width: 100%;
+}
+
+.tableContainer {
+  padding: getSpacing(4) 0;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.trackingNumber {
+  .link {
+    text-decoration: underline;
+
+    &:hover {
+      color: $goldenDarkest;
+    }
+  }
+}
+
+.trackingNumber:not(:last-child)::after {
+  content: ", ";
+}

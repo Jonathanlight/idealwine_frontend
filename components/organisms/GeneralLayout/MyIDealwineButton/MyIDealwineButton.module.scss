@@ -1,0 +1,42 @@
+@import "@/styles/stylesheet";
+
+.impersonatedBy {
+  color: $red;
+}
+
+.dropdownMenuContent {
+  min-width: 220px;
+}
+
+.dropdownMenuItem {
+  display: flex;
+  justify-content: flex-start;
+  gap: getSpacing(2);
+  align-items: baseline;
+}
+
+.dropdownMenuItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.logoutButton {
+  flex-grow: 1;
+  margin-top: getSpacing(2);
+}
+
+.shopIcon {
+  min-width: 16px;
+  cursor: pointer;
+  font-size: $fontSizeMediumLarge;
+  @include isMobileOrTablet {
+    font-size: $fontSizeBase;
+  }
+
+  &.impersonatingUser {
+    color: $red;
+  }
+
+  &:hover {
+    color: $golden;
+  }
+}

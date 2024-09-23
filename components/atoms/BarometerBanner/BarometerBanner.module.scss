@@ -1,0 +1,49 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: $white;
+  max-height: 200px;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $golden;
+  }
+
+  &:visited,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: getSpacing(4);
+  flex-grow: 1;
+}
+
+.text {
+  text-transform: uppercase;
+  text-align: center;
+  padding: getSpacing(2);
+  border-top: 1px solid $golden;
+  border-bottom: 1px solid $golden;
+  width: 50%;
+  flex: 1;
+  letter-spacing: 1.5px;
+}
+
+.image {
+  flex: 1;
+  @include isMobile {
+    max-width: 150px;
+    max-height: 200px;
+  }
+}

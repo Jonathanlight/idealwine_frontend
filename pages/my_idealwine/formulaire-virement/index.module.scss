@@ -1,0 +1,120 @@
+@import "@/styles/stylesheet";
+
+.page {
+  margin: getSpacing(8);
+  @page {
+    size: 7in 9.25in;
+  }
+  @include isMobile {
+    margin: getSpacing(4);
+  }
+  @media print {
+    margin: 0;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: getSpacing(6);
+  margin-bottom: getSpacing(4);
+
+  @media print {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
+
+.titleBlock {
+  font-size: $fontSizeExtraLarge;
+  font-weight: 700;
+  margin: getSpacing(2) 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: getSpacing(3);
+
+  @media print {
+    font-size: $fontSizeMediumLarge;
+    margin: 0;
+  }
+  @include isDesktop {
+    flex-direction: row;
+  }
+}
+
+.titleAndIcon {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: $fontSizeExtraLarge;
+  font-weight: 700;
+
+  @media print {
+    font-size: $fontSizeMediumLarge;
+  }
+}
+
+.icon {
+  background-color: $greyLighter;
+  margin-right: getSpacing(4);
+}
+
+.callout {
+  background-color: $greyLighter;
+  padding: getSpacing(4);
+  margin: getSpacing(4) 0;
+  border-radius: 10px;
+}
+
+.hideOnPrint {
+  // hide when printing
+  @media print {
+    display: none;
+  }
+}
+
+.printButton {
+  font-weight: 700;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  gap: getSpacing(4);
+  @media print {
+    gap: getSpacing(2);
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+  width: 50%;
+  @media print {
+    gap: getSpacing(2);
+  }
+}
+
+.hr {
+  border: solid 1px $grey;
+  margin: getSpacing(4) 0;
+}
+
+.logo {
+  object-fit: cover;
+  object-position: left;
+}
+
+.signInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: getSpacing(4);
+  gap: getSpacing(2);
+}

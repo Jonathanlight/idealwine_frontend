@@ -1,0 +1,27 @@
+@import "@/styles/stylesheet";
+
+.sameEstateContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.gridRowTitle {
+  padding-left: getSpacing(5);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: $fontSizeSmall;
+  margin: getSpacing(1) 0;
+  padding-top: getSpacing(3);
+  padding-bottom: getSpacing(1);
+}
+
+.recommandations {
+  padding-left: getSpacing(5);
+  padding-top: getSpacing(1);
+  display: flex;
+  flex-direction: row;
+  gap: getSpacing(2);
+  text-decoration: underline;
+  padding-bottom: getSpacing(3);
+}

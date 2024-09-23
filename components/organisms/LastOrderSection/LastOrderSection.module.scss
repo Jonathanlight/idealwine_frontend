@@ -1,0 +1,93 @@
+@import "@/styles/stylesheet";
+
+%displayFlexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+%commonLetterSpacing {
+  letter-spacing: 0.5px;
+}
+
+.lastOrderSectionContainer {
+  display: flex;
+  justify-content: space-between;
+
+  @include isMobileOrTablet {
+    flex-direction: column;
+    border: 1px solid $greyLight;
+  }
+}
+
+.saleType {
+  @extend %commonLetterSpacing;
+
+  line-height: 1.4;
+  font-size: $fontSizeSmaller;
+  margin-bottom: getSpacing(5);
+}
+
+.lotInfo {
+  @extend %displayFlexColumn;
+}
+
+.lotName {
+  display: flex;
+  align-items: baseline;
+  gap: getSpacing(2);
+  letter-spacing: 1px;
+  font-size: $fontSizeMediumLarge;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+
+.lotRegion {
+  @extend %commonLetterSpacing;
+
+  padding: getSpacing(2) getSpacing(5);
+  font-size: $fontSizeSmaller;
+}
+
+.remainingTime {
+  display: flex;
+  align-items: center;
+  gap: getSpacing(2);
+}
+
+.image {
+  align-self: center;
+  object-fit: contain;
+}
+
+.lotInfoContainer {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  background-color: $greyLight;
+  padding: getSpacing(5);
+
+  @include isMobileOrTablet {
+    flex-direction: column;
+  }
+}
+
+.lotDescription {
+  @extend %displayFlexColumn;
+  @include isMobileOrTablet {
+    text-align: center;
+  }
+}
+
+.priceSection {
+  @extend %displayFlexColumn;
+
+  justify-content: center;
+  align-items: center;
+  gap: getSpacing(3);
+  padding: 0 getSpacing(3);
+  border-left: 1px solid $grey;
+
+  @include isMobileOrTablet {
+    border-left: none;
+  }
+}

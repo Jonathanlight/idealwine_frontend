@@ -1,0 +1,1123 @@
+{
+  "boolean": {
+    "true": "Sì",
+    "false": "No"
+  },
+  "tastingOccasion": {
+    "VIN_APERITIF": "Vino per l’aperitivo",
+    "VIN_GASTRONOMIE": "Vino gastronomico",
+    "VIN_MEDITATION": "Vino da meditazione"
+  },
+  "profile": {
+    "ETOILE_MONTANTE": "Astro nascente",
+    "ICONE": "Icona",
+    "VIN_COPAINS": "Vino da bere in compagnia",
+    "VIN_CURIOSITE": "Vini insoliti",
+    "VIN_DE_GARDE": "Vino da invecchiamento"
+  },
+  "color": {
+    "SPARKLING_WHITE": "Bianco frizzante",
+    "DEMI_DRY_WHITE": "Bianco demi-sec",
+    "DRY_WHITE": "Dry white",
+    "AMBER": "Ambrato",
+    "SPARKLING_ROSE": "Rosé frizzante",
+    "VARIOUS": "Altro",
+    "ORANGE": "Orange wine",
+    "GREEN": "Chartreuse Verte",
+    "SPARKLING_RED": "Rosso frizzante",
+    "RED": "Rosso",
+    "WHITE": "Bianco",
+    "LIQUOROUS_WHITE": "Bianco dolce",
+    "ROSE": "Rosé",
+    "YELLOW": "Chartreuse Jaune",
+    "INDIFFERENT": "Indifferent"
+  },
+  "intensity": {
+    "ONCTUEUX": "Ricco, Morbido",
+    "CLASSIQUE": "Classico",
+    "DOUX": "Dolce",
+    "DOSAGE_CLASSIQUE": "Dosaggio classico",
+    "FAIBLE_DOSAGE": "Basso dosaggio",
+    "FRUITE": "Fruttato",
+    "GOURMAND": "Ricco, ampio, armonioso",
+    "LEGER": "Leggero",
+    "LIQUOREUX": "Vino dolce",
+    "MINERAL": "Minerale",
+    "MOELLEUX": "Dolce",
+    "PUISSANT": "Intenso",
+    "SOYEUX": "Setoso",
+    "VIN_MUTE": "Vino fortificato/liquoroso",
+    "VIF": "Vivo"
+  },
+  "biologicProfile": {
+    "ENVIRONNEMENT": "Rispettoso dell'ambiente",
+    "CONVENTIONNEL": "Tradizionale",
+    "ECOLOGIQUE": "Rispettoso dell'ambiente",
+    "RAISONNEE": "Sostenibile",
+    "BIOLOGIQUE": "Biologico",
+    "BIODYNAMIQUE": "Biodinamico",
+    "NATURE": "Naturale",
+    "BIOLOGIQUE_ET_NATURE": "Biologico e naturale",
+    "BIODYNAMIQUE_ET_NATURE": "Biodinamico e naturale",
+    "TRIPLE_A": "Triple A",
+    "TRIPLE_A_ET_BIOLOGIQUE": "Triple A e biologico",
+    "TRIPLE_A_ET_BIODYNAMIQUE": "Triple A e biodinamico"
+  },
+  "formatWithoutCount": {
+    "BALTHAZAR": "Balthazar",
+    "BOUTEILLE": "Bottiglia",
+    "CHOPINE": "Chopine",
+    "CLAVELIN": "Clavelin",
+    "DEMI_BOUTEILLE": "Mezza bottiglia",
+    "DOUBLE_MAGNUM": "Jéroboam",
+    "FILLETTE": "Fillette",
+    "FLACON": "Bottiglia",
+    "FORMAT_50_CL": "Formato 50cl",
+    "INCONNU": "Sconosciuto",
+    "IMPERIALE": "Mathusalem",
+    "JEROBOAM": "Jéroboam",
+    "LITRE": "Litro",
+    "MAGNUM": "Magnum",
+    "MATHUSALEM": "Mathusalem",
+    "MELCHIOR": "Melchior",
+    "NABUCHODONOSOR": "Nabuchodonosor",
+    "POT": "Pot Lyonnais",
+    "REHOBOAM": "Réhoboam",
+    "SALMANAZAR": "Salmanazar"
+  },
+  "dominantAroma": {
+    "AGRUMES": "Agrumi",
+    "CARAMEL": "Caramello",
+    "CAFE": "Caffè",
+    "EPICES": "Spezie",
+    "EPICES_DOUCES": "Spezie dolci",
+    "FLORAL": "Note floreali",
+    "FLEURS_BLANCHES": "Fiori bianchi",
+    "FRUITE": "Fruttato",
+    "FRUITS_BLANCS": "Frutti bianchi",
+    "FRUITS_CONFITS": "Frutta candita",
+    "FRUITS_EXOTIQUES": "Frutti tropicali",
+    "FRUITS_JAUNES": "Frutti gialli",
+    "FRUITS_NOIRS": "Frutti neri",
+    "FRUITS_ROUGES": "Frutti rossi",
+    "FRUITS_SECS": "Frutta secca",
+    "FUME": "Note affumicate",
+    "MIEL": "Miele",
+    "MINERAL": "Minerale",
+    "NOIX": "Noci",
+    "TOURBE": "Note torbate",
+    "VANILLE": "Vaniglia"
+  },
+  "bottleObservationWithoutCount": {
+    "BCH_DESCENDU": "Tappo che inizia a cadere",
+    "BCH_ENFONCE": "Tappo non più ermetico",
+    "BCH_ESTAMPE": "Tappo con incisione",
+    "BCH_FAIBLE": "Tappo debole",
+    "BCH_LEG_DESCENDU": "Tappo che inizia leggermente a cadere",
+    "BCH_LEG_ENFONCE": "Tappo non totalmente ermetico/che inizia a cadere",
+    "BCH_LEG_SOULEVE": "Tappo leggermente rigonfio",
+    "BTE_CIREE": "Boîte cirée",
+    "BTE_COULEUSE": "Boîte couleuse",
+    "BTE_LEG_COULEUSE": "Boîte légèrement couleuse",
+    "BTE_LEGERE": "Boîte légère",
+    "BTE_RECONDITIONNEE": "Boîte reconditionnée",
+    "CAPS_ABIMEE": "Capsula rovinata",
+    "CAPS_ABSENTE": "Capsula mancante",
+    "CAPS_CIRE_ABIMEE": "Capsula in cera rovinata",
+    "CAPS_CIRE_LEG_ABIMEE": "Capsula in cera leggermente rovinata",
+    "CAPS_CIRE": "Capsula in cera",
+    "CAPS_CONGE": "Capsula CRD",
+    "CAPS_CORRODEE": "Capsula deteriorata",
+    "CAPS_DECOUPEE": "Capsula tagliata",
+    "CAPS_DESOLIDARISEE": "Capsula allentata",
+    "CAPS_GRIFFEE": "Capsula graffiata",
+    "CAPS_LEG_ABIMEE": "Capsula leggermente rovinata",
+    "CAPS_LEG_CORRODEE": "Capsula leggermente deteriorata",
+    "CAPS_LEG_GRIFFEE": "Capsula leggermente graffiata",
+    "CAPS_NEUTRE": "Capsula neutra",
+    "CAPS_PLASTIQUE_ABIMEE": "Capsula in plastica rovinata",
+    "CAPS_PLASTIQUE": "Capsula in plastica",
+    "CAPS_SALE": "Capsula sporca",
+    "CAPS_TACHEE": "Capsula macchiata",
+    "CAPS_TRES_ABIMEE": "Capsula molto rovinata",
+    "CAPSULE_NORMALE": "Capsula normale",
+    "CIRE_ABIMEE": "Cera rovinata",
+    "CIRE_LEG_ABIMEE": "Capsula in cera leggermente rovinata",
+    "COFFRET_D_ORIGINE_ABIME": "Cofanetto rovinato",
+    "COFFRET_D_ORIGINE_LEGEREMENT_ABIME": "Cofanetto leggermente rovinato",
+    "COFFRET_D_ORIGINE_TRES_LEGEREMENT_ABIME": "Cofanetto leggermente rovinato",
+    "COLL_ABIMEE": "Etichetta annata rovinata",
+    "COLL_GRIFFEE": "Etichetta annata graffiata",
+    "COLL_MILL_TACHEE": "Etichetta annata scollata",
+    "COLL_MILLESIME_ABSENTE": "Etichetta annata assente",
+    "COLL_MILLESIME_LEG_ABIMEE": "Etichetta annata leggermente rovinata",
+    "COLL_MILLESIME_LEG_GRIFFEE": "Etichetta annata leggermente graffiata",
+    "COULEUR_TROUBLE": "Colore torbido",
+    "ETIQ_ABIMEE": "Etichetta rovinata",
+    "ETIQ_DE_SECURITE": "Etichetta con tag autenticità",
+    "ETIQ_DECHIREE": "Etichetta strappata",
+    "ETIQ_DECOLLEE": "Etichetta staccata",
+    "ETIQ_DIFFICILEMENT_LISIBLE": "Etichetta appena leggibile",
+    "ETIQ_EMPOUSSIEREE": "Etichetta con tracce di polvere",
+    "ETIQ_FANEE": "Etichetta sbiadita",
+    "ETIQ_FILMEE": "Etichetta con pellicola protettiva",
+    "ETIQ_FRAGILE": "Etichetta fragile",
+    "ETIQ_FRIABLE": "Etichetta che si sgretola",
+    "ETIQ_FRIPEE": "Etichetta stropicciata",
+    "ETIQ_GRIFFEE": "Etichetta graffiata",
+    "ETIQ_HUMIDE": "Etichetta con segni di umidità",
+    "ETIQ_ILLISIBLE": "Etichetta illeggibile",
+    "ETIQ_JAUNIE": "Etichetta ingiallita",
+    "ETIQ_LAMBEAUX": "Etichetta sgretolata",
+    "ETIQ_LEG_ABIMEE": "Etichetta leggermente rovinata",
+    "ETIQ_LEG_DECHIREE": "Etichetta leggermente strappata",
+    "ETIQ_LEG_DECOLLEE": "Etichetta leggermente scollata",
+    "ETIQ_LEG_FANEE": "Etichetta appena sbiadita",
+    "ETIQ_LEG_FRIPEE": "Etichetta leggermente stropicciata",
+    "ETIQ_LEG_GRIFFEE": "Etichetta leggermente graffiata",
+    "ETIQ_LEG_HUMIDE": "Etichetta con leggeri segni di umidità",
+    "ETIQ_LEG_MARQUEE": "Etichetta un pomacchiata",
+    "ETIQ_LEG_PIQUEE": "Etichetta leggermente ammuffita",
+    "ETIQ_LEG_PLISSEE": "Etichetta leggermente piegata",
+    "ETIQ_LEG_SALE": "Etichetta leggermente sporca",
+    "ETIQ_LEG_TACHEE": "Etichetta leggermente macchiata",
+    "ETIQ_LEG_USEE": "Etichetta leggermente danneggiata",
+    "ETIQ_LISIBLE": "Etichetta leggibile",
+    "ETIQ_MARQUEE": "Etichetta macchiata",
+    "ETIQ_PIQUEE": "Etichetta ammuffita",
+    "ETIQ_PLISSEE": "Etichetta piegata",
+    "ETIQ_QUASI_ILLISIBLE": "Etichetta quasi totalmente illeggibile",
+    "ETIQ_RECOLLEE": "Etichetta rincollata",
+    "ETIQ_SALE": "Etichetta sporca",
+    "ETIQ_SALIE_DE_COLLE": "Etichetta con tracce di colla",
+    "ETIQ_SALIE_PAR_L_HUMIDITE": "Etichetta rovinata dall'umidità",
+    "ETIQ_SCOTCHEE": "Etichetta incollata con lo scotch",
+    "ETIQ_TACHEE": "Etichetta macchiata",
+    "ETIQ_TRES_ABIMEE": "Etichetta molto rovinata",
+    "ETIQ_TRES_HUMIDE": "Etichetta ammuffita",
+    "ETIQ_TRES_LEG_ABIMEE": "Etichetta appena rovinata",
+    "ETIQ_TRES_LEG_DECHIREE": "Etichetta appena strappata",
+    "ETIQ_TRES_LEG_FRIPEE": "Etichetta appena stropicciata",
+    "ETIQ_TRES_LEG_GRIFFEE": "Etichetta appena graffiata",
+    "ETIQ_TRES_LEG_MARQUEE": "Etichetta con delle leggere macchie",
+    "ETIQ_TRES_LEG_TACHEE": "Etichetta appena macchiata",
+    "ETIQ_TRES_MARQUEE": "Etichetta molto macchiata",
+    "ETIQ_TRES_SALE": "Etichetta con tracce di sporco in diversi punti",
+    "ETIQ_TRES_TACHEE": "Etichetta molto macchiata",
+    "ETIQ_TRES_USEE": "Etichetta danneggiata in diversi punti",
+    "ETIQ_USEE": "Etichetta danneggiata",
+    "ETIQ_VERNIE": "Etichetta con segni di vernice",
+    "MILL_DIFFICILEMENT_LISIBLE": "Annata appena leggibile",
+    "MILLESIME_ILLISIBLE": "Annata illeggibile",
+    "MILLESIME_LISIBLE": "Annata leggibile",
+    "MILLESIME_MANUSCRIT": "Annata scritta a mano",
+    "MILLESIME_SUR_BOUCHON": "Annata incisa sul tappo",
+    "NORMALE": "Normale",
+    "NUMERO_DE_SERIE_EFFACE": "Numero di serie cancellato",
+    "SANS_ETIQUETTE": "Senza etichetta",
+    "SANS_MILLESIME": "Senza annata",
+    "TRACES_ANCIENNE_COULURES": "Vecchie tracce di perdita",
+    "TRACES_DE_COLLE": "Tracce di colla",
+    "TRACES_DE_CUTTER": "Etichetta graffiata"
+  },
+  "bottleObservations": {
+    "BCH_DESCENDU": {
+      "1": "{{count}} Tappo che inizia a cadere",
+      "other": "{{count}} Tappi che iniziano a cadere"
+    },
+    "BCH_ENFONCE": {
+      "1": "{{count}} Tappo non più ermetico",
+      "other": "{{count}} Tappi non più ermetici"
+    },
+    "BCH_ESTAMPE": {
+      "1": "{{count}} Tappo con incisione",
+      "other": "{{count}} Tappi con incisione"
+    },
+    "BCH_FAIBLE": {
+      "1": "{{count}} Tappo debole",
+      "other": "{{count}} Tappi deboli"
+    },
+    "BCH_LEG_DESCENDU": {
+      "1": "{{count}} Tappo che inizia leggermente a cadere",
+      "other": "{{count}} Tappi che iniziano leggermente a cadere"
+    },
+    "BCH_LEG_ENFONCE": {
+      "1": "{{count}} Tappo non totalmente ermetico",
+      "other": "{{count}} Tappi non totalmente ermetici"
+    },
+    "BCH_LEG_SOULEVE": {
+      "1": "{{count}} Tappo leggermente rigonfio",
+      "other": "{{count}} Tappi leggermente rigonfi"
+    },
+    "BTE_CIREE": {
+      "1": "{{count}} Bottiglia con capsula in cera",
+      "other": "{{count}} Bottiglie con capsula in cera"
+    },
+    "BTE_COULEUSE": {
+      "1": "{{count}} Bottiglia con segni di perdita",
+      "other": "{{count}} Bottiglie con segni di perdita"
+    },
+    "BTE_LEG_COULEUSE": {
+      "1": "{{count}} Bottiglia con lievi tracce di perdita",
+      "other": "{{count}} Bottiglie con lievi tracce di perdita"
+    },
+    "BTE_LEGERE": {
+      "1": "{{count}} Bottiglia leggera",
+      "other": "{{count}} Bottiglie leggere"
+    },
+    "BTE_RECONDITIONNEE": {
+      "1": "{{count}} Bottiglia ricolmata",
+      "other": "{{count}} Bottiglie ricolmate"
+    },
+    "CAPS_ABIMEE": {
+      "1": "{{count}} Capsula rovinata",
+      "other": "{{count}} Capsule rovinate"
+    },
+    "CAPS_ABSENTE": {
+      "1": "{{count}} Capsula mancante",
+      "other": "{{count}} Capsule mancanti"
+    },
+    "CAPS_CIRE": {
+      "1": "{{count}} Capsula in cera",
+      "other": "{{count}} Capsule in cera"
+    },
+    "CAPS_CIRE_ABIMEE": {
+      "1": "{{count}} Capsula in cera rovinata",
+      "other": "{{count}} Capsule in cera rovinate"
+    },
+    "CAPS_CIRE_LEG_ABIMEE": {
+      "1": "{{count}} Capsula in cera leggermente rovinata",
+      "other": "{{count}} Capsule in cera leggermente rovinate"
+    },
+    "CAPS_CONGE": {
+      "1": "{{count}} Capsula CDR",
+      "other": "{{count}} Capsule CDR"
+    },
+    "CAPS_CORRODEE": {
+      "1": "{{count}} Capsula deteriorata",
+      "other": "{{count}} Capsule deteriorate"
+    },
+    "CAPS_DESOLIDARISEE": {
+      "1": "{{count}} Capsula allentata",
+      "other": "{{count}} Capsule allentate"
+    },
+    "CAPS_DECOUPEE": {
+      "1": "{{count}} Capsula tagliata",
+      "other": "{{count}} Capsule tagliate"
+    },
+    "CAPS_GRIFFEE": {
+      "1": "{{count}} Capsula graffiata",
+      "other": "{{count}} Capsule graffiate"
+    },
+    "CAPS_LEG_ABIMEE": {
+      "1": "{{count}} Capsula leggermente rovinata",
+      "other": "{{count}} Capsule leggermente rovinate"
+    },
+    "CAPS_LEG_CORRODEE": {
+      "1": "{{count}} Capsula leggermente deteriorata",
+      "other": "{{count}} Capsule leggermente deteriorate"
+    },
+    "CAPS_LEG_GRIFFEE": {
+      "1": "{{count}} Capsula leggermente graffiata",
+      "other": "{{count}} Capsule leggermente graffiate"
+    },
+    "CAPS_NEUTRE": {
+      "1": "{{count}} Capsula neutra",
+      "other": "{{count}} Capsule neutre"
+    },
+    "CAPS_PLASTIQUE": {
+      "1": "{{count}} Capsula in plastica",
+      "other": "{{count}} Capsule in plastica"
+    },
+    "CAPS_PLASTIQUE_ABIMEE": {
+      "1": "{{count}} Capsula in plastica rovinata",
+      "other": "{{count}} Capsule in plastica rovinate"
+    },
+    "CAPS_SALE": {
+      "1": "{{count}} Capsula sporca",
+      "other": "{{count}} Capsule sporche"
+    },
+    "CAPS_TACHEE": {
+      "1": "{{count}} Capsula macchiata",
+      "other": "{{count}} Capsule macchiate"
+    },
+    "CAPS_TRES_ABIMEE": {
+      "1": "{{count}} Capsula molto rovinata",
+      "other": "{{count}} Capsule molto rovinate"
+    },
+    "CAPSULE_NORMALE": {
+      "1": "{{count}} Capsula senza difetti",
+      "other": "{{count}} Capsule senza difetti"
+    },
+    "CIRE_ABIMEE": {
+      "1": "{{count}} Capsula in cera rovinata",
+      "other": "{{count}} Capsule in cera rovinate"
+    },
+    "CIRE_LEG_ABIMEE": {
+      "1": "{{count}} Capsula in cera leggermente rovinata",
+      "other": "{{count}} Capsule in cera leggermente rovinate"
+    },
+    "COFFRET_D_ORIGINE_ABIME": {
+      "1": "{{count}} Cofanetto rovinato",
+      "other": "{{count}} Cofanetti rovinati"
+    },
+    "COFFRET_D_ORIGINE_LEGEREMENT_ABIME": {
+      "1": "{{count}} Cofanetto leggermente rovinato",
+      "other": "{{count}} Cofanetti leggermente rovinati"
+    },
+    "COFFRET_D_ORIGINE_TRES_LEGEREMENT_ABIME": {
+      "1": "{{count}} Cofanetto leggermente rovinato",
+      "other": "{{count}} Cofanetti leggermente rovinati"
+    },
+    "COLL_ABIMEE": {
+      "1": "{{count}} Etichetta annata rovinata",
+      "other": "{{count}} Etichette annata rovinate"
+    },
+    "COLL_GRIFFEE": {
+      "1": "{{count}} Etichetta annata graffiata",
+      "other": "{{count}} Etichette annata graffiate"
+    },
+    "COLL_MILL_TACHEE": {
+      "1": "{{count}} Etichetta annata staccata",
+      "other": "{{count}} Etichette annata staccate"
+    },
+    "COLL_MILLESIME_ABSENTE": {
+      "1": "{{count}} Etichetta annata assente sul collo",
+      "other": "{{count}} Etichette annata assenti sul collo"
+    },
+    "COLL_MILLESIME_LEG_ABIMEE": {
+      "1": "{{count}} Etichetta annata leggermente rovinata",
+      "other": "{{count}} Etichette annata leggermente rovinate"
+    },
+    "COLL_MILLESIME_LEG_GRIFFEE": {
+      "1": "{{count}} Etichetta annata leggermente rovinata",
+      "other": "{{count}} Etichette annata leggermente rovinate"
+    },
+    "COULEUR_TROUBLE": {
+      "1": "{{count}} Bt con colore torbido",
+      "other": "{{count}} Bt con colore torbido"
+    },
+    "ETIQ_ABIMEE": {
+      "1": "{{count}} Etichetta rovinata",
+      "other": "{{count}} Etichette rovinate"
+    },
+    "ETIQ_DE_SECURITE": {
+      "1": "{{count}} Etichetta con tag autenticità",
+      "other": "{{count}} Etichette con tag autenticità"
+    },
+    "ETIQ_DECHIREE": {
+      "1": "{{count}} Etichetta strappata",
+      "other": "{{count}} Etichette strappate"
+    },
+    "ETIQ_DECOLLEE": {
+      "1": "{{count}} Etichetta staccata",
+      "other": "{{count}} Etichette staccate"
+    },
+    "ETIQ_DIFFICILEMENT_LISIBLE": {
+      "1": "{{count}} Etichetta appena leggibile",
+      "other": "{{count}} Etichette appena leggibili"
+    },
+    "ETIQ_EMPOUSSIEREE": {
+      "1": "{{count}} Etichetta piena di polvere",
+      "other": "{{count}} Etichette piene di polvere"
+    },
+    "ETIQ_FANEE": {
+      "1": "{{count}} Etichetta sbiadita",
+      "other": "{{count}} Etichette sbiadite"
+    },
+    "ETIQ_FILMEE": {
+      "1": "{{count}} Pellicola protettiva intorno all'etichetta",
+      "other": "{{count}} Bt con pellicola protettiva intorno alle etichette"
+    },
+    "ETIQ_FRAGILE": {
+      "1": "{{count}} Etichetta fragile",
+      "other": "{{count}} Etichette fragili"
+    },
+    "ETIQ_FRIABLE": {
+      "1": "{{count}} Etichetta che si sgretola",
+      "other": "{{count}} Etichette che si sgretolano"
+    },
+    "ETIQ_FRIPEE": {
+      "1": "{{count}} Etichetta stropicciata",
+      "other": "{{count}} Etichette stropicciate"
+    },
+    "ETIQ_GRIFFEE": {
+      "1": "{{count}} Etichetta graffiata",
+      "other": "{{count}} Etichette graffiate"
+    },
+    "ETIQ_HUMIDE": {
+      "1": "{{count}} Etichetta con segni di umidità",
+      "other": "{{count}} Etichette con segni di umidità"
+    },
+    "ETIQ_ILLISIBLE": {
+      "1": "{{count}} Etichetta illeggibile",
+      "other": "{{count}} Etichette illeggibili"
+    },
+    "ETIQ_JAUNIE": {
+      "1": "{{count}} Etichetta ingiallita",
+      "other": "{{count}} Etichette ingiallite"
+    },
+    "ETIQ_LAMBEAUX": {
+      "1": "{{count}} Etichetta sgretolata",
+      "other": "{{count}} Etichette sgretolate"
+    },
+    "ETIQ_LEG_ABIMEE": {
+      "1": "{{count}} Etichetta leggermente rovinata",
+      "other": "{{count}} Etichette leggermente rovinate"
+    },
+    "ETIQ_LEG_DECHIREE": {
+      "1": "{{count}} Etichetta leggermente strappata",
+      "other": "{{count}} Etichette leggermente strappate"
+    },
+    "ETIQ_LEG_DECOLLEE": {
+      "1": "{{count}} Etichetta leggermente scollata",
+      "other": "{{count}} Etichette leggermente scollate"
+    },
+    "ETIQ_LEG_FANEE": {
+      "1": "{{count}} Etichetta leggermente sbiadita",
+      "other": "{{count}} Etichette leggermente sbiadite"
+    },
+    "ETIQ_LEG_FRIPEE": {
+      "1": "{{count}} Etichetta leggermente stropicciata",
+      "other": "{{count}} Etichette leggermente stropicciate"
+    },
+    "ETIQ_LEG_GRIFFEE": {
+      "1": "{{count}} Etichetta leggermente graffiata",
+      "other": "{{count}} Etichette leggermente graffiate"
+    },
+    "ETIQ_LEG_HUMIDE": {
+      "1": "{{count}} Etichetta con leggeri segni di umidità",
+      "other": "{{count}} Etichette con leggeri segni di umidità"
+    },
+    "ETIQ_LEG_MARQUEE": {
+      "1": "{{count}} Etichetta leggermente macchiata",
+      "other": "{{count}} Etichette leggermente macchiate"
+    },
+    "ETIQ_LEG_PIQUEE": {
+      "1": "{{count}} Etichetta leggermente ammuffita",
+      "other": "{{count}} Etichette leggermente ammuffite"
+    },
+    "ETIQ_LEG_PLISSEE": {
+      "1": "{{count}} Etichetta leggermente piegata",
+      "other": "{{count}} Etichette leggermente piegate"
+    },
+    "ETIQ_LEG_SALE": {
+      "1": "{{count}} Etichetta leggermente sporca",
+      "other": "{{count}} Etichette leggermente sporche"
+    },
+    "ETIQ_LEG_TACHEE": {
+      "1": "{{count}} Etichetta leggermente macchiata",
+      "other": "{{count}} Etichette leggermente macchiate"
+    },
+    "ETIQ_LEG_USEE": {
+      "1": "{{count}} Etichetta leggermente danneggiata",
+      "other": "{{count}} Etichette leggermente danneggiate"
+    },
+    "ETIQ_LISIBLE": {
+      "1": "{{count}} Etichetta leggibile",
+      "other": "{{count}} Etichette leggibili"
+    },
+    "ETIQ_MARQUEE": {
+      "1": "{{count}} Etichetta macchiata",
+      "other": "{{count}} Etichette macchiate"
+    },
+    "ETIQ_PIQUEE": {
+      "1": "{{count}} Etichetta ammuffita",
+      "other": "{{count}} Etichette ammuffite"
+    },
+    "ETIQ_PLISSEE": {
+      "1": "{{count}} Etichetta piegata",
+      "other": "{{count}} Etichette piegate"
+    },
+    "ETIQ_QUASI_ILLISIBLE": {
+      "1": "{{count}} Etichetta quasi totalmente illeggibile",
+      "other": "{{count}} Etichette quasi totalmente illeggibili"
+    },
+    "ETIQ_RECOLLEE": {
+      "1": "{{count}} Etichetta rincollata",
+      "other": "{{count}} Etichette rincollate"
+    },
+    "ETIQ_SALE": {
+      "1": "{{count}} Etichetta sporca",
+      "other": "{{count}} Etichette sporche"
+    },
+    "ETIQ_SALIE_DE_COLLE": {
+      "1": "{{count}} Tracce di colla sull'etichetta",
+      "other": "{{count}} Bt con tracce di colla sulle etichette"
+    },
+    "ETIQ_SALIE_PAR_L_HUMIDITE": {
+      "1": "{{count}} Etichetta rovinata dall'umidità",
+      "other": "{{count}} Etichette rovinate dall'umidità"
+    },
+    "ETIQ_SCOTCHEE": {
+      "1": "{{count}} Etichetta incollata con lo scotch",
+      "other": "{{count}} Etichette incollate con lo scotch"
+    },
+    "ETIQ_TACHEE": {
+      "1": "{{count}} Etichetta macchiata",
+      "other": "{{count}} Etichette macchiate"
+    },
+    "ETIQ_TRES_ABIMEE": {
+      "1": "{{count}} Etichetta molto rovinata",
+      "other": "{{count}} Etichette molto rovinate"
+    },
+    "ETIQ_TRES_HUMIDE": {
+      "1": "{{count}} Etichetta con numerose tracce di umidità",
+      "other": "{{count}} Etichette con numerose tracce di umidità"
+    },
+    "ETIQ_TRES_LEG_ABIMEE": {
+      "1": "{{count}} Etichetta con qualche segno di usura",
+      "other": "{{count}} Etichette con qualche segno di usura"
+    },
+    "ETIQ_TRES_LEG_DECHIREE": {
+      "1": "{{count}} Etichetta lievemente strappata",
+      "other": "{{count}} Etichette lievemente strappate"
+    },
+    "ETIQ_TRES_LEG_FRIPEE": {
+      "1": "{{count}} Etichetta appena stropicciata",
+      "other": "{{count}} Etichette appena stropicciate"
+    },
+    "ETIQ_TRES_LEG_GRIFFEE": {
+      "1": "{{count}} Etichetta appena graffiata",
+      "other": "{{count}} Etichette appena graffiate"
+    },
+    "ETIQ_TRES_LEG_MARQUEE": {
+      "1": "{{count}} Etichetta con delle leggere macchie",
+      "other": "{{count}} Etichette con delle leggere macchie"
+    },
+    "ETIQ_TRES_LEG_TACHEE": {
+      "1": "{{count}} Etichetta lievemente macchiata",
+      "other": "{{count}} Etichette lievemente macchiate"
+    },
+    "ETIQ_TRES_MARQUEE": {
+      "1": "{{count}} Etichetta molto macchiata",
+      "other": "{{count}} Etichette molto macchiate"
+    },
+    "ETIQ_TRES_SALE": {
+      "1": "{{count}} Etichetta con tracce di sporco in diversi punti",
+      "other": "{{count}} Etichette con tracce di sporco in diversi punti"
+    },
+    "ETIQ_TRES_TACHEE": {
+      "1": "{{count}} Etichetta molto macchiata",
+      "other": "{{count}} Etichette molto macchiate"
+    },
+    "ETIQ_TRES_USEE": {
+      "1": "{{count}} Etichetta danneggiata in diversi punti",
+      "other": "{{count}} Etichette danneggiate in diversi punti"
+    },
+    "ETIQ_USEE": {
+      "1": "{{count}} Etichetta danneggiata",
+      "other": "{{count}} Etichette danneggiate"
+    },
+    "ETIQ_VERNIE": {
+      "1": "{{count}} Etichetta con segni di vernice",
+      "other": "{{count}} Etichette con segni di vernice"
+    },
+    "MILL_DIFFICILEMENT_LISIBLE": {
+      "1": "{{count}} Annata appena leggibile",
+      "other": "{{count}} Bt con annata appena leggibile"
+    },
+    "MILLESIME_ILLISIBLE": {
+      "1": "{{count}} Annata illeggibile",
+      "other": "{{count}} Annate illeggibili"
+    },
+    "MILLESIME_LISIBLE": {
+      "1": "{{count}} Annata leggibile",
+      "other": "{{count}} Annate leggibili"
+    },
+    "MILLESIME_MANUSCRIT": {
+      "1": "{{count}} Annata scritta a mano",
+      "other": "{{count}} Annate scritte a mano"
+    },
+    "MILLESIME_SUR_BOUCHON": {
+      "1": "{{count}} Annata incisa sul tappo",
+      "other": "{{count}} Annate incise sui tappi"
+    },
+    "NORMALE": {
+      "1": "{{count}} Normale",
+      "other": "{{count}} Normali"
+    },
+    "NUMERO_DE_SERIE_EFFACE": {
+      "1": "{{count}} Numero di serie cancellato",
+      "other": "{{count}} Numeri di serie cancellati"
+    },
+    "SANS_ETIQUETTE": {
+      "1": "{{count}} Senza etichetta",
+      "other": "{{count}} Senza etichette"
+    },
+    "SANS_MILLESIME": {
+      "1": "{{count}} Senza annata",
+      "other": "{{count}} Senza annate"
+    },
+    "TRACES_ANCIENNE_COULURES": {
+      "1": "{{count}} Vecchie tracce di perdita",
+      "other": "{{count}} Vecchie tracce di perdita"
+    },
+    "TRACES_DE_COLLE": {
+      "1": "{{count}} Tracce di colla",
+      "other": "{{count}} Tracce di colla"
+    },
+    "TRACES_DE_CUTTER": {
+      "1": "{{count}} Etichetta graffiata",
+      "other": "{{count}} Etichette graffiate"
+    }
+  },
+  "liquidLevel": {
+    "A_10_CM": "10cm",
+    "A_2_5_CM": "2,5cm",
+    "A_2_CM": "2cm",
+    "A_3_5_CM": "3,5cm",
+    "A_3_CM": "3cm",
+    "A_4_5_CM": "4,5cm",
+    "A_4_CM": "4cm",
+    "A_5_5_CM": "5,5cm",
+    "A_5_CM": "5cm",
+    "A_6_5_CM": "6,5cm",
+    "A_6_CM": "6cm",
+    "A_7_CM": "7cm",
+    "A_8_CM": "8cm",
+    "A_9_CM": "9cm",
+    "BAS": "Basso",
+    "BASE_GOULOT": "A livello del collo",
+    "BASSE_EPAULE": "Spalla bassa",
+    "ENTRE_2_ET_4_CM": "Tra 2 e 4 cm",
+    "ENTRE_4_ET_6_CM": "Tra 4 e 6 cm",
+    "HAUTE_EPAULE": "Sulla spalla",
+    "LEGEREMENT_BAS": "Leggermente basso",
+    "MI_EPAULE": "Metà spalla",
+    "MOINS_DE_2_CM": "Meno di 2 cm",
+    "NORMAL": "Normale",
+    "PLUS_DE_10_CM": "Più di 10 cm",
+    "PLUS_DE_6_CM": "Più di 6 cm",
+    "TRES_LEGEREMENT_BAS": "Appena sotto il livello del collo",
+    "VIDANGE": "Svuotamento (causa colatura)"
+  },
+  "wineVarieties": {
+    "AGLIANICO": "Aglianico",
+    "ALIGOTE": "Aligoté",
+    "ALTESSE": "Altesse",
+    "ARBANE": "Arbanne",
+    "BACO": "Baco",
+    "BARBERA": "Barbera",
+    "BARBAROSSA": "Barbarossa",
+    "BOURBOULENC": "Bourboulenc",
+    "CABERNET_FRANC": "Cabernet Franc",
+    "CABERNET_SAUVIGNON": "Cabernet Sauvignon",
+    "CAMARALET": "Camaralet",
+    "CARIGNAN": "Carignano",
+    "CARTOIXA": "Cartoixa",
+    "CARMENERE": "Carmenère",
+    "CHARDONNAY": "Chardonnay",
+    "CHENIN_BLANC": "Chenin Blanc",
+    "CLAIRETTE": "Clairette",
+    "COLOMBARD": "Colombard",
+    "CINSAULT": "Cinsault",
+    "CORVINA": "Corvina",
+    "COUNOISE": "Counoise",
+    "DOLCETTO": "Dolcetto",
+    "DOUCE_NOIRE": "Douce Noire",
+    "FOLLE_BLANCHE": "Folle Blanche",
+    "FURMINT": "Furmint",
+    "GAMAY": "Gamay",
+    "GEWURZTRAMINER": "Gewurztraminer",
+    "GIBERT": "Gibert",
+    "GROS_MANSENG": "Gros Manseng",
+    "GRENACHE": "Grenache (Cannonau)",
+    "GRENACHE_BLANC": "Grenache Blanc",
+    "GRENACHE_GRIS": "Grenache Gris",
+    "JACQUERE": "Jacquère",
+    "JURANCON_NOIR": "Jurançon Noir",
+    "LAUZET": "Lauzet",
+    "MACABEU": "Macabeu (Macabeo)",
+    "MALBEC": "Malbec",
+    "MALVOISIE": "Malvoisie (Malvasia)",
+    "MARSANNE": "Marsanne",
+    "MERLOT": "Merlot",
+    "MELON_DE_BOURGOGNE": "Melon de Bourgogne (Muscadet)",
+    "MONDEUSE": "Mondeuse",
+    "MONDEUSE_BLANCHE": "Mondeuse Blanche",
+    "MONTEPULCIANO": "Montepulciano",
+    "MOURVEDRE": "Mourvèdre (Monastrell)",
+    "MUSCADELLE": "Muscadelle",
+    "MUSCARDIN": "Muscardin",
+    "MUSCAT": "Muscat (Moscato)",
+    "MUSCAT_BLANC_A_PETITS_GRAINS": "Muscat Blanc à Petits Grains (Moscato Bianco)",
+    "NEBBIOLO": "Nebbiolo",
+    "NERELLO_CAPUCCIO": "Nerello Cappuccio",
+    "NERELLO_MASCALESE": "Nerello Mascalese",
+    "NERO_D_AVOLA": "Nero d'Avola",
+    "NEGRETTE": "Negrette",
+    "NIELLUCCIU": "Niellucciu (Sangiovese)",
+    "NOUAL": "Noüal",
+    "PERDO_XIMENEZ": "Pedro Ximénez",
+    "PELAVERGA_PICCOLO": "Pelaverga Piccolo",
+    "PETITE_ARVINE": "Petite Arvine",
+    "PETIT_MANSENG": "Petit Manseng",
+    "PETIT_MESLIER": "Petit Meslier",
+    "PETIT_VERDOT": "Petit Verdot",
+    "PERSAN": "Persan",
+    "PINOT_BLANC": "Pinot Blanc",
+    "PINOT_GRIS": "Pinot Gris (Pinot Grigio)",
+    "PINOT_MEUNIER": "Pinot Meunier",
+    "PINOT_NOIR": "Pinot Noir",
+    "POULSARD": "Poulsard",
+    "RIESLING": "Riesling",
+    "RIBOLLA_GIALLA": "Ribolla Gialla",
+    "RONDINELLA": "Rondinella",
+    "ROUSSANNE": "Roussanne",
+    "SANGIOVESE": "Sangiovese",
+    "SAUVIGNON_BLANC": "Sauvignon Blanc",
+    "SAUVIGNON_A_GROS_GRAINS": "Sauvignon à Gros Grains (Friulano)",
+    "SAVAGNIN": "Savagnin",
+    "SEMILLON": "Sémillon",
+    "SCIACCARELLU": "Sciaccarellu",
+    "SYLVANER": "Sylvaner",
+    "SYRAH": "Syrah",
+    "TANNAT": "Tannat",
+    "TEMPRANILLO": "Tempranillo",
+    "TERRET_NOIR": "Terret Noir",
+    "TROUSSEAU": "Trousseau",
+    "TREBBIANO": "Trebbiano",
+    "UGNI": "Ugni",
+    "UGNI_BLANC": "Ugni Blanc (Trebbiano)",
+    "VACCARESE": "Vaccarèse",
+    "VALDIGUIE": "Valdiguié",
+    "VERMENTINO": "Vermentino",
+    "VIOGNIER": "Viognier",
+    "ZINFANDEL": "Zinfandel"
+  },
+  "country": {
+    "AFRIQUE_DU_SUD": "Sudafrica",
+    "ALLEMAGNE": "Germania",
+    "ALGERIE": "Algeria",
+    "ARMENIE": "Armenia",
+    "ANTIGUA_ET_BARBUDA": "Antigua e Barbuda",
+    "ANTILLES": "Antille",
+    "ARGENTINE": "Argentina",
+    "AUSTRALIE": "Australia",
+    "AUTRES_PAYS": "Altri paesi",
+    "AUTRICHE": "Austria",
+    "BAHAMAS": "Bahamas",
+    "BARBADE": "Barbados",
+    "BELGIQUE": "Belgio",
+    "BELIZE": "Belize",
+    "BERMUDES": "Bermuda",
+    "BOSNIE_HERZEGOVINE": "Bosnia-Erzegovina",
+    "BRESIL": "Brasile",
+    "CANADA": "Canada",
+    "CAP_VERT": "Capo Verde ",
+    "CARAIBES": "Caraibi",
+    "CHILI": "Cile",
+    "CHINE": "Cina",
+    "COLOMBIE": "Colombia",
+    "CROATIE": "Croazia",
+    "CUBA": "Cuba",
+    "DANEMARK": "Danimarca",
+    "ECOSSE": "Scozia",
+    "ESPAGNE": "Spagna",
+    "ETATS_UNIS": "Stati Uniti",
+    "FIDJI": "Figi",
+    "FRANCE": "Francia",
+    "GRECE": "Grecia",
+    "GRENADE": "Granada",
+    "GUADELOUPE": "Guadalupa",
+    "GUATEMALA": "Guatemala",
+    "GUYANA": "Guyana",
+    "GUYANE": "Guyana",
+    "HAITI": "Haiti",
+    "HONGRIE": "Ungheria",
+    "ILE_MAURICE": "Mauritius",
+    "INDE": "India",
+    "IRLANDE": "Irlanda",
+    "ISRAEL": "Israele",
+    "ITALIE": "Italia",
+    "JAMAIQUE": "Giamaica",
+    "JAPON": "Giappone",
+    "KENYA": "Kenya",
+    "LA_REUNION": "Isola della Riunione",
+    "LIBAN": "Libano",
+    "MACEDOINE": "Macedonia",
+    "MADAGASCAR": "Madagascar",
+    "MAROC": "Marocco",
+    "MARTINIQUE": "Martinica",
+    "MEXIQUE": "Messico",
+    "NEPAL": "Nepal",
+    "NICARAGUA": "Nicaragua",
+    "NOUVELLE_ZELANDE": "Nuova Zelanda",
+    "PANAMA": "Panama",
+    "PEROU": "Perù",
+    "PHILIPPINES": "Filippine",
+    "POLOGNE": "Polonia",
+    "POLYNESIE_FRANCAISE": "Polinesia francese",
+    "PORTO_RICO": "Porto Rico",
+    "PORTUGAL": "Portogallo",
+    "REPUBLIQUE_DOMINICAINE": "Repubblica Dominicana",
+    "REPUBLIQUE_TCHEQUE": "Repubblica Ceca",
+    "ROYAUME_UNI": "Regno-Unito",
+    "RUSSIE": "Russia",
+    "SAINT_MARTIN": "Saint-Martin",
+    "SAINTE_LUCIE": "Saint Lucia",
+    "SEYCHELLES": "Seychelles",
+    "SLOVAQUIE": "Slovacchia",
+    "SLOVENIE": "Slovenia",
+    "SRI_LANKA": "Sri Lanka",
+    "SUEDE": "Svezia",
+    "SUISSE": "Svizzera",
+    "TAIWAN": "Taiwan",
+    "TCHECOSLOVAQUIE": "Cecoslovacchia",
+    "TRINITE_ET_TOBAGO": "Trinidad e Tobago",
+    "URUGUAY": "Uruguay",
+    "VENEZUELA": "Venezuela"
+  },
+  "region": {
+    "AUTRES_PAYS": "Altri paesi",
+    "ABRUZZES": "Abruzzo",
+    "ADELAIDE_HILLS": "Adelaide Hills",
+    "AFRIQUE_DU_SUD": "Sudafrica",
+    "ALLEMAGNE": "Germania",
+    "ALSACE": "Alsazia",
+    "ALENTEJO": "Alentejo",
+    "ALGEROIS": "Algérois",
+    "ARMENIE": "Armenia",
+    "ANDALOUSIE": "Andalusia",
+    "ANGLETERRE": "Inghilterra",
+    "ANTIGUE_ET_BARBUDE": "Antigua e Barbuda",
+    "ANTILLES": "Antille",
+    "ANTRIM_COUNTY": "Antrim County",
+    "ARAGON": "Aragona",
+    "ARGENTINE": "Argentina",
+    "AUCKLAND": "Auckland",
+    "AUSTRALIE": "Australia",
+    "AUTRES_REGIONS": "Altre regioni",
+    "AUTRICHE": "Austria",
+    "AUVERGNE": "Alvernia",
+    "BAHAMAS": "Bahamas",
+    "BALEARES": "Baleari",
+    "BANGALORE": "Bangalore",
+    "BARBADE": "Barbados",
+    "BAIRRADA": "Bairrada",
+    "BAROSSA_VALLEY": "Barossa Valley",
+    "BASILICATA": "Basilicata",
+    "BEAUJOLAIS": "Beaujolais",
+    "BEKAA": "Bekaa",
+    "BELGIQUE": "Belgio",
+    "BELIZE": "Belize",
+    "BERMUDES": "Bermuda",
+    "BORDEAUX": "Bordeaux",
+    "BOSNIE_HERZEGOVINE": "Bosnia-Erzegovina",
+    "BOURGOGNE": "Borgogna",
+    "BRESIL": "Brasile",
+    "BRETAGNE": "Bretagna",
+    "BURGENLAND": "Burgenland",
+    "CALIFORNIE": "California",
+    "CAMPANIE": "Campania",
+    "CAMPBELTOWN": "Campbeltown",
+    "CANADA": "Canada",
+    "CANTERBURY": "Canterbury",
+    "CAP_VERT": "Capo Verde",
+    "CARAIBES": "Caraibi",
+    "CASTILLE_ET_LEON": "Castilla y Leon",
+    "CASTILLE_LA_MANCHE": "Castilla-La Mancha",
+    "CATALOGNE": "Catalogna",
+    "CENTRAL_OTAGO": "Central Otago",
+    "CITRUSDAL_MOUNTAIN": "Citrusdal Mountain",
+    "CHAMPAGNE": "Champagne",
+    "CHARENTE": "Charente",
+    "CHILI": "Cile",
+    "CHINE": "Cina",
+    "CLARE_VALLEY": "Clare Valley",
+    "COLCHAGUA": "Colchagua",
+    "COLOMBIE": "Colombia",
+    "CORK_COUNTY": "Cork County",
+    "CORSE": "Corsica",
+    "COTE_CENTRALE": "Central Coast",
+    "COTE_CENTRALE_USA": "Central Coast",
+    "CROATIE": "Croazia",
+    "CUBA": "Cuba",
+    "DANEMARK": "Danimarca",
+    "DEMERARA_MAHAICA": "Demerara Mahaica",
+    "DIVERS": "Altro",
+    "DUBLIN_COUNTY": "Dublin County",
+    "ECOSSE": "Scozia",
+    "EDEN_VALLEY": "Eden Valley",
+    "EMILIE_ROMAGNE": "Emilia-Romagna",
+    "ESPAGNE": "Spagna",
+    "ETATS_UNIS": "Stati Uniti",
+    "FIDJI": "Figi",
+    "FINGER_LAKES": "Finger Lakes",
+    "FRANCE": "Francia",
+    "FRANSCHHOEK": "Franschhoek",
+    "FRIBOURG": "Fribourg",
+    "FRIOUL": "Friuli",
+    "FRIOUL_VENETIE_JULIENNE": "Friuli-Venezia Giulia",
+    "GALICE": "Galizia",
+    "GALLES_DU_SUD": "Galles del Sud",
+    "GAVLEBORG_COUNTY": "Gavleborg County",
+    "GRANDE_BRETAGNE": "Gran Bretagna",
+    "GRECE": "Grecia",
+    "GRENADE": "Granada",
+    "GRISONS": "Grigioni (Canton)",
+    "GUADELOUPE": "Guadalupa",
+    "GUATEMALA": "Guatemala",
+    "GUYANE": "Guyana",
+    "GUYANE_BRITANNIQUE": "Guyana",
+    "HAITI": "Haiti",
+    "HAWAI": "Hawaii",
+    "HAWKE_S_BAY": "Hawke's Bay",
+    "HIGHLANDS": "Highlands",
+    "HIGLANDS_ARRAN": "Higlands Arran",
+    "HIGLANDS_JURA": "Higlands Jura",
+    "HIGLANDS_MULL": "Higlands Mull",
+    "HIGLANDS_ORKNEY": "Higlands Orkney",
+    "HIGLANDS_SKYE": "Higlands Skye",
+    "HOKKAIDO": "Hokkaido",
+    "HONGRIE": "Ungheria",
+    "HONSHU": "Honshu",
+    "HONSHU_AOMORI": "Honshu Aomori",
+    "HONSHU_HYOGO": "Honshu Hyogo",
+    "HONSHU_KANAWAGA": "Honshu Kanawaga",
+    "HONSHU_KYOTO": "Honshu Kyoto",
+    "HONSHU_MIYAGI": "Honshu Miyagi",
+    "HONSHU_NAGANO": "Honshu Nagano",
+    "HONSHU_OSAKA": "Honshu Osaka",
+    "HONSHU_SAITAMA": "Honshu Saitama",
+    "HONSHU_YAMAGATA": "Honshu Yamagata",
+    "HONSHU_YAMANASHI": "Honshu Yamanashi",
+    "INDE": "India",
+    "INDIANA": "Indiana",
+    "IRLANDE": "Irlanda",
+    "ISLAND_OF_NEGROS": "Isola di Negros ",
+    "ISLAY": "Islay",
+    "ISRAEL": "Israele",
+    "ITALIE": "Italia",
+    "JALISCO": "Jalisco",
+    "JAMAIQUE": "Giamaica",
+    "JAPON": "Giappone",
+    "JURA": "Jura",
+    "JUZNOSLOVENSKA": "Juznoslovenska",
+    "KAMPTAL": "Kamptal",
+    "KENTUCKY": "Kentucky",
+    "KENYA": "Kenya",
+    "LA_REUNION": "Isola della Riunione",
+    "LANGHORNE_CREEK": "Langhorne Creek",
+    "LANGUEDOC": "Languedoc",
+    "LANZAROTE": "Lanzarote",
+    "LIBAN": "Libano",
+    "LIGURIE": "Liguria",
+    "LOMBARDIE": "Lombardia",
+    "LOWLANDS": "Lowlands",
+    "MACEDOINE": "Macedonia",
+    "MADAGASCAR": "Madagascar",
+    "MADERE": "Madeira",
+    "MAIPO": "Maipo",
+    "MARCHES": "Marche",
+    "MARGARET_RIVER": "Margaret River",
+    "MARIE_GALANTE": "Marie Galante",
+    "MARLBOROUGH": "Marlborough",
+    "MARTINIQUE": "Martinica",
+    "MAURICE": "Mauritius",
+    "MCLAREN_VALE": "Mclaren Vale",
+    "MEKNES": "Meknes",
+    "MENDOZA": "Mendoza",
+    "MEXIQUE": "Messico",
+    "MOSEL_SAAR": "Mosel Saar",
+    "MOSELLE": "Mosella",
+    "MURCIE": "Murcia",
+    "NAHE": "Nahe",
+    "NAPA_VALLEY": "Napa Valley",
+    "NAVARRE": "Navarra",
+    "NELSON": "Nelson",
+    "NEPAL": "Nepal",
+    "NEUCHATEL": "Neuchatel",
+    "NEW_YORK": "New York",
+    "NICARAGUA": "Nicaragua",
+    "NORD": "Nord",
+    "NORMANDIE": "Normandia",
+    "NOUVELLE_ANGLETERRE": "New England",
+    "NOUVELLE_ZELANDE": "Nuova Zelanda",
+    "OAXACA": "Oaxaca",
+    "OKINAWA": "Okinawa",
+    "OMBRIE": "Umbria",
+    "OREGON": "Oregon",
+    "PANAMA": "Panama",
+    "PATAGONIE": "Patagonia",
+    "PAYS_DE_BADE": "Baden",
+    "PELOPONNESE": "Peloponneso",
+    "PENNSYLVANIE": "Pennsylvania",
+    "PEROU": "Perù",
+    "PFALZ": "Pfalz",
+    "PIEMONT": "Piemonte",
+    "POLOGNE": "Polonia",
+    "PORTO_RICO": "Porto Rico",
+    "PORTUGAL": "Portogallo",
+    "PRIMORSKI": "Primorski",
+    "PROVENCE": "Provenza",
+    "REPUBLIQUE_DOMINICAINE": "Repubblica Dominicana",
+    "REPUBLIQUE_TCHEQUE": "Repubblica Ceca",
+    "RHEINGAU": "Rheingau",
+    "RHEINHESSEN": "Rheinhessen",
+    "RHONE_ALPES": "Rhône-Alpes",
+    "RHONE": "Rodano",
+    "RIBERA_DEL_DUERO": "Ribera del Duero",
+    "RIO_NEGRO": "Rio Negro",
+    "RIOJA": "Rioja",
+    "ROUSSILLON": "Roussillon",
+    "RUSSIE": "Russia",
+    "SAINT_MARTIN": "Saint-Martin",
+    "SAINTE_LUCIE": "Santa Lucia",
+    "SAN_JUAN": "San Juan",
+    "SANTORIN": "Santorini",
+    "SARDAIGNE": "Sardegna",
+    "SAVOIE": "Savoia",
+    "SEYCHELLES": "Seychelles",
+    "SICILE": "Sicilia",
+    "SLOVAQUIE": "Slovacchia",
+    "SONOMA": "Sonoma",
+    "SOUTH_AUSTRALIA": "South Australia",
+    "SUD": "Sud",
+    "SPEYSIDE": "Speyside",
+    "SRI_LANKA": "Sri Lanka",
+    "STELLENBOSCH": "Stellenbosch",
+    "SUD_OUEST": "Sud-Ouest",
+    "SUEDE": "Svezia",
+    "SWARTLAND": "Swartland",
+    "TAHITI": "Tahiti",
+    "TAIWAN": "Taiwan",
+    "TASMANIE": "Tasmania",
+    "TCHECOSLOVAQUIE": "Cecoslovacchia",
+    "TENERIFE": "Tenerife",
+    "TENNESSEE": "Tennessee",
+    "TESSIN": "Ticino",
+    "TEXAS": "Texas",
+    "TOKAJ": "Tokaj",
+    "TORO": "Toro",
+    "TOSCANE": "Toscana",
+    "TOTORI": "Totori",
+    "TRENTIN_HAUT_ADIGE": "Trentino-Alto Adige",
+    "TRINITE_ET_TOBAGO": "Trinidad e Tobago",
+    "UCO": "Uco",
+    "URSS": "Urss",
+    "URUGUAY": "Uruguay",
+    "VALAIS": "Valais",
+    "VALENCE": "Valencia",
+    "VALLEE_D_AOSTE": "Valle d’Aosta",
+    "VALLEE_DE_LA_LOIRE": "Valle della Loira",
+    "VALLEE_DU_DOURO": "Douro",
+    "VALLEE_DU_RHONE": "Valle del Rodano",
+    "VALLEE_DU_RHONE_NORD": "Rodano Settentrionale",
+    "VALLEE_DU_RHONE_SUD": "Rodano Meridionale",
+    "VENETIE": "Veneto",
+    "VENEZUELA": "Venezuela",
+    "VICTORIA": "Victoria",
+    "VINHO_VERDE": "Vinho Verde",
+    "VIRGINIE": "Virginia",
+    "WAIRAPAPA": "Wairapapa",
+    "WALLA_WALLA_VALLEY": "Walla Walla Valley",
+    "WASHINGTON": "Washington",
+    "WESTERN_AUSTRALIA": "Western Australia",
+    "WESTERN_CAPE": "Western Cape",
+    "YAMANASHI": "Yamanashi",
+    "YILAN_COUNTY": "Yilan County",
+    "YUNNAN": "Yunnan"
+  }
+}

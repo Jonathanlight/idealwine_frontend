@@ -1,0 +1,140 @@
+@import "@/styles/stylesheet";
+
+.auctionCurrentInformationsContainer {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  padding-top: getSpacing(2);
+  padding-bottom: getSpacing(2);
+
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+}
+
+.initialNextAuctionOrderAmount {
+  line-height: 1;
+  font-weight: 600;
+
+  @include isLargeOrExtraLargeDesktop {
+    line-height: 1.2;
+  }
+}
+
+.initialNextAuctionOrderAmountFinished {
+  color: $grey;
+}
+
+.numberOfBidsButton {
+  margin: 10px;
+  margin-top: 0;
+  transform: translateY(50%);
+  padding: getSpacing(1) getSpacing(8);
+  font-size: $fontSizeSmaller;
+  @include isMobileOrTablet {
+    margin: 0;
+    padding: getSpacing(2);
+    transform: none;
+    width: 100%;
+    font-size: $fontSizeTiny;
+    background-color: $golden;
+    border-color: $golden;
+  }
+  // A custom breakpoint is necessary for small devices
+  @media (max-width: 350px) {
+    padding: 8px;
+  }
+}
+
+.auctionInfo {
+  width: 100%;
+  border: solid;
+  border-width: 1px;
+  padding: getSpacing(2);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: $fontSizeSmall;
+  @include isMobileOrTablet {
+    font-size: $fontSizeTinier;
+    border-top: none;
+    margin: 0;
+    padding: 11px getSpacing(1);
+  }
+}
+
+.property {
+  display: flex;
+  flex-direction: column;
+  font-family: $fontFamily;
+  font-size: $fontSizeTiny;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  @include isMobileOrTablet {
+    letter-spacing: 0;
+  }
+}
+
+.auctionTotalAmountInformationButton {
+  display: flex;
+  font-size: $fontSizeSmaller;
+  align-items: center;
+  gap: getSpacing(1);
+}
+
+.group {
+  width: 100%;
+  display: contents;
+
+  @include isMobileOrTablet {
+    position: absolute;
+    display: block;
+    width: 30%;
+    right: getSpacing(5);
+    bottom: getSpacing(2);
+  }
+  // A custom breakpoint is necessary for small devices
+  @media (max-width: 350px) {
+    width: 34%;
+    right: 10px;
+  }
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+  gap: getSpacing(1);
+}
+
+.live {
+  font-size: $fontSizeSmall;
+  color: $greenBio;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @include isLargeOrExtraLargeDesktop {
+    margin-top: getSpacing(2);
+  }
+}
+
+.liveDot {
+  animation: fadeInOut 1.5s infinite;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}

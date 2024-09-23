@@ -1,0 +1,148 @@
+@import "@/styles/stylesheet";
+
+.selectBox {
+  margin: getSpacing(4) 0;
+}
+
+.bigCard {
+  margin-top: getSpacing(4);
+  padding: getSpacing(4);
+  background-color: $white;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sharePart {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+  justify-content: center;
+}
+
+.shareContent {
+  padding: getSpacing(3) 0 getSpacing(3);
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(3);
+
+  @include isDesktop {
+    width: 30%;
+  }
+}
+
+.shareButton {
+  width: 100%;
+}
+
+.shareCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include isDesktop {
+    flex-direction: row;
+  }
+}
+
+.shareContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shareLink {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+  width: 100%;
+}
+
+.and {
+  font-family: $fontFamily;
+  font-size: getSpacing(15);
+  color: $white;
+}
+
+.promoContainer {
+  position: relative;
+  background-image: url("/parrainage-banniere.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  color: $white;
+  text-align: center;
+  font-family: $fontFamily;
+}
+
+.promoContent {
+  position: relative;
+  padding: getSpacing(7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: getSpacing(4);
+}
+
+.promoTitle {
+  text-align: left;
+  margin-bottom: getSpacing(5);
+  font-size: getSpacing(6);
+  font-family: $fontFamily;
+
+  @include isMobile {
+    text-align: center;
+    font-size: getSpacing(5);
+  }
+}
+
+.promoOffers {
+  display: flex;
+  padding-left: getSpacing(5);
+  gap: getSpacing(3);
+  align-items: center;
+
+  @include isMobile {
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+
+.promoMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.promoOffer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: getSpacing(2);
+  background: $white;
+  color: $goldenLighter;
+  font-size: getSpacing(4);
+  width: getSpacing(30);
+  height: getSpacing(30);
+}
+
+.promoSubtitle {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: getSpacing(3);
+  gap: getSpacing(1);
+  font-family: $fontFamily;
+}
+
+.promoOfferAmount {
+  font-size: getSpacing(13);
+  font-weight: 600;
+  font-family: $fontFamily;
+}
+
+.promoOfferText {
+  font-size: getSpacing(3);
+  font-family: $fontFamily;
+}

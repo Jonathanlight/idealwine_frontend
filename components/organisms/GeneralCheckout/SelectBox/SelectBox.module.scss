@@ -1,0 +1,64 @@
+@import "@/styles/stylesheet";
+
+.selectBoxContainer {
+  width: 100%;
+  border: 1px solid $grey;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: $white;
+}
+
+.selectBoxButton {
+  padding: getSpacing(4);
+  cursor: pointer;
+}
+
+.selectBoxHeader {
+  display: flex;
+  gap: getSpacing(2);
+  align-items: center;
+}
+
+.selectBoxContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.selectBoxCheckmark {
+  width: 20px;
+  height: 20px;
+  border: 1px solid $greyDarker;
+  border-radius: 50%;
+  order: -1;
+  flex-shrink: 0;
+
+  @include isTabletOrDesktop {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.goldenCheckmark {
+  background-color: $golden;
+  border: none;
+}
+
+.selectBoxTitle {
+  font-weight: bold;
+  letter-spacing: $letterSpacingMedium;
+  text-transform: uppercase;
+}
+
+.selectBoxText {
+  color: $greyDarker;
+}
+
+.childrenContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+  padding: getSpacing(4);
+  padding-top: 0;
+}

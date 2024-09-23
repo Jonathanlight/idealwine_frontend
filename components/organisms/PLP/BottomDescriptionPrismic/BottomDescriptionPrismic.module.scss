@@ -1,0 +1,15 @@
+@import "@/styles/stylesheet";
+
+.content {
+  text-align: justify;
+  border: 1px solid $greyLighter;
+  box-shadow: 0 0 20px rgb(0 0 0 / 4%);
+  border-radius: 10px;
+  padding: getSpacing(10);
+  line-height: 1.5;
+  letter-spacing: $letterSpacingSmall;
+}
+
+.paragraph {
+  margin: getSpacing(5) 0;
+}

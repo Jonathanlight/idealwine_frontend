@@ -1,0 +1,46 @@
+{
+  "basket": {
+    "nextPageButtonText": "Ich bestätige meinen Warenkorb"
+  },
+  "shipping": {
+    "nextPageButtonText": "Ich bestätige meine Lieferung"
+  },
+  "payment": {
+    "nextPageButtonText": "Bestellung bezahlen"
+  },
+  "basketName": "Warenkorb",
+  "shippingName": "Sammellieferung",
+  "shippingNameDelivery": "Lieferung",
+  "paymentName": "Bezahlung",
+  "basketItems": {
+    "0": "Kein Artikel",
+    "1": "{{count}} Artikel",
+    "other": "{{count}} Artikel"
+  },
+  "complete_personal_info_dialog": {
+    "title": "Meine persönlichen Daten vervollständigen",
+    "content": "Bitte geben Sie alle persönlichen Daten an, um Ihren Warenkorb zu bestätigen.",
+    "button": "Vervollständigen"
+  },
+  "total": "Gesamt",
+  "amountTotal": "Gesamtbetrag",
+  "includingVAT": "inkl. MwSt. ",
+  "customsFee": "Zollrechte",
+  "errorOccurred": "Ein Fehler ist aufgetreten",
+  "auctionAt": "Auktionen vom {{date}}",
+  "auctionAtWithCountry": "Auktionen von {{date}} - {{country}}",
+  "directPurchaseAt": "Käufe zum Festpreis vom {{date}}",
+  "directPurchaseAtWithCountry": "Käufe zum Festpreis vom {{date}} - {{country}}",
+  "deliveryRequestAt": "Anfrage der Lieferung vom {{date}}",
+  "storage": "Lagergebühr",
+  "promotionsAndReductions": "Aktionen und Rabatte:",
+  "reductions": "Ermäßigungen",
+  "countdown": "Bitte beachten Sie: Die Posten in Ihrem Warenkorb bleiben reserviert für eine Dauer von {{minutesDisplayed}}:{{secondsDisplayed}}",
+  "disclaimer": "Danach werden sie erneut anderen Kunden angeboten.",
+  "tooLate": "Ihr Warenkorb wird bald ablaufen.",
+  "recap": "Zusammenfassung",
+  "myUnpaidOrders": "Meine nicht bezahlten Bestellungen",
+  "myPaidOrders": "Meine Bestellungen, die noch geliefert werden.",
+  "myBasket": "Mein Warenkorb",
+  "securePayment": "Sichere Zahlung"
+}

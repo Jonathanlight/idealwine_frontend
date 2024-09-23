@@ -1,0 +1,82 @@
+@import "@/styles/stylesheet";
+
+.content {
+  position: relative;
+  min-height: 300px;
+  display: flex;
+  gap: getSpacing(5);
+  margin: getSpacing(4) 0;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+  @include isDesktop {
+    flex-direction: row;
+  }
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.background::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.imageDiv {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow: hidden;
+  @include isDesktop {
+    width: 30%;
+    min-width: 280px;
+  }
+}
+
+.writtenContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 95%;
+  padding: getSpacing(4);
+  margin: auto;
+  z-index: 1;
+  text-align: justify;
+
+  @include isDesktop {
+    margin-right: 5%;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: $fontFamily;
+  font-size: $fontSizeExtraLarge;
+  letter-spacing: $letterSpacingMedium;
+  font-weight: normal;
+  width: 100%;
+  margin-bottom: getSpacing(2);
+  text-align: left;
+
+  @include isDesktop {
+    font-size: $fontSizeExtraLarge;
+  }
+}
+
+:export {
+  white: $white;
+  black: $black;
+}

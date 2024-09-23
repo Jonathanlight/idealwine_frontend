@@ -1,0 +1,25 @@
+{
+  "seo": {
+    "title": "Wine ratings and vintage guides for major French wine regions - iDealwine",
+    "description": "Vintage guide, discover rating, review, opinions and ratings by region."
+  },
+  "ariane1": "Home",
+  "ariane2": "Vintage Guide",
+  "h1": "SEARCH A VINTAGE RATING",
+  "choisirRegion": "Choose a region",
+  "choisirMillesime": "Choose a vintage",
+  "alsace": "Alsace",
+  "p1": "Vintage ratings are generally a useful indicator of wine quality in a designated region. Even though there are always exceptions and characteristics that may vary, it remains an interesting starting point for any wine connoisseur looking for a specific year. This guide will allow you to find good years and exceptional vintages.",
+  "p2": "You can either select the region and vintage or simply view the consolidated scores in the vintage chart.",
+  "p3": "  For each vintage listed, climatic conditions and main characteristics of each year are explained, and the best wines in that vintage are named. For your convenience, a selection of bottles from the selected vintage currently for sale is  also included.",
+  "vintageNotes": "Take me to vintage ratings",
+  "countriesTableTitle": "Vintage Chart - Global Regions",
+  "frenchRegionsTableTitle": "Vintage chart - French regions",
+  "YEAR": "Vintage",
+  "year": "Vintage",
+  "internationalWines": "Wines of the world",
+  "frenchPageButton": "French wines",
+  "frenchWines": "French Wine",
+  "footNote": "* Click on the rating to learn more",
+  "valider": "Confirm"
+}

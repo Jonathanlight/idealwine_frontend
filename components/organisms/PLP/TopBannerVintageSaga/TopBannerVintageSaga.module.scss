@@ -1,0 +1,89 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  position: relative;
+  min-height: 300px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  @include isMobileOrTablet {
+    flex-direction: column;
+    min-height: none;
+    max-height: none;
+  }
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  height: 100%;
+  border: 1px solid $greyLight;
+  padding: getSpacing(6) 0;
+  gap: getSpacing(2);
+  @include isMobileOrTablet {
+    height: unset;
+    width: 100%;
+  }
+}
+
+.notesContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.notesTitle {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: $goldenLightest;
+}
+
+.titleAndDescription {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: getSpacing(4);
+  height: 100%;
+  padding: getSpacing(6) getSpacing(8);
+  background-color: $antiqueWhite;
+}
+
+.title {
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  @include isMobileOrTablet {
+    text-align: center;
+  }
+}
+
+.description {
+  text-align: justify;
+  letter-spacing: 1px;
+  overflow: auto;
+  scrollbar-width: auto;
+  scrollbar-color: #c9c1b3 #f3eede;
+
+  /* Custom scrollbar styles */
+
+  &::-webkit-scrollbar-track {
+    background: #f3eede;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #c9c1b3;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #a39788;
+  }
+}

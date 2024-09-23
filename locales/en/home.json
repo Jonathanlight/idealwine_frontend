@@ -1,0 +1,23 @@
+{
+  "initialDescription": "Your go-to website to buy and re-sell fine wine, grands crus from Bordeaux, Burgundy and Rhone at auction or direct from wineries. Free estimates upon request.",
+  "lastOrdersTitle": "Recent bids & orders",
+  "auction": "auction",
+  "directPurchase": "fixed-price",
+  "sliderAuctionTitle": "Current auctions",
+  "sliderDirectPurchaseTitle": "fixed price",
+  "seeMore": "See more",
+  "newReleasesTitle": "New arrivals this week",
+  "seeMoreNewReleases": "new releases",
+  "ratingsSearchTitle": "Price estimate\nLook up a price estimate for a wine",
+  "ratingsSearchPlaceholder": "Search for a wine",
+  "regionEnum": {
+    "bordeaux": "Bordeaux",
+    "bourgogne": "Burgundy",
+    "rhone": "Rhône",
+    "autre": "Other regions"
+  },
+  "seo": {
+    "title": "The international platform to buy, sell & estimate your wine - iDealwine",
+    "description": "Discerning wine lovers website of choice - buy and sell fine wine, grands crus from Bordeaux, Burgundy and Rhone at auction or direct from wineries. Free estimates upon request."
+  }
+}

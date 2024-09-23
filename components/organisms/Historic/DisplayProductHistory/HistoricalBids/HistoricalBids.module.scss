@@ -1,0 +1,40 @@
+@import "../index.module";
+
+.bidInfo {
+  display: flex;
+  align-items: baseline;
+  gap: getSpacing(1);
+}
+
+.isObtainedValue {
+  color: $goldenLighter;
+}
+
+.bidInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: getSpacing(3) 0;
+  @include isLargeOrExtraLargeDesktop {
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+
+.bidInfoSection {
+  @include isLargeOrExtraLargeDesktop {
+    padding: 0 getSpacing(2);
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &:not(:last-child) {
+      border-right: 1px solid $grey;
+    }
+  }
+}

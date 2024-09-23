@@ -1,0 +1,36 @@
+{
+  "404": {
+    "title": "The page your looking for doesn’t exist or is no longer at this url address.",
+    "secondTitle": "But don’t worry!",
+    "descriptionLine1": "To find a wine, use the search engine at the centre of ",
+    "descriptionLink1": "iDealwine’s home page.",
+    "descriptionLine2": "Read the latest news on",
+    "descriptionLink2": "the iDealwine blog.",
+    "descriptionLine3": "If you have any problems connecting to your account,",
+    "descriptionLink3": "please contact us. ",
+    "seo": {
+      "title": "404 error - iDealwine",
+      "description": ""
+    }
+  },
+  "500": {
+    "title": "500 ERROR - The server encountered an unexpected issue.",
+    "descriptionLine1": "We are working hard to get the sight up and running again so that you can continue browsing.",
+    "descriptionLine2Text1": "In the meantime, why not have a look at",
+    "descriptionLine2Link1": "our blog",
+    "descriptionLine2Text2": "or social media pages",
+    "descriptionLine2Link2": "(Facebook",
+    "descriptionLine2Text3": ",",
+    "descriptionLine2Link3": "Instagram",
+    "descriptionLine2Text4": " and",
+    "descriptionLine2Link4": "Twitter",
+    "descriptionLine2Text5": " ?",
+    "seo": {
+      "title": "500 error - iDealwine",
+      "description": ""
+    }
+  },
+  "buy": "Buy",
+  "sell": "Sell",
+  "estimate": "Estimate"
+}

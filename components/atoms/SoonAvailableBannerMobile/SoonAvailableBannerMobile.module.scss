@@ -1,0 +1,11 @@
+@import "@/styles/stylesheet";
+
+.mobileText {
+  display: flex;
+  gap: getSpacing(2);
+  align-items: center;
+  text-transform: uppercase;
+  font-size: $fontSizeSmall;
+  font-weight: 500;
+  padding-bottom: getSpacing(2);
+}

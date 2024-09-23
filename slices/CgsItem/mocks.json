@@ -1,0 +1,96 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "type": "Text",
+        "value": "I - Informations légales"
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "1. Dénomination : IDEALWINE.COM S.A.S.\nSiège social : 190, rue d'Estienne d'Orves – 92700 COLOMBES - FRANCE\nRCS : NANTERRE B 431 661 628\nTel : + 33 1 56 05 86 10\nFax : + 33 1 56 05 86 11\nEmail : info@idealwine.com\nReprésentant légal et directeur de la publication : Cyrille JOMAND\nForme juridique : Société par actions simplifiée\nCapital Social : 502 200 €\nN° TVA intra-communautaire : FR73 431 661 628",
+              "spans": [
+                {
+                  "type": "strong",
+                  "start": 39,
+                  "end": 51
+                },
+                {
+                  "type": "strong",
+                  "start": 108,
+                  "end": 111
+                },
+                {
+                  "type": "strong",
+                  "start": 214,
+                  "end": 232
+                }
+              ]
+            },
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Ce site est hébergé par ASP SOURCING",
+              "spans": []
+            },
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "La couche de présentation gérée par IDEALWINE utilise la Solution iMX, propriété de CODIX, pour fournir ses services, avec CODIX",
+              "spans": []
+            },
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "2. Dénomination : International Wine Auction.\nSiège social : 190, rue d'Estienne d'Orves – 92700 COLOMBES - FRANCE\nRCS : NANTERRE B 431 661 628\nTel : + 33 1 56 05 86 10\nFax : + 33 1 56 05 86 11\nEmail : info@idealwine.com\nReprésentant légal et directeur de la publication : Cyrille JOMAND\nForme juridique : Société à responsabilité limitée\nCapital Social : 10.000 €\nN° TVA intra-communautaire : FR13754038586",
+              "spans": [
+                {
+                  "type": "strong",
+                  "start": 46,
+                  "end": 58
+                },
+                {
+                  "type": "strong",
+                  "start": 115,
+                  "end": 118
+                },
+                {
+                  "type": "strong",
+                  "start": 221,
+                  "end": 239
+                }
+              ]
+            },
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "La SARL International Wine Auction agit comme Opérateur de Vente Volontaire (« OVV ») régi par les article L. 321-4 et suivants du Code de commerce et bénéficie à ce titre d’un agrément délivré par le Conseil des ventes volontaires de meubles aux enchères publiques (agrément n°2012-027).",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

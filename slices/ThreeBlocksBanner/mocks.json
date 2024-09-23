@@ -1,0 +1,109 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "type": "Text",
+        "value": "Les Domaines de la semaine"
+      },
+      "image1": {
+        "origin": {
+          "id": "IGJ_21drT3g",
+          "url": "https://images.unsplash.com/photo-1548025396-689d647d00c5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMXx8d2luZXxlbnwwfHx8fDE2OTYyMzY4NzJ8MA&ixlib=rb-4.0.3&q=85",
+          "width": 3872,
+          "height": 2592
+        },
+        "url": "https://images.unsplash.com/photo-1548025396-689d647d00c5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMXx8d2luZXxlbnwwfHx8fDE2OTYyMzY4NzJ8MA&ixlib=rb-4.0.3&q=85",
+        "width": 3872,
+        "height": 2592,
+        "edit": {
+          "background": "transparent",
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      },
+      "linkimage1": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "http://google.com"
+        }
+      },
+      "image2": {
+        "origin": {
+          "id": "3uJt73tr4hI",
+          "url": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw4fHx3aW5lfGVufDB8fHx8MTY5NjIzNjg3Mnww&ixlib=rb-4.0.3&q=85",
+          "width": 4256,
+          "height": 2832
+        },
+        "url": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw4fHx3aW5lfGVufDB8fHx8MTY5NjIzNjg3Mnww&ixlib=rb-4.0.3&q=85",
+        "width": 4256,
+        "height": 2832,
+        "edit": {
+          "background": "transparent",
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      },
+      "linkimage2": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      "image3": {
+        "origin": {
+          "id": "MDJvfXJGnRM",
+          "url": "https://images.unsplash.com/photo-1491924778227-f225b115dd5f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxNnx8d2luZXxlbnwwfHx8fDE2OTYyMzY4NzJ8MA&ixlib=rb-4.0.3&q=85",
+          "width": 5616,
+          "height": 3744
+        },
+        "url": "https://images.unsplash.com/photo-1491924778227-f225b115dd5f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxNnx8d2luZXxlbnwwfHx8fDE2OTYyMzY4NzJ8MA&ixlib=rb-4.0.3&q=85",
+        "width": 5616,
+        "height": 3744,
+        "edit": {
+          "background": "transparent",
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      },
+      "linkimage3": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "http://google.com"
+        }
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

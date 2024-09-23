@@ -1,0 +1,30 @@
+{
+  "unknownPaymentMethod": "Moyen de paiement inconnu",
+  "edit": "Modifier",
+  "validatedCommand": "Commande validée",
+  "paymentTaken": "Votre commande a bien été prise en compte, nous attendons votre règlement.",
+  "validatedFreeOrder": "Votre commande a bien été prise en compte.",
+  "validatedMessage": "Vous recevrez un email de confirmation dans quelques instants. Nous vous remercions pour votre confiance et vous souhaitons une bonne dégustation ! 😃",
+  "validatedTeam": "L'équipe iDealwine",
+  "validatedBack": "Retour au site",
+  "billingAddress": "Adresse de facturation",
+  "validate": "Valider",
+  "paymentFailure": "Le règlement a échoué, votre commande n'a pas pu être prise en compte.",
+  "payBankTransfer": "Payer par virement bancaire",
+  "bankTransferInstructions": "<strong>Merci de préciser le numéro de commande dans le motif du virement.</strong><br/><strong>Compte bancaire en France (toutes devises étrangères acceptées) :</strong><br/>BRED<br/>IBAN : FR76 1010 7001 7500 1140 7454 286<br/>Code BIC (SWIFT) : BREDFRPPXXX<br/>Merci de préciser le numéro de commande dans le motif du virement.<br/><strong>Pour les virements en devises autres que l'euro (USD, HKD, GPD, SGD), vous pouvez utiliser notre compte hong-kongais :</strong><br/>N° de compte : 848 540407 838<br/>Nom : iDealwine.com<br/>Swift : HSBCHKHHHKH<br/>Banque du bénéficiaire : HSBC Hong Kong<br/>Adresse de la banque du bénéficiaire : 1 Queen's Road Central, Hong Kong",
+  "nothingToPay": "Aucun règlement n'est nécessaire pour cette commande.",
+  "orderTotal": "Montant à régler : <0></0>",
+  "orderNumber": "Numéro de commande : {{orderNumber}}",
+  "unsupportedCurrencyModal": {
+    "title": "Devise non supportée",
+    "content": "La devise sélectionnée dans votre profil ({{currency}}) n'est pas disponible pour le paiement par carte bancaire. Vous allez être automatiquement redirigé vers un paiement en euros. Si vous souhaitez payer en USD ou en GBP, veuillez changer de devise via le sélecteur en haut à droite de la page, ou depuis votre profil My iDealwine. Vous pouvez également payer dans votre devise par virement bancaire en sélectionnant ce moyen de paiement.",
+    "amountInEur": "Montant de votre commande en euros : <0></0>",
+    "cancel": "Annuler",
+    "continue": "Continuer"
+  },
+  "applePay": {
+    "notAvailable": "Apple Pay n'est pas disponible sur votre appareil. Pour utiliser Apple Pay, utilisez un autre navigateur ou mettez le à jour.",
+    "errorMerchantValidation": "Impossible de contacter le serveur Apple Pay. Veuillez réessayer plus tard.",
+    "errorPaymentProcess": "Une erreur est survenue lors du traitement du paiement. Si vous avez été débité, veuillez contacter le service client. Dans le cas contraire, veuillez réessayer."
+  }
+}

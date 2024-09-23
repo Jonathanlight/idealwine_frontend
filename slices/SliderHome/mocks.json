@@ -1,0 +1,111 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {},
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "auction",
+            {
+              "__TYPE__": "BooleanContent",
+              "value": false
+            }
+          ],
+          [
+            "link1",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "http://twitter.com"
+              }
+            }
+          ],
+          [
+            "link2",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "http://google.com"
+              }
+            }
+          ],
+          [
+            "image",
+            {
+              "__TYPE__": "ImageContent",
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6",
+                "width": 4272,
+                "height": 2848
+              },
+              "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6",
+              "width": 4272,
+              "height": 2848,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "thumbnails": {}
+            }
+          ],
+          [
+            "title",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Exercitation Lorem irure ipsum deserunt incididunt officia tempor fugiat nisi occaecat est aliqua. Velit proident nostrud laboris. Ex qui deserunt excepteur."
+                  }
+                }
+              ]
+            }
+          ],
+          [
+            "date",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "lie",
+              "type": "Text"
+            }
+          ],
+          [
+            "imagelabel",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "push",
+              "type": "Text"
+            }
+          ],
+          [
+            "link1label",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "judge",
+              "type": "Text"
+            }
+          ],
+          [
+            "link2label",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "root",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

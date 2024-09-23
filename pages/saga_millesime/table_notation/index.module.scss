@@ -1,0 +1,36 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  padding: 0 getSpacing(6) getSpacing(6) getSpacing(6);
+  display: flex;
+  gap: getSpacing(4);
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tableTitle {
+  font-weight: 400;
+  line-height: 1.3;
+  font-size: $fontSizeSmall;
+  align-self: last baseline;
+}
+
+.tableTitle,
+.mainTitle {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.link {
+  &:focus,
+  &:hover,
+  &:visited,
+  &:active {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "bidsHistory": "Auction history",
+  "ongoingBids": "Current auctions",
+  "buyHistory": "Purchase history",
+  "orderHistoryTab": "Order history",
+  "neverBoughtDirectPurchaseProduct": "You haven’t made any purchases.",
+  "neverMadeABid": "You haven’t placed any bids.",
+  "noOngoingAuction": "You have no bids in current auctions.",
+  "see": "view",
+  "endDate": "Closing Date:",
+  "myOrder": "My Bid:",
+  "currentOrder": "Current Bid:",
+  "wineBottle": "Bottle of wine",
+  "isWinning": "Winning bid",
+  "isLoosing": "Losing bid",
+  "gap": "Gap",
+  "estimate": "Estimate",
+  "finalPrice": "Hammer price",
+  "obtained": "Won",
+  "purchasePrice": "Price",
+  "quantity": "Quantity:",
+  "sortType": {
+    "ORDER_DESC": "Individual bids, from highest",
+    "ORDER_ASC": "Individual bids, from lowest",
+    "HIGHEST_BID_DESC": "Winning bids, from highest",
+    "HIGHEST_BID_ASC": "Winning bids, from lowest",
+    "AUCTION_END_DATE_DESC": "End of sale, from latest",
+    "AUCTION_END_DATE_ASC": "End of sale, from soonest",
+    "defaultSortValue": "Sort by..."
+  },
+  "isObtained": {
+    "true": "Yes",
+    "false": "No"
+  },
+  "orderHistory": {
+    "title": "My order history",
+    "btnViewCurrentAuctions": "See current auctions",
+    "orderNumber": "Ordered on {{orderDate}}",
+    "orderDate": "Ordered on {{orderDate}}",
+    "paymentState": "Payment Status: {{paymentState}}",
+    "shippingState": "Status: {{shippingState}}",
+    "packageReference": "Tracking number:",
+    "shippingDate": "Shipping date: {{shippingDate}}",
+    "shippingMethod": "Shipping method: {{shippingMethod}}",
+    "recap": "Shipping Summary",
+    "errorGenerateInvoiceUrl": "Your invoice is not available. Please contact customer service.",
+    "details": {
+      "title": "More information",
+      "invoice": "Invoice",
+      "paymentRecap": "Payment Summary"
+    },
+    "orderIsPriorToMep": "To obtain the invoice for an order placed before 14 May 2024, please contact the customer service team."
+  },
+  "paymentStateEnum": {
+    "cart": "Basket",
+    "awaiting_payment": "Awaiting payment",
+    "partially_authorized": "Partially authorised",
+    "authorized": "Authorised",
+    "partially_paid": "Partial payment",
+    "cancelled": "Cancelled",
+    "paid": "Paid ",
+    "partially_refunded": "Partial refund",
+    "refunded": "Refunded",
+    "unpaid": "Unpaid"
+  },
+  "shippingStateEnum": {
+    "cart": "Basket",
+    "ready": "Not prepared",
+    "cancelled": "Cancelled",
+    "partially_shipped": "Partially shipped",
+    "shipped": "Shipped",
+    "on_going": "In progress",
+    "pickup_ready": "Awaiting collection",
+    "picked_up": "Collected"
+  },
+  "seo": {
+    "ongoingBids": {
+      "title": "My current bids - iDealwine",
+      "description": "My Current Bids"
+    },
+    "orderHistory": {
+      "title": "Order history and track orders",
+      "description": ""
+    },
+    "purchaseHistory": {
+      "title": "Bidding History - iDealwine",
+      "description": ""
+    }
+  }
+}

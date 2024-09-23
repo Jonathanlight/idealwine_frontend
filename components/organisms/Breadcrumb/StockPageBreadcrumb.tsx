@@ -1,0 +1,24 @@
+import BreadcrumbItem from "@/components/molecules/BreadcrumbItem/BreadcrumbItem";
+import { useTranslation } from "@/utils/next-utils";
+
+import styles from "./Breadcrumb.module.scss";
+
+export const StockPageBreadcrumb = ({
+  translatedLinkName,
+  stockTab,
+}: {
+  translatedLinkName: string;
+  stockTab: string;
+}) => {
+  const { t } = useTranslation("common");
+
+  return (
+    <div className={styles.breadcrumb}>
+      <BreadcrumbItem link="HOME_URL" name={t("breadcrumbs.homePage")} />
+      {" / "}
+      <BreadcrumbItem link="MY_IDEALWINE_HOME_URL" name="My Idealwine" />
+      {" / "}
+      <BreadcrumbItem link={translatedLinkName} name={stockTab} isLast={true} />
+    </div>
+  );
+};

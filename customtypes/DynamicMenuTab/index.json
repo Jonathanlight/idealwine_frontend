@@ -1,0 +1,25 @@
+{
+  "id": "DynamicMenuTab",
+  "label": "DynamicMenuTab",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "label": {
+        "type": "Text",
+        "config": {
+          "label": "label",
+          "placeholder": ""
+        }
+      },
+      "url": {
+        "type": "Link",
+        "config": {
+          "label": "url",
+          "placeholder": "",
+          "select": null
+        }
+      }
+    }
+  }
+}

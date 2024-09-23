@@ -1,0 +1,9 @@
+{
+  "title": "LISTE DES {{totaldomain}} PARTENAIRES D'IDEALWINE",
+  "alt": "Photo du domaine partenaire {{estateName}}",
+  "text": "Chez iDealwine, nous travaillons sans relâche pour identifier les meilleurs producteurs, et entretenir avec eux une relation de confiance sur le long terme. Nous travaillons ainsi depuis plus de quinze ans avec certains domaines, devenus parfois de véritables amis ! Ce sont ces coups de cœur, ces passions et ces découvertes que nous souhaitons partager avec vous lors de nos ventes à prix fixe.\nLes vins en vente sont achetés en direct auprès d'un réseau d'au moins {{totaldomain}} domaines d’exception pour vous proposer le meilleur de chaque vignoble. Les vins sont ainsi proposés à l'achat sur notre cave en ligne à des prix équivalents à ceux pratiqués à la propriété.",
+  "seo": {
+    "title": "Liste des partenaires d'iDealwine",
+    "description": "Liste des partenaires d'iDealwine"
+  }
+}

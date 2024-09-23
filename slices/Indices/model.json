@@ -1,0 +1,117 @@
+{
+  "id": "indices",
+  "type": "SharedSlice",
+  "name": "Indices",
+  "description": "Indices",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Indices",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "indice100text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "indice100text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "indice100": {
+          "type": "Number",
+          "config": {
+            "label": "indice100",
+            "placeholder": ""
+          }
+        },
+        "indicebordeauxtext": {
+          "type": "StructuredText",
+          "config": {
+            "label": "indiceBordeauxText",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "indicebordeaux": {
+          "type": "Number",
+          "config": {
+            "label": "indiceBordeaux",
+            "placeholder": ""
+          }
+        },
+        "indicebourgognetext": {
+          "type": "StructuredText",
+          "config": {
+            "label": "indiceBourgogneText",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "indicebourgogne": {
+          "type": "Number",
+          "config": {
+            "label": "indiceBourgogne",
+            "placeholder": ""
+          }
+        },
+        "indicerhonetext": {
+          "type": "StructuredText",
+          "config": {
+            "label": "indiceRhoneText",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "indicerhone": {
+          "type": "Number",
+          "config": {
+            "label": "indiceRhone",
+            "placeholder": ""
+          }
+        },
+        "cac40text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "cac40text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "cac40": {
+          "type": "Number",
+          "config": {
+            "label": "cac40",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

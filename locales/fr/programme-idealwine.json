@@ -1,0 +1,57 @@
+{
+  "programsTitle": "Le programme de fidélité iDealwine",
+  "programsIntroduction": "A toutes les étapes de votre expérience sur notre site, iDealwine est heureux de vous offrir une jolie série d’avantages.<0></0>C’est notre façon de vous remercier de la confiance que vous nous octroyez.",
+  "classique": {
+    "title": "Classique",
+    "subtitle": "Vous aimez (un peu) iDealwine",
+    "advantages": {
+      "advantage1": "Conditions d’achat \n< 500€ (12 derniers mois)",
+      "advantage2": "15€ valable pour votre première commande e-caviste<0>(0)</0>",
+      "advantage3": "15€ pour vous et votre filleul<0>(1)</0>"
+    }
+  },
+  "privilege": {
+    "title": "Privilège",
+    "subtitle": "Vous aimez (beaucoup) iDealwine",
+    "advantages": {
+      "advantage1": "Conditions d’achat \n> 500€ (12 derniers mois)",
+      "advantage2": "\n15€ pour vous et votre filleul<0>(1)</0>",
+      "advantage3": "3% à valoir sur notre e-cave<0>(2)</0>",
+      "advantage4": "Invitations aux master-classes\niDealwine",
+      "advantage5": "Le Baromètre annuel des enchères\n(version électronique)"
+    }
+  },
+  "ideal": {
+    "title": "Club Idéal",
+    "subtitle": "Vous aimez (passionément) iDealwine",
+    "advantages": {
+      "advantage1": "Conditions d’achat\n> 4000€ (12 derniers mois)",
+      "advantage2": "\n15€ pour vous et votre filleul<0>(1)</0>",
+      "advantage3": "5% à valoir sur notre e-cave<0>(2)</0>",
+      "advantage4": "Invitations aux master-classes et dégustations prestige iDealwine",
+      "advantage5": "Le Baromètre annuel des enchères\n(version électronique)",
+      "advantage6": "Offres réservées de nos partenaires\n(abonnements, évènements vin...)"
+    }
+  },
+  "quintessence": {
+    "title": "Quintessence",
+    "subtitle": "Vous aimez (à la folie) iDealwine",
+    "advantages": {
+      "advantage1": "Conditions d’accès\nAchats cumulés + ancienneté",
+      "advantage2": "\n15€ pour vous et votre filleul<0>(1)</0>",
+      "advantage3": "5% à valoir sur notre e-cave<0>(2)</0>",
+      "advantage4": "Invitations aux master-classes et dégustations prestige iDealwine",
+      "advantage5": "Le Baromètre annuel des enchères\n(envoi postal)",
+      "advantage6": "Offres réservées de nos partenaires\n(abonnements, évènements vin...)",
+      "advantage7": "Ventes privées"
+    }
+  },
+  "programsConditions": "Statut valable 12 mois<0></0>(0) Valable pour une première commande de 150€ minimum, hors frais d’expédition. Non négociable en espèces.<0></0>(1) 15€ offerts à la première commande de votre filleul. Voir le programme de parrainage <0></0>(2) Valable pour les vins issus de nos achats en direct auprès des domaines (TVA récupérable)",
+  "notACustomerYet": "Pas encore client ?",
+  "offerNotClient": "iDealwine vous offre une reduction de 15€",
+  "offerNotClientConditions": "Valable pour toute première commande e-caviste, pour en bénéficier, saisissez le code <0>FIRST</0> au moment de régler vos achats.",
+  "seo": {
+    "title": "Le programme fidélité d’iDealwine",
+    "description": "Le programme fidélité d'iDealwine"
+  }
+}

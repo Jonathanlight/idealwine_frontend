@@ -1,0 +1,43 @@
+{
+  "title": "Guide des vins : tout savoir sur les régions viticoles",
+  "choose-a-region": "Choisissez une région",
+  "regions": {
+    "name": {
+      "ALSACE": "Alsace",
+      "BEAUJOLAIS": "Beaujolais",
+      "BORDEAUX": "Bordeaux",
+      "BOURGOGNE": "Bourgogne",
+      "CHAMPAGNE": "Champagne",
+      "JURA": "Jura",
+      "LANGUEDOC": "Languedoc",
+      "ROUSSILLON": "Roussillon",
+      "VALLEE_DE_LA_LOIRE": "Loire",
+      "PROVENCE": "Provence",
+      "CORSE": "Corse",
+      "SAVOIE": "Savoie",
+      "SUD_OUEST": "Sud-Ouest",
+      "VALLEE_DU_RHONE": "Vallée du Rhône"
+    }
+  },
+  "buttonsText": {
+    "france": "France",
+    "otherCountries": "Autres Pays"
+  },
+  "countries": {
+    "name": {
+      "AUSTRALIE": "Australie",
+      "ESPAGNE": "Espagne",
+      "ETATS_UNIS": "Etats-Unis",
+      "HONGRIE": "Hongrie",
+      "ITALIE": "Italie",
+      "PORTUGAL": "Portugal"
+    }
+  },
+  "search-domain": "Rechercher un domaine",
+  "description1": "Si le berceau de la viticulture se trouve en Méditerranée et en Europe centrale, aujourd'hui, pas moins d'une cinquantaine de pays produisent du vin dans des régions aux caractéristiques variées. La vigne se développe favorablement dans les climats tempérés, dans des zones situées entre 30° et 50° de latitude Nord. Nous vous proposons un guide complet des plus belles régions viticoles (Bourgogne, Bordeaux, Champagne, Rhône, Loire, mais aussi des vignobles étrangers, d'Italie, Espagne, Allemagne et du Nouveau Monde).",
+  "description2": "Vous trouverez dans ce guide du vin toutes les informations sur les différents vignobles de France et du monde : présentation des régions et des appellations, des classements, des plus beaux domaines et des plus grands vins. Chaque vin présenté est accompagné de notes (Robert Parker, La RVF, bettane+desseauve, Jancis Robinson…) et commentaires de dégustation, de conseils d'accords mets et vins, de la note du millésime, de précisions sur le type de viticulture (vins bio, biodynamie…), et bien sûr de la cote iDealwine du vin. Des cartes détaillées vous aideront à situer les différentes appellations. Sont disponibles dans ce guide toutes les informations pour en apprendre plus sur le vin, explorer les différentes régions viticoles et apprendre à choisir le vin.",
+  "seo": {
+    "title": "Guide des vins - iDealwine",
+    "description": "Guide des vins - Toutes les régions viticoles françaises et étrangères - iDealwine"
+  }
+}

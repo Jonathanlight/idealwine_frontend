@@ -1,0 +1,23 @@
+{
+  "seo": {
+    "title": "Tipi di viticoltura - iDealwine",
+    "description": "Ogni anno, in occasione della campagna En Primeurs, che si svolge a Bordeaux nel mese di aprile, iDealwline seleziona alcuni Grand Cru che ritiene interessanti per un’acquisizione. Scopri di più sul nostro servizio En Primeur"
+  },
+  "h1": "VITICOLTURA",
+  "h2-1": "Le varie filosofie di produzione",
+  "h2-2": "Biodinamico",
+  "h2-3": "Biologico",
+  "h2-4": "Sostenibile",
+  "h2-5": "Rispettoso dell'ambiente",
+  "h2-6": "Naturale",
+  "h2-7": "Triple A",
+  "viticulture_general": "Il criterio “Viticultura” include vini certificati in agricoltura biodinamica, biologica, sostenibile/ad alto valore ambientale e i vini “ecologici” che non hanno una certificazione ufficiale. Tali criteri riguardano le annate più recenti (in caso sia nota, la data di certificazione viene precisata nella descrizione della tenuta). Per maggiori dettagli su questo criterio, si rimanda",
+  "viticulture_biodynamie": "Il criterio “biodinamico” raggruppa tutte le aziende certificate in agricoltura biodinamica e approvate da uno dei seguenti organismi ufficiali: Demeter o Biodyvin. Tutti i vini biodinamici sono anche certificati come biologici. Questo criterio riguarda le annate più recenti.",
+  "viticulture_biologique": "Il criterio “biologico” raggruppa tutte le aziende certificate in agricoltura biologica e approvate da un organismo riconosciuto dal Ministero dell'Agricoltura, come Ecocert. Questo criterio riguarda le annate recenti.",
+  "viticulture_raisonee": "Il criterio “agricoltura sostenibile” raggruppa tutte le aziende certificate in agricoltura sostenibile o Haute Valeur Environnementale (livello 3 della Certificazione Ambientale francese). Questo criterio riguarda le annate più recenti.",
+  "viticulture_ecologique": "Il criterio “rispettoso dell'ambiente” riguarda le aziende che adottano pratiche viticole sostenibili, che non hanno richiesto una certificazione, o la cui conversione all’agricoltura biologica o biodinamica non è ancora stata completata. Questo criterio comprende sia aziende con pratiche biodinamiche (non certificate), sia aziende che hanno semplicemente eliminato l’utilizzo di sostanze chimiche. Questo criterio riguarda le annate più recenti.",
+  "viticulture_nature": "Questo criterio si riferisce a vini prodotti senza aggiunta di anidride solforosa (o quasi) né di altri prodotti chimici. Tuttavia, dato che nessun organismo ufficiale rilascia un’etichetta per i vini naturali, questa distinzione si basa sulle dichiarazioni dei viticoltori. Questo criterio riguarda le annate più recenti.",
+  "viticulture_triplea": "Un criterio che riunisce vini naturali che nel processo di vinificazione rispettano disciplinari precisi e rigorosi. Triple A è un manifesto nato in Italia nel 2001 per iniziativa di Luca Gargano, amministratore delegato di Velier, con l’obiettivo di federare le aziende la cui produzione rispecchia lo slogan “Agricoltori, Artigiani e Artisti”. Questo criterio riguarda le annate più recenti.",
+  "viticulture_general-a": "https://www.idealwine.net/nouveau-reperez-clic-vins-bio-idealwine/",
+  "viticulture_general-txt-a": "all'articolo del blog iDealwine."
+}

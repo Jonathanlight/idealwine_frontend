@@ -1,0 +1,225 @@
+@import "@/styles/stylesheet";
+
+.wrapper {
+  display: grid;
+  max-width: 1350px;
+  margin: getSpacing(10) auto;
+  gap: getSpacing(10);
+  @include isMobileOrTablet {
+    margin-top: 0;
+    gap: getSpacing(5);
+  }
+}
+
+.content1 {
+  background: #f8f6f5;
+  padding: getSpacing(5) getSpacing(5);
+  display: flex;
+  gap: getSpacing(10);
+  align-items: center;
+  text-align: center;
+  @include isMobileOrTablet {
+    flex-direction: column;
+    padding: getSpacing(4) getSpacing(2);
+    gap: getSpacing(1);
+  }
+}
+
+.content1 .h1 {
+  color: $golden;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: getSpacing(3);
+}
+
+.content1 .imgstyle {
+  display: flex;
+  max-width: inherit;
+}
+
+.content1 .figurestyle:last-of-type {
+  @include isMobileOrTablet {
+    display: none;
+  }
+}
+
+.content2 {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  background: url("/bg-size-1.jpg") no-repeat 10% center;
+  @include isMobileOrTablet {
+    background: none;
+  }
+}
+
+.content2 .h2 {
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: getSpacing(3);
+}
+
+.content2 .souscontent {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(10);
+  align-items: center;
+  max-width: 60%;
+  padding: getSpacing(10) getSpacing(20);
+  border: $golden dashed 1px;
+  @include isMobileOrTablet {
+    max-width: 90%;
+    padding: getSpacing(5);
+  }
+}
+
+.content3 {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  @include isMobileOrTablet {
+    padding: getSpacing(5);
+  }
+}
+
+.content3 .h3 {
+  color: $golden;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: getSpacing(2);
+}
+
+.content3 .imgstyle {
+  @include isMobileOrTablet {
+    display: none;
+  }
+}
+
+.content3 .ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: getSpacing(1);
+  @include isMobileOrTablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.content3 .li {
+  padding: getSpacing(10) getSpacing(5);
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 50px;
+  align-items: center;
+  @include isMobileOrTablet {
+    grid-template-columns: 1fr;
+    gap: getSpacing(1);
+  }
+}
+
+.content4 {
+  display: grid;
+  text-align: center;
+  color: $antiqueWhite;
+  align-items: center;
+  min-height: 700px;
+}
+
+.content4 .souscontent1 {
+  background: url("/bg-goulot.jpg") no-repeat center bottom 0 #bb934b;
+  padding: getSpacing(10) getSpacing(5);
+}
+
+.content4 .souscontent2 {
+  background: url("/bg-etiquette.jpg") no-repeat center top 0;
+  padding: getSpacing(10) getSpacing(5);
+  min-height: 773px;
+  display: grid;
+  gap: getSpacing(1);
+  grid-template-columns: 1fr 1fr 1fr;
+  color: $black;
+  text-align: justify;
+  @include isMobileOrTablet {
+    grid-template-columns: 1fr;
+    background-image: none;
+  }
+}
+
+.content4 .h2 {
+  font-weight: 300;
+  margin-bottom: getSpacing(3);
+}
+
+.content4 .ul {
+  margin-top: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.content4 .li {
+  padding: getSpacing(1);
+  border-bottom: dashed 1px #efe59d;
+  display: block;
+  padding-top: 0 getSpacing(20);
+}
+
+.souscontent2 .h3,
+.content5 .h3 {
+  color: $golden;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: getSpacing(2) 0;
+}
+
+.content3 .li:nth-child(odd) {
+  background: #f8f6f5;
+}
+
+.content5 {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  gap: getSpacing(10);
+  @include isMobileOrTablet {
+    flex-direction: column;
+    padding: getSpacing(5);
+  }
+}
+
+.content5 .bgcolor {
+  background: #f8f6f5;
+  padding: getSpacing(10);
+}
+
+.content5 .h2 {
+  font-weight: 300;
+  margin-bottom: getSpacing(3);
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 80%;
+  gap: getSpacing(3);
+  border: 1px solid #f8f6f5;
+  padding: getSpacing(5);
+  margin: getSpacing(5) 0;
+  @include isMobileOrTablet {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contentbanner {
+  background-color: $goldenLighter;
+  padding: getSpacing(10);
+  color: $white;
+  border-radius: getSpacing(5);
+  @include isMobileOrTablet {
+    border-radius: 0;
+  }
+}

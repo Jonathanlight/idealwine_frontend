@@ -1,0 +1,95 @@
+@import "@/styles/stylesheet";
+
+.container {
+  margin: getSpacing(0);
+}
+
+.rankingContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: getSpacing(1) getSpacing(1) getSpacing(2) $grey;
+
+  @include isDesktop {
+    flex-direction: row;
+    height: 90px;
+  }
+}
+
+.container:hover {
+  font-weight: bold;
+  box-shadow: getSpacing(1) getSpacing(1) getSpacing(2) $greyDarker;
+  justify-content: center;
+  flex-direction: column;
+
+  @include isDesktop {
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: getSpacing(4);
+    margin-right: getSpacing(2);
+  }
+}
+
+.index {
+  color: $white;
+  background-color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: $fontSizeMedium;
+  border-radius: 60px;
+  height: 80px;
+  width: 80px;
+  @include isDesktop {
+    width: 5%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+.text {
+  text-align: center;
+
+  @include isDesktop {
+    text-align: left;
+  }
+}
+
+.infos {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $white;
+  font-size: $fontSizeMediumSmall;
+  flex-direction: column;
+  @include isDesktop {
+    flex-direction: row;
+  }
+}
+
+.infos:hover {
+  text-decoration: none;
+}
+
+.price {
+  color: $goldenLighter;
+  font-weight: 600;
+}
+
+.tooltipContainer {
+  width: 100%;
+  margin: getSpacing(4);
+  height: 100%;
+  display: flex;
+  @include isDesktop {
+    flex-direction: column;
+  }
+}
+
+.color {
+  text-transform: capitalize;
+}

@@ -1,0 +1,57 @@
+@import "@/styles/stylesheet";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: getSpacing(3);
+  margin-bottom: getSpacing(3);
+  background-color: $antiqueGrey;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: getSpacing(3);
+  font-size: $fontSizeMediumSmall;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+.downloadButtons {
+  display: flex;
+  gap: getSpacing(3);
+  font-weight: normal;
+  flex-direction: column;
+  width: 100%;
+  @include isDesktop {
+    flex-direction: row;
+  }
+}
+
+.divider {
+  width: 100%;
+  margin: getSpacing(3) 0;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: getSpacing(2);
+  padding: getSpacing(3);
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+
+  .name {
+    font-size: $fontSizeMediumSmall;
+  }
+
+  .price {
+    font-size: $fontSizeMedium;
+    font-weight: bold;
+  }
+}

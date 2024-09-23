@@ -1,0 +1,118 @@
+@import "@/styles/stylesheet";
+
+.box {
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(6);
+}
+
+.rectangle {
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  padding: getSpacing(3);
+  gap: getSpacing(2);
+
+  @include isMobile {
+    flex-direction: column;
+    gap: getSpacing(1);
+  }
+}
+
+.historicSort {
+  width: 96%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: getSpacing(5);
+}
+
+.selectAndProducts {
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: $fontSizeBase;
+  text-transform: uppercase;
+  gap: getSpacing(2);
+
+  @include isMobile {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.greenCircle {
+  min-width: getSpacing(2);
+  width: getSpacing(2);
+  height: getSpacing(2);
+  border-radius: 50%;
+  background-color: $green;
+}
+
+.redCircle {
+  min-width: getSpacing(2);
+  width: getSpacing(2);
+  height: getSpacing(2);
+  border-radius: 50%;
+  background-color: $red;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: getSpacing(1);
+  font-size: $fontSizeSmall;
+
+  @include isMobile {
+    margin: getSpacing(3);
+  }
+}
+
+.button {
+  width: getSpacing(50);
+
+  @include isTablet {
+    width: getSpacing(35);
+  }
+
+  @include isMobile {
+    width: getSpacing(20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.image {
+  width: getSpacing(16);
+  height: getSpacing(16);
+}
+
+.subTitle {
+  display: flex;
+  gap: getSpacing(2);
+  align-items: center;
+
+  @include isTablet {
+    font-size: getSpacing(3);
+    gap: getSpacing(2);
+  }
+
+  @include isMobile {
+    flex-direction: column;
+    justify-content: center;
+    font-size: getSpacing(3);
+    gap: getSpacing(1);
+  }
+}
+
+.onDesktopAndTablet {
+  @include isMobile {
+    display: none;
+  }
+}

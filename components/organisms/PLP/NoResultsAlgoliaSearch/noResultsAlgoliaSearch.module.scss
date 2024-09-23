@@ -1,0 +1,41 @@
+@import "@/styles/stylesheet";
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(8);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  @include isTabletOrDesktop {
+    justify-content: flex-start;
+    padding: getSpacing(10) 0;
+  }
+}
+
+.titleIcon {
+  height: 60px;
+  width: 60px;
+}
+
+.title {
+  font-size: $fontSizeMediumLarge;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  @include isDesktop {
+    letter-spacing: $letterSpacingMedium;
+  }
+}
+
+.subtitle {
+  font-size: $fontSizeMediumSmall;
+}
+
+.redText {
+  color: $redDark;
+}

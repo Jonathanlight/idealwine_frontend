@@ -1,0 +1,44 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: $white;
+  max-height: 200px;
+  padding: 0 getSpacing(1);
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  flex-grow: 1;
+
+  @include isMobileOrTablet {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $blueishGrey;
+}
+
+.contactName {
+  color: $golden;
+}
+
+.image {
+  padding: getSpacing(6) getSpacing(4);
+  border-radius: 50%; // This will make the image round
+
+  @include isMobileOrTablet {
+    padding: getSpacing(6) 0;
+  }
+}

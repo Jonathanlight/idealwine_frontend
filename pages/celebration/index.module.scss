@@ -1,0 +1,146 @@
+@import "@/styles/stylesheet";
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  padding: getSpacing(10) getSpacing(4);
+
+  @include isTabletOrDesktop {
+    padding: getSpacing(10);
+  }
+}
+
+.firstPartContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: getSpacing(10);
+
+  @include isTabletOrDesktop {
+    flex-direction: row;
+  }
+}
+
+.firstPartLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+
+  @include isTabletOrDesktop {
+    text-align: right;
+  }
+}
+
+.firstPartTitle {
+  font-size: $fontSizeExtraLarge;
+  font-weight: 300;
+  color: $golden;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.firstPartSubtitle {
+  font-size: $fontSizeMedium;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.firstPartContact {
+  margin-top: getSpacing(10);
+  max-width: fit-content;
+  align-self: center;
+  text-transform: uppercase;
+
+  @include isTabletOrDesktop {
+    align-self: flex-end;
+  }
+}
+
+.firstPartRight {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.firstPartImage {
+  border-radius: getSpacing(4);
+}
+
+.firstPartDescription {
+  font-size: $fontSizeMedium;
+  letter-spacing: 1px;
+  margin: getSpacing(5) 0;
+  padding: 0 getSpacing(5);
+  border-left: 1px solid $golden;
+
+  @include isTabletOrDesktop {
+    margin: getSpacing(10);
+    padding: getSpacing(10);
+  }
+}
+
+.secondPartImageContainer {
+  position: relative;
+}
+
+.secondPartContainer {
+  position: relative;
+  background-color: $white;
+  margin: 5%;
+  padding: 10%;
+  max-width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+
+  @include isTabletOrDesktop {
+    margin: getSpacing(6) auto;
+    padding: getSpacing(20) getSpacing(10);
+    max-width: 55%;
+  }
+}
+
+.secondPartTitle {
+  font-size: $fontSizeExtraLarge;
+  font-weight: 300;
+  color: $goldenLightest;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: getSpacing(2);
+  text-transform: uppercase;
+}
+
+.secondPartDescription {
+  font-size: $fontSizeMediumSmall;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+
+.secondPartSeparator {
+  font-size: $fontSizeExtraExtraExtraLarge;
+  font-weight: 300;
+  color: $goldenLightest;
+  text-align: center;
+}
+
+.secondPartContact {
+  margin-top: getSpacing(4);
+  margin-bottom: getSpacing(4);
+  align-self: center;
+  max-width: fit-content;
+}
+
+.email {
+  color: $goldenLightest;
+}
+
+.secondPartInfo {
+  text-align: center;
+}

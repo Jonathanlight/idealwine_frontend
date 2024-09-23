@@ -1,0 +1,31 @@
+@import "@/styles/stylesheet";
+
+.bioIcon {
+  color: $greenBio;
+}
+
+.bioIcon,
+.naturalIcon,
+.tripleAIcon {
+  // to be ISO with fontawesome icons
+  cursor: default;
+  width: 20px;
+  height: 20px;
+  font-size: $fontSizeMediumSmall;
+}
+
+.inlineContainer {
+  display: inline-flex;
+  padding: 0 getSpacing(1);
+}
+
+.blockContainer {
+  display: flex;
+}
+
+.specialIcons {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: getSpacing(2);
+  height: 20px;
+}

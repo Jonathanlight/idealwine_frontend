@@ -1,0 +1,74 @@
+{
+  "id": "three_blocks_banner",
+  "type": "SharedSlice",
+  "name": "ThreeBlocksBanner",
+  "description": "ThreeBlocksBanner",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ThreeBlocksBanner",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "image1": {
+          "type": "Image",
+          "config": {
+            "label": "image1",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "linkimage1": {
+          "type": "Link",
+          "config": {
+            "label": "linkImage1",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "image2": {
+          "type": "Image",
+          "config": {
+            "label": "image2",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "linkimage2": {
+          "type": "Link",
+          "config": {
+            "label": "linkImage2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "image3": {
+          "type": "Image",
+          "config": {
+            "label": "image3",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "linkimage3": {
+          "type": "Link",
+          "config": {
+            "label": "linkImage3",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

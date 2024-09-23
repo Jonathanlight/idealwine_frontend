@@ -1,0 +1,23 @@
+{
+  "seo": {
+    "title": "Viticulture - iDealwine",
+    "description": "Each year, iDealwine crafts a selection of grands crus deemed to be of high-quality and interesting for wine enthusiasts from the En Primeur wines they taste in Bordeaux during the month of April. Learn more about iDealwine's En Primeur service"
+  },
+  "h1": "VITCULTURE",
+  "h2-1": "General",
+  "h2-2": "Biodynamic",
+  "h2-3": "Organic",
+  "h2-4": "Sustainable farming",
+  "h2-5": "Environmentally friendly",
+  "h2-6": "Natural",
+  "h2-7": "Triple A",
+  "viticulture_general": "The “Growing/vinification type” designation covers certified wines produced by biodynamic or organic methods, sustainably produced wines, and environmentally friendly wines that are not officially certified.These designations apply to recent vintages (the date of certification, if known, is specified in the estate description). See the article for more information on this designation.",
+  "viticulture_biodynamie": "The biodynamic designation is used for all estates certified as using biodynamic methods, as verified by one of the two official bodies, Demeter or Biodyvin. All wines produced by biodynamic methods are also certified as organic. This note concerns the most recent vintages.",
+  "viticulture_biologique": "The organic designation covers all estates certified as using organic methods, as verified by one of the bodies approved by the Ministry of Agriculture, such as Ecocert.  This note concerns the most recent vintages.",
+  "viticulture_raisonee": "The sustainable designation covers all estates certified as using integrated or High Environmental Value (level 3 Environmental Certification) techniques. This note concerns the most recent vintages.",
+  "viticulture_ecologique": "The \"environmentally friendly\" designation refers to estates practising environmentally friendly wine-growing techniques, but that have not opted for certification or who are still in the process of converting to organic or biodynamic agriculture. These estates may have adopted biodynamic principles (non-certified) or simply no longer use chemical products. This note concerns the most recent vintages.",
+  "viticulture_nature": "Wines which are produced without any added sulphur (or almost any) and with no other inputs. However, given that there is no official body to issue the natural wine label, it is based on winemakers’ statements. This note concerns the most recent vintages.",
+  "viticulture_triplea": "A label used for natural wines that adhere to a precise and demanding set of criteria. Triple A is a manifesto put together by the Italian Luca Gargano back in 2001. CEO of a large import company for Italian wines, his Triple A movement works with wine domains that carry out their craft in line with the motto “Agricoltori, Artigiani, Artisti” (Growers, Artisans, Artists). This designation applies to recent vintages.",
+  "viticulture_general-a": "https://www.idealwine.info/new-find-organic-wines-idealwine-just-one-click/",
+  "viticulture_general-txt-a": "blog article"
+}

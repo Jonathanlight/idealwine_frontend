@@ -1,0 +1,26 @@
+{
+  "title": "Report mensili sulle aste iDealwine",
+  "text": "Report, aste vini, record, analisi, investire, il vino come investimento, investire nel vino, tendenze, mercato fine wines;",
+  "seo": {
+    "title": "Report mensili sulle aste - iDealwine",
+    "description": "Tutti i report e analisi sulle aste svoltesi su iDealwine per aiutarti nelle tue scelte d'investimento."
+  },
+  "h1": "Report mensili sulle aste",
+  "h2": "Per guidarti nelle tue scelte d'investimento, iDealwine ti propone un'analisi mensile sulle ultime tendenze del mercato dei fine wines. I nostri report si basano sui record e aggiudicazioni registrate sul sito iDealwine.",
+  "yearTitle": "I report mensili delle aste svoltesi su iDealwine nel {{year}}",
+  "auctionReport": "Report mensile",
+  "auctionReportLink": {
+    "01": "Aste del mese di\ngennaio {{year}}",
+    "02": "Aste del mese di\nfebbraio {{year}}",
+    "03": "Aste del mese di\nmarzo {{year}}",
+    "04": "Aste del mese di\naprile {{year}}",
+    "05": "Aste del mese di\nmaggio {{year}}",
+    "06": "Aste del mese di\ngiugno {{year}}",
+    "07": "Aste del mese di\nluglio {{year}}",
+    "08": "Aste del mese di\nagosto {{year}}",
+    "09": "Aste del mese di\nsettembre {{year}}",
+    "10": "Aste del mese di\nottobre {{year}}",
+    "11": "Aste del mese di\nnovembre {{year}}",
+    "12": "Aste del mese di\ndicembre {{year}}"
+  }
+}

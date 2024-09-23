@@ -1,0 +1,44 @@
+{
+  "chooseShipping": "Choisissez votre mode de livraison",
+  "disclaimer": "Attention, cette action est irréversible ! Si vous souhaitez différer votre livraison, merci de sélectionner \"Livraison différée\". Dans un souci de qualité, aucune commande ne sera expédiée un vendredi.",
+  "ON_SITE": {
+    "title": "Retrait sur place"
+  },
+  "GROUPING": {
+    "title": "Livraison différée / Regroupement",
+    "explicativeText": "Après règlement, vous pourrez mettre en attente votre commande pour la regrouper avec de futurs achats afin d'optimiser vos frais de port, où de récupérer tous vos vins en une fois à l'entrepôt. Vous bénéficiez d'un mois de stockage gratuit à compter de la date de votre commande. Passé ce délai, des frais de stockage sont facturés."
+  },
+  "STORAGE": {
+    "title": "Stockage",
+    "notAllowed": "Vous ne disposez pas de cette option car vous n’avez pas encore souscrit à notre offre de cave de stockage de vin iDéale.",
+    "learnMore": "Pour obtenir plus d’informations sur ce service,",
+    "clickHere": "cliquez ici.",
+    "allowed": "Après règlement, votre commande sera préparée et transférée dans votre cave de stockage de vin iDéale."
+  },
+  "HOME_DELIVERY": {
+    "title": "Livraison à domicile"
+  },
+  "RELAY_POINT": {
+    "title": "Point Relais",
+    "yourAddress": "Votre adresse",
+    "validate": "Valider",
+    "choseRelayPoint": "Choisir un point relais",
+    "distance": "Distance: {{distance}} m",
+    "jourSemaine1": "Lundi",
+    "jourSemaine2": "Mardi",
+    "jourSemaine3": "Mercredi",
+    "jourSemaine4": "Jeudi",
+    "jourSemaine5": "Vendredi",
+    "jourSemaine6": "Samedi",
+    "jourSemaine7": "Dimanche",
+    "noRelayPoint": "Pas de point relais à proximité de votre adresse. Vérifiez les informations fournies et réessayez."
+  },
+  "giftMessageCheckboxLabel": "Personnalisez votre commande avec une carte que nous glisserons de votre part à l'intérieur du colis.",
+  "giftMessageTextareaLabel": "Votre message :",
+  "giftMessageTextareaPlaceholder": "Tapez ici votre message",
+  "maxCharacters": "300 caractères max",
+  "nonMatchingAdressesModal": {
+    "title": "Modification du pays de livraison",
+    "content": "Votre pays de livraison a été modifié automatiquement pour correspondre à l'adresse de livraison des commandes que vous voulez regrouper. Assurez-vous que votre pays de livraison est correct avant de continuer."
+  }
+}

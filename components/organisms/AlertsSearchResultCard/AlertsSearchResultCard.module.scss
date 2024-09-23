@@ -1,0 +1,27 @@
+@import "@/styles/stylesheet";
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: $white;
+  border: solid 1px $grey;
+  flex-flow: wrap;
+}
+
+.wineName {
+  margin-left: getSpacing(2);
+}
+
+.productContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex: 1;
+  min-width: fit-content;
+  padding: getSpacing(2);
+  gap: getSpacing(1);
+
+  @include isDesktop {
+    padding: getSpacing(4);
+  }
+}

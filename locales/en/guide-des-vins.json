@@ -1,0 +1,43 @@
+{
+  "title": "Wine guide: what you need to know about French wine regions",
+  "choose-a-region": "Choose a region",
+  "regions": {
+    "name": {
+      "ALSACE": "Alsace",
+      "BEAUJOLAIS": "Beaujolais",
+      "BORDEAUX": "Bordeaux",
+      "BOURGOGNE": "Burgundy",
+      "CHAMPAGNE": "Champagne",
+      "JURA": "Jura",
+      "LANGUEDOC": "Languedoc",
+      "ROUSSILLON": "Roussillon",
+      "VALLEE_DE_LA_LOIRE": "Loire",
+      "PROVENCE": "Provence",
+      "CORSE": "Corsica",
+      "SAVOIE": "Savoie",
+      "SUD_OUEST": "South-West",
+      "VALLEE_DU_RHONE": "Rhone Valley"
+    }
+  },
+  "buttonsText": {
+    "france": "France",
+    "otherCountries": "Other countries"
+  },
+  "countries": {
+    "name": {
+      "AUSTRALIE": "Australia",
+      "ESPAGNE": "Spain",
+      "ETATS_UNIS": "USA",
+      "HONGRIE": "Hungary",
+      "ITALIE": "Italy",
+      "PORTUGAL": "Portugal"
+    }
+  },
+  "search-domain": "Search domain or winery",
+  "description1": "Central Europe and the mediterranean region are the birthplace of modern winemaking where more than 50 countries produce wine where no two are alike. Vines grow best in temperate climates, between 30° and 50° latitude. We also have in-depth guides to France’s main wine regions: Burgundy, Bordeaux, Champagne, Rhone, and Loire. There are also guides to non-French regions including Italy, Spain Germany and further afield.",
+  "description2": "In this guide you will learn all about various french wine regions as well as world wine regions, there is a wealth of information about appellations, rankings and classifications, famous estates and the finest wine. Wines are described in as much detail as possible: score by famous wine critics (Robert Parker, Jancis Robinson, La Revue du Vin de France, Bettane & Desseauve), tasting notes, food and wine pairing suggestions, information about viticulture (organic, biodynamic etc.) and of course, a wine price estimate. Detailed maps will guide you towards different appellations. All of this and more is available in the wine guide, where you can learn more about wine, explorer different wine regions, and get help choosing your wine.",
+  "seo": {
+    "title": "Wine Guide - iDealwine",
+    "description": "Wine guide - All french wine regions and major world regions - iDealwine"
+  }
+}

@@ -1,0 +1,36 @@
+@import "@/styles/stylesheet";
+
+.page {
+  @include mainContainerPadding;
+}
+
+.container {
+  margin: getSpacing(4);
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(3);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: arial;
+  background-color: $white;
+  gap: getSpacing(5);
+  height: 250px;
+  @include isMobile {
+    margin-bottom: getSpacing(5);
+  }
+}
+
+.message {
+  padding-top: getSpacing(4);
+  font-style: $fontFamily;
+  font-weight: 350;
+  font-size: getSpacing(5);
+
+  @include isMobile {
+    font-size: getSpacing(4);
+  }
+}

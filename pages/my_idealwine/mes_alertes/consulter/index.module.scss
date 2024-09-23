@@ -1,0 +1,44 @@
+@import "@/styles/stylesheet";
+
+.page {
+  padding: getSpacing(2);
+
+  @include isDesktop {
+    padding: getSpacing(10);
+  }
+
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(10);
+}
+
+.select {
+  align-self: flex-end;
+}
+
+.pageBlock {
+  margin: getSpacing(5) 0 getSpacing(5);
+}
+
+.alertsList {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(5);
+}
+
+.noAlerts {
+  background-color: $white;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: arial;
+  font-weight: 350;
+  font-size: getSpacing(4);
+  justify-content: center;
+  gap: getSpacing(4);
+
+  @include isDesktop {
+    flex-direction: row;
+  }
+}

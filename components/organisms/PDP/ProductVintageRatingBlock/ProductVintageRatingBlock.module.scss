@@ -1,0 +1,127 @@
+@import "@/styles/stylesheet";
+
+%importantTextPlaceholder {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+.container {
+  margin: getSpacing(0);
+  padding-top: getSpacing(5);
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: getSpacing(12);
+  margin-top: getSpacing(5);
+  @include isMobile {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+  }
+}
+
+.leftColumnContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.chartContainer {
+  @include isMobile {
+    display: none;
+  }
+}
+
+.title {
+  @extend %importantTextPlaceholder;
+
+  font-size: $fontSizeMedium;
+  font-weight: 700;
+}
+
+.subtitle {
+  @extend %importantTextPlaceholder;
+
+  font-weight: 300;
+}
+
+.rightColumnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid $greyDark;
+  padding: getSpacing(6);
+
+  .link {
+    text-decoration: none;
+  }
+
+  .title {
+    font-size: $fontSizeMedium;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    letter-spacing: 4px;
+    font-size: $fontSizeSmall;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  .extremumPrice {
+    display: flex;
+    align-items: center;
+    margin-top: getSpacing(2);
+
+    > * {
+      margin-right: getSpacing(1.5);
+    }
+  }
+
+  .latesstAdjudicationsTitle {
+    @extend %importantTextPlaceholder;
+
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: getSpacing(4);
+    padding-bottom: getSpacing(2);
+    border-bottom: 1px solid $lighterGrey;
+  }
+
+  .adjudication {
+    display: flex;
+    align-items: center;
+    margin-top: getSpacing(2);
+
+    > * {
+      margin-right: getSpacing(0.5);
+    }
+  }
+
+  .sameWineText {
+    margin-top: getSpacing(8);
+    margin-bottom: getSpacing(2);
+    align-self: center;
+  }
+
+  .mainPrice {
+    font-weight: 600;
+    margin-top: getSpacing(2);
+  }
+}
+
+.vintageRatingsChartSubtitle {
+  text-align: left;
+}
+
+.vintageRatingsChartFormat {
+  text-align: right;
+  font-size: $fontSizeSmall;
+  color: $greyDark;
+  font-weight: lighter;
+  font-style: italic;
+}

@@ -1,0 +1,214 @@
+@import "@/styles/stylesheet";
+
+.firstGridContainer {
+  width: 100%;
+  display: grid;
+  grid-gap: getSpacing(2);
+  justify-content: center;
+  align-items: stretch;
+  background-color: $orangeLight;
+
+  @include isLargeOrExtraLargeDesktop {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: getSpacing(4) getSpacing(2);
+  }
+}
+
+.breadCrumb {
+  padding-inline: getSpacing(5);
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 1 / 3;
+  }
+}
+
+.searchContainer {
+  padding: getSpacing(2);
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+}
+
+.searchInput {
+  &::-webkit-search-cancel-button {
+    appearance: none;
+  }
+
+  border-radius: 3px;
+  border: 0;
+  padding-left: getSpacing(6);
+  padding-top: getSpacing(2);
+  padding-bottom: getSpacing(2);
+  margin-bottom: 2px;
+  font-size: $fontSizeMedium;
+  width: 100%;
+}
+
+/* InstantSearch */
+.hits {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* stylelint-disable-next-line selector-max-type */
+.hits > ol {
+  background-color: $white;
+  word-wrap: break-word;
+  position: absolute;
+  border-radius: 3px;
+  border: $grey 1px solid;
+  max-height: 200px;
+  overflow: auto;
+  z-index: 1;
+
+  @include isTabletOrDesktop {
+    width: 500px;
+  }
+
+  @include isLargeOrExtraLargeDesktop {
+    width: 400px;
+    max-height: 350px;
+  }
+
+  /* stylelint-disable-next-line selector-max-type */
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+/* stylelint-disable-next-line selector-max-type */
+.hits > ol > li {
+  padding-top: getSpacing(2);
+  padding-bottom: getSpacing(2);
+  border-bottom: $grey 1px solid;
+  margin-inline: getSpacing(2);
+}
+
+.gridTitleContainer {
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 1 / 3;
+  }
+}
+
+.gridMainTitle {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: $fontSizeMedium;
+  margin: getSpacing(1) 0;
+  padding-bottom: getSpacing(2);
+  padding-inline: getSpacing(5);
+  gap: getSpacing(2);
+}
+
+.gridSubTitle {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: $fontSizeSmall;
+  margin-left: getSpacing(2);
+}
+
+.vintagesOfSameProductContainer {
+  position: relative;
+  grid-column: 1 / 2;
+  overflow: hidden;
+}
+
+.whiteBoxWithShadow {
+  background-color: $white;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  margin: getSpacing(2);
+  border-radius: 3px;
+  padding: getSpacing(5);
+}
+
+.currentRatingContainer {
+  grid-column: 1 / 2;
+  text-align: center;
+  padding: getSpacing(6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 2 / 3;
+  }
+}
+
+.listButtonsContainer {
+  grid-column: 1 / 2;
+  background-color: $orangeLight;
+  margin: getSpacing(2);
+
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 3 / 4;
+  }
+}
+
+.buttonsList {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: getSpacing(2);
+}
+
+.listButton {
+  padding: getSpacing(3) getSpacing(6);
+  font-weight: bold;
+  font-size: $fontSizeSmall;
+}
+
+.currentRatingPicturesContainer {
+  position: relative;
+}
+
+.currentRatingPictureBackground {
+  margin-top: 40px;
+  height: auto;
+}
+
+.currentRatingPictureContainer {
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+
+.currentRatingPicture {
+  object-fit: contain;
+  filter: drop-shadow(0 10px 10px rgb(0 0 0 / 40%));
+}
+
+.currentRatingTitle {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: $fontSizeMedium;
+  text-align: center;
+  letter-spacing: getSpacing(0.5);
+  margin-top: getSpacing(5);
+}
+
+.currentRatingSubtitle {
+  font-size: $fontSizeMediumSmall;
+  text-align: center;
+  font-weight: 300;
+}
+
+.currentRatingButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: getSpacing(2);
+  gap: getSpacing(2);
+}
+
+.currentRatingButton {
+  padding: getSpacing(3) getSpacing(6);
+}
+
+.createAnAlertButton {
+  color: $golden;
+}

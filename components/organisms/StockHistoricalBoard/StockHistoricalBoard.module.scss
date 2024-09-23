@@ -1,0 +1,91 @@
+@import "@/styles/stylesheet";
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.boardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: justify;
+  gap: getSpacing(2);
+  padding: getSpacing(4);
+  width: 100%;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.confirmation {
+  text-align: left;
+}
+
+.button {
+  text-transform: uppercase;
+  flex: 1;
+}
+
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.table {
+  border-collapse: separate;
+  text-align: center;
+  background-color: $greyLighter;
+  border-spacing: 0 5px;
+
+  thead th {
+    position: sticky;
+    top: 0;
+    background-color: $black;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: $fontSizeSmaller;
+    height: getSpacing(7);
+  }
+
+  td {
+    padding: 8px 16px;
+    background-color: $white;
+  }
+
+  td:not(:last-child) {
+    border-right: 0.1rem solid $grey;
+  }
+
+  .descriptionLink {
+    text-align: left;
+  }
+
+  .descriptionLink:hover {
+    text-decoration: underline;
+  }
+
+  .descriptionAndMiniature {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .imageMiniature {
+    max-width: 80px;
+    object-fit: contain;
+  }
+
+  .button {
+    background-color: $green;
+    border: 0.1rem solid $green;
+  }
+}

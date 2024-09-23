@@ -1,0 +1,16 @@
+@import "@/styles/stylesheet";
+
+.additionalDeliveryFees {
+  text-align: center;
+}
+
+.estimatedDelivery {
+  padding: 0 getSpacing(5);
+  text-align: center;
+  font-size: $fontSizeSmall;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  @include isMobileOrTablet {
+    display: none;
+  }
+}

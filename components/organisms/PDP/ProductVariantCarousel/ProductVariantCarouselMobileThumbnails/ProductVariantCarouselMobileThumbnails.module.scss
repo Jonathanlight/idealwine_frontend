@@ -1,0 +1,44 @@
+@import "@/styles/stylesheet";
+
+.thumbnailsOuterContainer {
+  width: getSpacing(30);
+  padding: getSpacing(3) getSpacing(1);
+  display: flex;
+  margin: 0 auto;
+}
+
+.singleThumbnail {
+  width: getSpacing(5);
+}
+
+.twoThumbnails {
+  width: getSpacing(10);
+}
+
+.threeThumbnails {
+  width: getSpacing(15);
+}
+
+.thumbnailsContainer {
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mobileThumbnail {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: getSpacing(2);
+}
+
+.dot {
+  border-radius: 50%;
+  height: 10px;
+  aspect-ratio: 1 / 1;
+  background-color: $grey;
+}
+
+.active {
+  background-color: $black;
+}

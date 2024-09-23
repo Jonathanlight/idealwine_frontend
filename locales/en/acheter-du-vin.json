@@ -1,0 +1,153 @@
+{
+  "advancedSearch": "Advanced search",
+  "clearRefinments": "Remove filters",
+  "winesOnSale": "Wine for sale:",
+  "numberResults": {
+    "0": "No results",
+    "1": "{{count}} result",
+    "other": "{{count}} results"
+  },
+  "hideSold": "Hide the lots sold",
+  "noResult": "No results",
+  "showMore": "See more",
+  "showLess": "See less",
+  "useSearchBar": "...Other filters are available. Use the search bar",
+  "sortBy": "Sort by...",
+  "closingDateDesc": "Closing date: descending order",
+  "closingDateAsc": "Closing date: ascending order",
+  "priceDesc": "Price: descending order",
+  "priceAsc": "Price: ascending order",
+  "vintageAsc": "Vintage: ascending order",
+  "vintageDesc": "Vintage: descending order",
+  "bidsDesc": "Number of bids: descending order",
+  "bidsAsc": "Number of bids: ascending order",
+  "watchDesc": "Most tracked",
+  "watchAsc": "Least tracked",
+  "search": "Search",
+  "sortingStrategy": "Type of filter",
+  "filters": {
+    "bottleSize": "Format",
+    "color": "Colour",
+    "isDirectPurchase": "Type of sale",
+    "advancedSearch": "Advanced search",
+    "directPurchase": "fixed price",
+    "auction": "auction",
+    "priceFilter": "Price per bottle",
+    "minPriceRange": "Min Price ({{currency}})",
+    "maxPriceRange": "Max Price ({{currency}})",
+    "submit": "Validate",
+    "country": "Country",
+    "region": "Region",
+    "subregion": "Appellation",
+    "domainName": "Domain",
+    "vintage": "Vintage",
+    "grapeVariety": "Grape varieties",
+    "tags": "Our selection",
+    "wineStyle": "Style of wine (organic, intensity,...)",
+    "intensity": "Intensity",
+    "mainAroma": "Dominant aroma",
+    "tastingOccasion": "Tasting occasion",
+    "biologicProfile": "Organic labels",
+    "status": "Style of wine",
+    "peak": "Ageing potential",
+    "productCategory": "Product Category",
+    "bottleCount": "Number of bottles",
+    "ownerName": "Owner",
+    "newReleases": "New releases",
+    "newReleasesValue": "New releases",
+    "hasBids": "Auction status",
+    "hasReservePrice": "Reserve price",
+    "liquidLevel": "Level",
+    "bottleObservations": "Label condition",
+    "woodenCase": "Wooden case",
+    "refundableVat": "Recoverable VAT",
+    "hasLotDiscount": "Discount on multiple bottles",
+    "hasDiscount": "Reduced",
+    "alcoholPorcentageLevel": "Alcohol percentage",
+    "minAlcoholLevelRange": "Minimum alcohol percentage",
+    "maxAlcoholLevelRange": "Maximum alcohol percentage",
+    "sale": "Sale"
+  },
+  "enums": {
+    "isDirectPurchase": {
+      "true": "Fixed price",
+      "false": "Auction"
+    },
+    "hasBids": {
+      "true": "With bids",
+      "false": "Without bids"
+    },
+    "hasReservePrice": {
+      "true": "With reserve price",
+      "false": "No reserve price"
+    },
+    "peak": {
+      "A_BOIRE": "To drink",
+      "COLLECTION": "Collection",
+      "VIEILLISSEMENT": "For laying down"
+    },
+    "productCategory": {
+      "PRODUITS_INTERMEDIAIRES": "Intermediate products",
+      "AUTRES_VINS": "Other wine",
+      "BIERE": "Beer",
+      "VDN": "Fortified wine",
+      "VINS_AOC_AVEC_IG_AOP": "AOP-wines",
+      "VINS_MOUSSEUX": "Sparkling wines",
+      "SPIRITUEUX": "Spirits"
+    },
+    "bidStatus": {
+      "true": "With bids",
+      "false": "No bids yet"
+    },
+    "liquidLevel": {
+      "Base goulot": "Low neck",
+      "Normal": "Normal",
+      "Très légèrement bas": "Slightly low"
+    },
+    "bottleCondition": {
+      "Bch lég enfoncé": "Slightly sunken cork",
+      "Etiq déchirée": "Torn label",
+      "Etiq marquée": "Label marked",
+      "Normal": "Normal"
+    }
+  },
+  "noResults": {
+    "title1": "Sorry,",
+    "title2": "We cannot find the wine you searched for.",
+    "title3": "Please check what you searched for.",
+    "subtitle1": "Our tip:",
+    "subtitle2": "Check your spelling and the word order or simplify your search (use only one key word)...",
+    "subtitle3": "If you need help or if you wish to ask customer service a question, please use the “Contact us” section."
+  },
+  "estate": {
+    "title": "WHAT THE EXPERTS SAY...",
+    "noteBdTitle": "BETTANE & DESSEAUVE",
+    "noteRvfTitle": "LA REVUE DU VIN DE FRANCE",
+    "weeklyEstate": {
+      "title": "PRODUCER OF THE WEEK",
+      "cta": "Buy wines from {{estateName}}"
+    }
+  },
+  "seo": {
+    "firstOf": "from",
+    "of": "from",
+    "withFilters": {
+      "title": "Wines {{filtersAndPurchaseType}}",
+      "description": "List of wines {{filtersAndPurchaseType}}",
+      "isDirectPurchase": {
+        "true": "for sale at fixed price ",
+        "false": "at auction",
+        "notSelected": " - iDealwine"
+      }
+    },
+    "withQuery": {
+      "title": "{{query}} for sale - iDealwine",
+      "description": "List of wines from {{query}} for sale at fixed price or at auction"
+    },
+    "default": {
+      "title": "List of wines for sale - iDealwine",
+      "description": "List of wines for sale at fixed price or at auction - iDealwine"
+    }
+  },
+  "vintageSagaDescription": "{{region}} | {{vintage}} vintage"
+}

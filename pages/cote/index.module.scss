@@ -1,0 +1,50 @@
+@import "@/styles/stylesheet";
+
+.cantFindARating {
+  padding: getSpacing(6);
+  margin-inline: getSpacing(3);
+  display: block;
+  text-align: center;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+  padding: getSpacing(6);
+  margin-inline: getSpacing(3);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: $fontSizeMedium;
+}
+
+.text {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+  padding-inline: getSpacing(6);
+  padding-top: getSpacing(6);
+  padding-bottom: getSpacing(6);
+  margin-inline: getSpacing(3);
+
+  @include isDesktop {
+    margin-inline: getSpacing(12);
+  }
+}
+
+.searchBoxs {
+  display: flex;
+  flex-direction: column;
+  padding: getSpacing(6);
+  justify-content: center;
+  gap: getSpacing(4);
+
+  @include isDesktop {
+    flex-direction: row;
+    gap: getSpacing(20);
+  }
+}

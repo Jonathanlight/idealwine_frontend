@@ -1,0 +1,472 @@
+{
+  "form": {
+    "requiredField": "This field is required.",
+    "requiredFields": "Mandatory field"
+  },
+  "notifications": {
+    "followers": {
+      "0": "Nobody is tracking this lot! Be the first",
+      "1": "1 person is tracking this lot",
+      "other": "{{count}} people are tracking this lot"
+    },
+    "favorites": {
+      "remove": "Remove from favourites",
+      "add": "Add to favourites"
+    }
+  },
+  "common": {
+    "loadertxt": "Loading",
+    "address": "Address",
+    "addressLabel": "Address",
+    "city": "Town/City",
+    "company": "Company",
+    "country": "Country",
+    "currency": "Currency",
+    "email": "Email address",
+    "firstName": "First Name",
+    "genderLabel": "Title",
+    "genderPlaceholder": "Title",
+    "createdAt": "Date of account creation",
+    "lastName": "Last Name",
+    "mr": "Mr",
+    "mrs": "Ms",
+    "phone": "Telephone",
+    "postalCode": "Post Code",
+    "state": "State",
+    "additionalInformations": "Additional address details (apartment no., floor, building, residence, digital entry code)",
+    "additionalInformationsPlaceholder": "Save this information for delivery: code, building access, etc.",
+    "deliveryComments": "Delivery instructions",
+    "deliveryCommentsPlaceholder": "Delivery instructions (only visible to the delivery person)",
+    "submitForm": "Submit",
+    "isLoading": "Loading...",
+    "errorOccurred": "An error occurred",
+    "noResults": "No results",
+    "errorWhileBidding": "An error occurred while placing your bid",
+    "errorWhileRetrievingCart": "An error occurred while recovering your basket",
+    "learnMore": "More information....",
+    "isProSeller": "I am a professional seller",
+    "0LotWatched": "You are not watching any lots",
+    "SeeCurrentAuctions": "See current auctions"
+  },
+  "login": {
+    "acceptGTC": "I accept the term and conditions",
+    "acceptGTCRequired": "You must accept the term and conditions.",
+    "ageNotValid": "You have to be at least 18 years old to use iDealwine",
+    "birthday": "Date of birth",
+    "confirmPasswordLabel": "Confirm your password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "confirmYourAccount": "Confirm your registration",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "example@idealwine.com",
+    "emailRequirements": "Your email address is not valid.",
+    "forgotPassword": " Forgot your password?",
+    "forgotPasswordLinkSent": "Link sent",
+    "forgotPasswordLinkSentDescription": "Check your mailbox, we have sent you a link to reset your password.",
+    "logout": "Log out",
+    "logoutSuccess": "You have successfully logged out.",
+    "memberAccess": "Members access",
+    "memberAccessMessage": "You have to be an iDealwine member to access this part of the website.",
+    "myaccount": "My Account",
+    "myIDealwine": "My iDealwine",
+    "impersonatedBy": "Session opened from {{email}}",
+    "newPasswordLabel": "New password",
+    "newPasswordPlaceholder": "New password",
+    "newToiDealwine": "New to iDealwine?",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Password",
+    "passwordRequirements": "Your password must be secure and easy to remember. It has to have at least 12 characters and be a mixture of numbers and letters.",
+    "passwordsDontMatch": "The passwords do not match.",
+    "pleaseLogin": "Log in",
+    "referer": "Referral code (for informational purposes)",
+    "resendEmailValidationDone": "The email has been sent to you.",
+    "resendEmailValidationDescription": "Please click on the validation link you have just received via email.\nIf you do not receive this confirmation email within a few minutes, check if it is not in your spam folder (sometimes they like to hide).",
+    "signUp": "Create your account",
+    "signupMailValidation": "Welcome! To confirm your registration and access iDealwine services, please click on the link you have just received via email.\nPlease note: If you do not receive this confirmation email within a few minutes, check if it is not in your spam folder (sometimes they like to hide).",
+    "signupResendMailValidation": "Your account has been created but you need to confirm your email address,\nPlease click on the validation link you have just received via email.\nYour username:",
+    "signupResendMail": "Resend confirmation email",
+    "submitForm": "Validate",
+    "subscribeToNewsletter": "I wish to receive offers and news from iDealwine",
+    "usernameLabel": "Username",
+    "usernameOrEmailLabel": "Username or email address",
+    "usernameOrEmailPlaceholder": "Username or email address",
+    "usernamePlaceholder": "Username",
+    "usernameMessage": "The username will be visible on the website.\nPlease do not use your name or email address.",
+    "usernameRequirements": "Your username cannot only contain letters, numbers, dashes or full stops.\nIt must have at least 4 characters.",
+    "wrongCredentials": "Your login details are not correct. Please try again.",
+    "emailVerificationError": "An error occurred while checking your email address. Your account might already be confirmed,"
+  },
+  "header": {
+    "phoneNumber": "+33 1 56 05 86 10",
+    "buy": "Buy",
+    "sellMyWine": "Sell my wine",
+    "sell": "Sell",
+    "saleService": "Sell my wine",
+    "estimationService": "Free wine estimate",
+    "wineRatings": "Price estimate",
+    "ratingSearchService": "Look up a price estimate",
+    "wineRankingService": "Wine investment",
+    "idealwineIndexService": "iDealwine indices",
+    "ratings": "Price estimate",
+    "wineGuide": "Wine guide",
+    "encyclopedia": "Encyclopedia",
+    "wineGuideService": "Wine atlas",
+    "vintageGuideService": "Vintage guide",
+    "bottleFormatService": "Bottle format",
+    "grapeVineWorkService": "Work in the vines",
+    "mainWineVarietiesService": "The main grape varieties",
+    "foodAndWinePairingService": "Food and wine pairings",
+    "learnAboutWineService": "Learn about wine",
+    "Primeurs": "En primeurs",
+    "topRobertParker": "Top Robert Parker scores",
+    "idealwineBestWines": "Best wines rated by iDealwine",
+    "wineFestival": "Autumn wine festival",
+    "collectionOnSite": "Click & Collect (France)",
+    "click": "click here",
+    "wineAdvice": "Want wine advice? ",
+    "allWines": "All our wines",
+    "languageSelector": {
+      "languageUpdated": "Your preferred language has been updated.",
+      "errorUpdatingLanguage": "An error occurred Your preferred language could not be updated."
+    },
+    "currencySelector": {
+      "currencyUpdated": "Your preferred currency has been updated.",
+      "errorUpdatingCurrency": "An error occurred Your preferred currency could not be updated."
+    },
+    "myIDealwineMenu": {
+      "myAccount": "My Account",
+      "pendingOrders": "My Orders Awaiting Payment",
+      "orderHistoric": "My Order History",
+      "historyOrdersBids": "History (Orders/Bids)",
+      "myWineSales": "My Wine Sales",
+      "mySpiritSales": "My Spirit Sales",
+      "myStoredLots": "My Wines in Storage",
+      "myCellar": "My Cellar",
+      "alertsWatch": "Alerts / Watch",
+      "usernameTitle": "Dear {{username}}"
+    },
+    "searchbarLabel": "Search",
+    "searchbarPlaceholder1": "iDealwine, a go-to site for wine lovers since 2000",
+    "searchbarPlaceholder2": "Look up a wine",
+    "searchbarPlaceholder3": "Look up a vintage or “anniversary” year.",
+    "searchbarPlaceholder4": "Look up a winery or a producer",
+    "selectCurrencyTitle": "Currencies",
+    "delivery": "Prices are displayed for delivery in:",
+    "deliveryCountry": "Delivery country",
+    "firstUnpaidCommand": "You currently have",
+    "secondUnpaidCommand": {
+      "1": "{{count}} order awaiting payment",
+      "other": "{{count}} orders awaiting payment"
+    },
+    "dynamicMenu": {
+      "weeklyEstatePrefix": "Producer of the Week | ",
+      "backMenu": "Menu",
+      "allOurWines": "All our wines",
+      "seeAllOurWines": "See all our wines",
+      "seeAllOurAuctions": "Browse all auctions",
+      "spirits": "Spirits",
+      "whisky": "Whisky",
+      "cognac": "Cognac",
+      "armagnac": "Armagnac",
+      "rum": "Rum",
+      "OurWinesByRegion": "Our wines by region",
+      "AllOurAuctions": "Our auctions",
+      "auctions": "Auctions",
+      "eCaviste": "Fixed price",
+      "bioWines": "Organic wines",
+      "naturalWines": "Natural wines",
+      "tripleAWines": "Triple A wine",
+      "primeurs": "En primeurs",
+      "risingStars": "Rising stars",
+      "plusTenYearsVintages": "Vintages with 10+ years",
+      "ourServices": "Services +",
+      "HelpMeChoose": "Help me choose!",
+      "promotions": "Great Value",
+      "lotsWithoutBids": "Lots without any bids",
+      "lotsWithoutReservePrice": "Lots without reserve prices",
+      "newLots": "New lots",
+      "laProvence": "Source",
+      "mustHaves": "Must Haves",
+      "ourSpecialties": "Our specialities",
+      "lotsAndFormats": "Lots and Formats",
+      "greatDeals": "Promotions",
+      "winesByRegion": "Our wines by region",
+      "winesByCountry": "Our wines by country",
+      "bordeauxByAppellation": "Bordeaux by appellation",
+      "bourgogneByAppellation": "Burgundy by appellation",
+      "rhoneByAppellation": "Rhône by appellation",
+      "servicesPlus": "Services +",
+      "ourTailorMadeServices": "Our tailor-made services",
+      "lastOrders": "Latest wine orders",
+      "auctionTriggerHour": "at {{triggerHour}}",
+      "loyaltyProgram": {
+        "title": "Loyalty Programme",
+        "description": "At every stage of your experience on the iDealwine website, we are happy to offer you some wonderful advantages.",
+        "thirdLine": "Discover"
+      },
+      "tailorMadeCellar": {
+        "title": "Tailor-made cellar",
+        "description": "Our team will advise you on your bespoke wine collection, whether it's a ready-to-drink cellar you're seeking, or bottles for ageing.",
+        "thirdLine": "Make an appointment"
+      },
+      "storageCellar": {
+        "title": "Storage cellar",
+        "description": "If you need a place to store your wine, you're in the right place, with our all-inclusive, simple, and digitalised solution.",
+        "thirdLine": "Make an appointment"
+      },
+      "corporateGifts": {
+        "title": "Corporate gifts",
+        "description": "Grands crus, older vintages, large formats, Champagne, spirits: the choice of corporate gifts is so great that you’re bound to find the perfect bottle, whoever the person and whatever the context.",
+        "thirdLine": "Find out more"
+      },
+      "celebrationsAndWeddings": {
+        "title": "Celebrations and marriages",
+        "description": "Something to celebrate? Let our team of experts guide you as you search for the perfect bottles to make your celebration unforgettable.",
+        "thirdLine": "Find out more"
+      },
+      "saleUntil": "Auction closing {{endDate}}",
+      "helpMeChoose": "Help me choose!",
+      "enchere1": "Auction 1",
+      "enchere2": "Auction 2",
+      "enchere3": "Auction 3",
+      "enchere4": "Auction 4",
+      "largeFormats": "Large formats",
+      "woodenCasesAndBoxes": "Wooden case and boxes",
+      "lastChance": "Last call for these bottles",
+      "reducedPricesByQuantities": "Discount on multiple bottles",
+      "allocation1": "Winery 1",
+      "allocation2": "Winery 2",
+      "allocation3": "Winery 3",
+      "bordeaux": "Bordeaux",
+      "bourgogne": "Burgundy",
+      "rhone": "Rhône",
+      "burgundy": "Burgundy",
+      "champagne": "Champagne",
+      "loire": "Loire",
+      "languedoc": "Languedoc",
+      "roussillon": "Roussillon",
+      "alsace": "Alsace",
+      "jura": "Jura",
+      "beaujolais": "Beaujolais",
+      "provence": "Provence",
+      "corsica": "Corsica",
+      "savoie": "Savoie",
+      "southWest": "South-West",
+      "frenchWines": "Vin de France",
+      "italie": "Italy",
+      "spain": "Spain",
+      "portugal": "Portugal",
+      "germany": "Germany",
+      "unitedStates": "USA",
+      "argentine": "Argentina",
+      "chili": "Chile",
+      "southAfrica": "South Africa",
+      "australia": "Australia",
+      "newZeland": "New Zealand",
+      "otherCountries": "Other countries",
+      "saintEmilion": "Saint-Émilion",
+      "medoc": "Médoc",
+      "graves": "Graves",
+      "margaux": "Margaux",
+      "pauillac": "Pauillac",
+      "vosneRomanee": "Vosne-Romanée",
+      "corton": "Corton",
+      "volnay": "Volnay",
+      "montrachet": "Montrachet",
+      "chablis": "Chablis",
+      "coteRotie": "Côte-Rôtie",
+      "hermitage": "Hermitage",
+      "chateauneufDuPape": "Châteauneuf-du-Pape",
+      "fsaLink": "Fine Spirits Auction",
+      "fsaLinkDestination": "https://www.finespirits.auction/uk/index.jsp",
+      "allOurWinesOnSale": "All wines for sale"
+    }
+  },
+  "footer": {
+    "newsletterTitle": "On the lookout for good deals",
+    "newsletterText": "Receive our Newsletter! Stay up to date with the wonderful world of wine! Every week, we’ll send you the latest news, stories and advice from the vineyard.",
+    "newsletterNotification": "Every week, we'll send you the latest news, stories and advice from the vineyard.",
+    "newsletterLink": "https://r.fidemail.idealwine.com/mk/mr/sh/28xHLVqGbuLD4TVGazZLJV2JftEN6sAhAA/3CnSfCh2XLlF",
+    "emailPrompt": "Your email",
+    "subscribe": "Subscribe Now",
+    "linkCellarValuation": "Free wine estimate",
+    "linkRecruitment": "Recruitment",
+    "linkAboutUs": "Who are we?",
+    "linkDeliveryFees": "Delivery fees and timeframes",
+    "linkPartners": "Partner Producers",
+    "linkPress": "Press",
+    "contactUs": "Got a question? Contact us!",
+    "legalPreventionTitle": "It is illegal to  buy alcoholic drinks for minors under 18 years old.",
+    "legalPreventionText": "Proof of age must be given when a purchase is made. PUBLIC HEALTH CODE, ART. L.3342-1 and L.3353-3",
+    "legalMentions": "All rights reserved © {{year}} iDealwine S.A.S",
+    "FAQ": "FAQ",
+    "GTC": "General terms and conditions",
+    "personalData": "Personal data",
+    "emailIsAlreadyTaken": "The email address has already been used.",
+    "emailIsInvalid": "The email address is not valid.",
+    "subscribedToNewsletterTitle": "Confirmation",
+    "subscribedToNewsletterDescription": "Thank you for subscribing! You will regularly receive the iDealwine newsletter by email."
+  },
+  "urls": {
+    "urlavis": "https://widgets.rr.skeepers.io/generated/9b8e7e15-dda7-eda4-9971-95f9e0d0f37d/ede000d6-146c-40f5-951b-11381e52580d.js",
+    "urlRecruitement": "https://www.welcometothejungle.com/en/companies/idealwine/jobs",
+    "urlFacebook": "https://www.facebook.com/iDealwineen",
+    "urlTwitter": "https://twitter.com/idealwineen",
+    "urlInstagram": "https://www.instagram.com/idealwine_officialen/",
+    "urlYoutube": "https://www.youtube.com/user/iDealwineTV",
+    "urlLinkedin": "https://www.linkedin.com/company/idealwine/mycompany/",
+    "urlBlogIdealwine": "https://www.idealwine.info/",
+    "urlblogPress": "https://www.idealwine.info/category/wine-market/hot-news/"
+  },
+  "addACouponOrCreditNote": "Add a discount code, credit note...",
+  "removeCoupon": "Remove the coupon",
+  "creditNoteLabelWithStartDateAndPrice": "Credit note <0></0> from {{date}}",
+  "creditNoteLabelWithEnabledAtAndPrice": "Credit note <0></0> activated on {{date}}",
+  "creditNoteLabelWithStartDate": "Credit note from {{date}}",
+  "creditNoteLabelWithEnabledAt": "Credit note activated on {{date}}",
+  "creditNoteLabelWithPrice": "Credit note <0></0>",
+  "creditNoteLabel": "Credit note",
+  "addButton": "Apply",
+  "removeButton": "Remove",
+  "bouteille": "bottle",
+  "alertAdded": "An alert has been added for this wine",
+  "alertDeleted": "Alert has been deleted",
+  "idealWineIndice100": "iDeal Indices 100",
+  "idealWineIndiceBordeaux": "iDeal Bordeaux Index",
+  "idealWineIndiceBourgogne": "iDeal Burgundy Index",
+  "idealWineIndiceRhone": "iDeal Rhône Index",
+  "cac40": "CAC 40",
+  "idealwineJournalUrl": "https://www.idealwine.info/",
+  "enum": {
+    "sellType": {
+      "AUCTION": "Bid",
+      "DIRECT_SALE": "Fixed Price",
+      "VARIOUS_FEES": "Various fees",
+      "DELIVERY_REQUEST": "Delivery request"
+    },
+    "format": {
+      "BALTHAZAR": {
+        "1": "{{count}} Balthazar",
+        "other": "{{count}} Balthazars"
+      },
+      "BOUTEILLE": {
+        "1": "{{count}} bottle",
+        "other": "{{count}} bottles"
+      },
+      "CHOPINE": {
+        "1": "{{count}} rehoboam",
+        "other": "{{count}} chopines"
+      },
+      "CLAVELIN": {
+        "1": "{{count}} Clavelin",
+        "other": "{{count}} Clavelins"
+      },
+      "DEMI_BOUTEILLE": {
+        "1": "{{count}} half-bottle",
+        "other": "{{count}} half-bottles"
+      },
+      "DOUBLE_MAGNUM": {
+        "1": "{{count}} double magnum",
+        "other": "{{count}} double magnums"
+      },
+      "FILLETTE": {
+        "1": "{{count}} half-bottle (fillette)",
+        "other": "{{count}} half-bottles (fillettes)"
+      },
+      "FORMAT_50_CL": {
+        "1": "{{count}} 500ml format ",
+        "other": "{{count}} 500ml formats"
+      },
+      "FLACON": {
+        "1": "{{count}} bottle",
+        "other": "{{count}} bottles"
+      },
+      "INCONNU": {
+        "1": "{{count}} unknown",
+        "other": "{{count}} unknown"
+      },
+      "IMPERIALE": {
+        "1": "{{count}} imperiale",
+        "other": "{{count}} imperiales"
+      },
+      "JEROBOAM": {
+        "1": "{{count}} Jeroboam",
+        "other": "{{count}} Jeroboams"
+      },
+      "LITRE": {
+        "1": "{{count}} litre",
+        "other": "{{count}} litres"
+      },
+      "MAGNUM": {
+        "1": "{{count}} magnum",
+        "other": "{{count}} magnums"
+      },
+      "MATHUSALEM": {
+        "1": "{{count}} Methuselah",
+        "other": "{{count}} Methuselahs"
+      },
+      "MELCHIOR": {
+        "1": "{{count}} Melchior",
+        "other": "{{count}} Melchiors"
+      },
+      "NABUCHODONOSOR": {
+        "1": "{{count}} Nebuchadnezzars",
+        "other": "{{count}} Nebuchadnezzars"
+      },
+      "POT": {
+        "1": "{{count}} jar",
+        "other": "{{count}} jars"
+      },
+      "REHOBOAM": {
+        "1": "{{count}} Rehoboam",
+        "other": "{{count}} Rehoboams"
+      },
+      "SALMANAZAR": {
+        "1": "{{count}} Salmanazar",
+        "other": "{{count}} Salmanazars"
+      }
+    }
+  },
+  "countdown": {
+    "days": {
+      "0": "0 days",
+      "1": "{{count}} day",
+      "other": "{{count}} days"
+    },
+    "hours": {
+      "0": "0 hours",
+      "1": "{{count}} hour",
+      "other": "{{count}} hours"
+    },
+    "minutes": {
+      "0": "0 minutes",
+      "1": "{{count}} minute",
+      "other": "{{count}} minutes"
+    },
+    "seconds": {
+      "0": "0 seconds",
+      "1": "{{count}} second",
+      "other": "{{count}} seconds"
+    },
+    "lessThanOneMinute": "less than a minute"
+  },
+  "breadcrumbs": {
+    "homePage": "Welcome page",
+    "discovery": "Explore",
+    "wineVarieties": "Grape varieties",
+    "ratingsSearch": "Price estimate search",
+    "productNameYearAndColor": "{{productName}} {{year}} ({{color}})",
+    "buyWine": "Buy wine"
+  },
+  "seo": {
+    "global": {
+      "award": "iDealwine, the leading French wine auction house",
+      "title": "The international platform to buy, sell & estimate your wine - iDealwine"
+    }
+  },
+  "cart": {
+    "errors": {
+      "K4m7L0sF6": "You cannot add this credit note to your order because it has to have a minimal total of <0></0>",
+      "Oz1m7L0sF6": "The total of your order has to be more than the amount of the credit note"
+    }
+  }
+}

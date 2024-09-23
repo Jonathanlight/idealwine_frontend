@@ -1,0 +1,12 @@
+@import "@/styles/stylesheet";
+@import "../titleStyle.module";
+
+.description {
+  text-align: justify;
+}
+
+.button {
+  padding-top: getSpacing(2);
+  display: flex;
+  justify-content: left;
+}

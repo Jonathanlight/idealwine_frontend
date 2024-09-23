@@ -1,0 +1,24 @@
+@import "@/styles/stylesheet";
+
+.layoutContainer {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  // take line breaks into account (useful for translations)
+  white-space: pre-line;
+}
+
+.mainContainer {
+  flex-grow: 1;
+}
+
+.myIdealwine {
+  background-color: $greyLight;
+}
+
+.viewportContainer {
+  width: 100%;
+  max-width: $maxViewportWidth;
+  margin: 0 auto;
+}

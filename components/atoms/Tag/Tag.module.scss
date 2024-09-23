@@ -1,0 +1,13 @@
+@import "@/styles/stylesheet";
+
+.tag {
+  border: 1px solid $black;
+  text-transform: uppercase;
+  padding: 2.5px getSpacing(1);
+  width: fit-content;
+  font-size: $fontSizeSmaller;
+  font-weight: 600;
+  letter-spacing: $letterSpacingMedium;
+  display: flex;
+  align-items: center;
+}

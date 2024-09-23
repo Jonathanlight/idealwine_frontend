@@ -1,0 +1,96 @@
+@import "@/styles/stylesheet";
+
+$fontSizeOldPriceEuro: 17px;
+
+.discountPrice {
+  color: $redDiscount;
+}
+
+.primeurPrice {
+  color: $brickRedLight;
+}
+
+.strikethrough {
+  text-decoration: line-through $black 2px;
+}
+
+.disabled {
+  color: $greyDarker;
+}
+
+.euroAndCents {
+  vertical-align: top;
+}
+
+.tinier {
+  .units {
+    font-size: $fontSizeTiny;
+  }
+
+  .euroAndCents {
+    font-size: $fontSizeTinier;
+  }
+}
+
+.tiny {
+  .units {
+    font-size: $fontSizeSmall;
+  }
+
+  .euroAndCents {
+    font-size: $fontSizeTiny;
+  }
+}
+
+.small {
+  .units {
+    font-size: $fontSizeBase;
+  }
+
+  .euroAndCents {
+    font-size: $fontSizeSmall;
+  }
+}
+
+.normal {
+  .units {
+    font-size: $fontSizeMedium;
+  }
+
+  .euroAndCents {
+    font-size: $fontSizeOldPriceEuro;
+  }
+}
+
+.medium {
+  .units {
+    font-size: $fontSizeLarge;
+  }
+
+  .euroAndCents {
+    font-size: $fontSizeMedium;
+  }
+}
+
+.big {
+  .units {
+    font-size: $fontSizeExtraExtraLarge;
+    @include isMobileOrTablet {
+      font-size: $fontSizeExtraLarge;
+    }
+  }
+
+  .euroAndCents {
+    font-size: $fontSizeExtraLarge;
+  }
+}
+
+.xl {
+  .units {
+    font-size: $fontSizeExtraExtraExtraLarge;
+  }
+
+  .euroAndCents {
+    font-size: $fontSizeExtraExtraLarge;
+  }
+}

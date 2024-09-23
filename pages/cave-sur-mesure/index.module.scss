@@ -1,0 +1,435 @@
+@import "@/styles/stylesheet";
+
+.page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(20);
+  margin-top: getSpacing(5);
+  @include isMobileOrTabletOrSmallDesktop {
+    gap: getSpacing(2);
+    margin-top: 0;
+  }
+}
+
+.firstPart {
+  display: flex;
+  width: 100%;
+  background-color: $lightBrown;
+  justify-content: center;
+  left: 0;
+  @include isMobileOrTabletOrSmallDesktop {
+    flex-direction: column;
+    padding: getSpacing(5);
+    overflow: hidden;
+  }
+}
+
+.firstPartDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: getSpacing(5);
+  width: 100%;
+  @include isMobileOrTabletOrSmallDesktop {
+    align-items: center;
+  }
+}
+
+.firstPartTitle {
+  color: $white;
+  font-size: $fontSizeExtraLarge;
+  text-align: end;
+  font-weight: 100;
+  @include isMobileOrTabletOrSmallDesktop {
+    align-items: center;
+    text-align: center;
+    font-size: $fontSizeMedium;
+  }
+}
+
+.bottlesImageDiv {
+  width: 100%;
+}
+
+.bottlesImage {
+  max-width: 100%;
+  max-height: 100%;
+  @include isMobileOrTabletOrSmallDesktop {
+    display: none;
+  }
+}
+
+.descriptionParagraph {
+  text-align: end;
+  font-size: $fontSizeMediumSmall;
+  width: 85%;
+  @include isMobileOrTabletOrSmallDesktop {
+    text-align: center;
+  }
+}
+
+.firstPartH1 {
+  text-align: end;
+}
+
+.secondPart,
+.fourthPart,
+.seventhPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: getSpacing(8);
+  width: 100%;
+  @include isMobileOrTabletOrSmallDesktop {
+    flex-direction: column;
+    gap: 0;
+    padding: 0 getSpacing(5);
+  }
+}
+
+.secondPartPdiv {
+  width: 50%;
+  @include isMobileOrTabletOrSmallDesktop {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.secondPartTitle {
+  width: 50%;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $golden;
+  letter-spacing: 3px;
+  font-size: $fontSizeLarge;
+  @include isMobileOrTabletOrSmallDesktop {
+    width: 100%;
+    text-align: center;
+    font-size: $fontSizeMedium;
+  }
+}
+
+.secondPartP {
+  width: 60%;
+  padding-top: getSpacing(10);
+  padding-bottom: getSpacing(10);
+  @include isMobileOrTabletOrSmallDesktop {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.delimiter {
+  border-right: 0.01em solid $golden;
+}
+
+.button {
+  border-radius: getSpacing(1);
+  width: 50%;
+
+  @include isMobileOrTabletOrSmallDesktop {
+    width: 60%;
+  }
+}
+
+.button:hover {
+  background-color: $lightBrown;
+  border: $white solid 1px;
+  color: $white;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.thirdPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: getSpacing(14);
+  padding-bottom: getSpacing(14);
+  @include isMobileOrTabletOrSmallDesktop {
+    padding: 0;
+    flex-direction: column;
+  }
+}
+
+.cellarImage {
+  display: flex;
+  justify-content: center;
+  @include isMobileOrTabletOrSmallDesktop {
+    height: auto;
+  }
+}
+
+.thirdPartList {
+  z-index: 1;
+  position: absolute;
+  background-color: $lightBrown;
+  height: getSpacing(110);
+  width: getSpacing(110);
+  padding: getSpacing(18);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include isMobileOrTabletOrSmallDesktop {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: getSpacing(6) getSpacing(4);
+  }
+}
+
+.thirdPartShadowFilter {
+  position: absolute;
+  left: 0;
+  opacity: 0.4;
+  @include isMobileOrTabletOrSmallDesktop {
+    display: none;
+  }
+}
+
+.thirdPartListTitle {
+  color: $white;
+  letter-spacing: getSpacing(0.5);
+  font-size: $fontSizeLarge;
+
+  @include isMobileOrTabletOrSmallDesktop {
+    width: auto;
+    text-align: center;
+    margin-top: getSpacing(5);
+    font-size: $fontSizeMedium;
+  }
+}
+
+.thirdPartListUl {
+  list-style-type: disc;
+  padding-left: getSpacing(4);
+  padding-top: getSpacing(2);
+}
+
+.fourthPartPdiv {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  @include isMobileOrTabletOrSmallDesktop {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: auto;
+  }
+}
+
+.fourthPartTitle {
+  width: 50%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $golden;
+  letter-spacing: 3px;
+  font-size: $fontSizeLarge;
+  @include isMobileOrTabletOrSmallDesktop {
+    width: auto;
+    text-align: center;
+    margin-top: getSpacing(5);
+    font-size: $fontSizeMedium;
+  }
+}
+
+.fourthPartP {
+  width: 60%;
+  padding-top: getSpacing(10);
+  padding-bottom: getSpacing(10);
+  text-align: end;
+  @include isMobileOrTabletOrSmallDesktop {
+    text-align: center;
+    width: auto;
+    padding: 0;
+  }
+}
+
+.fifthPart {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fifthPartContainer {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  background-color: $lightBrown;
+  padding: getSpacing(10);
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.fifthPartTitle {
+  color: $white;
+  font-size: $fontSizeLarge;
+  z-index: 2;
+  @include isMobileOrTabletOrSmallDesktop {
+    font-size: $fontSizeMedium;
+  }
+}
+
+.fifthPartButton {
+  width: 35%;
+  margin-top: getSpacing(4);
+  z-index: 2;
+
+  @include isMobileOrTabletOrSmallDesktop {
+    width: 100%;
+  }
+}
+
+.fifthPartParagraph {
+  width: 65%;
+  text-align: center;
+  z-index: 2;
+  @include isMobileOrTabletOrSmallDesktop {
+    width: auto;
+  }
+}
+
+.cellarProsBox {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: getSpacing(8);
+
+  @include isMobileOrTabletOrSmallDesktop {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.sixthPartTitle {
+  color: $lightBrown;
+  text-align: center;
+  padding-bottom: getSpacing(6);
+  font-size: $fontSizeExtraLarge;
+  letter-spacing: getSpacing(1);
+  @include isMobileOrTabletOrSmallDesktop {
+    font-size: $fontSizeMedium;
+  }
+}
+
+.goldenButton {
+  background-color: $lightBrown;
+  border-radius: getSpacing(1);
+  border: $lightBrown solid 1px;
+}
+
+.sixthPartButtonContainer {
+  padding-top: getSpacing(6);
+  display: flex;
+  justify-content: center;
+}
+
+.seventhPartTitle {
+  color: $lightBrown;
+  font-size: $fontSizeLarge;
+  @include isMobileOrTabletOrSmallDesktop {
+    font-size: $fontSizeMedium;
+  }
+}
+
+.seventhPartText {
+  width: 50%;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 1px;
+  font-size: $fontSizeMediumSmall;
+  color: $black;
+  padding-top: getSpacing(15);
+  padding-bottom: getSpacing(15);
+  @include isMobileOrTabletOrSmallDesktop {
+    width: auto;
+    text-align: center;
+  }
+}
+
+.seventhPartStrongText {
+  font-weight: bold;
+  font-size: $fontSizeMedium;
+  padding-top: getSpacing(5);
+  @include isMobileOrTabletOrSmallDesktop {
+    font-size: $fontSizeMediumSmall;
+  }
+}
+
+.seventhPartParagraph {
+  padding-top: getSpacing(1);
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: $fontSizeBase;
+  @include isMobileOrTabletOrSmallDesktop {
+    width: auto;
+  }
+}
+
+.seventhPartLink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  @include isMobileOrTabletOrSmallDesktop {
+    align-items: center;
+  }
+}
+
+.seventhPartLink:hover {
+  text-decoration: none;
+}
+
+.seventhPartImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: getSpacing(2);
+  @include isMobileOrTabletOrSmallDesktop {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.seventhPartImagesBox {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  @include isMobileOrTabletOrSmallDesktop {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.bgImage {
+  z-index: 1;
+  position: absolute;
+
+  @include isMobileOrTabletOrSmallDesktop {
+    display: none;
+  }
+}
+
+.bgImage:nth-of-type(1) {
+  right: 0;
+}
+
+.bgImage:nth-of-type(2) {
+  left: 0;
+}

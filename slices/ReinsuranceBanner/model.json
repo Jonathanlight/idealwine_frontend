@@ -1,0 +1,104 @@
+{
+  "id": "reinsurance_banner",
+  "type": "SharedSlice",
+  "name": "ReinsuranceBanner",
+  "description": "ReinsuranceBanner",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ReinsuranceBanner",
+      "primary": {
+        "icon1": {
+          "type": "Image",
+          "config": {
+            "label": "icon1",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "text1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "text1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "icon2": {
+          "type": "Image",
+          "config": {
+            "label": "icon2",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "text2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "text2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "icon3": {
+          "type": "Image",
+          "config": {
+            "label": "icon3",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "text3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "text3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "icon4": {
+          "type": "Image",
+          "config": {
+            "label": "icon4",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "text4": {
+          "type": "StructuredText",
+          "config": {
+            "label": "text4",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "icon5": {
+          "type": "Image",
+          "config": {
+            "label": "icon5",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "text5": {
+          "type": "StructuredText",
+          "config": {
+            "label": "text5",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

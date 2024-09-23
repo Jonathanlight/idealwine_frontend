@@ -1,0 +1,78 @@
+{
+  "historicalSells": "Ventes historiques",
+  "ongoingSells": "Ventes en cours",
+  "sellMyBottles": "Vendre mes bouteilles",
+  "mySellerInformation": "Mes infos vendeur",
+  "currentlyOnSellProductVariant": "Retrouvez ci-dessous la liste de vos lots actuellement en vente",
+  "noOngoingSells": "Vous n'avez aucun lot en vente actuellement",
+  "dateFilter": "Filtrer vos enchères par date de fin du ",
+  "noHistoricalSells": "Aucun lot dans votre historique",
+  "and": "au ",
+  "isLoading": "Chargement...",
+  "error": "Une erreur est survenue",
+  "noMatch": "Aucun résultat ne correspond à votre recherche",
+  "sellYourBottles": "Vendez vos bouteilles grâce à iDealwine !",
+  "withIdealwine": "Avec iDealwine vous bénéficiez",
+  "freeEstimate": "d'une estimation gratuite",
+  "globalServiceOffer": "d'une offre de service globale (transport, conditionnement, stockage avant la vente, vente",
+  "guaranteedPaiement": "d'un paiement garanti lorsque vos vins ont trouvé preneur",
+  "guaranteedTransaction": "d'une garantie sur la bonne fin de la transaction quelque soit la formule de vente que vous avez choisie",
+  "sellerFormTitle": "Mes informations vendeur",
+  "formDescription": "Ci-dessous, vous pouvez modifier et/ou ajouter des informations pour maintenir à jour votre profil.",
+  "notSellerOne": "Vous n'êtes pas encore vendeur sur iDealwine...",
+  "notSellerTwo": "Faites estimer gratuitement votre cave en remplissant le formulaire en ligne.",
+  "notSellerButton": "J'aimerais faire une estimation",
+  "estimfree": "Faire une estimation",
+  "description": "Description",
+  "lotNumber": "Lot n°",
+  "reservePrice": "Mise à prix",
+  "estimate": "Estimation",
+  "numberSaleWatcher": "Nombre de personnes suivant la vente",
+  "actualPrice": "Prix actuel",
+  "endDate": "Fin de la vente",
+  "submitForm": "Valider",
+  "notSold": "Non vendu",
+  "noOngoingBid": "Aucun ordre en cours",
+  "finalPrice": "Prix final",
+  "priceDrop": "Baisse de prix",
+  "lowerReserveBid": "Baisser la mise à prix",
+  "information_has_been_saved": "Vos informations ont bien été enregistrées.",
+  "error_occurred": "Une erreur est survenue.",
+  "lowerReserveBidDialog": {
+    "title": "Je souhaite baisser ma mise à prix",
+    "reserveBidNotSet": "La mise à prix n'est pas renseignée pour le lot sélectionné",
+    "cancel": "Annuler",
+    "submit": "Valider",
+    "error": "Une erreur est survenue lors de la modification de la mise à prix",
+    "success": "La mise à prix a bien été modifiée"
+  },
+  "totals": {
+    "globalTitle": "Total Global (Toutes les pages)",
+    "displayTitle": "Total affiché",
+    "variants": "lots",
+    "bottles": "bouteilles",
+    "reserveBid": "Mise à prix (des lots vendus) :",
+    "reserveBidOnline": "Mise à prix (lots avec enchères) :",
+    "finalPrice": "Prix final :",
+    "currentPrice": "Prix actuel :",
+    "gap": "Ecart"
+  },
+  "seo": {
+    "sellerInfo": {
+      "title": "Mes infos vendeur - iDealwine",
+      "description": ""
+    },
+    "ongoingSales": {
+      "title": "Mes lots en vente - iDealwine",
+      "description": ""
+    },
+    "salesHistory": {
+      "title": "Mes lots à vendre ou vendus - iDealwine",
+      "description": ""
+    },
+    "sellMyWine": {
+      "title": "Vendre mes bouteilles - iDealwine",
+      "description": ""
+    }
+  }
+}

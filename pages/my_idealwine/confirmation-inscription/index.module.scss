@@ -1,0 +1,35 @@
+@import "@/styles/stylesheet";
+
+.pageContainer {
+  @include mainContainerPadding;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: getSpacing(4);
+}
+
+.bienvenueBlock {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+  max-width: 600px;
+}
+
+.button {
+  display: inline-block;
+}
+
+.text {
+  text-align: justify;
+}
+
+.upperCase {
+  text-transform: uppercase;
+}
+
+.welcomeImage {
+  height: unset;
+  object-fit: contain;
+  object-position: top;
+}

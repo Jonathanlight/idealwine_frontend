@@ -1,0 +1,78 @@
+{
+  "historicalSells": "Sales History",
+  "ongoingSells": "Current Sales",
+  "sellMyBottles": "Sell My Wine",
+  "mySellerInformation": "My seller profile",
+  "currentlyOnSellProductVariant": "Find below a list of your lots currently on sale",
+  "noOngoingSells": "You do not have any lots currently on sale",
+  "dateFilter": "Filter your bids by the end date of ",
+  "noHistoricalSells": "No lots in your order history",
+  "and": "to ",
+  "isLoading": "Loading...",
+  "error": "An error occurred",
+  "noMatch": "No result corresponds to your search",
+  "sellYourBottles": "Sell your wine with iDealwine!",
+  "withIdealwine": "With iDealwine your benefits are:",
+  "freeEstimate": "A free estimate",
+  "globalServiceOffer": "A global offer (transport, packaging, storage before selling, sale)",
+  "guaranteedPaiement": "Guaranteed payment when your wine finds its new home",
+  "guaranteedTransaction": "A good end to the transaction no matter which option you chose to sell your wine",
+  "sellerFormTitle": "My consigner information",
+  "formDescription": "You can update your personal information at any time to keep your account up to date.",
+  "notSellerOne": "You are not yet a consigner at iDealwine...",
+  "notSellerTwo": "Get a free estimate of your collection by filling out the online form.",
+  "notSellerButton": "I would like to request an estimate",
+  "estimfree": "Request an estimation",
+  "description": "Description",
+  "lotNumber": "Lot no.",
+  "reservePrice": "Starting price",
+  "estimate": "Estimate",
+  "numberSaleWatcher": "Number of people following the sale",
+  "actualPrice": "Current price",
+  "endDate": "End of sale",
+  "submitForm": "Validate",
+  "notSold": "Not sold",
+  "noOngoingBid": "No current bids",
+  "finalPrice": "Final price",
+  "priceDrop": "Lower the price",
+  "lowerReserveBid": "Lower the starting price",
+  "information_has_been_saved": "Your information has been saved",
+  "error_occurred": "An error occurred",
+  "lowerReserveBidDialog": {
+    "title": "I wish to lower the starting price",
+    "reserveBidNotSet": "The starting price has not been filled in for the selected lot",
+    "cancel": "Cancel",
+    "submit": "Validate",
+    "error": "An error occurred while changing the starting price.",
+    "success": "The starting price has been modified"
+  },
+  "totals": {
+    "globalTitle": "Global total (of all pages)",
+    "displayTitle": "Total displayed",
+    "variants": "lots",
+    "bottles": "bottles",
+    "reserveBid": "Starting bid (of lots sold):",
+    "reserveBidOnline": "Starting price (lots with bids):",
+    "finalPrice": "Final price: ",
+    "currentPrice": "Current price:",
+    "gap": "Difference"
+  },
+  "seo": {
+    "sellerInfo": {
+      "title": "My seller's profile - iDealwine",
+      "description": ""
+    },
+    "ongoingSales": {
+      "title": "My lots currently on sale - iDealwine",
+      "description": ""
+    },
+    "salesHistory": {
+      "title": "My lots for sale or sold - iDealwine",
+      "description": ""
+    },
+    "sellMyWine": {
+      "title": "Sell my wine - iDealwine",
+      "description": ""
+    }
+  }
+}

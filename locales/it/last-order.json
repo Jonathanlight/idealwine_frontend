@@ -1,0 +1,14 @@
+{
+  "title": "Le aste e gli acquisti più recenti",
+  "subtitle": "Qui di seguito troverai le aste e gli acquisti più recenti…",
+  "seeLot": "Visualizza il lotto",
+  "netPrice": "Prezzo fisso",
+  "currentPrice": "Prezzo attuale",
+  "auctionTitle": "Asta del {{triggerDate}} alle ore {{triggerHour}}",
+  "directPurchaseTitle": "Vendita a prezzo fisso del {{triggerDate}} alle ore {{triggerHour}}",
+  "timeoutMessage": "L’asta è terminata",
+  "seo": {
+    "title": "iDealwine - Il sito di riferimento per l'acquisto, la vendita e la valutazione di vini pregiati",
+    "description": "Visualizza le aste e gli acquisti più recenti proposti su iDealwine"
+  }
+}

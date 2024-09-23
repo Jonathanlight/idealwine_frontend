@@ -1,0 +1,19 @@
+@import "@/styles/stylesheet";
+
+.filters {
+  min-width: 250px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.clearFiltersButton {
+  align-self: center;
+}
+
+.refinementListLabel,
+.toggleRefinementLabel {
+  display: flex;
+  gap: getSpacing(1);
+}

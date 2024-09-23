@@ -1,0 +1,118 @@
+@import "@/styles/stylesheet";
+
+.boxAdvantages {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: $white;
+  border: 1px solid rgb(0 0 0 / 1%);
+  margin: getSpacing(1);
+  @include isDesktop {
+    width: 90%;
+  }
+  @include isLargeOrExtraLargeDesktop {
+    width: 24%;
+  }
+}
+
+.bookmarkHeader {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.programLogo {
+  margin-bottom: getSpacing(4);
+  margin-top: getSpacing(4);
+  @include isMobileOrTablet {
+    display: none;
+  }
+}
+
+.boxHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backgroundNavy {
+  background-color: $blueNavy;
+}
+
+.backgroundAntiqueWhite {
+  background-color: $antiqueWhite;
+}
+
+.classique {
+  color: $white;
+}
+
+.privilege {
+  color: $grey;
+  padding: 0;
+}
+
+.ideal {
+  color: $golden;
+}
+
+.quintessence {
+  color: $blueNavy;
+}
+
+.boxHeaderClassique {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.titleBookmark {
+  text-transform: uppercase;
+  letter-spacing: $letterSpacingMedium;
+  text-align: center;
+  font-size: $fontSizeMedium;
+  margin-bottom: 0;
+  padding: getSpacing(2);
+}
+
+.subtitleBookmark {
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: getSpacing(4);
+  text-transform: inherit;
+  font-size: $fontSizeSmall;
+}
+
+.listAdvantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: getSpacing(4);
+  margin: 0;
+  background-color: rgb(0 0 0 / 2%);
+}
+
+.advantagesItem {
+  list-style: none;
+  font-family: $fontFamily;
+  font-size: $fontSizeBase;
+  text-align: center;
+  letter-spacing: $letterSpacingSmall;
+  padding: getSpacing(2);
+  border-bottom: $greyLight 1px solid;
+  width: 100%;
+  color: $blueNavy;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantagesItem:last-of-type {
+  border-bottom: none;
+}

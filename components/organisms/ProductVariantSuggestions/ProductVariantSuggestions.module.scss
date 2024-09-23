@@ -1,0 +1,22 @@
+@import "@/styles/stylesheet";
+
+.suggestionsContainer {
+  @include isLargeOrExtraLargeDesktop {
+    padding: getSpacing(2);
+  }
+}
+
+.gridRowTitle {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: $fontSizeSmall;
+  margin: getSpacing(1) 0;
+  padding-top: getSpacing(6);
+  padding-bottom: getSpacing(2);
+  padding-inline: getSpacing(5);
+}
+
+.algoliaSuggestionsResultsContainer {
+  margin-inline: getSpacing(5);
+  margin-top: getSpacing(5);
+}

@@ -1,0 +1,57 @@
+{
+  "programsTitle": "Il Programma Fedeltà iDealwine",
+  "programsIntroduction": "In ogni fase della tua esperienza sul sito, siamo lieti di offrirti una serie di vantaggi. È il nostro modo di ringraziarti per la fiducia che riponi in noi.",
+  "classique": {
+    "title": "Classico",
+    "subtitle": "I tuoi vantaggi iDealwine",
+    "advantages": {
+      "advantage1": "Condizioni di acquisto\n< 500€ (negli ultimi 12 mesi)",
+      "advantage2": "15€ validi per il tuo primo ordine nella sezione e-commerce<0>(0)</0>",
+      "advantage3": "15€ per te e la persona introdotta<0>(1)</0>"
+    }
+  },
+  "privilege": {
+    "title": "Privilege",
+    "subtitle": "I tuoi vantaggi iDealwine",
+    "advantages": {
+      "advantage1": "Condizioni di acquisto\n> 500€ (negli ultimi 12 mesi)",
+      "advantage2": "\n15€ per te e la persona introdotta<0>(1)</0>",
+      "advantage3": "3% valido sugli acquisti a prezzo fisso<0>(2)</0>",
+      "advantage4": "Inviti alle masterclass organizzate da \niDealwine",
+      "advantage5": "Il Barometro annuale delle aste \n(versione online)"
+    }
+  },
+  "ideal": {
+    "title": "Club Idéal",
+    "subtitle": "I tuoi vantaggi iDealwine",
+    "advantages": {
+      "advantage1": "Condizioni di acquisto\n> 4000€ (negli ultimi 12 mesi)",
+      "advantage2": "\n15€ per te e la persona introdotta<0>(1)</0>",
+      "advantage3": "5% valido sugli acquisti a prezzo fisso<0>(2)</0>",
+      "advantage4": "Inviti alle masterclass e degustazioni di prestigio organizzate da iDealwine",
+      "advantage5": "Il Barometro annuale delle aste \n(versione online)",
+      "advantage6": "Accesso alle offerte dei nostri partner \n(abbonamenti, eventi enologici...)"
+    }
+  },
+  "quintessence": {
+    "title": "Quintessence",
+    "subtitle": "I tuoi vantaggi iDealwine",
+    "advantages": {
+      "advantage1": "Condizioni di accesso\nAcquisti accumulati + durata della fedeltà",
+      "advantage2": "\n15€ per te e la persona introdotta<0>(1)</0>",
+      "advantage3": "5% valido sugli acquisti a prezzo fisso<0>(2)</0>",
+      "advantage4": "Inviti alle masterclass e degustazioni di prestigio organizzate da iDealwine",
+      "advantage5": "Il Barometro annuale delle aste \n(invio postale)",
+      "advantage6": "Accesso alle offerte dei nostri partner \n(abbonamenti, eventi enologici...)",
+      "advantage7": "Vendite private"
+    }
+  },
+  "programsConditions": "Potrai godere di questi vantaggi per 12 mesi<0></0>(0) Valido per un primo ordine minimo di 150€, spese di spedizione escluse. Non negoziabile in contanti.<0></0>(1) 15€ offerti per il primo ordine della persona introdotta. Vedi il programma di referral<0></0>(2) Valido per i vini acquistati direttamente presso le tenute (IVA detraibile)",
+  "notACustomerYet": "Non sei ancora cliente?",
+  "offerNotClient": "iDealwine ti offre uno sconto di 15€*",
+  "offerNotClientConditions": "*Valido per il primo ordine e per importi superiori a 150€. Per poterne usufruire inserisci il codice <0>FIRST</0> al momento del pagamento.",
+  "seo": {
+    "title": "Il programma fedeltà iDealwine",
+    "description": "Il programma fedeltà iDealwine"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "historicalSells": "Storico vendite",
+  "ongoingSells": "Vendite in corso",
+  "sellMyBottles": "Vendi i tuoi vini",
+  "mySellerInformation": "Le mie informazioni",
+  "currentlyOnSellProductVariant": "In basso trovi la lista dei lotti attualmente in vendita",
+  "noOngoingSells": "Al momento non hai nessun lotto in vendita",
+  "dateFilter": "Filtra le tue aste per data di chiusura, dal  ",
+  "noHistoricalSells": "Al momento non hai nessun lotto in vendita",
+  "and": "al ",
+  "isLoading": "Caricamento....",
+  "error": "Si è verificato un errore",
+  "noMatch": "Nessun risultato",
+  "sellYourBottles": "Vendi i tuoi vini con iDealwine!",
+  "withIdealwine": "Con iDealwine potrai beneficiare:",
+  "freeEstimate": "di una valutazione gratuita",
+  "globalServiceOffer": "di un servizio completo (trasporto, stoccaggio, vendita)",
+  "guaranteedPaiement": "di un pagamento garantito non appena i tuoi vini trovano un acquirente",
+  "guaranteedTransaction": "della garanzia di una transazione in totale sicurezza (dalla valutazione fino alla consegna all’acquirente finale)",
+  "sellerFormTitle": "Le mie informazioni",
+  "formDescription": "Qui sotto puoi modificare e/o aggiungere informazioni per aggiornare il tuo profilo.",
+  "notSellerOne": "Al momento non hai vini in vendita su iDealwine...",
+  "notSellerTwo": "Richiedi una stima gratuita della tua cantina compilando il modulo online.",
+  "notSellerButton": "Desidero ricevere una stima",
+  "estimfree": "Valutazione gratuita",
+  "description": "Descrizione",
+  "lotNumber": "Lotto n.",
+  "reservePrice": "Prezzo di riserva",
+  "estimate": "Stima",
+  "numberSaleWatcher": "Nombre de personnes suivant la vente",
+  "actualPrice": "Prezzo attuale",
+  "endDate": "Termine della vendita",
+  "submitForm": "Conferma",
+  "notSold": "Non venduto",
+  "noOngoingBid": "Non ci sono aste in corso",
+  "finalPrice": "Prezzo finale",
+  "priceDrop": "Riduzione prezzo di riserva",
+  "lowerReserveBid": "Richiedere la riduzione del prezzo di riserva",
+  "information_has_been_saved": "Le tue informazioni sono state salvate",
+  "error_occurred": "Si è verificato un errore.",
+  "lowerReserveBidDialog": {
+    "title": "Desidero modificare il prezzo di partenza di questo lotto",
+    "reserveBidNotSet": "Non è stato inserito alcun prezzo di riserva per il lotto selezionato",
+    "cancel": "Annulla",
+    "submit": "Conferma",
+    "error": "Si è verificato un errore, si prega di riprovare.",
+    "success": "Il prezzo di partenza dell’asta è stato modificato"
+  },
+  "totals": {
+    "globalTitle": "Totale globale (per tutte le pagine)",
+    "displayTitle": "Totale visualizzato",
+    "variants": "lotti",
+    "bottles": "bottiglie",
+    "reserveBid": "Prezzo di partenza (lotti venduti) : ",
+    "reserveBidOnline": "Prezzo di partenza (lotti con offerte): ",
+    "finalPrice": "Prezzo finale:",
+    "currentPrice": "Prezzo attuale:",
+    "gap": "Scarto"
+  },
+  "seo": {
+    "sellerInfo": {
+      "title": "Le mie informazioni - iDealwine",
+      "description": ""
+    },
+    "ongoingSales": {
+      "title": "I miei lotti in vendita - iDealwine",
+      "description": ""
+    },
+    "salesHistory": {
+      "title": "Lo storico delle mie vendite - iDealwine",
+      "description": ""
+    },
+    "sellMyWine": {
+      "title": "Vendi i tuoi vini- iDealwine",
+      "description": ""
+    }
+  }
+}

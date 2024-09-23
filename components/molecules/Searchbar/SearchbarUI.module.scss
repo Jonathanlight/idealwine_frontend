@@ -1,0 +1,7 @@
+.searchbarInput {
+  border-radius: 30px;
+
+  &:focus::placeholder {
+    color: transparent;
+  }
+}

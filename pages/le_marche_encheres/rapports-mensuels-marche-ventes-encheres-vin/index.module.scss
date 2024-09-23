@@ -1,0 +1,117 @@
+@import "@/styles/stylesheet";
+
+.wrapper {
+  display: grid;
+  max-width: 1350px;
+  margin: getSpacing(10) auto;
+  gap: getSpacing(20);
+  @include isMobileOrTablet {
+    margin-top: 0;
+    gap: getSpacing(5);
+  }
+}
+
+.content1 {
+  padding-right: getSpacing(25);
+  display: grid;
+  grid-template-columns: 1fr 75%;
+  align-items: center;
+  background: #dee0e2;
+  gap: getSpacing(5);
+  text-align: left;
+  @include isMobileOrTablet {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: getSpacing(5);
+    text-align: left;
+    gap: getSpacing(1);
+    max-width: 90%;
+    margin-top: 10px;
+  }
+}
+
+.h1 {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+.h2 {
+  overflow-wrap: break-word;
+  font-weight: 100;
+  font-size: $fontSizeMediumSmall;
+}
+
+.imgstyle {
+  width: auto;
+  @include isMobileOrTablet {
+    display: none;
+  }
+}
+
+.content2 .soussousitems {
+  background: url("/book.jpg") center center no-repeat $ashGrey;
+  width: 300px;
+  min-height: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $antiqueWhite;
+  text-align: center;
+  @include isMobileOrTablet {
+    margin: auto;
+  }
+}
+
+.soussousitems:hover {
+  text-decoration: dotted;
+  color: $golden;
+  border: 2px dashed $golden;
+}
+
+.smallTitle {
+  margin-bottom: getSpacing(2);
+}
+
+.content2 .fsa {
+  background: url("/book-fsa.jpg") center center no-repeat $ashGrey;
+  min-width: 300px;
+  min-height: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $antiqueWhite;
+  text-align: center;
+}
+
+.content2 .h3 {
+  width: 100%;
+  grid-column: 1/5;
+  margin-top: getSpacing(10);
+  @include isMobileOrTablet {
+    width: auto;
+    max-width: 90%;
+    margin: getSpacing(5) auto;
+  }
+}
+
+.flex1 {
+  display: flex;
+  gap: getSpacing(10);
+  flex-direction: column;
+  @include isMobileOrTablet {
+    text-align: center;
+  }
+}
+
+.flex2 {
+  display: flex;
+  gap: getSpacing(10);
+  flex-wrap: wrap;
+  @include isMobileOrTablet {
+    gap: getSpacing(5);
+  }
+}

@@ -1,0 +1,42 @@
+@import "@/styles/stylesheet";
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include isTabletOrSmallDesktop() {
+    padding: getSpacing(4) getSpacing(10);
+  }
+
+  @include isMobile {
+    padding: getSpacing(2);
+  }
+
+  @include isDesktop {
+    padding: getSpacing(4) getSpacing(15);
+  }
+}
+
+.doubleSlices {
+  display: grid;
+  padding-top: getSpacing(15);
+  grid-template-columns: 33% 64%;
+  justify-content: space-between;
+
+  @include isMobileOrTabletOrSmallDesktop() {
+    display: flex;
+    flex-direction: column;
+    gap: getSpacing(10);
+    width: 100%;
+  }
+}
+
+.leftSlice {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(13);
+  background-color: $antiqueGrey;
+  padding: getSpacing(8);
+  z-index: 1;
+}

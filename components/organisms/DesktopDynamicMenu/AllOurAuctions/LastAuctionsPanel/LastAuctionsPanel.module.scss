@@ -1,0 +1,35 @@
+@import "@/styles/stylesheet";
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.lastOrdersContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: getSpacing(1);
+}
+
+.title {
+  letter-spacing: 0.5px;
+  font-size: $fontSizeBase;
+  color: $blueishGrey;
+  text-decoration: none;
+}
+
+.title:visited,
+.title:active,
+.title:focus {
+  text-decoration: none;
+}
+
+.loading {
+  background-color: $greyLighter;
+}
+
+.title:hover {
+  text-decoration: none;
+  color: $amberBottleContent;
+}

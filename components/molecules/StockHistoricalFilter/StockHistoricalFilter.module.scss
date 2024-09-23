@@ -1,0 +1,8 @@
+@import "@/styles/stylesheet";
+
+.filter {
+  align-self: end;
+  display: flex;
+  align-items: center;
+  gap: getSpacing(1);
+}

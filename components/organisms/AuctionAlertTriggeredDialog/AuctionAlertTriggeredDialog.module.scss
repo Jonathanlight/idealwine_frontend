@@ -1,0 +1,13 @@
+@import "@/styles/stylesheet";
+
+.alertTriggeredModal {
+  text-align: center;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.link {
+  text-decoration: underline dotted;
+}

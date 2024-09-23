@@ -1,0 +1,28 @@
+@import "@/styles/stylesheet";
+
+.filterItem {
+  line-height: 1.5;
+}
+
+.filterSubTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: $fontSizeSmall;
+  padding-top: getSpacing(2);
+  padding-bottom: getSpacing(1);
+}
+
+.smallItalic {
+  font-size: $fontSizeSmall;
+  font-style: italic;
+}
+
+.scrollableItems {
+  max-height: 245px;
+  overflow-y: auto;
+  scrollbar-color: $golden $antiqueGrey;
+}
+
+.searchInput {
+  padding-bottom: getSpacing(1);
+}

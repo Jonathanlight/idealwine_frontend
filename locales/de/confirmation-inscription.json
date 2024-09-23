@@ -1,0 +1,19 @@
+{
+  "welcome": "Willkommen bei iDealwine!",
+  "confirmationMail": "In einigen Minuten erhalten Sie eine Bestätigung per E-Mail. Ab diesem Zeitpunkt haben Sie Zugriff auf alle Services auf \"My iDealwine\".",
+  "important": "wichtig",
+  "inscriptionReminder": "Wir möchten Sie daran erinnern, dass Ihre aktuelle Anmeldung Ihnen keinen Zugang zum Auktionsservice gewährt. Um an den Auktionen teilzunehmen, müssen Sie Ihre persönlichen Daten in der Rubrik \"Mein Profil\" in \"My iDealwine\" ausfüllen.",
+  "completeProfile": "Mein Profil vervollständigen",
+  "offer": "Um Sie willkommen zu heißen, schenkt Ihnen iDealwine <0> einen Gutschein über 15€</0>, den Sie bei Ihrer ersten Bestellung über 150€ einlösen können. Das geht ganz einfach: Verwenden Sie den Gutscheincode \"FIRST\" bei der Bezahlung Ihrer Bestellung. Jetzt sind Sie dran!",
+  "refer": "iDealwine empfehlen: Sammeln Sie Gutscheine!",
+  "firstSale": "Sobald Sie Ihre erste Bestellung getätigt haben, wird in Ihrem persönlichen Bereich angezeigt, über den Sie iDealwine empfehlen können.",
+  "referInstructions": "Sie können dann von Ihrem persönlichen iDealwine-Bereich aus Ihre Freunde und Verwandten werben und Gutscheine im Wert von 15€ für jede erste Bestellung eines von ihnen sammeln! Sie erhalten dann selbst einen Rabattgutschein über 15€, den sie bei iDealwine für ihre ersten Einkäufe verwenden können.",
+  "moreInfo": "Um mehr über dieses Programm zu erfahren, klicken Sie bitte hier.",
+  "idealwineTeam": "Das iDealwine-Team",
+  "goodbye": "Wir danken für Ihr Vertrauen und stehen Ihnen bei allen Fragen gerne zur Verfügung.",
+  "signature": "Das iDealwine-Team",
+  "seo": {
+    "title": "Bestätigung der Bestellung - iDealwine",
+    "description": "Kaufen und verkaufen Sie Ihren Wein mit iDealwine in Auktionen oder zu Festpreisen."
+  }
+}

@@ -1,0 +1,13 @@
+@import "@/styles/stylesheet";
+
+.languageLogo {
+  min-width: 25px;
+}
+
+.dropdownMenuLanguages {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: getSpacing(5);
+}

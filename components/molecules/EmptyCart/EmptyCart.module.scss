@@ -1,0 +1,24 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $white;
+  gap: getSpacing(4);
+  height: 50vh;
+}
+
+.emptyCartText {
+  text-transform: uppercase;
+  text-align: center;
+  color: $greyDark;
+}
+
+.buttonLink {
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+}

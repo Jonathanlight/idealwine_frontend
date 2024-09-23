@@ -1,0 +1,71 @@
+@import "@/styles/stylesheet";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  padding: getSpacing(2) 0;
+  margin: 0 getSpacing(10);
+}
+
+.subRegionContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: getSpacing(2);
+  padding: getSpacing(2) 0;
+}
+
+.image {
+  filter: grayscale(100%);
+}
+
+.apellations {
+  display: flex;
+  flex-direction: column;
+  padding-top: getSpacing(2);
+  gap: getSpacing(1);
+  justify-content: space-around;
+}
+
+.linkTitle {
+  font-size: $fontSizeBase;
+  color: $blueishGrey;
+  letter-spacing: 0.5px;
+  border-right: 0;
+}
+
+.appellationContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.appellationLink {
+  padding: 0 getSpacing(2);
+  border-right: 1px solid $grey;
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    border-right: 0;
+    padding-right: 0;
+  }
+}
+
+.appellationLink:hover,
+.linkTitle:hover {
+  text-decoration: none;
+  color: $amberBottleContent;
+}
+
+.appellationLink:visited,
+.appellationLink:active,
+.appellationLink:focus,
+.linkTitle:visited,
+.linkTitle:active,
+.linkTitle:focus {
+  text-decoration: none;
+}

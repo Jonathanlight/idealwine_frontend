@@ -1,0 +1,77 @@
+@import "@/styles/stylesheet";
+
+$smallSize: 15px;
+$mediumSize: 20px;
+
+// Small
+$switchThumbWidthAndHeightSmall: $smallSize;
+$switchThumbPaddingSmall: getSpacing(1);
+$switchRootWidthSmall: calc(2.5 * $switchThumbWidthAndHeightSmall);
+$switchRootHeightSmall: calc($switchThumbWidthAndHeightSmall + 2 * $switchThumbPaddingSmall);
+
+// Medium
+$switchThumbWidthAndHeightMedium: $mediumSize;
+$switchThumbPaddingMedium: getSpacing(1);
+$switchRootWidthMedium: calc(2.5 * $switchThumbWidthAndHeightMedium);
+$switchRootHeightMedium: calc($switchThumbWidthAndHeightMedium + 2 * $switchThumbPaddingMedium);
+
+.switchRoot {
+  background-color: $grey;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.switchRootSmall {
+  width: $switchRootWidthSmall;
+  height: $switchRootHeightSmall;
+  border-radius: calc($switchRootHeightSmall / 2);
+}
+
+.switchRootMedium {
+  width: $switchRootWidthMedium;
+  height: $switchRootHeightMedium;
+  border-radius: calc($switchRootHeightMedium / 2);
+}
+
+.switchRoot[data-state="checked"] {
+  background-color: $golden;
+  border-color: $golden;
+}
+
+.switchThumb {
+  display: block;
+  background-color: $white;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
+  transition: transform 100ms;
+  will-change: transform;
+}
+
+.switchThumbSmall {
+  width: $switchThumbWidthAndHeightSmall;
+  height: $switchThumbWidthAndHeightSmall;
+  transform: translateX($switchThumbPaddingSmall);
+  border-radius: calc($switchThumbWidthAndHeightSmall / 2);
+}
+
+.switchThumbSmall[data-state="checked"] {
+  transform: translateX(
+    calc($switchRootWidthSmall - $switchThumbWidthAndHeightSmall - $switchThumbPaddingSmall)
+  );
+}
+
+.switchThumbMedium {
+  width: $switchThumbWidthAndHeightMedium;
+  height: $switchThumbWidthAndHeightMedium;
+  transform: translateX($switchThumbPaddingMedium);
+  border-radius: calc($switchThumbWidthAndHeightMedium / 2);
+}
+
+.switchThumbMedium[data-state="checked"] {
+  transform: translateX(
+    calc($switchRootWidthMedium - $switchThumbWidthAndHeightMedium - $switchThumbPaddingMedium)
+  );
+}

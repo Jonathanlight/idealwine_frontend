@@ -1,0 +1,95 @@
+// global minimalist css reset from https://www.joshwcomeau.com/css/custom-css-reset/
+
+/* stylelint-disable selector-max-type */
+
+// Remove all styles from some native elements
+button,
+a {
+  all: unset;
+}
+
+// Re-apply a base style for some native elements
+a {
+  cursor: pointer;
+
+  &:focus,
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ol,
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+// Allow percentage-based heights in the application
+html,
+body {
+  height: 100%;
+}
+
+// increase specificity of "*" by wrapping it in a tag selector to override "all: unset" above
+html {
+  // Use a more-intuitive box-sizing model.
+  &,
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  // Remove default margin
+  &,
+  * {
+    margin: 0;
+  }
+
+  // Remove the default outline behavior
+  &:focus,
+  *:focus {
+    outline: none;
+  }
+}
+
+// Typographic tweaks! Add accessible line-height & Improve text rendering
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+// Improve media defaults
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+// Remove built-in form typography styles
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+// Avoid text overflows
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+// Create a root stacking context
+/* stylelint-disable-next-line selector-max-id, selector-id-pattern */
+#__next {
+  isolation: isolate;
+  height: 100%;
+}

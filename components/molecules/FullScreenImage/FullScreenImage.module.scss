@@ -1,0 +1,32 @@
+@import "@/styles/stylesheet";
+
+.overlay {
+  visibility: hidden;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $black;
+}
+
+.closeButton {
+  z-index: 4;
+  display: flex;
+  position: absolute;
+  top: getSpacing(8);
+  right: getSpacing(12);
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+}
+
+@include isTabletOrDesktop {
+  .overlay {
+    visibility: visible;
+  }
+}

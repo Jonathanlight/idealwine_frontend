@@ -1,0 +1,29 @@
+@import "./reset";
+@import "./stylesheet";
+
+html {
+  font-family: arial, helvetica, sans-serif;
+  color: $blackLighter;
+  scroll-behavior: smooth;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.Toastify {
+  --toastify-font-family: #{$fontFamily};
+  --toastify-text-color-light: #{$blackLighter};
+  --toastify-icon-color-success: #{$golden};
+  --toastify-icon-color-error: #{$golden};
+  --toastify-color-progress-success: #{$golden};
+  --toastify-color-progress-error: #{$golden};
+
+  /* stylelint-disable-next-line selector-class-pattern */
+  .Toastify__toast-theme--light {
+    border: 1px solid #{$golden};
+    border-radius: 0;
+  }
+
+  /* stylelint-disable-next-line selector-class-pattern */
+  .Toastify__toast-icon {
+    width: 30px;
+  }
+}

@@ -1,0 +1,29 @@
+@import "@/styles/stylesheet";
+
+.container {
+  background-color: $orangeLighter;
+  padding: getSpacing(8);
+  color: $goldenDarker;
+}
+
+.title {
+  margin-bottom: getSpacing(2);
+  letter-spacing: 10%;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $goldenDarker;
+}
+
+.ratingsList {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+  scrollbar-color: $golden $orangeLighter;
+}
+
+.rating {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding-inline-end: getSpacing(4);
+}

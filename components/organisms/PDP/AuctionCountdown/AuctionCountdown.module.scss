@@ -1,0 +1,71 @@
+@import "@/styles/stylesheet";
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: $golden;
+  color: $white;
+  width: 100%;
+  padding-top: getSpacing(1);
+  padding-bottom: getSpacing(1);
+  font-size: $fontSizeSmaller;
+
+  @include isLargeOrExtraLargeDesktop {
+    flex-direction: column;
+    align-items: center;
+    font-size: $fontSizeSmall;
+  }
+  @include isMobileOrTabletOrSmallDesktop {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.redCountdown {
+  background-color: $redDark;
+}
+
+.goldenCountdown {
+  background-color: $golden;
+}
+
+.blackCountdown {
+  background-color: $black;
+}
+
+.remainingTime {
+  @include isLargeOrExtraLargeDesktop {
+    text-transform: uppercase;
+  }
+}
+
+.endDates {
+  gap: getSpacing(1);
+  text-wrap: wrap;
+  text-align: center;
+}
+
+.endDates,
+.remainingTime {
+  @include isMobileOrTabletOrSmallDesktop {
+    padding: getSpacing(1);
+    width: 50%;
+  }
+}
+
+.longEndDate {
+  display: none;
+  @include isLargeOrExtraLargeDesktop {
+    display: inline;
+  }
+}
+
+.shortEndDate {
+  display: inline;
+  gap: getSpacing(1);
+
+  @include isLargeOrExtraLargeDesktop {
+    display: none;
+  }
+}

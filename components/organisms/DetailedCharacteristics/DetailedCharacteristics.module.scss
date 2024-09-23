@@ -1,0 +1,44 @@
+@import "@/styles/stylesheet";
+
+.item {
+  padding: getSpacing(1) 0;
+  border-bottom: 1px solid $greyLighter;
+
+  // This sets a border-top starting on every element with the item class starting from the second item (every item => n, from the second item => + 2)
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.characteristic {
+  font-weight: 700;
+  width: fit-content;
+}
+
+@include isTabletOrDesktop {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    // This defines the number of rows in the grid on desktop, with as many columns as needed
+    grid-template-rows: repeat(12, auto);
+    grid-auto-flow: column;
+    grid-column-gap: getSpacing(6);
+  }
+
+  // This removes the border-top at the top of each grid column (with n the defined number of rows, from every nth item, starting at the nth item)
+  // If the maximum number of detailed characteristics goes above 20, this needs to be increased so that the grid stays on two columns
+  .item {
+    &:last-child {
+      border-bottom: 1px solid $greyLighter;
+    }
+
+    &:nth-child(12n) {
+      border-bottom: 0;
+    }
+  }
+}
+
+.link {
+  text-decoration: underline;
+  color: $greyDark;
+  font-size: $fontSizeSmall;
+}

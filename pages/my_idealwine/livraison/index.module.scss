@@ -1,0 +1,54 @@
+@import "@/styles/stylesheet";
+
+.shippingTitleContainer {
+  width: 100%;
+}
+
+.shippingTitle {
+  font-size: $fontSizeBase;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: getSpacing(2) getSpacing(4);
+}
+
+.giftMessageContainer {
+  width: 100%;
+  margin-top: getSpacing(4);
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.giftMessageInput {
+  font-size: $fontSizeBase;
+}
+
+.giftMessageCheckbox {
+  height: 20px;
+  width: 20px;
+}
+
+.textareaLabel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+  font-size: $fontSizeSmall;
+}
+
+.giftMessageCustomerInput {
+  padding: getSpacing(2) getSpacing(3);
+  border: solid 1px $grey;
+
+  &:focus {
+    border-color: $golden;
+  }
+}
+
+.giftMessageBottomText {
+  text-align: end;
+  text-transform: uppercase;
+  font-size: $fontSizeSmall;
+  color: $greyDark;
+}

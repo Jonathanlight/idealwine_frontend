@@ -1,0 +1,33 @@
+@import "@/styles/stylesheet";
+
+.pageContainer {
+  @include mainContainerPadding;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: getSpacing(8) 0;
+}
+
+.content {
+  margin: getSpacing(8) 0;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: getSpacing(8);
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  background-color: $white;
+
+  @include isDesktop {
+    width: 500px;
+  }
+}
+
+.icon {
+  min-width: 32px;
+  margin: 0 getSpacing(2);
+}

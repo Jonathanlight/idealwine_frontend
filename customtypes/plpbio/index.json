@@ -1,0 +1,97 @@
+{
+  "id": "plpbio",
+  "label": "PLP Bio",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        }
+      },
+      "toptitle": {
+        "type": "Text",
+        "config": {
+          "label": "Top Title",
+          "placeholder": ""
+        }
+      },
+      "top_block_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Top Block Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "top_block_left_image": {
+        "type": "Image",
+        "config": {
+          "label": "Top Block Left Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "is_top_background_image_or_color": {
+        "type": "Boolean",
+        "config": {
+          "label": "Is Top Background Image Or Color",
+          "default_value": false,
+          "placeholder_true": "true",
+          "placeholder_false": "false"
+        }
+      },
+      "top_block_background_color": {
+        "type": "Color",
+        "config": {
+          "label": "Top Block Background Color",
+          "placeholder": ""
+        }
+      },
+      "top_block_background_image": {
+        "type": "Image",
+        "config": {
+          "label": "Top Block Background Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "top_block_text_color": {
+        "type": "Color",
+        "config": {
+          "label": "Top Block Text Color",
+          "placeholder": ""
+        }
+      },
+      "middle_block_title": {
+        "type": "Text",
+        "config": {
+          "label": "Middle Block Title",
+          "placeholder": ""
+        }
+      },
+      "middle_block_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Middle Block Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "bottom_block_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Bottom Block Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      }
+    }
+  }
+}

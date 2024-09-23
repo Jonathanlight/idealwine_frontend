@@ -1,0 +1,16 @@
+diff --git a/index.d.ts b/index.d.ts
+index b45cb91e109d31db6472074c37e82a136a0c81f0..a5b33a47febc69e1fd901a6e41f6195ee99c767d 100644
+--- a/index.d.ts
++++ b/index.d.ts
+@@ -58,6 +58,11 @@ export interface GaugeChartProps {
+      */
+     arcsLength?: number[] | undefined;
+ 
++    /**
++     *  The length of the needle as a percentage of the total radius
++     */
++    needleLength?: number | undefined;
++
+     /**
+      * An array of colors in HEX format displayed in the arc
+      * @default ["#00FF00", "#FF0000"]

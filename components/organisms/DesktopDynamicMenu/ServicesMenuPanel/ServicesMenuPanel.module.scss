@@ -1,0 +1,31 @@
+@import "@/styles/stylesheet";
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.root {
+  display: flex;
+  padding: getSpacing(1) getSpacing(6) getSpacing(6) getSpacing(5);
+  gap: getSpacing(2);
+  object-fit: contain;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: $fontSizeBase;
+  text-align: left;
+  color: $blueishGrey;
+  padding: getSpacing(5);
+}
+
+html .link {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-decoration: none;
+}

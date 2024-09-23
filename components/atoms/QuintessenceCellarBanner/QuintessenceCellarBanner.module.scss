@@ -1,0 +1,57 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: $white;
+  justify-content: center;
+  border: 2px solid $goldenDarkest;
+  padding: getSpacing(4);
+  font-family: essonnes-display, arial, helvetica, sans-serif;
+  font-weight: 100;
+  align-items: center;
+  gap: getSpacing(4);
+  margin-bottom: getSpacing(4);
+  background-image: url("/quintessenceBannerLeft.png");
+  background-size: cover;
+
+  @include isMobileOrTablet {
+    gap: getSpacing(4);
+    flex-direction: column-reverse;
+  }
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: getSpacing(6);
+
+  @include isMobileOrTablet {
+    padding-left: unset;
+  }
+}
+
+.title {
+  font-size: $fontSizeMediumLarge;
+  letter-spacing: 1.5px;
+  color: $goldenDarkest;
+  @include isMobileOrTablet {
+    font-size: $fontSizeMedium;
+  }
+}
+
+.description {
+  letter-spacing: 1.5px;
+  text-align: center;
+  padding: getSpacing(5);
+
+  @include isMobileOrTablet {
+    font-size: $fontSizeSmall;
+  }
+}
+
+.button {
+  width: 100%;
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Atlante dei vini: tutte le caratteristiche delle regioni viticole",
+  "choose-a-region": "Scegli una regione",
+  "regions": {
+    "name": {
+      "ALSACE": "Alsazia",
+      "BEAUJOLAIS": "Beaujolais",
+      "BORDEAUX": "Bordeaux",
+      "BOURGOGNE": "Borgogna",
+      "CHAMPAGNE": "Champagne",
+      "JURA": "Jura",
+      "LANGUEDOC": "Languedoc",
+      "ROUSSILLON": "Roussillon",
+      "VALLEE_DE_LA_LOIRE": "Loira",
+      "PROVENCE": "Provenza",
+      "CORSE": "Corsica",
+      "SAVOIE": "Savoia",
+      "SUD_OUEST": "Sud-Ouest",
+      "VALLEE_DU_RHONE": "Valle del Rodano"
+    }
+  },
+  "buttonsText": {
+    "france": "Francia",
+    "otherCountries": "Altri paesi"
+  },
+  "countries": {
+    "name": {
+      "AUSTRALIE": "Australia",
+      "ESPAGNE": "Spagna",
+      "ETATS_UNIS": "Stati Uniti",
+      "HONGRIE": "Ungheria",
+      "ITALIE": "Italia",
+      "PORTUGAL": "Portogallo"
+    }
+  },
+  "search-domain": "Cerca una tenuta",
+  "description1": "Sebbene la viticoltura sia nata nei paesi del Mediterraneo e dell’Europa centrale, oggi il vino è prodotto in circa cinquanta paesi, in territori dalle diverse caratteristiche. La coltivazione della vite richiede condizioni climatiche molto specifiche: si sviluppa favorevolmente con climi temperati, in zone situate tra il 30° e 50° parallelo di latitudine. Ti proponiamo una guida completa delle più belle regioni viticole francesi (Borgogna, Bordeaux, Champagne, Rodano, Loira) e dei vigneti di altri paesi come l’Italia, la Spagna, la Germania e il Nuovo Mondo.",
+  "description2": "In questa guida dei vini troverai tutte le informazioni sui diversi vigneti in Francia e nel mondo: presentazione delle regioni e delle denominazioni, delle classificazioni, delle più belle tenute e dei vini più rinomati.  Ogni vino è accompagnato da note di degustazione (Robert Parker, La RVF, bettane+desseauve, Jancis Robinson, ecc.), consigli per gli abbinamenti cibo-vino, valutazione dell’annata, dettagli sul tipo di viticoltura (vini biologici, agricoltura biodinamica, ecc.) e naturalmente dall’indice iDealwine. Le mappe dettagliate ti aiuteranno a localizzare le diverse denominazioni. In questa guida sono disponibili tutte le informazioni necessarie per conoscere meglio il vino, esplorare le diverse regioni viticole e imparare a scegliere.",
+  "seo": {
+    "title": "Atlante dei vini – iDealwine",
+    "description": "Atlante dei vini - Le principali regioni viticole francesi e nel mondo - iDealwine"
+  }
+}

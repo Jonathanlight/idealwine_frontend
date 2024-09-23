@@ -1,0 +1,70 @@
+/* stylelint-disable selector-max-type */
+@import "@/styles/stylesheet";
+
+.wrapper {
+  display: grid;
+  max-width: 1350px;
+  margin: 50px auto;
+  grid-gap: 50px;
+  gap: 50px;
+}
+
+.content1 {
+  margin: auto;
+  width: 100%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 70%;
+}
+
+.content2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: getSpacing(8);
+  max-width: 70%;
+  text-align: justify;
+  margin: auto;
+  @include isMobileOrTablet {
+    display: flex;
+    flex-direction: column;
+    gap: getSpacing(2);
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+.bg {
+  background: url("/bg-viticulture.jpg") no-repeat center;
+  padding: getSpacing(8);
+  box-sizing: border-box;
+  background-size: cover;
+  @include isMobileOrTablet {
+    background-size: cover;
+    background-position: 0;
+  }
+}
+
+.content1 h1 {
+  color: $golden;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.content2 h2 {
+  color: $golden;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.content2 div {
+  background: #f8f6f5;
+  padding: getSpacing(8);
+  border-start-start-radius: 50px;
+}

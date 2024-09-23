@@ -1,0 +1,23 @@
+@import "@/styles/stylesheet";
+
+.page {
+  padding-top: getSpacing(2);
+}
+
+.pageBlock {
+  background-color: $white;
+  margin: getSpacing(5) 0 getSpacing(5);
+}
+
+.message {
+  padding: getSpacing(5);
+  text-align: center;
+  font-weight: 300;
+  font-size: getSpacing(4);
+  color: $black;
+}
+
+.title {
+  letter-spacing: 0.2rem;
+  font-size: getSpacing(5);
+}

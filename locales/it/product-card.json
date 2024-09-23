@@ -1,0 +1,21 @@
+{
+  "bio": "Filosofia",
+  "natural": "Naturale",
+  "tripleA": "Triple A",
+  "incomingSale": "Le prossime vendite",
+  "saleOver": "Vendita terminata",
+  "directPurchase": "Prezzo fisso",
+  "auction": "Asta",
+  "lot": "Lotto di",
+  "totalBids": {
+    "0": "{{count}} aste",
+    "1": "{{count}} asta",
+    "other": "{{count}} aste"
+  },
+  "limitedQuantity": "Quantità limitate",
+  "actualPrice": "Prezzo attuale",
+  "startPrice": "Prezzo di riserva",
+  "soonAvailable": "Presto disponibile",
+  "currentStock": "{{availableQuantity}} in stock",
+  "discountResume": "per {{unitsPerLotOfDiscount}} | - {{lotDiscountPercentage}}%"
+}

@@ -1,0 +1,82 @@
+@import "@/styles/stylesheet";
+
+.section {
+  width: 100%;
+  margin: getSpacing(7) 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-color: $black;
+  color: $grey;
+  @include isDesktop {
+    flex-wrap: nowrap;
+    height: 200px;
+  }
+}
+
+.image {
+  object-fit: contain;
+  opacity: 0.8;
+  max-width: 80%;
+  @include isDesktop {
+    max-width: inherit;
+  }
+}
+
+.bannerBlock {
+  border-bottom: 1px solid $greyDarkest;
+  border-left: none;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: getSpacing(2) 0;
+  padding: getSpacing(3) getSpacing(2);
+  @include isDesktop {
+    padding: 0;
+    border-left: 1px solid $greyDarkest;
+    border-bottom: none;
+  }
+}
+
+.bannerBlock:first-of-type {
+  padding-top: getSpacing(6);
+  @include isDesktop {
+    padding: 0;
+  }
+}
+
+.bannerBlock:last-of-type {
+  padding-bottom: getSpacing(6);
+  @include isDesktop {
+    padding: 0;
+  }
+}
+
+.imageDiv {
+  position: relative;
+}
+
+.text {
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: $fontSizeTiny;
+  @include isTabletOrDesktop {
+    font-size: $fontSizeSmall;
+    max-width: 80%;
+  }
+}
+
+.secondLineBlocks {
+  @include isMobileOrTablet {
+    opacity: 1;
+  }
+}

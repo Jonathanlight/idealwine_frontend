@@ -1,0 +1,80 @@
+{
+  "tabs": {
+    "watch": "Lotti da monitorare",
+    "add-alert": "Crea una notifica",
+    "my-alerts": "Consultare o disattivare una notifica"
+  },
+  "sort": {
+    "by": "Ordina per...",
+    "vintage": "Annata ordine decrescente",
+    "vintage-asc": "Annata ordine crescente",
+    "estimation": "Stima più alta",
+    "estimation-asc": "Stima più bassa",
+    "endDate": "Data di chiusura asta ordine decrescente",
+    "endDate-asc": "Data di chiusura asta ordine crescente",
+    "product-name": "Nome del vino",
+    "region": "Paese/Regione"
+  },
+  "deleted": "Notifica disattivata",
+  "updated": "Notifica modificata",
+  "putAnAlert": "Crea una notifica",
+  "minutesAbbrev": "min.",
+  "hoursAbbrev": "ore",
+  "beforeAuctionEnd": "prima della chiusura della vendita",
+  "currentOrder": "Offerta attuale",
+  "endOfAuction": "Chiusura vendita",
+  "estimation": "Stima",
+  "vintage": "Annata",
+  "alertMustBeAfterAuctionEndDate": "La data per la notifica deve essere posteriore a quella della fine dell'asta",
+  "my-alerts": {
+    "noAlerts": "La notifica non è stata ancora attivata"
+  },
+  "add-alert": {
+    "search": "Inserisci il nome di un vino, di un produttore…",
+    "select-color": "Colore",
+    "error": "Si è verificato un errore. Ti preghiamo di riprovare.",
+    "success": "Notifiche attivate.",
+    "success-link": "Visualizza tutte le notifiche attive",
+    "loading": "Caricamento....",
+    "initialEmpty": "Utilizza la barra di ricerca",
+    "title": "Crea una notifica",
+    "vintage-from": "Annate dal",
+    "vintage-to": "al",
+    "vintage-from-must-be-lower": "Devi inserire le annate partendo dalla più vecchia alla più giovane",
+    "create-button": "Crea una notifica",
+    "no-results": "Nessun risultato per '{{search}}'",
+    "too-many-results": "Vengono visualizzati solo i primi 20 risultati. Se desideri trovare più velocemente il vino o produttore che stai cercando, ti consigliamo di inserire maggiori dettagli.",
+    "search-word": "Cerca un vino"
+  },
+  "color": {
+    "SPARKLING_WHITE": "Bianco frizzante",
+    "AMBER": "Ambrato",
+    "SPARKLING_ROSE": "Rosé frizzante",
+    "VARIOUS": "Altro",
+    "ORANGE": "Orange wine",
+    "GREEN": "Chartreuse Verte",
+    "SPARKLING_RED": "Rosso frizzante",
+    "RED": "Rosso",
+    "WHITE": "Bianco",
+    "DEMI_DRY_WHITE": "Bianco demi-sec",
+    "DRY_WHITE": "Dry white",
+    "LIQUOROUS_WHITE": "Bianco dolce",
+    "ROSE": "Rosé",
+    "YELLOW": "Chartreuse Jaune",
+    "INDIFFERENT": "Indifferent"
+  },
+  "seo": {
+    "add": {
+      "title": "Crea una notifica",
+      "description": "Le mie notifiche"
+    },
+    "consult": {
+      "title": "Modifica le notifiche",
+      "description": ""
+    },
+    "watch": {
+      "title": "Lotti da monitorare",
+      "description": ""
+    }
+  }
+}

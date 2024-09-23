@@ -1,0 +1,28 @@
+@import "@/styles/stylesheet";
+
+%importantTextPlaceholder {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: getSpacing(1) 0;
+  padding-top: getSpacing(6);
+  padding-bottom: getSpacing(2);
+}
+
+.blockText {
+  @extend %importantTextPlaceholder;
+
+  text-align: center;
+  font-size: $fontSizeSmaller;
+}
+
+.pourcentage {
+  font-size: $fontSizeExtraLarge;
+}
+
+.greenArrow {
+  color: $arrowGreen;
+}
+
+.redArrow {
+  color: $brickRedLight;
+}

@@ -1,0 +1,52 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(3);
+  width: 100%;
+}
+
+.title {
+  text-align: left;
+  letter-spacing: 0.75px;
+  @include isMobile {
+    text-align: center;
+  }
+}
+
+.inputContainer {
+  display: flex;
+  position: relative;
+  gap: getSpacing(1);
+
+  @include isSmallDesktop {
+    flex-direction: column;
+  }
+}
+
+.promotionCodeInput {
+  height: 50px;
+  color: $black;
+  font-size: $fontSizeBase;
+  font-weight: 300;
+  line-height: getSpacing(5);
+  letter-spacing: 1.5px;
+  border-radius: 4px;
+  border: 1px rgb(0 0 0 / 10%) solid;
+
+  &::placeholder {
+    letter-spacing: normal;
+    font-size: $fontSizeSmaller;
+  }
+}
+
+.buttonSubmit {
+  text-transform: none;
+  border-radius: getSpacing(1);
+  padding: getSpacing(1) getSpacing(1);
+  font-size: $fontSizeSmaller;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+}

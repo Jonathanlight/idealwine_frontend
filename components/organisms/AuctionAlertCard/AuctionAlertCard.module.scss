@@ -1,0 +1,87 @@
+@import "@/styles/stylesheet";
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: $white;
+  border: solid 1px $grey;
+  padding: getSpacing(2);
+  flex-flow: wrap;
+
+  @include isDesktop {
+    padding: getSpacing(4);
+  }
+}
+
+.wineName {
+  margin-left: getSpacing(2);
+}
+
+.variantContainer {
+  display: flex;
+  flex: 1;
+  min-width: fit-content;
+}
+
+.image {
+  min-width: 100px;
+}
+
+.variantInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: getSpacing(5);
+}
+
+$greyContainersSpacing: getSpacing(2);
+
+.alertOptionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: $greyContainersSpacing;
+  min-width: fit-content;
+
+  @include isDesktop {
+    flex-direction: row;
+  }
+}
+
+.alertOptionsSwitchesColumnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: $greyContainersSpacing;
+  height: 100%;
+}
+
+.grey {
+  display: flex;
+  align-items: center;
+  gap: getSpacing(2);
+  background-color: $greyLight;
+  height: 100%;
+  padding: getSpacing(3);
+}
+
+.input {
+  width: 6rem;
+}
+
+.button {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    color: $red;
+  }
+}
+
+.simpleRow {
+  display: inline-flex;
+  align-items: center;
+  gap: getSpacing(1);
+}

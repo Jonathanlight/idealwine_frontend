@@ -1,0 +1,43 @@
+@import "@/styles/stylesheet";
+
+.container {
+  margin: getSpacing(5) getSpacing(1);
+  padding-top: getSpacing(5);
+}
+
+%importantTextPlaceholder {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: getSpacing(1) 0;
+}
+
+.title {
+  @extend %importantTextPlaceholder;
+
+  font-size: $fontSizeMedium;
+  font-weight: 700;
+}
+
+.subtitle {
+  @extend %importantTextPlaceholder;
+
+  font-weight: 300;
+}
+
+.sectionTitle {
+  @extend %importantTextPlaceholder;
+
+  padding-top: getSpacing(8);
+  padding-bottom: getSpacing(2);
+  text-decoration: underline;
+}
+
+.content {
+  font-family: $fontFamily;
+  text-align: justify;
+  white-space: pre-wrap;
+}
+
+.estateLink {
+  text-decoration: underline;
+}

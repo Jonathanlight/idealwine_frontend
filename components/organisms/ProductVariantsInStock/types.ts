@@ -1,0 +1,16 @@
+import { StoredItemDTOJsonldShopCustomerProductVariantReadStockSaleStatus } from "@/networking/sylius-api-client/.ts.schemas";
+
+export type ProductVariantStatus =
+  | typeof StoredItemDTOJsonldShopCustomerProductVariantReadStockSaleStatus.CANCELLED
+  | typeof StoredItemDTOJsonldShopCustomerProductVariantReadStockSaleStatus.TO_SELL
+  | typeof StoredItemDTOJsonldShopCustomerProductVariantReadStockSaleStatus.SELL_REQUEST
+  | typeof StoredItemDTOJsonldShopCustomerProductVariantReadStockSaleStatus.SOLD
+  | typeof StoredItemDTOJsonldShopCustomerProductVariantReadStockSaleStatus.DELIVERY_REQUEST;
+
+export const statuses: ProductVariantStatus[] = [
+  StoredItemDTOJsonldShopCustomerProductVariantReadStockSaleStatus.CANCELLED,
+  StoredItemDTOJsonldShopCustomerProductVariantReadStockSaleStatus.TO_SELL,
+  StoredItemDTOJsonldShopCustomerProductVariantReadStockSaleStatus.SELL_REQUEST,
+  StoredItemDTOJsonldShopCustomerProductVariantReadStockSaleStatus.SOLD,
+  StoredItemDTOJsonldShopCustomerProductVariantReadStockSaleStatus.DELIVERY_REQUEST,
+];

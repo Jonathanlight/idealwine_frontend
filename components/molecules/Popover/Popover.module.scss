@@ -1,0 +1,46 @@
+@import "@/styles/stylesheet";
+
+.dropdownMenuContent {
+  background-color: $white;
+  padding: getSpacing(5);
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 25%);
+  animation-duration: 300ms;
+  z-index: 100;
+
+  &[data-state="open"] {
+    animation-name: openAnimation;
+  }
+
+  &[data-state="closed"] {
+    animation-name: closeAnimation;
+  }
+}
+
+@keyframes openAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes closeAnimation {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+}
+
+.dropdownMenuArrow {
+  fill: $white;
+}

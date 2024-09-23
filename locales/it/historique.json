@@ -1,0 +1,90 @@
+{
+  "bidsHistory": "Storico aste",
+  "ongoingBids": "Aste in corso",
+  "buyHistory": "Storico acquisti",
+  "orderHistoryTab": "Storico ordini",
+  "neverBoughtDirectPurchaseProduct": "Per il momento non ci sono acquisti.",
+  "neverMadeABid": "Al momento non hai offerte in corso.",
+  "noOngoingAuction": "Al momento non hai aste in corso.",
+  "see": "Visualizza",
+  "endDate": "Termine vendita:",
+  "myOrder": "La mia offerta:",
+  "currentOrder": "Offerta attuale: ",
+  "wineBottle": "Bottiglia",
+  "isWinning": "Offerta vincente",
+  "isLoosing": "Offerta perdente",
+  "gap": "Scarto",
+  "estimate": "Stima",
+  "finalPrice": "Prezzo finale",
+  "obtained": "Aggiudicato",
+  "purchasePrice": "Prezzo finale:",
+  "quantity": "Quantità:",
+  "sortType": {
+    "ORDER_DESC": "Aste effettuate ordine decrescente",
+    "ORDER_ASC": "Aste effettuate ordine crescente",
+    "HIGHEST_BID_DESC": "Offerta vincente ordine decrescente",
+    "HIGHEST_BID_ASC": "Offerta vincente ordine crescente",
+    "AUCTION_END_DATE_DESC": "Chiusura vendita ordine decrescente",
+    "AUCTION_END_DATE_ASC": "Chiusura vendita ordine crescente",
+    "defaultSortValue": "Ordina per..."
+  },
+  "isObtained": {
+    "true": "Sì",
+    "false": "No"
+  },
+  "orderHistory": {
+    "title": "Storico ordini e fatture",
+    "btnViewCurrentAuctions": "Visualizza le aste in corso",
+    "orderNumber": "Ordine effettuato il {{orderDate}}",
+    "orderDate": "Data dell'ordine {{orderDate}}",
+    "paymentState": "Stato attuale dell’ordine: {{paymentState}}",
+    "shippingState": "Status: {{shippingState}}",
+    "packageReference": "Numero di tracciamento:",
+    "shippingDate": "Data spedizione: {{shippingDate}}",
+    "shippingMethod": "Tipo di consegna: {{shippingMethod}}",
+    "recap": "Riepilogo consegna",
+    "errorGenerateInvoiceUrl": "La fattura non è disponibile. Si prega di contattare il Servizio Clienti.",
+    "details": {
+      "title": "Visualizza i dettagli dell'ordine",
+      "invoice": "Visualizza Fattura",
+      "paymentRecap": "Riepilogo pagamento"
+    },
+    "orderIsPriorToMep": "Per ottenere la fattura di un ordine effettuato prima del 14 maggio 2024, si prega di contattare il servizio clienti."
+  },
+  "paymentStateEnum": {
+    "cart": "Carrello",
+    "awaiting_payment": "Pagamento in sospeso",
+    "partially_authorized": "Autorizzazione parziale",
+    "authorized": "Autorizzato",
+    "partially_paid": "Parzialmente saldato",
+    "cancelled": "Annullato",
+    "paid": "Pagato",
+    "partially_refunded": "Parzialmente rimborsato",
+    "refunded": "Rimborsato",
+    "unpaid": "Non saldato"
+  },
+  "shippingStateEnum": {
+    "cart": "Carrello",
+    "ready": "In fase di preparazione",
+    "cancelled": "Ordine annullato",
+    "partially_shipped": "Parzialmente spedito",
+    "shipped": "Spedito il",
+    "on_going": "Ordine in preparazione",
+    "pickup_ready": "In attesa di ritiro",
+    "picked_up": "Ritirato il"
+  },
+  "seo": {
+    "ongoingBids": {
+      "title": "Aste in corso - iDealwine",
+      "description": "Aste in corso"
+    },
+    "orderHistory": {
+      "title": "Storico ordini/fatture e tracking spedizione",
+      "description": ""
+    },
+    "purchaseHistory": {
+      "title": "Storico offerte - iDealwine",
+      "description": ""
+    }
+  }
+}

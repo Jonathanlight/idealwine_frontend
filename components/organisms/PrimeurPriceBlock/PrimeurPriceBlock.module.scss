@@ -1,0 +1,55 @@
+@import "@/styles/stylesheet";
+
+%column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: getSpacing(5);
+}
+
+%importantTextPlaceholder {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: getSpacing(1) 0;
+  padding-top: getSpacing(6);
+  padding-bottom: getSpacing(2);
+}
+
+.blockTitle {
+  @extend %importantTextPlaceholder;
+
+  text-align: center;
+}
+
+.primeurPrice {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: $fontSizeSmall;
+  margin-top: getSpacing(5);
+  font-weight: bold;
+  color: $brickRedLight;
+  margin-bottom: getSpacing(2);
+}
+
+.twoColumns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.leftColumn {
+  @extend %column;
+}
+
+.rightColumn {
+  border-left: 2px solid $blueishWhite;
+  @extend %column;
+}
+
+.subTitle {
+  padding-top: getSpacing(4);
+  color: $blueishGreyLighter;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: $fontSizeTiny;
+}

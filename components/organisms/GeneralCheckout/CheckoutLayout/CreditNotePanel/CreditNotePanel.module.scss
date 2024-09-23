@@ -1,0 +1,15 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.switchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: getSpacing(3);
+}

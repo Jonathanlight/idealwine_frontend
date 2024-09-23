@@ -1,0 +1,21 @@
+@import "@/styles/stylesheet";
+
+.alertTriggeredModal {
+  text-align: center;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+}
+
+.twoInputs {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  gap: getSpacing(4);
+  justify-content: space-between;
+}
+
+.successLink {
+  color: $golden;
+}

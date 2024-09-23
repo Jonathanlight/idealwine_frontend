@@ -1,0 +1,12 @@
+@import "@/styles/stylesheet";
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: getSpacing(1) getSpacing(4);
+  grid-template-rows: auto;
+  @include isMobileOrTablet {
+    display: flex;
+    flex-direction: column;
+  }
+}

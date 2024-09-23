@@ -1,0 +1,23 @@
+{
+  "initialDescription": "Achat et vente de vins, grandes cuvées, vieux millésimes, ventes aux enchères en ligne ou en direct des domaines. Argus et cotes des vins gratuites.",
+  "lastOrdersTitle": "Les derniers ordres & achats de vin",
+  "auction": "enchère",
+  "directPurchase": "e-caviste",
+  "sliderAuctionTitle": "Enchères en cours",
+  "sliderDirectPurchaseTitle": "e-caviste",
+  "seeMore": "En voir",
+  "newReleasesTitle": "Acheter du vin parmi les nouveautés",
+  "seeMoreNewReleases": "de nouveautés",
+  "ratingsSearchTitle": "Rechercher une cote\nTrouvez rapidement le prix d′un vin...",
+  "ratingsSearchPlaceholder": "Saisissez le nom d'un vin, d'un producteur...",
+  "regionEnum": {
+    "bordeaux": "Bordeaux",
+    "bourgogne": "Bourgogne",
+    "rhone": "Rhône",
+    "autre": "Autres régions"
+  },
+  "seo": {
+    "title": "iDealwine - Le site pour acheter, vendre et estimer vos vins",
+    "description": "Achat et vente de vins, grandes cuvées, vieux millésimes, ventes aux enchères en ligne ou en direct des domaines. Argus et cotes des vins gratuites."
+  }
+}

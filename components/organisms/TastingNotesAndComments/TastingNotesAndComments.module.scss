@@ -1,0 +1,85 @@
+@import "@/styles/stylesheet";
+
+%importantTextPlaceholder {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: getSpacing(1) 0;
+  padding-top: getSpacing(6);
+  padding-bottom: getSpacing(2);
+}
+
+.fifthGridContainer {
+  background-color: $orangeLight;
+  display: flex;
+  flex-direction: column;
+
+  @include isLargeOrExtraLargeDesktop {
+    padding: getSpacing(4) getSpacing(2);
+  }
+}
+
+.gridRowTitle {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: $fontSizeSmall;
+  margin: getSpacing(1) 0;
+  padding-top: getSpacing(6);
+  padding-bottom: getSpacing(2);
+  padding-inline: getSpacing(5);
+}
+
+.noteAndCommentsContainer {
+  display: grid;
+  width: 90%;
+  align-self: center;
+  margin-inline: getSpacing(2);
+  grid-template-columns: 65% 35%;
+}
+
+.expertAssessment {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(3);
+  padding-top: getSpacing(4);
+}
+
+.expertAssessmentText {
+  font-style: italic;
+}
+
+.whiteBoxWithShadow {
+  background-color: $white;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  margin: getSpacing(2);
+  border-radius: 3px;
+  padding: getSpacing(5);
+}
+
+.noteTitleContainer {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-size: $fontSizeMedium;
+}
+
+.vintageQuality {
+  @extend %importantTextPlaceholder;
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+  text-align: center;
+  font-size: $fontSizeSmaller;
+  align-self: center;
+}
+
+.sagaRating {
+  font-weight: bolder;
+  font-size: $fontSizeExtraExtraLarge;
+}

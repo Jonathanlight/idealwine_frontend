@@ -1,0 +1,25 @@
+{
+  "seo": {
+    "title": "Valutazione e informazioni su un’annata per regione - iDealwine",
+    "description": "La guida delle annate, scopri tutte le descrizioni, le critiche, gli apprezzamenti, le guide e le valutazioni regione per regione."
+  },
+  "ariane1": "Home",
+  "ariane2": "Valutazione delle annate",
+  "h1": "CERCA LA VALUTAZIONE DI UN'ANNATA",
+  "choisirRegion": "Seleziona una regione",
+  "choisirMillesime": "Seleziona un’annata",
+  "alsace": "Alsazia",
+  "p1": "La scelta di un’annata è un’indicazione preziosa in quanto i vini di una stessa regione,<br> con qualche eccezione e in proporzioni variabili, sono indicatori dei tratti principali dell’annata.<br> Si tratta inoltre di un punto di partenza per gli appassionati di vini alla ricerca di una bottiglia per occasioni particolari oppure per una semplice degustazione. Questa guida ti permetterà di trovare le buone annate e le annate eccezionali.",
+  "p2": "iDealwine ti propone tre modi di consultare questa guida: puoi selezionare una regione della Francia o di altri paesi, scegliere un’annata o semplicemente visualizzare la tabella generale delle valutazioni delle annate in Francia.",
+  "p3": "Per ciascuna delle annate presenti troverai una pratica scheda contenente riferimenti storici, un punteggio, un’analisi generale delle principali caratteristiche dei vini prodotti, una lista dei migliori cru, nonché una selezione dei “rappresentanti” dell’annata attualmente in vendita.",
+  "vintageNotes": "Tabella con la valutazione delle annate",
+  "countriesTableTitle": "Tabella di valutazione delle annate per i vini italiani ed esteri",
+  "frenchRegionsTableTitle": "Tabella di valutazione delle annate per i vini francesi",
+  "YEAR": "Annata",
+  "year": "Annata",
+  "internationalWines": "Vini italiani ed esteri",
+  "frenchPageButton": "Vini francesi",
+  "frenchWines": "Vini francesi",
+  "footNote": "(*) Puoi ottenere informazioni più dettagliate cliccando su ogni singolo punteggio",
+  "valider": "Conferma"
+}

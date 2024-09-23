@@ -1,0 +1,64 @@
+@import "@/styles/stylesheet";
+
+.pageContainer {
+  @include mainContainerPadding;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+$gridGap: getSpacing(1);
+$minColumns: 2;
+$maxColumns: 5;
+$minItemWidth: 175px;
+
+.hitsList {
+  width: 100%;
+  gap: $gridGap;
+  display: grid;
+  // https://stackoverflow.com/a/69154193
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(
+      min(
+        100% / $minColumns - ($minColumns - 1) * $gridGap,
+        max($minItemWidth, 100% / $maxColumns - ($maxColumns - 1) * $gridGap)
+      ),
+      1fr
+    )
+  );
+}
+
+.limitedWidthButton {
+  max-width: 200px;
+}
+
+.emptyWishlistContainer {
+  display: flex;
+  gap: getSpacing(4);
+  flex-direction: column;
+  align-items: center;
+}
+
+.messageContainer {
+  @include mainContainerPadding;
+
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+  width: 100%;
+  align-items: center;
+  background-color: $white;
+}
+
+.icon {
+  min-width: 32px;
+  margin: 0 getSpacing(2);
+}
+
+.productCard {
+  flex-grow: 1;
+}

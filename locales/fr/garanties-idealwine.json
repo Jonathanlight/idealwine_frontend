@@ -1,0 +1,75 @@
+{
+  "idealwineGuarantees": "Les garanties iDealwine",
+  "title": "Calculez le prix d'une livraison",
+  "subtitle": "Saisissez les informations ci-dessous",
+  "inputs": {
+    "country": {
+      "label": "Pays",
+      "placeholder": "Choisir un pays"
+    },
+    "bottles": {
+      "label": "Bouteille(s)*",
+      "placeholder": "Entrer un nombre"
+    },
+    "magnums": {
+      "label": "Magnum(s)",
+      "placeholder": "Entrer un nombre"
+    },
+    "others": {
+      "label": "Autre(s)",
+      "placeholder": "Entrer un nombre"
+    }
+  },
+  "numBottles": {
+    "1": "{{count}} bouteille",
+    "other": "{{count}} bouteilles"
+  },
+  "numMagnums": {
+    "1": "{{count}} magnum",
+    "other": "{{count}} magnums"
+  },
+  "numOthers": {
+    "1": "{{count}} autre format",
+    "other": "{{count}} autre formats"
+  },
+  "formInfoBottles": "* ou demi-bouteille ou flacon ou fillette ou chopine ou litre",
+  "guaranteesTitle": "Les garanties iDealwine",
+  "guaranteesFirstParagraph": "iDealwine s'engage à assurer la livraison de vos bouteilles dans les meilleures conditions. Vos bouteilles sont conditionnées dans un emballage parfaitement adapté, sécurisé et isotherme (Europack / Appro-Diffusion), et garanties en valeur contre les risques afférents au transport avant de vous être expédiées à l'adresse de votre choix. Votre livraison est garantie contre tous les risques afférents au transport (perte, vol, casse).",
+  "guaranteesSecondParagraph": "iDealwine a sélectionné les transporteurs offrant les meilleurs gages de qualité de service. La livraison est assurée par COLISSIMO SUIVI pour une livraision standard, par CHRONOPOST pour une livraison express (si disponible), ou par coursier spécialisé pour les départements 75 et 92. Malgré cela, si une avarie de transport survenait, vous devez refuser le colis et apposer toutes les réserves légales sur le bordereau de livraison du produit et contacter notre service clientèle dans les plus brefs délais. En cas de retard de livraison supérieur de 72 heures au délai indiqué, iDealwine s'engage à vous rembourser les frais de livraison.",
+  "moreInfoTitle": "Plus d'informations",
+  "moreInfo": {
+    "1": {
+      "title": "Regroupement des commandes",
+      "content": "Le regroupement de plusieurs commandes est possible afin d’optimiser les frais de port. Le regroupement est géré par le membre en toute autonomie. Pour regrouper plusieurs commandes, il faut au préalable que chaque commande ait été réglée, au moment du paiement de chaque commande vous devez choisir l’option \"paiement et mise en attente de regroupement\", ainsi les commandes sont payées et en attente d’être regroupées dans le futur. Puis lorsque vous souhaitez déclencher une livraison, il suffit de choisir les commandes payées à regrouper en les sélectionnant les unes après les autres, le système va alors créer une commande récapitulative et déterminer le montant des frais de livraison à payer en fonction du nombre total de flacons. iDealwine vous offre le stockage de vos vins durant 30 jours afin de faciliter et optimiser vos regroupements de commandes."
+    },
+    "2": {
+      "title": "Retrait des vins",
+      "content": "Vous avez également la possibilité de retirer vos commandes directement chez iDealwine, ou de les faire enlever par le transporteur de votre choix. Lors du règlement de votre commande choisissez l’option \"récupération sur place\" ainsi aucun frais de livraison ne sera associé à votre commande. Un lien vous sera envoyé par mail une fois la commande arrivée dans nos locaux. Celui-ci vous permettra de choisir un créneau pour venir récupérer votre commande. Nos locaux sont situés au 190 rue d'Estienne d'Orves - 92700 Colombes (92) et sont ouverts pour le retrait des commandes du lundi au vendredi, de 9h à 17h30 (sans interruption). Une pièce d’identité vous sera demandée lors du retrait. Le retrait des commandes doit être effectué dans un délai maximum de 14 jours après la date de la commande. Si vous ne pouvez pas vous rendre au rendez-vous fixé, merci de contacter notre service client pour fixer un nouveau créneau. Au-delà de 14 jours, les commandes sont renvoyées à notre entrepôt de stockage et susceptibles de générer des frais de stockage et de remise à disposition. Les lots seront délivrés à l’acquéreur en personne ou au tiers qu’il aura désigné et à qui il aura confié une procuration originale et une copie de sa pièce d’identité, si un tiers est chargé de procéder à la récupération des commandes il est important de le préciser lors de la prise de rendez-vous."
+    },
+    "3": {
+      "title": "Commission",
+      "content": " Les services d'information d'iDealwine (présentation des vins et des domaines, accords mets et vins, tendances de marché, saga des millésimes, découverte du vin) sont gratuits et d'accès entièrement libre. Les services personnalisés de constitution et de gestion de cave sont gratuits, mais réservés aux membres d'iDealwine. Les services de transmission d'ordre dans les ventes vous sont facturés uniquement si vos ordres sont gagnants et si vous obtenez vos vins. La commission \"acheteur\" à appliquer est de : 25,2% TTC (21% HT) A noter : les ventes à prix fixe font l'objet d'une tarification spéciale. Les prix affichés lors de ces ventes sont nets. Aucune commission ne vient s'y s'ajouter."
+    },
+    "4": {
+      "title": "Expertise",
+      "content": "iDealwine apporte une garantie sur l'ensemble des lots proposés sur le site ; cette garantie porte sur l'authenticité et la conformité des produits avec la description qui en a été faite (état de l'étiquette, niveau des bouteilles, indication spéciales) sur le site. Les lots présentés sur le site iDealwine sont proposés dans le cadre des ventes aux enchères publiques et bénéficient à ce titre de la garantie apportée par les commissaires-priseurs, officiers ministériels assermentés et par l'expert de la vente. Si pour une raison quelconque, une modification intervient dans le descriptif d'un lot déjà mis en vente, l'ensemble des enchères portées sur ce lot sont annulées et les enchérisseurs reçoivent un e-mail les en informant. Les personnes désirant enchérir sur le lot modifié doivent à nouveau passer un ordre."
+    },
+    "5": {
+      "title": "Paiement sécurisé",
+      "content": "Les paiements effectués sur le site iDealwine sont entièrement sécurisés. Pour la gestion des paiements par Carte Bancaire, iDealwine utilise la solution de Paiement Sécurisé du groupe BNP PARIBAS : Axepta. iDealwine n'a pas connaissance des coordonnées Carte Bancaire de ses clients. Ces données sont cryptées via le protocole SSL (Secured Socket Layer) et transitent directement par le serveur sécurisé Axepta."
+    }
+  },
+  "moreQuestions": "Vous avez d'autres questions ? Consultez notre rubrique",
+  "help": "aide",
+  "deliveryConditions": {
+    "common": "Les droits et taxes du pays de destination sont à la charge du client.",
+    "TW_KR": "Les droits et taxes du pays de destination sont à la charge du client. Une fois votre pays de livraison sélectionné, les prix s’affichent hors taxe. Les éventuels frais locaux sont à payer juste avant la livraison de votre commande.",
+    "HK": "Une fois votre pays de livraison sélectionné, les prix sont affichés hors taxes. Toutes les taxes locales doivent être payées à la réception de votre commande. À Hong Kong, les spiritueux avec un degré d’alcool de plus de 30% (par exemple, les alcools forts tels que les whisky, gin, rhum, vodka et certains types d’alcools chinois) sont sujets à 100% de taxe ad valorem. Les alcools avec moins de 30% d’alcool (la plupart des vins), ne sont pas sujets à ces taxes. Les taxes locales sont à la charge du client.",
+    "US": "En 2021, les autorités ont accepté de suspendre les 25% de taxes qui impactaient les vins français importés aux ÉTATS-UNIS. Cependant, veuillez noter que des frais d’importation peuvent s’appliquer pour recevoir la livraison de votre vin.\niDealwine n’a aucun contrôle sur les taxes locales et n’obtient aucun bénéfice de celles-ci, elles sont toujours à la charge du client. Malheureusement, il ne nous est pas possible de les calculer ou de les estimer à l’avance. Dès que vous sélectionnez les ÉTATS-UNIS comme votre pays de livraison, le prix n’inclut pas les taxes françaises, ainsi vous n’aurez pas de frais supplémentaires. La livraison prend en général trois semaines à partir de la date de paiement.",
+    "AU": "Veuillez noter que toutes les livraisons en dehors de l’Union Européenne sont sujettes aux droits et taxes locaux. iDealwine n’a aucun contrôle sur ces taxes locales et n’obtient aucun bénéfice de celles-ci. Le paiement des droits et taxes sera organisé par notre transporteur avant la livraison. Les règles de calcul des droits et taxes australiens sont indiquées ci-dessous pour estimation. Cependant, nous ne pouvons en garantir le montant exact. Au total, les diverses taxes peuvent représenter environ 100% du prix iDealwine.\nDroits de douanes = 5% valeur FOB\nWET/OTHER GOVT FEES (taxe sur le vin) = 29% x (valeur en douane CIF + droits de douane)\nGST (équivalent TVA) = 10% x (valeur en douane CIF + droits de douane + WET)",
+    "GB": "BREXIT ET LIVRAISON :\nExpédiez 12 bouteilles pour {{dozenBottlesDeliveryCost}} (environ {{dozenBottlesDeliveryCostInActiveCurrency}})\nAu moment du paiement des frais de port, nous appliquerons pour une livraison au Royaume-Uni les frais additionnels suivants :\n• Droits d’accises et frais de douane : {{dutyAndCustomsCost}} (environ {{dutyAndCustomsCostInActiveCurrency}}) par bouteille\n• 20% de TVA sur la valeur des vins\nLivraison en dix jours ouvrés, le passage des douanes peut parfois provoquer des délais supplémentaires",
+    "eu": "Une fois votre pays de livraison sélectionné, les prix affichés prennent en compte la TVA locale. Pour chaque commande passée sur iDealwine.com à destination de l'Union Européenne, nous payons les droits d'accises en votre nom.",
+    "other": "Une fois votre pays de livraison sélectionné, les prix s’affichent hors taxe. Les éventuels frais locaux sont à payer à la livraison de votre commande."
+  },
+  "seo": { "title": "Les garanties - iDealwine", "description": "Simulation livraison - iDealwine" }
+}

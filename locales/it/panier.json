@@ -1,0 +1,42 @@
+{
+  "myBasketTooltip": "I premi nel tuo carrello ti sono riservati per un periodo di {{timer}} minuti",
+  "alreadyPaid": "Pagato",
+  "awaitingForPayment": "Pagamento in sospeso",
+  "unpaid": "Da pagare",
+  "myPaidOrdersTooltip": "Seleziona gli ordini che desideri far spedire",
+  "myUnpaidOrdersTooltipXtraOrder": "Seleziona gli ordini che desideri saldare.",
+  "myUnpaidOrdersTooltipNormal": "Per poter effettuare altri acquisti è necessario saldare l’importo delle aste vinte",
+  "myAwaitingPaymentOrders": "Riepilogo ordini con pagamento in sospeso",
+  "myAwaitingPaymentOrdersTooltip": "Dopo il pagamento, potrai mettere in attesa il tuo ordine per raggrupparlo con acquisti futuri al fine di ottimizzare le spese di spedizione, o per ritirare tutti i tuoi vini in una volta sola presso le nostre strutture. A partire dalla data dell’ordine avrai un mese di giacenza gratuita. Trascorso questo periodo, ti saranno addebitate le spese di giacenza.",
+  "directSale": "Prezzo fisso",
+  "shippingCountry": "Paese di consegna:",
+  "forbidden": "Azione non consentita",
+  "errorOccurred": "Si è verificato un errore.",
+  "noItemsInBasket": "Il tuo carrello è vuoto",
+  "seeAllWines": "Visualizza i vini in vendita",
+  "storageFee": "Spese di giacenza (g. +{{numberOfDays}})",
+  "xtraOrderAutomaticCheckoutButton": "Conferma l'ordine e paga dopo",
+  "basketGroupingInfoMessage": "Nella prossima schermata potrai organizzare la consegna o il ritiro dei tuoi vini. Puoi optare anche per l'opzione \"Consegna differita\" per ottimizzare le spese di spedizione.",
+  "learnMore": "Scopri di più",
+  "basketGroupingInfoModalMessage": "Nella prossima schermata potrai organizzare la spedizione o il ritiro dei tuoi vini. Puoi optare anche per l'opzione Raggruppamento/Consegna differita in modo da ottimizzare i costi relativi alla consegna. Per poter usufruire di quest'opzione è necessario saldare l'ordine in anticipo. A partire dal momento in cui l'ordine è confermato, potrai beneficiare di un mese di giacenza gratuita. Oltrepassato questo periodo ti saranno addebitate delle spese di stoccaggio (0,06€/giorno/bottiglia).",
+  "incompatibleOrderCountriesModal": {
+    "title": "Il paese di consegna non coincide",
+    "content": "Non puoi aggiungere quest’ordine al raggruppamento perché il paese di consegna non coincide con quello indicato negli ordini che hai già messo in consegna differita. È necessario confermare l’ordine prima di poterlo aggiungere alla consegna differita."
+  },
+  "limitedQuantityWarning": "La quantità selezionata è superiore a quella consentita per l’acquisto di questo prodotto. Il numero di bottiglie nel tuo carrello è stato dunque modificato.",
+  "quantityOf": {
+    "1": "{{count}} lotto di",
+    "other": "{{count}} lotti di"
+  },
+  "orderNumber": "Ordine n. {{orderNumber}}",
+  "bottleNumber": {
+    "1": "1 bottiglia",
+    "other": "{{count}} bottiglie"
+  },
+  "seo": {
+    "title": "Il mio carrello - iDealwine",
+    "description": "iDealwine - Il sito di riferimento per l'acquisto, la vendita e la valutazione di vini pregiati"
+  },
+  "emptyBasket": "Il carrello è vuoto",
+  "emptyBasketCallToAction": "Visualizza i vini in vendita"
+}

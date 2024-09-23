@@ -1,0 +1,40 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  @include isDesktop {
+    padding: getSpacing(4);
+  }
+}
+
+.table {
+  border-collapse: collapse;
+
+  th {
+    background-color: $goldenDarkest;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: $fontSizeSmaller;
+    height: 35px;
+  }
+
+  td {
+    padding: 8px 16px;
+    border: 1px solid $grey;
+    height: 60px;
+  }
+}
+
+.showAllContainer {
+  background-color: $white;
+  display: flex;
+  justify-content: right;
+  text-align: center;
+  padding: getSpacing(4);
+}

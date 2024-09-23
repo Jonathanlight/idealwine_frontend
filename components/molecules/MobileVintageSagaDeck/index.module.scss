@@ -1,0 +1,7 @@
+@import "@/styles/stylesheet";
+
+.sagaCards {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(4);
+}

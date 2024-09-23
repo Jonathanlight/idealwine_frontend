@@ -1,0 +1,11 @@
+@import "@/styles/stylesheet";
+
+.textContainer {
+  padding: 0 getSpacing(2);
+  color: $greyDarkest;
+  font-size: $fontSizeBase;
+
+  @include isTabletOrDesktop {
+    padding: 0 getSpacing(5);
+  }
+}

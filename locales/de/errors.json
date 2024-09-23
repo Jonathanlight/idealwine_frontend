@@ -1,0 +1,36 @@
+{
+  "404": {
+    "title": "Die Seite, nach der Sie suchen, existiert nicht mehr oder ist nicht mehr unter dieser Webadresse verfügbar...",
+    "secondTitle": "Aber keine Panik!",
+    "descriptionLine1": "Um einen Wein zu finden, nützen Sie die Suchleiste mitten auf der",
+    "descriptionLink1": "Startseite von iDealwine.",
+    "descriptionLine2": "Informieren Sie sich über News aus der Weinwelt auf dem",
+    "descriptionLink2": "iDealwine Blog.",
+    "descriptionLine3": "Bei Verbindungsproblemen",
+    "descriptionLink3": "kontaktieren Sie uns jetzt ",
+    "seo": {
+      "title": "Fehlermeldung 404 - iDealwine",
+      "description": ""
+    }
+  },
+  "500": {
+    "title": "Fehlermeldung 500 - Ein unbekanntes Problem mit dem Server ist aufgetreten.",
+    "descriptionLine1": "Wir arbeiten daran, dass Sie so schnell wie möglich weitersurfen können.",
+    "descriptionLine2Text1": "Warum informieren Sie sich in der Zwischenzeit nicht auf",
+    "descriptionLine2Link1": "unserem Blog,",
+    "descriptionLine2Text2": "unseren Kanälen",
+    "descriptionLine2Link2": "Facebook",
+    "descriptionLine2Text3": " und",
+    "descriptionLine2Link3": "Instagram",
+    "descriptionLine2Text4": " oder",
+    "descriptionLine2Link4": "Twitter",
+    "descriptionLine2Text5": " ?",
+    "seo": {
+      "title": "Fehler 500 - iDealwine",
+      "description": ""
+    }
+  },
+  "buy": "Kaufen",
+  "sell": "Verkaufen",
+  "estimate": "Schätzen lassen"
+}

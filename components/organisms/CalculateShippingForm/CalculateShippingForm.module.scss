@@ -1,0 +1,60 @@
+@import "@/styles/stylesheet";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: getSpacing(4);
+}
+
+.countrySelect {
+  width: getSpacing(50);
+
+  @include isTabletOrDesktop {
+    width: getSpacing(68);
+  }
+}
+
+.inputs {
+  display: flex;
+  gap: getSpacing(4);
+  width: getSpacing(50);
+
+  @include isTabletOrDesktop {
+    width: getSpacing(68);
+  }
+}
+
+.shippingOptimizationDisclaimer {
+  min-height: 62px;
+}
+
+.shippingMethods {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin: getSpacing(4) auto;
+  gap: getSpacing(4);
+  grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+}
+
+.shippingMethod {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: getSpacing(1);
+  padding: getSpacing(4);
+  border-radius: getSpacing(1);
+  background-color: $white;
+}
+
+.shippingMethodCode {
+  font-weight: bold;
+  font-size: $fontSizeMedium;
+}
+
+.shippingMethodContent {
+  font-size: $fontSizeBase;
+  color: $greyDarkest;
+}

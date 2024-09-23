@@ -1,0 +1,21 @@
+{
+  "bio": "Organic",
+  "natural": "Natural",
+  "tripleA": "Triple A",
+  "incomingSale": "upcoming auction",
+  "saleOver": "auction closed",
+  "directPurchase": "fixed price",
+  "auction": "auction",
+  "lot": "Lot of",
+  "totalBids": {
+    "0": "{{count}} bid",
+    "1": "{{count}} bid",
+    "other": "{{count}} bids"
+  },
+  "limitedQuantity": "Limited quantity",
+  "actualPrice": "current price",
+  "startPrice": "starting price",
+  "soonAvailable": "Available soon",
+  "currentStock": "{{availableQuantity}} in stock",
+  "discountResume": "{{lotDiscountPercentage}}% off for every {{unitsPerLotOfDiscount}} purchased"
+}

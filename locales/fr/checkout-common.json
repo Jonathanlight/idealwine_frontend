@@ -1,0 +1,46 @@
+{
+  "basket": {
+    "nextPageButtonText": "Je valide mon panier"
+  },
+  "shipping": {
+    "nextPageButtonText": "Je valide ma livraison"
+  },
+  "payment": {
+    "nextPageButtonText": "Je paie ma commande"
+  },
+  "basketName": "Panier",
+  "shippingName": "Livraison Regroupement",
+  "shippingNameDelivery": "Livraison",
+  "paymentName": "Paiement",
+  "basketItems": {
+    "0": "Aucun article",
+    "1": "{{count}} article",
+    "other": "{{count}} articles"
+  },
+  "complete_personal_info_dialog": {
+    "title": "Compléter mes informations personnelles",
+    "content": "Pour valider votre panier, vous devez d'abord remplir vos informations personnelles.",
+    "button": "Remplir"
+  },
+  "total": "Total",
+  "amountTotal": "Montant total",
+  "includingVAT": "dont TVA",
+  "customsFee": "Droits de douane",
+  "errorOccurred": "Une erreur est survenue.",
+  "auctionAt": "enchères du {{date}}",
+  "auctionAtWithCountry": "enchères du {{date}} - {{country}}",
+  "directPurchaseAt": "achats e-caviste du {{date}}",
+  "directPurchaseAtWithCountry": "achats e-caviste du {{date}} - {{country}}",
+  "deliveryRequestAt": "demande de livraison du {{date}}",
+  "storage": "Frais de stockage",
+  "promotionsAndReductions": "promotions et réductions :",
+  "reductions": "Réductions",
+  "countdown": "Les lots ajoutés à votre panier vous sont réservés pour une durée de {{minutesDisplayed}}:{{secondsDisplayed}}",
+  "disclaimer": "Au-delà, ils seront à nouveau proposés aux autres clients.",
+  "tooLate": "Votre panier va expirer d'une seconde à l'autre.",
+  "recap": "Récapitulatif",
+  "myUnpaidOrders": "Mes commandes non payées",
+  "myPaidOrders": "Mes commandes en attente de livraison",
+  "myBasket": "Mon panier",
+  "securePayment": "Paiement sécurisé"
+}

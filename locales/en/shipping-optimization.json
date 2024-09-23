@@ -1,0 +1,16 @@
+{
+  "shippingOptimized": "You have optimised your delivery fees.",
+  "shippingOptimizedHelper": {
+    "1": "You could order {{count}} more bottle for only <0></0> in extra delivery fees.",
+    "other": "You could order {{count}} more bottles for only <0></0> in extra delivery fees."
+  },
+  "shippingUnoptimized": "You could optimise your delivery fees.",
+  "shippingUnoptimizedHelperBottles": {
+    "1": "For example, add {{count}} more bottle and pay the same delivery fees.",
+    "other": "For example, add {{count}} more bottles and pay the same delivery fees."
+  },
+  "shippingUnoptimizedHelperMagnums": {
+    "1": "For example, add {{count}} more bottle or {{count}} more magnum and pay the same delivery fees.",
+    "other": "For example, add {{count}} more bottles or {{count}} more magnums and pay the same delivery fees."
+  }
+}

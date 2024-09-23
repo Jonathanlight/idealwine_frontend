@@ -1,0 +1,21 @@
+@import "@/styles/stylesheet";
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+}
+
+.signupContainer {
+  margin-top: getSpacing(2);
+
+  .forgotPasswordButton {
+    margin-bottom: getSpacing(1);
+  }
+}
+
+.errorMessage {
+  color: $red;
+  font-size: $fontSizeSmall;
+  text-align: center;
+}

@@ -1,0 +1,78 @@
+{
+  "idealwineGuarantees": "Guaranteed with iDealwine",
+  "title": "Calculate delivery fees",
+  "subtitle": "Fill in the information below",
+  "inputs": {
+    "country": {
+      "label": "Country",
+      "placeholder": "Choose a country"
+    },
+    "bottles": {
+      "label": "Number of bottle(s) *",
+      "placeholder": "Enter a number"
+    },
+    "magnums": {
+      "label": "Number of magnums",
+      "placeholder": "Enter a number"
+    },
+    "others": {
+      "label": "Number of other formats",
+      "placeholder": "Enter a number"
+    }
+  },
+  "numBottles": {
+    "1": "{{count}} bottle",
+    "other": "{{count}} bottles"
+  },
+  "numMagnums": {
+    "1": "{{count}} magnum",
+    "other": "{{count}} magnums"
+  },
+  "numOthers": {
+    "1": "{{count}} other format",
+    "other": "{{count}} other formats"
+  },
+  "formInfoBottles": "* or half-bottle or flacon or fillette or chopine or litre",
+  "guaranteesTitle": "Guaranteed with iDealwine",
+  "guaranteesFirstParagraph": "iDealwine delivers your wine in the best conditions where you want. Your wine has been prepared for delivery, placed in bespoke packaging that is shock-proof and isothermal heat-proof (Europack / Appro-Diffusion). We guarantee delivery without breakage, theft, loss, to the address of your choosing. Your delivery is insured for all transport-related issues including loss, theft, and breakage.",
+  "guaranteesSecondParagraph": "iDealwine works only with the best shipping partners. Standard delivery is tracked, express delivery is available in select destinations. For those based in the Paris region, click and collect or courier options are available. If, despite all possible efforts, damage occurs during transport, please refuse the parcel and make all legal observations on the delivery note as well as contacting our customer service department as quickly as possible. If delivery is delayed significantly from the time indicated, iDealwine will reimburse delivery fees.",
+  "moreInfoTitle": "More information",
+  "moreInfo": {
+    "1": {
+      "title": "POSTPONE AND COMBINE ORDERS",
+      "content": "To reduce or optimise delivery fees, you can postpone orders before choosing to combine and ship them together, at your convenience. Clients can combine orders for shipment from their own iDealwine account.  To combine orders into one shipment, all individual orders must be paid first. At the final checkout page pay you must select the “postpone and combine” option, so that you can come back and ship them all at once, at your convenience. Once you decide you are ready to ship your combined order, you need to select all relevant paid orders which will tell our system to create a summary order and calculate shipping fees, depending on the number of bottles in the order. iDealwine offers 30 days complimentary storage during which you can postpone and combine as you please. After this date, storage fees are charged."
+    },
+    "2": {
+      "title": "CLICK AND COLLECT AT OUR WAREHOUSE",
+      "content": "You can pick up the wine directly from our warehouse or send your own forwarder. When on the final payment page, please choose click and collect, which will allow you to proceed to payment without any shipping fees. A link will be sent to you via email as soon as your order has arrived at the warehouse. This link will allow you to choose a time to come and pick up your order. Our warehouse is located at 190 rue d’Estienne d’Orves, 92700 Colombes, France. Opening hours are Monday to Friday, from 9am to 5pm (no break for lunch). You will need to bring identification. Orders need to be picked up within 14 days. If you cannot make your pick-up appointment, please get in touch with our customerc service team to reschedule. After 14 days, orders will be sent back to our warehouse and may incur extra storage and transfer fees. Orders will be released to the peson who purchased, or to a designated person who has written permission to act on behalf of the client. It is important to let us know when scheduling your collection appointment that a designated person is doing so. ID is required."
+    },
+    "3": {
+      "title": "Commission",
+      "content": " iDealwine has made several features available to the public, there is no need to be a member to access them (they include presentations of wineries and wines, vintage guide, wine advice, wine prices and more). Complimentary services available to members include cellar consulting. Only members can bid in auctions, who will only be charged once they cast the winning bid. Buyer's premium is charged on every winning bid: 25.2% incl. tax (21% excl tax). Please note that fixed price sales are managed and priced differently, where prices are always including tax and no commission is charged."
+    },
+    "4": {
+      "title": "Appraisal",
+      "content": "iDealwine guarantees all lots on the website. Authenticity and conformity on products are compared with the description provided (label's state, level, special notes). Lots up for auction on iDealwine work like traditional, in-room auctions. All lots are guaranteed, a description of every lot is made by an expert appraiser and licensed auctioneer. If in the unlikely event that we have to modify a lot, all bids are cancelled and bidders are informed by email. If you still want the lot, you must bid again."
+    },
+    "5": {
+      "title": "Secure payment",
+      "content": "All payments on iDealwine.com are secure. To manage payment by bank card, iDealwine uses the Axepta secure payment services provided by BNP PARIBAS. iDealwine does not have access to the bank details of clients. This is data encrypted by SSL protocol (Secured Socket Layer) and goes through the Axepta secure sever."
+    }
+  },
+  "moreQuestions": "If you have any further questions, please consult this",
+  "help": "help",
+  "deliveryConditions": {
+    "common": "All taxes, import and excise duties are payable by the client.",
+    "TW_KR": "All taxes, import and excise duties are payable by the client. As soon as your select a shipping country outside the EU, prices will be displayed without French VAT. Depending on the destination, you may have to pay local taxes upon delivery of your order.",
+    "HK": "As soon as your select a shipping country outside the EU, prices will be displayed without French VAT. All local taxes must be paid in order to receive your order. In Hong Kong, spirits and all alcoholic drinks over 30% ABV (i.e. Whisky, gin, rum, vodka, chinese spirits) are subject to 100% tax. Alchohol with less than 30% ABV (most wines) are not subject to tax. All taxes, import and excise duties are payable by the client.",
+    "US": "In 2021, authorities agreed to suspend the 25% tax that had been applied to all French wine imported to the USA. However, please note that there may still be local import taxes to pay upon delivery. iDealwine has no control over local tax and it is always payable by the client. Unfortunately, it is not possible to calculate all fees in advance. As soon as you select USA as your shipping destination, French sales tax is removed so you never pay this in the first instance. Shipping usually takes 3 weeks from the date of payment.",
+    "AU": "Please note that all shipments outside of the European Union are subject to local taxes. iDealwine has no control over local tax and it is always payable by the client. Payment is organised by the delivery partner. Taxes and duties for Australia are indicated below.  Please note this is an estimate, we cannot guarantee these figures. In total, various taxes add up to 100% of the iDealwine price.\nCustom fees = 5% value FOB\nWET/OTHER GOVT FEES  = 29% x (customs value CIF + duties) GST (VAT) = 10% x (customs value CIF + duties + WET)",
+    "GB": "POST BREXIT - UK DELIVERY\nShip 12 bottles for {{dozenBottlesDeliveryCost}} (around{{dozenBottlesDeliveryCostInActiveCurrency}})\nWhen adding your delivery address details and shipping information, iDealwine will apply the following to all UK shipments: \nExcise duties and customs fees: {{dutyAndCustomsCost}} (around {{dutyAndCustomsCostInActiveCurrency}}) per bottle\n• 20% VAT on the value of the wine\nDelivery in 10 working days, although this can be longer if checked during customs clearance.",
+    "eu": "Once you have selected your shipping destination, prices will display including local VAT. iDealwine pays excise duty on the customer’s behalf for all orders that are shipped within the EU.",
+    "other": "As soon as your select a shipping country outside the EU, prices will be displayed without French VAT. Depending on the destination, you may have to pay local taxes upon delivery of your order."
+  },
+  "seo": {
+    "title": "Guaranteed with iDealwine",
+    "description": "Calculate your shipping - iDealwine"
+  }
+}

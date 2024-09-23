@@ -1,0 +1,245 @@
+@import "@/styles/stylesheet";
+
+.auctionPanel {
+  @include mainContainerPadding;
+
+  position: sticky;
+  background: #f6f4f2;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+
+  @include isLargeOrExtraLargeDesktop {
+    top: 0;
+    // cf cette question sur stack overflow https://stackoverflow.com/a/44446672
+    align-self: flex-start;
+    height: 80vh;
+    min-width: 340px;
+    max-width: 340px;
+    overflow-y: hidden;
+    align-items: center;
+    margin: 2% 20px 0;
+  }
+
+  @include isMobileOrTablet {
+    padding: 0;
+    background: $white;
+  }
+}
+
+.subContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+
+  @include isLargeOrExtraLargeDesktop {
+    max-width: 90%;
+  }
+
+  @include isMobile {
+    bottom: 0;
+    gap: 0;
+    align-items: unset;
+  }
+}
+
+.bannersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: getSpacing(8);
+  width: 100%;
+
+  @include isTabletOrDesktop {
+    gap: getSpacing(4);
+  }
+
+  @include isMobile {
+    gap: 0;
+    min-width: 300px;
+    background: $white;
+    padding-bottom: getSpacing(2);
+  }
+}
+
+.stockWarning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: getSpacing(2) getSpacing(9);
+  background-color: $golden;
+  gap: getSpacing(1);
+  color: $white;
+  text-transform: uppercase;
+}
+
+.specialOrImportantPrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: thick double $goldenLighter;
+  padding: getSpacing(1) getSpacing(2);
+  gap: getSpacing(2);
+  color: $golden;
+  text-transform: uppercase;
+  font-size: $fontSizeSmaller;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.lotDiscountContainer {
+  background-color: $golden;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include isDesktop {
+    padding: getSpacing(1) getSpacing(2);
+  }
+}
+
+.lotDiscountFirstLine {
+  font-weight: bold;
+}
+
+.lotDiscountSecondLine {
+  font-size: $fontSizeSmall;
+}
+
+.loyaltyProgram {
+  align-self: flex-start;
+  margin-bottom: getSpacing(18);
+  @include isTabletOrSmallDesktop {
+    align-self: auto;
+    margin-bottom: auto;
+  }
+}
+
+.specialPriceIcon {
+  font-size: $fontSizeLarge;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+
+  @include isMobile {
+    flex-direction: column-reverse;
+  }
+}
+
+.price {
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.customsFeeContainer {
+  text-align: center;
+  color: $greyDarkest;
+}
+
+.basketInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+
+  @include isMobile {
+    flex-direction: row;
+    width: 100%;
+    gap: 0;
+  }
+}
+
+.lotInfoContainer {
+  display: flex;
+  flex-direction: row;
+  gap: getSpacing(3);
+  text-align: center;
+  align-items: center;
+  @include isMobile {
+    flex-direction: row;
+    text-align: left;
+    gap: getSpacing(5);
+    padding-bottom: unset;
+  }
+}
+
+.boldCapital {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: $fontSizeSmall;
+}
+
+.lotMulti {
+  text-align: left;
+}
+
+.classicalLot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @include isMobile {
+    padding: 0 getSpacing(2);
+  }
+}
+
+.allAvailableLotsSelected {
+  display: flex;
+  gap: getSpacing(2);
+  align-items: center;
+  text-transform: uppercase;
+  font-size: $fontSizeSmall;
+  font-weight: 500;
+  padding-bottom: getSpacing(2);
+}
+
+.lotDescription {
+  margin-bottom: getSpacing(1);
+  @include isMobile {
+    font-size: $fontSizeTiny;
+  }
+}
+
+.addToBasketButton {
+  @include isMobile {
+    flex-grow: 1;
+  }
+}
+
+.figcaption {
+  font-size: $fontSizeSmaller;
+  text-align: center;
+  font-weight: 400;
+}
+
+.winedexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: getSpacing(2);
+}
+
+.justifyCenter {
+  justify-content: center;
+  min-width: 290px;
+}
+
+.noStockActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: getSpacing(5);
+}
+
+.availabilityAlert {
+  display: flex;
+  align-items: center;
+  gap: getSpacing(2);
+}

@@ -1,0 +1,16 @@
+{
+  "shippingOptimized": "Vos frais de port sont optimisés.",
+  "shippingOptimizedHelper": {
+    "1": "Vous pouvez commander {{count}} bouteille de plus pour seulement <0></0> de frais de port supplémentaires",
+    "other": "Vous pouvez commander {{count}} bouteilles de plus pour seulement <0></0> de frais de port supplémentaires"
+  },
+  "shippingUnoptimized": "Vous pouvez optimiser vos frais de port !",
+  "shippingUnoptimizedHelperBottles": {
+    "1": "Exemple : rajoutez {{count}} bouteille et payez les mêmes frais de livraison.",
+    "other": "Exemple : rajoutez {{count}} bouteilles et payez les mêmes frais de livraison."
+  },
+  "shippingUnoptimizedHelperMagnums": {
+    "1": "Exemple : rajoutez {{count}} bouteille ou {{count}} magnum et payez les mêmes frais de livraison.",
+    "other": "Exemple : rajoutez {{count}} bouteilles ou {{count}} magnums et payez les mêmes frais de livraison."
+  }
+}

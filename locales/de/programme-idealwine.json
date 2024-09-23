@@ -1,0 +1,57 @@
+{
+  "programsTitle": "Das iDealwine Treueprogramm",
+  "programsIntroduction": "Egal, wie lange Sie iDealwine schon nutzen – wir können eine ganze Reihe von Vorteilen anbieten.<0></0>So bedanken wir uns für Ihre Treue und Ihr Vertrauen!",
+  "classique": {
+    "title": "klassisch",
+    "subtitle": "Ihre Vorteile auf iDealwine",
+    "advantages": {
+      "advantage1": "Voraussetzung Einkäufe\n< 500€ (in den letzten 12 Monaten)",
+      "advantage2": "15€ Rabatt auf Ihre erste Festpreis-Bestellung <0>(0)</0>",
+      "advantage3": "15€-Gutschein für Sie & den Neukunden <0>(1)</0>"
+    }
+  },
+  "privilege": {
+    "title": "Privilège",
+    "subtitle": "Ihre Vorteile auf iDealwine",
+    "advantages": {
+      "advantage1": "Voraussetzung: Einkäufe\n< 500€ (in den letzten 12 Monaten)",
+      "advantage2": "15€-Gutschein für Sie & den Neukunden <0>(1)</0>",
+      "advantage3": "Bei jedem Kauf zu Festpreisen werden 3% Ihrem Konto gutgeschrieben <0>(2)</0>",
+      "advantage4": "Einladungen zu iDealwine-Masterclasses",
+      "advantage5": "Das jährliche Barometer der Auktionen <br> (PDF-Datei)"
+    }
+  },
+  "ideal": {
+    "title": "Club iDéal",
+    "subtitle": "Ihre Vorteile auf iDealwine",
+    "advantages": {
+      "advantage1": "Voraussetzung: Einkäufe \n> 4000€ (in den letzten 12 Monaten)",
+      "advantage2": "15€-Gutschein für Sie & den Neukunden <0>(1)</0>",
+      "advantage3": "Bei jedem Kauf zu Festpreisen werden 5% Ihrem Konto gutgeschrieben <0>(2)</0>",
+      "advantage4": "Einladungen zu iDealwine-Masterclasses und Verkostungen",
+      "advantage5": "Das jährliche Barometer der Auktionen <br> (PDF-Datei)",
+      "advantage6": "Exklusive Angebote unserer Partner (Abonnements, Wein-Veranstaltungen…)"
+    }
+  },
+  "quintessence": {
+    "title": "Quintessence",
+    "subtitle": "Ihre Vorteile auf iDealwine",
+    "advantages": {
+      "advantage1": "Zugang durch häufige Käufe und lange Treue",
+      "advantage2": "15€-Gutschein für Sie & den Neukunden<0>(1)</0>",
+      "advantage3": "Bei jedem Kauf zu Festpreisen werden 5% Ihrem Konto gutgeschrieben <sup>(2)</sup>",
+      "advantage4": "Einladungen zu iDealwine-Masterclasses und Verkostungen",
+      "advantage5": "Das jährliche Barometer der Auktionen <br>  (per Post)",
+      "advantage6": "Exklusive Angebote unserer Partner (Abonnements, Wein-Veranstaltungen…)",
+      "advantage7": "Private Verkäufe"
+    }
+  },
+  "programsConditions": "Status 12 Monate lang gültig<0></0>(0) Gültig für Ihre erste Bestellung über 150€, Lieferkosten nicht mitinbegriffen. Kann nicht in Geld umgetauscht werden.<0></0>(1) Bei der ersten Bestellung Ihres Freundes gibt es einen Rabatt von 15€. Lesen Sie unter „iDealwine empfehlen“ in Ihrem Konto nach. <0></0>(2) Gültig für Weine der Festkäufe aus Weingütern (Mehrwertsteuer wird erstattet).",
+  "notACustomerYet": "Sie haben noch kein Konto auf iDealwine.com?",
+  "offerNotClient": "Erhalten Sie jetzt einen Rabatt von 15€*",
+  "offerNotClientConditions": "*Gültig für Ihre erste Bestellung. Geben Sie bei der Bezahlung Ihrer Einkäufe den Code <0>FIRST</0> ein.",
+  "seo": {
+    "title": "DAS TREUEPROGRAMM VON IDEALWINE",
+    "description": "DAS TREUEPROGRAMM VON IDEALWINE"
+  }
+}

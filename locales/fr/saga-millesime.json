@@ -1,0 +1,25 @@
+{
+  "seo": {
+    "title": "Notation et information sur un millésime par région - iDealwine",
+    "description": "Le guide des millesimes, découvrez les notes, critiques, appréciations, guides et notations par région."
+  },
+  "ariane1": "Accueil",
+  "ariane2": "Saga des millésimes",
+  "h1": "RECHERCHER LA NOTE D'UN VIN PAR MILLESIME",
+  "choisirRegion": "Choisissez une région",
+  "choisirMillesime": "Choisissez un millésime",
+  "alsace": "Alsace",
+  "p1": "Le choix d'un millésime est une indication précieuse car les vins d'une même région portent, avec des exceptions et dans des proportions variables, les grands traits du millésime. C'est aussi un point de départ pour l'amateur à la recherche d'une bouteille destinée à fêter une date particulière ou pour des simples dégustations. Ce guide vous permettra aussi de trouver les bonnes années ainsi que les années exceptionnelles.",
+  "p2": "iDealwine vous propose grâce à ce guide, trois manières de naviguer dans cette saga: à  partir du choix d'une région de France ou d'ailleurs, à partir du choix d'un millesime  ou bien tout simplement en affichant le tableau général des notations des millesimes.",
+  "p3": "  Pour tous les millésime présentés, vous trouverez une fiche pratique contenant des  repères historiques, une note, une analyse générale des principales caractéristiques des  vins produits et également une liste des meilleurs crus ainsi qu'une sélection des représentants du millésime actuellement en vente.",
+  "vintageNotes": "Notations des millésimes",
+  "countriesTableTitle": "Tableau de notation des millésimes des vins étrangers",
+  "frenchRegionsTableTitle": "Tableau de notation des millésimes des vins français",
+  "YEAR": "Mill",
+  "year": "Millésime",
+  "internationalWines": "Vins étrangers",
+  "frenchPageButton": "Vins de France",
+  "frenchWines": "Vins Français",
+  "footNote": "(*) Vous pouvez obtenir des informations détaillées en cliquant sur une note",
+  "valider": "Valider"
+}

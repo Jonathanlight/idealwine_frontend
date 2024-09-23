@@ -1,0 +1,21 @@
+@import "@/styles/stylesheet";
+
+.h1,
+.h2 {
+  color: $white;
+  text-align: center;
+}
+
+.h1 {
+  margin: 0;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: $fontSizeLarge;
+}
+
+.h2 {
+  letter-spacing: 3px;
+  font-size: $fontSizeMediumLarge;
+  font-weight: normal;
+}

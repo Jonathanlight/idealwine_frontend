@@ -1,0 +1,25 @@
+@import "@/styles/stylesheet";
+
+.stockDialogModal {
+  text-align: center;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(2);
+  align-items: center;
+}
+
+.select {
+  width: getSpacing(10);
+}
+
+.cancelButton {
+  background-color: $greyDarker;
+  border: $black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: getSpacing(2);
+}

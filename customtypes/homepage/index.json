@@ -1,0 +1,89 @@
+{
+  "id": "homepage",
+  "label": "Homepage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "offer": {
+              "type": "SharedSlice"
+            },
+            "welcome_block": {
+              "type": "SharedSlice"
+            },
+            "hero_block": {
+              "type": "SharedSlice"
+            },
+            "three_blocks_banner": {
+              "type": "SharedSlice"
+            },
+            "grouped_three_block_banner": {
+              "type": "SharedSlice"
+            },
+            "banner": {
+              "type": "SharedSlice"
+            },
+            "reinsurance_banner": {
+              "type": "SharedSlice"
+            },
+            "last_orders": {
+              "type": "SharedSlice"
+            },
+            "new_releases": {
+              "type": "SharedSlice"
+            },
+            "ratings_search": {
+              "type": "SharedSlice"
+            },
+            "journal": {
+              "type": "SharedSlice"
+            },
+            "slider_home": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Gauche": {
+      "slices1": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "ratings_search": {
+              "type": "SharedSlice"
+            },
+            "indices": {
+              "type": "SharedSlice"
+            },
+            "sell_my_wines": {
+              "type": "SharedSlice"
+            },
+            "auction_report": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Droite": {
+      "slices2": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "journal": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

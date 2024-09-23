@@ -1,0 +1,13 @@
+@import "@/styles/stylesheet";
+
+.dialogTitle {
+  margin: 0;
+  font-weight: 500;
+  font-size: $fontSizeExtraLarge;
+  text-align: center;
+}
+
+.dialogContent {
+  max-width: 750px;
+  text-align: center;
+}

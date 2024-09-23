@@ -1,0 +1,19 @@
+{
+  "welcome": "Welcome to iDealwine!",
+  "confirmationMail": "You will receive a confirmation email in a few minutes. It will give you access to all the \"My iDealwine\" tools.",
+  "important": "Please note",
+  "inscriptionReminder": "Your current level of membership does not allow you to bid in auctions In order to gain access to auctions, you must complete the “personal details” section in your iDealwine account",
+  "completeProfile": "Complete my profile",
+  "offer": "As a little welcome gift, iDealwine would like to offer you a<0>€15€ promo code</0> to use on your first order over €150. In order to use it, simply enter “FIRST” in the promo code section at check-out. Enjoy!",
+  "refer": "Refer a friend: get rewarded",
+  "firstSale": "As soon as your first order is confirmed, you will see a “refer a friend” section in your account.",
+  "referInstructions": "You can use this form to refer a friend, once they order on iDealwine you will receive a €15 voucher to use on the website. They will also receive a €15 voucher to spend on their first order at iDealwine.",
+  "moreInfo": "To learn more about our referral programme, click here.",
+  "idealwineTeam": "The iDealwine Team",
+  "goodbye": "Thank you for signing up, please get in touch if you have any questions.",
+  "signature": "The team at iDealwine",
+  "seo": {
+    "title": "Membership confirmation - iDealwine",
+    "description": "Buy and sell your wine, at auction and fixed price on iDealwine"
+  }
+}

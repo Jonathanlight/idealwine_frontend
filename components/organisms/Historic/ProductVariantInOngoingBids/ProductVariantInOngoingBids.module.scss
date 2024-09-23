@@ -1,0 +1,31 @@
+@import "../index.module";
+
+.btnBackToAuctions {
+  margin-top: getSpacing(4);
+  width: 40%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include isMobile {
+    width: 80%;
+    font-size: getSpacing(3);
+  }
+}
+
+.message {
+  padding-top: getSpacing(4);
+  font-style: $fontFamily;
+  font-weight: 350;
+  font-size: getSpacing(5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  @include isMobile {
+    font-size: getSpacing(4);
+  }
+}

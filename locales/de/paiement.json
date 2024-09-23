@@ -1,0 +1,30 @@
+{
+  "unknownPaymentMethod": "Zahlungsart unbekannt",
+  "edit": "Ändern",
+  "validatedCommand": "Bestellung bestätigt",
+  "paymentTaken": "Ihre Anfrage wurde berücksichtigt, wir warten auf Ihre Bezahlung.",
+  "validatedFreeOrder": "Ihre Anfrage wurde berücksichtigt.",
+  "validatedMessage": "Sie erhalten in einigen Minuten eine Bestätigungs-E-Mail. Wir danken für Ihr Vertrauen und wünschen eine gute Verkostung! 😃",
+  "validatedTeam": "Das iDealwine-Team",
+  "validatedBack": "Zurück zur Webseite",
+  "billingAddress": "Rechnungsadresse",
+  "validate": "Bestätigen",
+  "paymentFailure": "Die Zahlung wurde abgebrochen. Ihre Bestellung kann nicht ausgeführt werden.",
+  "payBankTransfer": "Sichere Zahlung mit Kreditkarte",
+  "bankTransferInstructions": "<strong>Bitte geben Sie als Verwendungszweck Ihre Bestellnummer an.</strong><br/><strong>Französisches Konto (alle Währungen werden akzeptiert):</strong><br/>BRED<br/>IBAN: FR76 1010 7001 7500 1140 7454 286<br/>Code BIC (SWIFT) : BREDFRPPXXX<br/>Bitte geben Sie als Verwendungszweck Ihre Bestellnummer an.<br/><strong>Für Überweisungen in allen Währungen außer EUR (USD, HKD, GPD, SGD) nutzen Sie bitte unser Konto in Hongkong:</strong><br/>Kontonummer: 848 540407 838<br/>Empfänger: iDealwine.com<br/>Swift: HSBCHKHHHKH<br/>Bank des Empfängers: HSBC Hong Kong<br/>Adresse der Bank des Empfängers: 1 Queen's Road Central, Hong Kong",
+  "nothingToPay": "Für diese Bestellung ist keine Bezahlung notwendig.",
+  "orderTotal": "Noch offener Betrag: <0></0> ",
+  "orderNumber": "Bestellnummer: {{orderNumber}}",
+  "unsupportedCurrencyModal": {
+    "title": "Nicht akzeptierte Währung",
+    "content": "Die in Ihrem Profil angegebene Währung {{currency}} kann bei einer Bezahlung per Kreditkarte nicht angewendet werden. Ihre Bezahlung erfolgt dann automatisch in Euro. Würden Sie gerne in USD oder GBP zahlen, so können Sie die Währung über die Leiste oben rechts oder in Ihrem Profil My iDealwine einstellen. Sie können außerdem per Überweisung in Ihrer Währung zahlen, wenn Sie diese Zahlungsart wählen.",
+    "amountInEur": "Gesamtwert Ihrer Bestellung in Euro: <0></0>",
+    "cancel": "Abbrechen",
+    "continue": "Weiter"
+  },
+  "applePay": {
+    "notAvailable": "Apple Pay ist auf Ihrem Gerät nicht verfügbar. Um Apple Pay zu nutzen, wechseln Sie bitte den Browser oder aktualisieren Sie ihn. ",
+    "errorMerchantValidation": "Es konnte keine Verbindung zum Apple Pay-Server hergestellt werden. Bitte versuchen Sie es später erneut. ",
+    "errorPaymentProcess": "Beim Verarbeiten der Zahlung ist ein Fehler aufgetreten. Sollte Ihr Konto bereits belastet worden sein, wenden Sie sich bitte an den Kundenservice. Andernfalls versuchen Sie es bitte noch einmal.\n\n"
+  }
+}

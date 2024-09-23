@@ -1,0 +1,53 @@
+@import "@/styles/stylesheet";
+
+.hitsList {
+  position: relative;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
+
+  @include isTabletOrSmallDesktop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include isLargeOrExtraLargeDesktop {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.moreProductsCross {
+  position: absolute;
+  right: -38px;
+  bottom: -8px;
+  width: 100px;
+  height: 40px;
+  line-height: 2;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: rgb(0 0 0);
+  transform: rotate(315deg);
+  cursor: pointer;
+}
+
+%button {
+  color: $white;
+  font-weight: bolder;
+  font-size: $fontSizeSmaller;
+  transition: transform 0.35s;
+}
+
+.buttonClicked {
+  @extend %button;
+
+  transform: rotate(-135deg);
+}
+
+.buttonUnClicked {
+  @extend %button;
+}
+
+.link:hover {
+  text-decoration: none;
+}

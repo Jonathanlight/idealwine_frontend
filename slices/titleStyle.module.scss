@@ -1,0 +1,19 @@
+@import "@/styles/stylesheet";
+
+.title {
+  text-transform: uppercase;
+  font-size: $fontSizeBase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: left;
+
+  &::after {
+    content: "//////////////";
+    display: block;
+    opacity: 0.3;
+    font-style: italic;
+    font-size: $fontSizeTinier;
+    padding: getSpacing(3) 0;
+    text-align: left;
+  }
+}

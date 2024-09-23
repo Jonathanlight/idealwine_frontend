@@ -1,0 +1,78 @@
+@import "@/styles/stylesheet";
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $white;
+  border: solid 1px $grey;
+  padding: getSpacing(2);
+  flex-flow: wrap;
+
+  @include isDesktop {
+    padding: getSpacing(4);
+  }
+}
+
+.wineName {
+  margin: 0 getSpacing(2);
+}
+
+.variantContainer {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: fit-content;
+}
+
+.photoContainer {
+  min-width: 100px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.variantInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: getSpacing(5);
+}
+
+$greyContainersSpacing: getSpacing(2);
+
+.alertOptionsSwitchesColumnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: $greyContainersSpacing;
+  height: 100%;
+}
+
+.grey {
+  display: flex;
+  align-items: center;
+  gap: getSpacing(2);
+  background-color: $greyLight;
+  height: 100%;
+}
+
+.input {
+  width: 6rem;
+}
+
+.button {
+  display: flex;
+  padding: getSpacing(3);
+  align-items: center;
+  justify-content: center;
+}
+
+.simpleRow {
+  display: inline-flex;
+  align-items: center;
+  gap: getSpacing(1);
+}

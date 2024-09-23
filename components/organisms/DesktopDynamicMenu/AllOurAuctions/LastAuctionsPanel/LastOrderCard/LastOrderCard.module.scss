@@ -1,0 +1,72 @@
+@import "@/styles/stylesheet";
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: 1fr 65%;
+  border: 1px solid $greyLighter;
+  position: relative;
+  padding: getSpacing(2);
+  width: 300px;
+  height: auto;
+  align-items: center;
+  overflow: hidden;
+}
+
+.lotName {
+  font-weight: lighter;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  display: block;
+  /* stylelint-disable-next-line value-no-vendor-prefix */
+  display: -webkit-box;
+}
+
+.mainContainer:hover {
+  border-bottom: 1px solid $grey;
+}
+
+.mainContainer:hover .lotName {
+  color: $amberBottleContent;
+}
+
+.remainingTime {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: getSpacing(1) getSpacing(2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  font-size: $fontSizeTiny;
+  background-color: $goldenLighter;
+  color: $white;
+}
+
+.link:hover,
+.link:focus,
+.link:active,
+.link:visited {
+  text-decoration: none;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.image {
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.price {
+  font-weight: bold;
+  text-align: center;
+  padding: getSpacing(1);
+}

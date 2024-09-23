@@ -1,0 +1,213 @@
+@import "@/styles/stylesheet";
+
+.navigationMenuRoot {
+  position: relative;
+  z-index: 2;
+}
+
+.navigationMenuList {
+  display: flex;
+  justify-content: space-around;
+  background-color: $white;
+}
+
+.navigationMenuTrigger {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: getSpacing(1);
+  padding: getSpacing(3) 0;
+}
+
+.goldenBottomBorder {
+  border-bottom: 3px solid $golden;
+}
+
+.caretDown {
+  position: relative;
+  top: 1px;
+  transition: transform 250ms ease;
+}
+
+[data-state="open"] > .caretDown {
+  transform: rotate(-180deg);
+}
+
+.navigationMenuContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-duration: 250ms;
+  animation-timing-function: ease;
+  width: 100%;
+  height: 100%;
+}
+
+.navigationMenuContent[data-motion="from-start"] {
+  animation-name: enterFromLeft;
+}
+
+.navigationMenuContent[data-motion="from-end"] {
+  animation-name: enterFromRight;
+}
+
+.navigationMenuContent[data-motion="to-start"] {
+  animation-name: exitToLeft;
+}
+
+.navigationMenuContent[data-motion="to-end"] {
+  animation-name: exitToRight;
+}
+
+.link,
+.link:hover,
+.link:visited,
+.link:active,
+.link:focus {
+  text-decoration: none;
+}
+
+.viewportPosition {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: calc(100% + var(--removed-body-scroll-bar-size));
+  top: 100%;
+  left: 0;
+  perspective: 2000px;
+}
+
+.navigationMenuViewport {
+  position: relative;
+  transform-origin: top center;
+  width: 100%;
+  background-color: $white;
+  border-top: 1px solid $grey;
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 550px;
+  transition: width, height, 300ms ease;
+}
+
+.navigationMenuViewport[data-state="open"] {
+  animation: scaleIn 200ms ease;
+}
+
+.navigationMenuViewport[data-state="closed"] {
+  animation: scaleOut 200ms ease;
+}
+
+.overlay {
+  position: fixed;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transition: background-color 300ms, opacity 300ms;
+
+  &.overlayVisible {
+    pointer-events: unset;
+    opacity: unset;
+    background-color: rgb(0 0 0 / 50%);
+  }
+}
+
+.mustHaves {
+  color: $golden;
+}
+
+@keyframes enterFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes enterFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes exitToRight {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+}
+
+@keyframes exitToLeft {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-30deg) scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0deg) scale(1);
+  }
+}
+
+@keyframes scaleOut {
+  from {
+    opacity: 1;
+    transform: rotateX(0deg) scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: rotateX(-10deg) scale(0.95);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

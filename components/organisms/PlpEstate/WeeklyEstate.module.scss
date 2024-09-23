@@ -1,0 +1,96 @@
+@import "@/styles/stylesheet";
+
+.container {
+  position: relative;
+  color: $goldenDarker;
+  padding: getSpacing(5) getSpacing(2);
+  max-height: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+
+  @include isMobile {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.image {
+  object-fit: cover;
+}
+
+.backgroundImage {
+  z-index: -1;
+}
+
+.imagesContainer {
+  width: 40%;
+  min-width: 40%;
+  flex-shrink: 0;
+  height: getSpacing(45);
+  min-height: 100%;
+  position: relative;
+  display: flex;
+
+  @include isMobile {
+    width: 95%;
+  }
+}
+
+.logoImageContainer {
+  position: relative;
+  margin: auto;
+  width: 30%;
+  min-width: getSpacing(15);
+  aspect-ratio: 1;
+
+  @include isMobile {
+    height: 30%;
+    width: auto;
+  }
+}
+
+.textContainer {
+  flex-grow: 1;
+  color: $white;
+  background-color: $black;
+  padding: getSpacing(3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include isMobile {
+    width: 95%;
+  }
+}
+
+.title {
+  font-weight: 100;
+  font-size: $fontSizeMediumSmall;
+  margin-bottom: getSpacing(2);
+}
+
+.name {
+  font-size: $fontSizeMediumLarge;
+  text-transform: uppercase;
+  margin-bottom: getSpacing(2);
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+
+.separator {
+  width: getSpacing(12);
+  height: getSpacing(1);
+  background-color: $golden;
+  margin-bottom: getSpacing(2);
+}
+
+.shortDescription {
+  margin-bottom: getSpacing(2);
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  border: 1px solid $white;
+}

@@ -1,0 +1,86 @@
+@import "@/styles/stylesheet";
+
+.fourthGridContainer {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: stretch;
+  background-color: $orangeLight;
+
+  @include isLargeOrExtraLargeDesktop {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: getSpacing(4) getSpacing(2);
+  }
+}
+
+.gridTitleContainer {
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 1 / 4;
+  }
+}
+
+.gridRowTitle {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: $fontSizeSmall;
+  margin: getSpacing(1) 0;
+  padding-top: getSpacing(6);
+  padding-bottom: getSpacing(2);
+  padding-inline: getSpacing(5);
+}
+
+.priceEstimateHorizontalChartCardContainer {
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 1 / 2;
+  }
+}
+
+.whiteBoxWithShadow {
+  background-color: $white;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  margin: getSpacing(2);
+  border-radius: 3px;
+  padding: getSpacing(5);
+}
+
+.alertsCounterContainer {
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: getSpacing(2);
+
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 2 / 3;
+  }
+}
+
+.alertsCounterTitle {
+  text-transform: uppercase;
+  font-size: $fontSizeMediumSmall;
+  letter-spacing: getSpacing(0.5);
+  margin-top: getSpacing(5);
+}
+
+.alertsCounterSubtitle {
+  padding-inline: getSpacing(6);
+  text-align: center;
+}
+
+.newAlertButton {
+  margin-top: getSpacing(5);
+}
+
+.currentTrendContainer {
+  grid-column: 1 / 2;
+  padding-inline: getSpacing(5);
+  @include isLargeOrExtraLargeDesktop {
+    padding-inline: getSpacing(15);
+    grid-column: 3 / 4;
+  }
+}

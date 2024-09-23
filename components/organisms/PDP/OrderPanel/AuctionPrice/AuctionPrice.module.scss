@@ -1,0 +1,77 @@
+@import "@/styles/stylesheet";
+
+.auctionBidContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  @include isMobileOrTablet {
+    padding: getSpacing(2) getSpacing(5);
+    padding-top: 0;
+    position: relative;
+  }
+  @media (max-width: 350px) {
+    padding: getSpacing(2);
+  }
+}
+
+.auctionActionsContainer {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-self: stretch;
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+  gap: getSpacing(1);
+
+  @include isLargeOrExtraLargeDesktop {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  @include isMobileOrTablet {
+    width: 62%;
+  }
+}
+
+.auctionButton {
+  padding: 9px getSpacing(1);
+  font-size: $fontSizeSmall;
+  align-self: stretch;
+  letter-spacing: 0;
+
+  @include isLargeOrExtraLargeDesktop {
+    padding: getSpacing(2) getSpacing(4);
+    margin-top: getSpacing(0.4);
+    margin-bottom: getSpacing(0.4);
+  }
+}
+
+.userSellerInformation {
+  text-align: center;
+}
+
+.userWinningBid {
+  font-size: $fontSizeSmaller;
+}
+
+.userWinningThresholdBid {
+  font-size: $fontSizeSmaller;
+  color: $green;
+}
+
+.checkIcon {
+  margin-right: getSpacing(1);
+  font-size: $fontSizeSmaller;
+  color: $green;
+}
+
+.mobileSold {
+  font-size: $fontSizeLarge;
+  font-style: italic;
+  text-transform: uppercase;
+  display: flex;
+  @include isLargeOrExtraLargeDesktop {
+    display: none;
+  }
+}

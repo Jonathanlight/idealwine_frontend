@@ -1,0 +1,38 @@
+@import "@/styles/stylesheet";
+
+.image {
+  background-color: $greyLighter;
+  box-shadow: 0 8px 6px -6px $grey;
+  transition: all 0.2s;
+}
+
+.country {
+  margin-top: getSpacing(2);
+  color: $grey;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: getSpacing(1) getSpacing(1);
+
+  &:hover {
+    .image {
+      background-color: $greyLight;
+    }
+
+    .country {
+      color: $greyLighter;
+    }
+
+    cursor: pointer;
+  }
+}
+
+.link:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Weinführer: Alles über die wichtigsten Weinregionen",
+  "choose-a-region": "Wählen Sie eine Region",
+  "regions": {
+    "name": {
+      "ALSACE": "Elsass",
+      "BEAUJOLAIS": "Beaujolais",
+      "BORDEAUX": "Bordeaux",
+      "BOURGOGNE": "Burgund",
+      "CHAMPAGNE": "Champagne",
+      "JURA": "Jura",
+      "LANGUEDOC": "Languedoc",
+      "ROUSSILLON": "Roussillon",
+      "VALLEE_DE_LA_LOIRE": "Loire",
+      "PROVENCE": "Provence",
+      "CORSE": "Korsika",
+      "SAVOIE": "Savoyen ",
+      "SUD_OUEST": "Südwest",
+      "VALLEE_DU_RHONE": "Rhonetal"
+    }
+  },
+  "buttonsText": {
+    "france": "Frankreich",
+    "otherCountries": "Andere Länder"
+  },
+  "countries": {
+    "name": {
+      "AUSTRALIE": "Australien",
+      "ESPAGNE": "Spanien",
+      "ETATS_UNIS": "USA",
+      "HONGRIE": "Ungarn",
+      "ITALIE": "Italien",
+      "PORTUGAL": "Portugal"
+    }
+  },
+  "search-domain": "Eine Domaine suchen",
+  "description1": "Der Mittelmeerraum und Mitteleuropa mögen die Wiege des Weinbaus sein, Wein wird heute jedoch in nicht weniger als fünfzig Ländern erzeugt, in verschiedenen Regionen mit unterschiedlichen Merkmalen. Trauben gedeihen am besten in gemäßigten Klimazonen, in Gebieten auf der nördlichen Halbkugel zwischen dem 30. und 50. Breitengrad. Unser umfassender Weinführer stellt Ihnen die schönsten Weinbauregionen in Frankreich (Burgund, Bordeaux, Champagne, Rhone, Loire) und im Ausland (Italien, Spanien, Deutschland und die Neue Welt) vor.",
+  "description2": "Dieser Weinführer stellt Ihnen die bekanntesten Weinregionen in Frankreich und im Ausland vor und enthält Informationen zu den wichtigsten Appellationen, Klassifikationen, den schönsten Weingütern und besten Weinen. Die Informationen zu den einzelnen Weinen umfassen Bewertungen (Robert Parker, La RVF, Bettane+Desseauve, Jancis Robinson) sowie Verkostungsnotizen, Tipps für die Kombination von Speisen und Weinen, Jahrgangsbewertungen, Details zur Herstellung des Weins (Bio-Weine, biodynamische Weine...) und natürlich auch die iDealwine-Notierung für die Weine.  Detaillierte Karten helfen Ihnen dabei, die verschiedenen Appellationen zu finden. In diesem Weinführer finden Sie alles Wissenswerte über Wein und die verschiedenen Weinbauregionen, zudem zeigen wir Ihnen, wie Sie den richtigen Wein auswählen.",
+  "seo": {
+    "title": "Weinführer - iDealwine",
+    "description": "Weinführer: Alle ikonischen Weingüter der ganzen Welt - iDealwine"
+  }
+}

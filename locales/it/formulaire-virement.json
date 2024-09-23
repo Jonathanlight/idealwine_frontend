@@ -1,0 +1,26 @@
+{
+  "title": "Modulo bonifico bancario",
+  "callout": "Si prega di <0>{{link}}</0> e di inviarlo firmato insieme ai propri riferimenti bancari (IBAN/codice SWIFT) e alla fotocopia di un documento d’identità al seguente indirizzo: iDealwine.com S.A.S./ Servizio Clienti, 190 rue d'Estienne d'Orves - 92700 Colombes - Francia",
+  "calloutPrint": "stampare il seguente modulo",
+  "fields": {
+    "name": "Cognome",
+    "firstName": "Nome",
+    "address": "Indirizzo",
+    "zipCode": "Codice postale",
+    "city": "Città",
+    "country": "Paese",
+    "username": "Nome utente",
+    "email": "E-mail",
+    "phone": "Telefono",
+    "place": "Luogo",
+    "date": "Data"
+  },
+  "signature": "Firma",
+  "legalNotice": "Con la presente, dichiaro di aver letto e accettato le condizioni generali di vendita proposte sul sito www.idealwine.com al momento dell’iscrizione, in particolare di aver preso visione delle informazioni presenti nelle sezioni “Modifica o annullamento di un ordine - Diritto di recesso” e “Prezzi e pagamento”. Desidero beneficiare dell’opzione “altro metodo di pagamento” col fine di poter saldare gli importi dovuti all’asta tramite bonifico bancario. Sono consapevole del fatto che: nel caso mi aggiudichi più offerte e se sono già in possesso di diversi ordini acquisiti a prezzo fisso, l’insieme dei lotti sarà raggruppato in un solo ordine e verrò avvertito per email. In seguito, dovrò confermare l’ordine sul sito ed effettuare un bonifico all’altezza dell’importo indicato nella fattura finale. Sono anche a conoscenza del fatto che il mio ordine sarà spedito solo quando iDealwine.com S.A.S. avrà confermato l’avvenuta ricezione del pagamento. Allego al presente modulo i riferimenti del mio conto corrente bancario (IBAN/codice SWIFT) e la copia di un documento di riconoscimento in corso di validità. Al di là di un certo numero di offerte in corso, iDealwine è autorizzata a richiedere delle garanzie supplementari attraverso un deposito cauzionale (tramite bonifico bancario). In questo caso, le mie offerte e i miei ordini saranno di nuovo autorizzati solo se le garanzie richieste verranno fornite prima della chiusura della vendita. Ho preso nota del fatto che posso modificare o annullare la modalità di pagamento tramite bonifico bancario in qualsiasi momento, direttamente sul mio account o scrivendo a iDealwine.com S.A.S. - Servizio Clienti - 190, rue d'Estienne d’Orves, 92700 Colombes - Francia. In tal caso, iDealwine si impegnerà per restituirmi il presente modulo e gli allegati entro 7 giorni lavorativi dalla data della richiesta.",
+  "instructions": "Si prega di stampare il seguente modulo e di inviarlo firmato insieme ai propri riferimenti bancari (IBAN/codice SWIFT) e alla fotocopia di un documento d’identità al seguente indirizzo: iDealwine.com S.A.S.  - Servizio Clienti - 190, rue d'Estienne d’Orves, 92700 Colombes - Francia. In qualsiasi momento è possibile rinunciare o opporsi all'utilizzo dei propri dati personali. L’utente può esercitare tale diritto: direttamente sul proprio account accedendo all’apposita sezione; per iscritto inviando un’email all’indirizzo info@idealwine.com;",
+  "credits": "per via postale all’indirizzo iDealwine.com S.A.S., 190 rue d'Estienne d'Orves - 92700 Colombes – Francia.",
+  "seo": {
+    "title": "Modulo iDealwine da stampare",
+    "description": ""
+  }
+}
